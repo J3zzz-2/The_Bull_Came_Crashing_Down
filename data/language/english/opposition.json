@@ -1,0 +1,85 @@
+{
+  "ui": {
+    "news_panel_title": "RECENT NEWS",
+    "news_report_May": "$COUNT$ report",
+    "news_report_plural": "$COUNT$ reports",
+    "fallback_source": "WIRE DESK",
+    "fallback_body": "opposition.placeholder.body"
+  },
+  "status": {
+    "abri": {
+      "firm_line": "Cilangkap's accommodation with the Palace is holding firm.",
+      "firm_tip": "General Wiranto is keeping the armed forces accommodating.",
+      "uneasy_line": "The generals in Cilangkap are uneasy, though our arrangement holds.",
+      "uneasy_tip": "The generals are uneasy over recent civilian concessions.",
+      "strained_line": "Our understanding with General Wiranto is visibly strained.",
+      "strained_tip": "Repeated friction with the military has strained Wiranto's patience.",
+      "breaking_line": "Our arrangement with Cilangkap is near its breaking point.",
+      "breaking_tip": "The officer corps is on the verge of open defiance.",
+      "collapsed_line": "Our political arrangement with General Wiranto has collapsed.",
+      "collapsed_tip": "General Wiranto's neutrality guarantee is gone.",
+      "dissolved_line": "The military's parliamentary bloc has been dissolved.",
+      "dissolved_tip": "ABRI's reserved seats in the MPR have been abolished."
+    },
+    "pdip_street": {
+      "heading": "Street Mobilization",
+      "riots_label": "Active Riots",
+      "riots_note": "Red shirts are paralyzing the streets",
+      "unrest_label": "Simmering Unrest",
+      "unrest_note": "Satgas units massing at Senayan",
+      "watchful_label": "Guarded Watchfulness",
+      "watchful_note": "Grassroots crowds waiting on Kebagusan",
+      "standing_down_label": "Standing Down",
+      "standing_down_note": "Street discipline holds firm"
+    },
+    "cendana_whip": {
+      "high": "Emissaries from Jalan Cendana are moving through the Hotel Mulia suites.",
+      "low": "Jalan Cendana's patronage network is crippled."
+    }
+  },
+  "election": {
+    "quorum_failure": "Quorum threshold failed ($VOTES$ votes)."
+  },
+  "opposition": {
+    "silence": [
+      { "source": "KOMPAS", "headline": "opp.silence.headline", "body": "opp.silence.body" }
+    ],
+    "constitutionalCrisis": [
+      { "source": "TEMPO", "headline": "opp.crisis.headline", "body": "opp.crisis.body" }
+    ],
+    "coalitionTension": [
+      { "source": "REPUBLIKA", "headline": "opp.tension.headline", "body": "opp.tension.body" }
+    ],
+    "grievance": {
+      "tier1": [{ "source": "RAKYAT MERDEKA", "headline": "opp.grievance.t1.headline", "body": "opp.grievance.t1.body" }],
+      "tier2": [{ "source": "RAKYAT MERDEKA", "headline": "opp.grievance.t2.headline", "body": "opp.grievance.t2.body" }],
+      "tier3": [{ "source": "RAKYAT MERDEKA", "headline": "opp.grievance.t3.headline", "body": "opp.grievance.t3.body" }]
+    },
+    "rivalry": {
+      "porosSecular": [{ "source": "REPUBLIKA", "headline": "opp.rivalry.poros_sec.headline", "body": "opp.rivalry.poros_sec.body" }],
+      "porosEcho":    [{ "source": "REPUBLIKA", "headline": "opp.rivalry.poros_echo.headline", "body": "opp.rivalry.poros_echo.body" }],
+      "pdipIslamic":  [{ "source": "RAKYAT MERDEKA", "headline": "opp.rivalry.pdip_isl.headline", "body": "opp.rivalry.pdip_isl.body" }],
+      "pdipEcho":     [{ "source": "RAKYAT MERDEKA", "headline": "opp.rivalry.pdip_echo.headline", "body": "opp.rivalry.pdip_echo.body" }]
+    },
+    "regionalSabotage": {
+      "aceh":    [{ "source": "SERAMBI INDONESIA", "headline": "opp.sabotage.aceh.headline", "body": "opp.sabotage.aceh.body" }],
+      "default": [{ "source": "KOMPAS", "headline": "opp.sabotage.default.headline", "body": "opp.sabotage.default.body" }]
+    },
+    "incidents": {
+      "kostrad_gates":        [{ "source": "TEMPO", "headline": "opp.inc.kostrad_gates.headline", "body": "opp.inc.kostrad_gates.body" }],
+      "bais_cash":            [{ "source": "TEMPO", "headline": "opp.inc.bais_cash.headline", "body": "opp.inc.bais_cash.body" }],
+      "armed_protesters":     [{ "source": "POS KOTA", "headline": "opp.inc.armed_protesters.headline", "body": "opp.inc.armed_protesters.body" }],
+      "shops_burning":        [{ "source": "KOMPAS", "headline": "opp.inc.shops_burning.headline", "body": "opp.inc.shops_burning.body" }],
+      "minority_scapegoat":   [{ "source": "JAKARTA POST", "headline": "opp.inc.minority_scapegoat.headline", "body": "opp.inc.minority_scapegoat.body" }],
+      "dossier_leak":         [{ "source": "DETIK", "headline": "opp.inc.dossier_leak.headline", "body": "opp.inc.dossier_leak.body" }],
+      "banyuwangi_ninjas":    [{ "source": "TEMPO", "headline": "opp.inc.banyuwangi_ninjas.headline", "body": "opp.inc.banyuwangi_ninjas.body" }],
+      "maluku_ammo":          [{ "source": "KOMPAS", "headline": "opp.inc.maluku_ammo.headline", "body": "opp.inc.maluku_ammo.body" }],
+      "capital_flight_panic": [{ "source": "BISNIS INDONESIA", "headline": "opp.inc.capital_flight_panic.headline", "body": "opp.inc.capital_flight_panic.body" }],
+      "censure_talks":        [{ "source": "MEDIA INDONESIA", "headline": "opp.inc.censure_talks.headline", "body": "opp.inc.censure_talks.body" }],
+      "grumbling":            [{ "source": "SUARA KARYA", "headline": "opp.inc.grumbling.headline", "body": "opp.inc.grumbling.body" }],
+      "timor_militia":        [{ "source": "JAKARTA POST", "headline": "opp.inc.timor_militia.headline", "body": "opp.inc.timor_militia.body" }],
+      "aceh_flare":           [{ "source": "WASPADA", "headline": "opp.inc.aceh_flare.headline", "body": "opp.inc.aceh_flare.body" }]
+    }
+  },
+  "historical": []
+}

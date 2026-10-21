@@ -1,0 +1,161 @@
+{
+  "name": "Fraksi Utusan Daerah",
+  "short": "U. Daerah",
+  "seats": 135,
+  "affinity": 35,
+  "image": "photo/usdar.png",
+  "coverImage": "photo/faction/usdar.png",
+  "summary": "The <font color=\"#555555\"><b>Regional Delegates Faction (Fraksi Utusan Daerah)</b></font> brings together 135 provincial representatives—five delegates elected by each of the twenty-seven provincial legislatures (<i>DPRD Tingkat I</i>) under <font color=\"#000080\"><b>Law No. 4/1999</b></font>. More akin to a loose congress of provincial barons than a disciplined parliamentary party, this caucus answers to no single national chairman. Without a central whip in <font color=\"#000080\"><b>Senayan</b></font> to enforce uniformity, delegations from Sumatra, Kalimantan, Sulawesi, and eastern Indonesia bargain province by province, trading their ballots to whichever camp offers the best terms for their home capitals.<p></p>For thirty-two years under the <font color=\"#704d00\"><b>New Order</b></font>, Jakarta treated the outer islands as resource colonies, siphoning oil from Riau, liquefied natural gas from Aceh and East Kalimantan, and copper and gold from Irian Jaya while returning a fraction of the proceeds through central <font color=\"#704d00\"><i><b>Inpres</b></i></font> grants. Now that <font color=\"#704d00\"><b>Suharto's</b></font> iron grip has broken, governors, regents, and customary (<i>adat</i>) elders demand fiscal restitution and self-rule. <font color=\"#0000FF\"><b>Delivering macroeconomic recovery and preserving civic order across the provinces give the Palace decisive leverage over these regional delegates,</b></font> who prize solvent development budgets and protection from separatist upheaval above ideological crusades.",
+  "biography": "Across the archipelago beyond Jakarta's ring roads, the fall of <font color=\"#704d00\"><b>Suharto</b></font> unleashed thirty years of pent-up regional grievance against Java-centric rule. Under the <font color=\"#704d00\"><b>Law No. 5/1974</b></font> system, the <font color=\"#000080\"><b>Ministry of Home Affairs (Depdagri)</b></font> treated governors as Jakarta's viceroys while <font color=\"#704d00\"><b>Jalan Cendana</b></font> conglomerates carved up outer-island timber, mining, and plantation concessions.<p></p>Selected by the newlyseated 1999 provincial assemblies rather than handpicked by <font color=\"#704d00\"><b>Suharto's</b></font> interior ministry, this cohort of <font color=\"#555555\"><b>Utusan Daerah</b></font> mixes sitting governors, regional chamber-of-commerce bosses like West Kalimantan's <font color=\"#555555\"><b>Oesman Sapta Odang</b></font> and West Sumatra's <font color=\"#555555\"><b>Irman Gusman</b></font>, university rectors, and traditional aristocrats. While your administration won praise in the outer islands by tasking <font color=\"#000080\"><b>Ryaas Rasyid's</b></font> team with drafting the landmark 1999 Regional Autonomy statutes, separatist flashpoints in <font color=\"#FF0000\"><b>Aceh</b></font>, <font color=\"#FF0000\"><b>East Timor</b></font>, and <font color=\"#FF0000\"><b>Irian Jaya</b></font> alongside communal bloodshed in <font color=\"#FF0000\"><b>Maluku</b></font> and <font color=\"#FF0000\"><b>West Kalimantan</b></font> keep these delegates on edge. In the October session, their 135 ballots represent the largest unaligned prize on the floor.",
+  "moods": [
+    {
+      "min": 80,
+      "text": "Secured",
+      "color": "#006400",
+      "overlay": "rgba(0, 255, 0, 0.15)"
+    },
+    {
+      "min": 60,
+      "text": "Content",
+      "color": "#009000",
+      "overlay": "rgba(0, 191, 255, 0.10)"
+    },
+    {
+      "min": 50,
+      "text": "Split",
+      "color": "#4682B4",
+      "overlay": "rgba(0, 0, 255, 0.10)"
+    },
+    {
+      "min": 40,
+      "text": "Nervous",
+      "color": "#2F4F4F",
+      "overlay": "rgba(255, 140, 0, 0.10)"
+    },
+    {
+      "min": 30,
+      "text": "Demanding Funds",
+      "color": "#FF4500",
+      "overlay": "rgba(255, 69, 0, 0.15)"
+    },
+    {
+      "min": 20,
+      "text": "Seeking New Patrons",
+      "color": "#FF0000",
+      "overlay": "rgba(255, 0, 0, 0.15)"
+    },
+    {
+      "min": 0,
+      "text": "Habibie Must Go",
+      "color": "#8B0000",
+      "overlay": "rgba(139, 0, 0, 0.25)"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "daerah_revenue_formula",
+      "text": "Revise the oil, gas, and forestry revenue-sharing formula in favor of resource-producing provinces",
+      "cost": 26,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Resource-rich provinces—Riau, East Kalimantan, Aceh, and Irian Jaya—have watched <font color=\"#000080\"><b>Pertamina</b></font> and Jakarta ministries pocket the lion's share of their oil, gas, timber, and mineral royalties for three decades, fueling talk of a Free Riau (<i>Riau Merdeka</i>) in Pekanbaru and federalist demands in Samarinda. Instruct the Ministry of Finance to expand the regional revenue-sharing allocation (<i>Dana Bagi Hasil</i>) for producing provinces ahead of statutory schedule. <font color=\"#0000FF\"><b>Binds the outer-island delegations to the Palace with a major political obligation,</b></font> <font color=\"#B22222\"><b>though central budget reserves and PDI Perjuangan's unitary nationalists will absorb the blow.</b></font>",
+      "effects": {
+        "utusan_daerah": 20,
+        "utusan_daerah_favor": 1,
+        "econ": -8,
+        "pdip": -6,
+        "stab": 2,
+        "intl": 2,
+        "ref": 2
+      },
+      "alertMsg": "Governors and DPRD speakers from Riau, East Kalimantan, and Irian Jaya hail the revised royalty split as a historic correction of New Order fiscal plunder. Their delegates in Senayan shift toward the Palace column, even as central treasury officials and PDI Perjuangan lawmakers protest the drain on Jakarta's coffers."
+    },
+    {
+      "id": "daerah_infra",
+      "text": "Release emergency General Allocation Funds (DAU) for provincial roads, ports, and irrigation",
+      "cost": 18,
+      "repeatable": true,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "The 1997–1998 monetary collapse froze public works from Sumatra's trans-highway to inter-island ferry terminals in Maluku and Nusa Tenggara. Authorize an immediate tranche of block grants through the <font color=\"#000080\"><b>National Development Planning Agency (Bappenas)</b></font> so provincial governors can restart stalled bridge, port, and irrigation projects before the <font color=\"#000080\"><b>MPR</b></font> convenes.",
+      "effects": {
+        "utusan_daerah": 12,
+        "econ": -4,
+        "pop": 3,
+        "stab": 2
+      },
+      "alertMsg": "Bulldozers and road crews return to work across a dozen provinces within weeks of the disbursement. Grateful for tangible projects they can showcase at home, the regional governors instruct their MPR delegations to back Bina Graha."
+    },
+    {
+      "id": "daerah_sultan",
+      "text": "Pay a state visit to Kraton Ngayogyakarta and consult Sultan Hamengkubuwono X",
+      "cost": 15,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "<font color=\"#555555\"><b>Sri Sultan Hamengkubuwono X</b></font>—who stood before a million citizens at the May 1998 <i>Pisowanan Agung</i> in Yogyakarta to back peaceful reform and joined the Ciganjur quartet alongside <font color=\"#C0392B\"><b>Megawati</b></font>, <font color=\"#006400\"><b>Gus Dur</b></font>, and <font color=\"#0055A4\"><b>Amien Rais</b></font>—commands unmatched moral authority among Indonesia's governors and traditional rulers. Travel to the Yogyakarta Kraton to endorse his formal confirmation as Governor and seek his counsel on healing the Republic.",
+      "effects": {
+        "utusan_daerah": 12,
+        "pop": 5,
+        "ref": 5,
+        "stab": 3,
+        "intl": 1
+      },
+      "alertMsg": "Sultan Hamengkubuwono X receives you inside the Kraton pavilion with classic Javanese grace. Television footage of the cordial audience reassures undecided provincial delegates across Java and the outer islands that the Palace respects regional dignity."
+    },
+    {
+      "id": "daerah_otonomi_law",
+      "text": "Accelerate Ryaas Rasyid's implementing decrees for Laws No. 22 and No. 25 on Regional Autonomy",
+      "cost": 18,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Although parliament passed <font color=\"#000080\"><b>Law No. 22/1999</b></font> on regional government and <font color=\"#000080\"><b>Law No. 25/1999</b></font> on central-regional fiscal balance in May, career mandarins in Jakarta's ministries have slow-walked the implementing government regulations (<i>Peraturan Pemerintah</i>) needed to transfer authority to the provinces and regencies. Back Director-General <font color=\"#000080\"><b>Ryaas Rasyid</b></font> and sign the implementing decrees ahead of the statutory deadline. <font color=\"#0000FF\"><b>Secures a binding political debt from the Regional Delegates Faction.</b></font>",
+      "effects": {
+        "utusan_daerah": 16,
+        "utusan_daerah_favor": 1,
+        "ref": 8,
+        "stab": 2,
+        "pop": 2,
+        "intl": 2
+      },
+      "alertMsg": "By overriding the central bureaucracy and signing the implementing regulations on the spot, you convince skeptical provincial leaders that Otonomi Daerah is law in practice, not just on paper."
+    },
+    {
+      "id": "daerah_aceh_papua",
+      "text": "Offer asymmetric Special Autonomy charters to the delegations from Aceh and Irian Jaya",
+      "cost": 24,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 2,
+      "description": "At opposite ends of the archipelago, <font color=\"#FF0000\"><b>Aceh</b></font> and <font color=\"#FF0000\"><b>Irian Jaya</b></font> teeter on the brink of secession after decades of <font color=\"#556B2F\"><b>ABRI</b></font> counter-insurgency operations and resource extraction. Put a formal Special Autonomy (<i>Otonomi Khusus</i>) framework on the table for both provinces—granting Banda Aceh authority over religious, educational, and customary affairs while returning mineral royalties and cultural recognition to Jayapura.",
+      "effects": {
+        "utusan_daerah": 14,
+        "ref": 6,
+        "intl": 6,
+        "stab": -4,
+        "pdip": -5,
+        "abri": -3,
+        "pop": 2
+      },
+      "alertMsg": "Civic and provincial delegates from Banda Aceh and Jayapura welcome the Special Autonomy framework as the first serious alternative to armed conflict in a generation, though Cilangkap officers and PDI Perjuangan nationalists warn that asymmetric concessions invite the breakup of the unitary state."
+    },
+    {
+      "id": "daerah_final_appeal",
+      "text": "Work the telephones across all twenty-seven provincial capitals on the eve of the roll call",
+      "cost": 0,
+      "repeatable": false,
+      "maxTurn": 22,
+      "minTurn": 20,
+      "description": "Spread across twenty-seven provincial delegations from Sabang to Merauke, the 135 seats of <font color=\"#555555\"><b>Fraksi Utusan Daerah</b></font> form the third-largest voting bloc in the <font color=\"#000080\"><b>MPR</b></font>. Spend the final night before the ballot boxes open calling the governors and delegation chairs across all three Indonesian time zones to remind them that you—a son of Parepare, South Sulawesi, and the architect of <font color=\"#000080\"><i><b>Otonomi Daerah</b></i></font>—are the outer islands' champion in Jakarta. <font color=\"#B22222\"><b>Calls in every decentralization pledge and political debt the regional delegations owe the Palace.</b></font>",
+      "effects": {
+        "utusan_daerah": 18,
+        "pop": 2,
+        "ref": 1,
+        "stab": 2
+      },
+      "alertMsg": "The switchboard at Bina Graha stays lit past dawn as governors from Makassar, Pekanbaru, Samarinda, and Padang pledge their five-member delegations to the first non-Javanese President of the Republic."
+    }
+  ]
+}

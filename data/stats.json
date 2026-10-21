@@ -1,0 +1,62 @@
+{
+  "pop": [
+    { "min": 90, "text": "Tolerated", "color": "#006400" },
+    { "min": 75, "text": "Grudging Acceptance", "color": "#009000" },
+    { "min": 60, "text": "Ambivalent", "color": "#4682B4" },
+    { "min": 45, "text": "Distrusted", "color": "#2F4F4F" },
+    { "min": 30, "text": "Resented", "color": "#FF8C00" },
+    { "min": 15, "text": "Despised", "color": "#FF4500" },
+    { "min": 0,  "text": "Universally Hated", "color": "#8B0000" }
+  ],
+  "mil": [
+    { "min": 75, "text": "Supporting Habibie", "color": "#006400" },
+    { "min": 50, "text": "Accommodating", "color": "#4682B4" },
+    { "min": 30, "text": "Guarded", "color": "#FF8C00" },
+    { "min": 0,  "text": "Alienated", "color": "#8B0000" }
+  ],
+  "ref": [
+    { "min": 90, "text": "Cautiously Credible", "color": "#006400" },
+    { "min": 75, "text": "Reform-Minded", "color": "#009000" },
+    { "min": 60, "text": "Ambiguous", "color": "#4682B4" },
+    { "min": 45, "text": "Questionable", "color": "#2F4F4F" },
+    { "min": 30, "text": "Reactionary", "color": "#FF8C00" },
+    { "min": 15, "text": "Authoritarian", "color": "#FF4500" },
+    { "min": 0,  "text": "New Order Crony", "color": "#8B0000" }
+  ],
+  "econ": [
+    { "min": 90, "text": "Precarious Stability", "color": "#006400" },
+    { "min": 75, "text": "Fragile Recovery", "color": "#009000" },
+    { "min": 60, "text": "Stagnant", "color": "#4682B4" },
+    { "min": 45, "text": "Struggling", "color": "#2F4F4F" },
+    { "min": 30, "text": "Severe Recession", "color": "#FF8C00" },
+    { "min": 15, "text": "In Freefall", "color": "#FF4500" },
+    { "min": 0,  "text": "Bankruptcy", "color": "#8B0000" }
+  ],
+  "intl": [
+    { "min": 90, "text": "Cautiously Engaged", "color": "#006400" },
+    { "min": 75, "text": "Tolerated Partner", "color": "#009000" },
+    { "min": 60, "text": "Watched Closely", "color": "#4682B4" },
+    { "min": 45, "text": "Distrusted", "color": "#2F4F4F" },
+    { "min": 30, "text": "Isolated", "color": "#FF8C00" },
+    { "min": 15, "text": "Sanctioned", "color": "#FF4500" },
+    { "min": 0,  "text": "Pariah State", "color": "#8B0000" }
+  ],
+  "stab": [
+    { "min": 90, "text": "Uneasy Calm", "color": "#006400" },
+    { "min": 75, "text": "Fragile Peace", "color": "#009000" },
+    { "min": 60, "text": "Simmering Tension", "color": "#4682B4" },
+    { "min": 45, "text": "Tense", "color": "#2F4F4F" },
+    { "min": 30, "text": "Sporadic Riots", "color": "#FF8C00" },
+    { "min": 15, "text": "Widespread Chaos", "color": "#FF4500" },
+    { "min": 0,  "text": "Civil Unrest", "color": "#8B0000" }
+  ],
+  "cendana": [
+    { "min": 90, "text": "Untouchable", "color": "#8B0000" },
+    { "min": 75, "text": "Entrenched", "color": "#FF4500" },
+    { "min": 60, "text": "Subversive", "color": "#FF8C00" },
+    { "min": 45, "text": "Persistent", "color": "#2F4F4F" },
+    { "min": 30, "text": "Contained", "color": "#4682B4" },
+    { "min": 15, "text": "Weakened", "color": "#009000" },
+    { "min": 0,  "text": "Dormant", "color": "#006400" }
+  ]
+}

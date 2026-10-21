@@ -1,0 +1,542 @@
+[
+  {
+    "term": "MPR (Majelis Permusyawaratan Rakyat)",
+    "subtitle": "People's Consultative Assembly: The 700-Seat Supreme Constitutional Body",
+    "category": "Institutions",
+    "desc": "Under the unamended 1945 Constitution in effect in 1999, the MPR is the highest constitutional institution in Indonesia and the sole body empowered to elect the President and Vice President. In October 1999, it comprises <b>700 delegates</b>: 462 elected members of the DPR (parliament), 38 appointed military and police officers (<i>Fraksi ABRI</i>), 135 regional representatives elected by provincial legislatures (<i>Utusan Daerah</i>), and 65 functional delegates from civic, religious, labor, and academic associations (<i>Utusan Golongan</i>)."
+  },
+  {
+    "term": "DPR (Dewan Perwakilan Rakyat)",
+    "subtitle": "House of Representatives: The 500-Seat National Legislature",
+    "category": "Institutions",
+    "desc": "Indonesia's primary legislative chamber, seated at the Senayan parliamentary complex in Jakarta. Following the June 7, 1999 election, 462 of its 500 seats are filled by elected party members and 38 are reserved for appointed ABRI officers. All 500 members of the DPR automatically sit as delegates inside the 700-seat MPR."
+  },
+  {
+    "term": "Bina Graha & Sekretariat Negara (Sekneg)",
+    "subtitle": "The Presidential Executive Office & State Secretariat",
+    "category": "Institutions",
+    "desc": "Located at Jalan Veteran No. 16 on the northern edge of the Merdeka Palace complex, <b>Bina Graha</b> served throughout the New Order and the Habibie presidency as the working headquarters of the President and cabinet. The <b>State Secretariat (<i>Sekneg</i>)</b>, headed under Habibie by Akbar Tandjung and later Muladi, controlled the flow of presidential decrees, cabinet access, and off-budget operational funds."
+  },
+  {
+    "term": "KPU (Komisi Pemilihan Umum)",
+    "subtitle": "General Elections Commission",
+    "category": "Institutions",
+    "desc": "Established by President Habibie in 1999 under Law No. 3/1999 to replace the New Order's state-controlled election board (LPU). Composed of representatives from the 48 contesting political parties alongside 5 government delegates (chaired by Gen. (Ret.) Rudini), the KPU oversaw the June 7, 1999 legislative election. Deadlocks inside the commission delayed the final certification of results until President Habibie intervened by decree."
+  },
+  {
+    "term": "BPK (Badan Pemeriksa Keuangan)",
+    "subtitle": "Supreme Audit Agency of the Republic of Indonesia",
+    "category": "Institutions",
+    "desc": "The constitutional state auditing body responsible for examining the management of public finances, chaired in 1998-1999 by Satrio Budihardjo ('Billy') Joedono. In August and September 1999, the BPK and international accounting firm <b>PricewaterhouseCoopers (PwC)</b> conducted the forensic audit of the Rp 546 billion <b>Bank Bali</b> transfer, exposing campaign-finance links to senior Palace and Golkar insiders."
+  },
+  {
+    "term": "Kejaksaan Agung (Kejagung)",
+    "subtitle": "Attorney General's Office of the Republic of Indonesia",
+    "category": "Institutions",
+    "desc": "Indonesia's public prosecution service, headquartered in Kebayoran Baru, South Jakarta. In 1998-1999, under Attorney General Lt. Gen. <b>Andi Muhammad Ghalib</b> and later Acting Attorney General <b>Ismudjoko</b>, the office stood at the center of public controversy over its deferential investigation into former President Suharto's wealth and the Bank Bali scandal."
+  },
+  {
+    "term": "Mahkamah Agung (MA)",
+    "subtitle": "Supreme Court of the Republic of Indonesia",
+    "category": "Institutions",
+    "desc": "The highest judicial court in Indonesia. Under the New Order, the judiciary was subordinated to the executive branch through the Ministry of Justice, which controlled judges' pay, promotions, and transfers. Reforming the Supreme Court and transferring administrative control of all courts to the MA ('One-Roof' / <i>Satu Atap</i> reform under Law No. 35/1999) was a key demand of legal reformers."
+  },
+  {
+    "term": "Bappenas (Badan Perencanaan Pembangunan Nasional)",
+    "subtitle": "National Development Planning Agency",
+    "category": "Institutions",
+    "desc": "The technocratic nerve center of Indonesian macroeconomic policy and foreign aid coordination. On May 20, 1998, it was inside the Bappenas building that fourteen economic ministers led by <b>Ginandjar Kartasasmita</b> signed the historic letter refusing to serve in Suharto's reshuffled cabinet, sealing Suharto's resignation the next morning."
+  },
+  {
+    "term": "Komnas HAM",
+    "subtitle": "Komisi Nasional Hak Asasi Manusia (National Commission on Human Rights)",
+    "category": "Institutions",
+    "desc": "Originally established by presidential decree in 1993 and granted statutory subpoena powers under Habibie's <b>Law No. 39/1999 on Human Rights</b>. Under figures like Marzuki Darusman, Djoko Sugianto, and Albert Hasibuan, Komnas HAM formed special investigative commissions (KPP-HAM) into the May 1998 riots, the Trisakti and Semanggi shootings, DOM atrocities in Aceh, and the 1999 East Timor violence."
+  },
+  {
+    "term": "TGPF (Tim Gabungan Pencari Fakta Mei 1998)",
+    "subtitle": "Joint Fact-Finding Team on the May 13-15, 1998 Riots",
+    "category": "Institutions",
+    "desc": "Commissioned by the Habibie administration in July 1998 and chaired by Marzuki Darusman, uniting government officials, military prosecutors, and civil-society leaders such as Father Sandyawan Sumardi, Saparinah Sadli, and Abdul Hakim Garuda Nusantara. Its landmark October 1998 report verified systematic instigation, military dereliction of duty, and widespread gang rapes of ethnic Chinese-Indonesian women, recommending investigations into Lt. Gen. Prabowo Subianto and the May 14 Kostrad meeting."
+  },
+  {
+    "term": "DPA (Dewan Pertimbangan Agung)",
+    "subtitle": "Supreme Advisory Council, Chaired in 1998-1999 by A.A. Baramuli",
+    "category": "Institutions",
+    "desc": "A constitutional advisory body under the unamended 1945 Constitution tasked with advising the President. Under Habibie, the DPA was chaired by South Sulawesi politician and businessman <b>Arnold Achmad Baramuli</b>, who used the post as a base for Habibie's informal re-election campaign team (<i>Tim Sukses</i>) and became a central figure in the <b>Bank Bali</b> scandal."
+  },
+  {
+    "term": "KPKPN & KPPU",
+    "subtitle": "Post-1998 State Wealth Audit & Anti-Monopoly Commissions",
+    "category": "Institutions",
+    "desc": "Two independent oversight bodies created by 1999 reform statutes. <b>KPKPN</b> (<i>Komisi Pemeriksa Kekayaan Penyelenggara Negara</i>, created under Law No. 28/1999) was tasked with auditing the personal assets of cabinet ministers, legislators, and judges to root out illicit enrichment, serving as the direct forerunner of the modern KPK. <b>KPPU</b> (<i>Komisi Pengawas Persaingan Usaha</i>, created under Law No. 5/1999) was empowered to break up crony cartels and price-fixing syndicates."
+  },
+  {
+    "term": "UUD 1945 (Undang-Undang Dasar 1945)",
+    "subtitle": "The 1945 Constitution of the Republic of Indonesia",
+    "category": "Laws & Decrees",
+    "desc": "Drafted on the eve of independence in 1945, reinstated by Sukarno's decree in July 1959, and treated as sacred and unamendable throughout Suharto's New Order. Containing only 37 brief articles, the unamended 1945 Constitution concentrated immense power in the Presidency while vesting formal sovereignty in the 700-seat MPR. In October 1999, the MPR began the historic process of passing the First Amendment to limit presidential power."
+  },
+  {
+    "term": "UU No. 2, 3 & 4 Tahun 1999 (Paket UU Politik 1999)",
+    "subtitle": "The 1999 Political, Electoral & Parliamentary Structure Laws",
+    "category": "Laws & Decrees",
+    "desc": "Enacted on January 28, 1999 after intense negotiations in Senayan, this trio of statutes dismantled the New Order's rigged electoral system: <b>Law No. 2/1999</b> ended the three-party cap and allowed dozens of new political parties to form freely; <b>Law No. 3/1999</b> established proportional legislative elections overseen by an independent multiparty election commission (KPU); and <b>Law No. 4/1999</b> restructured the DPR and MPR, slashing ABRI's unelected seats in half from 75 to 38."
+  },
+  {
+    "term": "UU No. 5 Tahun 1999 (UU Anti-Monopoli)",
+    "subtitle": "Law on the Prohibition of Monopolistic Practices and Unfair Business Competition",
+    "category": "Laws & Decrees",
+    "desc": "Signed by President Habibie on March 5, 1999 to outlaw the state-backed cartels, price-fixing syndicates, and crony import monopolies (such as cloves, wheat flour, cement, and plywood) that had enriched the Suharto family and its <i>cukong</i> partners. The law also created the independent Business Competition Supervisory Commission (<b>KPPU</b>)."
+  },
+  {
+    "term": "UU No. 8 Tahun 1999 (UU Perlindungan Konsumen)",
+    "subtitle": "The 1999 Consumer Protection Act",
+    "category": "Laws & Decrees",
+    "desc": "Enacted in April 1999 alongside the Anti-Monopoly Law as part of Indonesia's post-crisis economic reform package. It established statutory rights for Indonesian consumers against defective goods, fraudulent pricing, and coercive practices by state and private monopolies."
+  },
+  {
+    "term": "UU No. 9 Tahun 1998 (Kemerdekaan Menyampaikan Pendapat)",
+    "subtitle": "Law on Freedom of Expression in Public",
+    "category": "Laws & Decrees",
+    "desc": "Enacted on October 26, 1998 following massive student protests, this law legalized public demonstrations, marches, and open-air rallies, replacing the New Order requirement for prior police permits with a three-day advance notification procedure, though student coalitions criticized its restrictions on night rallies and protests near presidential palaces."
+  },
+  {
+    "term": "UU No. 22 & 25 Tahun 1999 (UU Otonomi Daerah)",
+    "subtitle": "The Regional Governance & Central-Regional Fiscal Balance Laws",
+    "category": "Laws & Decrees",
+    "desc": "Signed in May 1999 and drafted by Ryaas Rasyid's 'Group of Seven' (<i>Tim Tujuh</i>), these two statutes launched one of the most sweeping decentralizations in modern history. <b>Law No. 22/1999</b> devolved administrative authority directly to regencies (<i>kabupaten</i>) and cities, ending Jakarta's appointment of local officials, while <b>Law No. 25/1999</b> guaranteed resource-rich provinces a direct share of forestry (80%), mining (80%), oil (15%), and natural gas (30%) revenues."
+  },
+  {
+    "term": "UU No. 23 Tahun 1999 (UU Bank Indonesia)",
+    "subtitle": "The Central Bank Independence Act",
+    "category": "Laws & Decrees",
+    "desc": "Enacted on May 17, 1999, this landmark statute emancipated <b>Bank Indonesia</b> from the cabinet and the presidency, making the central bank an independent state institution with a single statutory mandate: maintaining the stability of the rupiah. Critically, it prohibited the President and Finance Ministry from ordering the central bank to print money to cover budget deficits or bail out crony banks as Suharto had done with BLBI."
+  },
+  {
+    "term": "UU No. 26 Tahun 1999 (Pencabutan UU Anti-Subversi)",
+    "subtitle": "Repeal of the 1963 Draconian Anti-Subversion Law",
+    "category": "Laws & Decrees",
+    "desc": "Signed in May 1999, this statute formally repealed <b>UU No. 11/PNPS/1963</b> (the Anti-Subversion Law), the notorious Cold War decree used for over three decades by the New Order to imprison political dissidents, student activists, labor organizers, and religious critics for up to life in prison or execution without proving a specific criminal act."
+  },
+  {
+    "term": "UU No. 28 & 31 Tahun 1999 (UU Anti-KKN & Tipikor)",
+    "subtitle": "Clean State Administration & Eradication of Corruption Laws",
+    "category": "Laws & Decrees",
+    "desc": "Passed in May and August 1999 to fulfill the mandate of TAP MPR No. XI/MPR/1998. <b>Law No. 28/1999</b> required all senior state officials, ministers, and judges to publicly declare their personal wealth before an audit commission (KPKPN), while <b>Law No. 31/1999</b> overhauled criminal corruption statutes and mandated the creation of an independent Corruption Eradication Commission."
+  },
+  {
+    "term": "UU No. 35 Tahun 1999 (Perubahan UU Kekuasaan Kehakiman)",
+    "subtitle": "The 'One-Roof' (Satu Atap) Judicial Independence Amendment",
+    "category": "Laws & Decrees",
+    "desc": "Enacted on August 31, 1999, amending Law No. 14/1970 on Judicial Power. For decades under the New Order, judges were civil servants under the Ministry of Justice, allowing the executive branch to punish independent judges with remote transfers. Law No. 35/1999 mandated the transfer of all organizational, administrative, and financial authority over Indonesia's courts to the independent <b>Supreme Court (Mahkamah Agung)</b>."
+  },
+  {
+    "term": "UU No. 39 Tahun 1999 (UU Hak Asasi Manusia)",
+    "subtitle": "The Comprehensive Human Rights Act",
+    "category": "Laws & Decrees",
+    "desc": "Enacted on September 23, 1999, codifying fundamental civil, political, women's, and children's rights into Indonesian statutory law. The act elevated <b>Komnas HAM</b> from a presidentially appointed body into an independent statutory commission armed with compulsory subpoena powers to investigate state and military human rights abuses."
+  },
+  {
+    "term": "UU No. 40 Tahun 1999 (UU Pers)",
+    "subtitle": "The Freedom of the Press Act",
+    "category": "Laws & Decrees",
+    "desc": "Signed by President Habibie on September 23, 1999, this landmark law permanently outlawed press censorship, licensing requirements (<b>SIUPP</b>), and arbitrary government bans on newspapers, magazines, and broadcast outlets. It imposed criminal prison sentences and fines on anyone who unlawfully obstructs journalistic work and established an independent Press Council (<i>Dewan Pers</i>)."
+  },
+  {
+    "term": "UU No. 41 Tahun 1999 (UU Kehutanan)",
+    "subtitle": "The 1999 Forestry Reform Law",
+    "category": "Laws & Decrees",
+    "desc": "Enacted in September 1999 to reform the corrupt New Order forest concession system (HPH) that had allowed timber barons like Bob Hasan and military foundations to clear-cut millions of hectares of rainforest in Kalimantan and Sumatra whilerecognizing customary forest categories (<i>hutan adat</i>) and tighter conservation rules."
+  },
+  {
+    "term": "UU No. 44 Tahun 1999 (Keistimewaan Aceh)",
+    "subtitle": "Law on the Special Status of the Province of Aceh",
+    "category": "Laws & Decrees",
+    "desc": "Signed by President Habibie on October 4, 1999 in a bid to calm separatist anger in Aceh prior to the MPR General Session. The statute formally guaranteed Aceh special autonomy over religious life (including the implementation of Islamic law elements), customary law (<i>adat</i>), education, and the advisory role of religious scholars (<i>ulama</i>)."
+  },
+  {
+    "term": "UU No. 45 & 46 Tahun 1999 (Pemekaran Irian Jaya & Maluku Utara)",
+    "subtitle": "Laws Dividing Irian Jaya into Three Provinces & Creating North Maluku",
+    "category": "Laws & Decrees",
+    "desc": "Signed in early October 1999. <b>Law No. 45/1999</b> partitioned Irian Jaya (Papua) into West, Central, and East Irian Jaya provinces, sparking fierce protests in Jayapura from Papuan leaders who saw it as a divide-and-rule tactic, while <b>Law No. 46/1999</b> separated North Maluku into its own province amid raging communal conflict in the Moluccas."
+  },
+  {
+    "term": "Keppres No. 83 Tahun 1998 (Ratifikasi Konvensi ILO No. 87)",
+    "subtitle": "Presidential Decree Ratifying ILO Freedom of Association",
+    "category": "Laws & Decrees",
+    "desc": "Signed on June 5, 1998, just two weeks into Habibie's presidency. By ratifying International Labour Organization Convention No. 87, the decree ended the New Order's thirty-year ban on independent labor unions, legalizing Muchtar Pakpahan's <b>SBSI</b> and allowing factory workers, journalists, and teachers to organize outside the state-controlled SPSI."
+  },
+  {
+    "term": "RUU PKB (Rancangan Undang-Undang Penanggulangan Keadaan Bahaya)",
+    "subtitle": "The Controversial 1999 State of Danger / Martial Law Bill",
+    "category": "Laws & Decrees",
+    "desc": "Rushed through the outgoing DPR in September 1999 at the behest of General Wiranto and the Defense Ministry, RUU PKB granted the President and military commanders sweeping emergency powers to ban protests, censor communications, search homes without warrants, and impose military rule during 'social unrest.' Massive student demonstrations against its passage triggered the deadly <b>Semanggi II Tragedy</b> (September 24, 1999), forcing President Habibie to delay signing the bill indefinitely."
+  },
+  {
+    "term": "PP No. 5 & PP No. 12 Tahun 1999 (Netralitas PNS)",
+    "subtitle": "Government Regulations on Civil Service Political Neutrality",
+    "category": "Laws & Decrees",
+    "desc": "Enacted in January 1999, these regulations prohibited Indonesia's four million civil servants (PNS) from joining or campaigning for political parties without taking leave from their state posts, shattering thirty years of compulsory <b>KORPRI monoloyalty</b> to Golkar and leveling the electoral playing field for the June 1999 ballot."
+  },
+  {
+    "term": "Inpres No. 26 Tahun 1998 & Inpres No. 14 Tahun 1967",
+    "subtitle": "Decrees on Ethnic Chinese-Indonesian Rights & Cultural Restrictions",
+    "category": "Laws & Decrees",
+    "desc": "Suharto's <b>Inpres No. 14/1967</b> banned public expressions of Chinese religion, festivals, and script across Indonesia for over thirty years. Following the May 1998 anti-Chinese pogroms, President Habibie issued <b>Inpres No. 26/1998</b> on September 16, 1998, ordering all government ministries, state banks, and universities to abolish the official use of the terms <i>pribumi</i> (indigenous) and <i>non-pribumi</i> and to end discriminatory administrative rules."
+  },
+  {
+    "term": "TAP MPR No. XI/MPR/1998 & TAP MPR No. XIII/MPR/1998",
+    "subtitle": "MPR Special Session Decrees on KKN, Suharto & Presidential Term Limits",
+    "category": "Laws & Decrees",
+    "desc": "Passed during the turbulent November 1998 MPR Special Session (<i>Sidang Istimewa</i>): <b>TAP MPR No. XI/MPR/1998</b> mandated a clean state free of KKN and explicitly mentioned former President Suharto by name in Article 4 as a target of corruption investigations; <b>TAP MPR No. XIII/MPR/1998</b> ended lifelong presidencies by limiting the President and Vice President of Indonesia to a maximum of two five-year terms."
+  },
+  {
+    "term": "TAP MPR No. III/MPR/1999 & TAP MPR No. V/MPR/1999",
+    "subtitle": "The October 1999 General Session Decrees on Habibie & East Timor",
+    "category": "Laws & Decrees",
+    "desc": "Enacted on the night of October 19-20, 1999 during the MPR General Session: <b>TAP MPR No. III/MPR/1999</b> formally recorded the Assembly's secret-ballot vote rejecting President B.J. Habibie's Accountability Speech; <b>TAP MPR No. V/MPR/1999</b> formally revoked the 1978 annexation decree (TAP MPR No. VI/MPR/1978) and recognized the outcome of the August 30 East Timor independence ballot."
+  },
+  {
+    "term": "Paket 5 UU Politik 1985",
+    "subtitle": "The Five 1985 New Order Political Control Statutes",
+    "category": "Laws & Decrees",
+    "desc": "The legal foundation of late-Suharto authoritarianism (Laws No. 1, 2, 3, 5, and 8 of 1985). Together, they locked in the three-party system (Golkar, PPP, PDI), required every political party and civic association (<i>Ormas</i>) to adopt <b>Pancasila</b> as its sole ideological foundation (<i>Asas Tunggal</i>), packed the MPR with presidentially appointed delegates, and required a 90% supermajority plus a national referendum to ever amend the 1945 Constitution."
+  },
+  {
+    "term": "Golkar (Golongan Karya)",
+    "subtitle": "Party of Functional Groups: 'The Banyan Tree' (Pohon Beringin)",
+    "category": "Parties & Factions",
+    "desc": "Created in 1964 and transformed by Suharto into the ruling electoral machine of the New Order, winning between 62% and 74% in six consecutive stage-managed elections (1971-1997). Reorganized into Partai Golkar under chairman <b>Akbar Tandjung</b> at the July 1998 Extraordinary Congress, Golkar finished second in the June 1999 election with 22.4% of the vote (120 DPR seats), but fractured bitterly between Habibie's outer-island/ICMI loyalists ('White Golkar' / <i>Irama Tersedak</i>) and Akbar Tandjung's pragmatic Slipi party apparatus ('Black Golkar')."
+  },
+  {
+    "term": "PDI-P (Partai Demokrasi Indonesia Perjuangan)",
+    "subtitle": "Indonesian Democratic Party of Struggle: 'The White-Muzzled Bull'",
+    "category": "Parties & Factions",
+    "desc": "Founded by <b>Megawati Sukarnoputri</b> (daughter of founding President Sukarno) after the Suharto regime forcibly ousted her from the leadership of the state-sanctioned PDI in the bloody July 27, 1996 crackdown (<i>Kudatuli</i>). Anchored in secular Pancasila nationalism and the urban and rural poor (<i>wong cilik</i>), PDI-P won a commanding plurality in the June 1999 election with 33.7% of the vote and <b>153 seats</b> in the MPR."
+  },
+  {
+    "term": "PKB (Partai Kebangkitan Bangsa)",
+    "subtitle": "National Awakening Party",
+    "category": "Parties & Factions",
+    "desc": "Founded in July 1998 by <b>Abdurrahman Wahid (Gus Dur)</b> and the clerics (<i>kyai</i>) of <b>Nahdlatul Ulama (NU)</b>, Indonesia's largest traditionalist Muslim organization. PKB combined pluralist, inclusive nationalist politics with rural Javanese Islamic boarding-school (<i>pesantren</i>) networks, winning 12.6% of the national vote and <b>51 seats</b> in the 1999 MPR."
+  },
+  {
+    "term": "PPP (Partai Persatuan Pembangunan)",
+    "subtitle": "United Development Party: 'The Ka'bah Party'",
+    "category": "Parties & Factions",
+    "desc": "Formed in 1973 when the New Order forcibly merged four Islamic parties (NU, Parmusi, PSII, and Perti) into a single supervised Islamic opposition party. Chaired in 1999 by <b>Hamzah Haz</b>, PPP reclaimed the <i>Ka'bah</i> as its symbol and Islam as its party foundation after Suharto's fall, winning <b>58 seats</b> in the 1999 MPR."
+  },
+  {
+    "term": "PAN (Partai Amanat Nasional)",
+    "subtitle": "National Mandate Party",
+    "category": "Parties & Factions",
+    "desc": "Founded in August 1998 by <b>Dr. Amien Rais</b>, former chairman of the modernist Islamic organization <b>Muhammadiyah</b> and the most outspoken national leader of the May 1998 student uprising. Though running on an inclusive, pluralist reform platform, PAN drew heavily on urban modernist Muslim voters, winning <b>34 seats</b> in the DPR and serving as the pivot of the 1999 MPR session after Amien Rais was elected MPR Speaker."
+  },
+  {
+    "term": "Poros Tengah (The Central Axis)",
+    "subtitle": "The 1999 Modernist & Traditionalist Islamic Kingmaker Coalition",
+    "category": "Parties & Factions",
+    "desc": "A political coalition engineered in mid-1999 by PAN leader <b>Amien Rais</b> uniting PAN, Hamzah Haz's <b>PPP</b>, Gus Dur's <b>PKB</b>, Yusril Ihza Mahendra's <b>Crescent Star Party (PBB)</b>, and Nurmahmudi Ismail's <b>Justice Party (PK)</b>. Designed to break the polarized deadlock between B.J. Habibie and Megawati Sukarnoputri, the Central Axis became the decisive kingmaker of the October 1999 General Session by floating Gus Dur as a compromise presidential candidate."
+  },
+  {
+    "term": "Fraksi Reformasi (PAN & Partai Keadilan Caucus)",
+    "subtitle": "The 41-Seat Reformist Parliamentary Alliance in the 1999 DPR/MPR",
+    "category": "Parties & Factions",
+    "desc": "Because PAN won 34 seats and the campus-based Justice Party (Partai Keadilan) won 7 seats in the June 1999 election, the two parties joined forces on the floor of the DPR and MPR to form the 41-seat <b>Fraksi Reformasi</b>, chaired by Hatta Rajasa and AM Fatwa, giving Amien Rais a disciplined parliamentary caucus to spearhead the Central Axis."
+  },
+  {
+    "term": "PBB (Partai Bulan Bintang) & Partai Keadilan (PK)",
+    "subtitle": "The Modernist Islamic & Campus Da'wah Parties",
+    "category": "Parties & Factions",
+    "desc": "Two influential modernist Islamic parties formed in 1998 that sat inside the minor-party bloc and joined the <i>Poros Tengah</i>. <b>Partai Bulan Bintang (PBB)</b> (13 seats), led by constitutional law professor <b>Yusril Ihza Mahendra</b> and hardline preacher Ahmad Sumargono, saw itself as the heir to the 1950s Masyumi party and was initially sympathetic to Habibie. <b>Partai Keadilan (PK)</b> (7 seats, later PKS), led by <b>Nurmahmudi Ismail</b> and Hidayat Nur Wahid, grew out of the university campus mosque movement (<i>Tarbiyah</i> / KAMMI)."
+  },
+  {
+    "term": "PKP (Partai Keadilan dan Persatuan) & F-KKI",
+    "subtitle": "Secular-Nationalist Retired Generals' Breakaway Party",
+    "category": "Parties & Factions",
+    "desc": "Founded in late 1998 by former Armed Forces Commander and Defense Minister <b>Gen. (Ret.) Edi Sudradjat</b> and <b>Gen. (Ret.) Try Sutrisno</b> after they lost the July 1998 Golkar chairmanship battle to Akbar Tandjung and Habibie's ICMI camp. Fiercely secular-nationalist and hostile to political Islam and Habibie, PKP anchored the <b>F-KKI</b> (<i>Fraksi Kesatuan Kebangsaan Indonesia</i>) minor-party coalition alongside Christian and pluralist parties like Manasse Malo's <b>PDKB</b>."
+  },
+  {
+    "term": "PDI (Suryadi / Budi Hardjono Rump Party)",
+    "subtitle": "The State-Backed PDI Shell Crushed in the June 1999 Ballot",
+    "category": "Parties & Factions",
+    "desc": "After the Suharto regime engineered the ouster of Megawati Sukarnoputri at the 1996 Medan Congress and handed the official PDI headquarters to Suryadi (and later Budi Hardjono), the state-backed PDI retained the party's old name for the June 1999 election. Voters abandoned it almost completely: the official PDI won just <b>2 seats</b> nationally while Megawati's PDI-P won 153."
+  },
+  {
+    "term": "PRD (Partai Rakyat Demokratik)",
+    "subtitle": "People's Democratic Party: The Leftist Student & Labor Vanguard",
+    "category": "Parties & Factions",
+    "desc": "Founded in 1996 by young left-wing student and labor activists led by <b>Budiman Sudjatmiko</b> and poet <b>Wiji Thukul</b>. Blamed by Suharto for the July 27, 1996 Jakarta riots, its leaders were hunted down, abducted by Kopassus Team Mawar, or imprisoned in Cipinang. Allowed to contest the June 1999 election after Habibie lifted the ban on the party, PRD remained a vocal extraparliamentary force demanding the immediate abolition of ABRI's political role."
+  },
+  {
+    "term": "Utusan Daerah & Utusan Golongan",
+    "subtitle": "The 135 Regional Delegates & 65 Functional Group Delegates",
+    "category": "Parties & Factions",
+    "desc": "The 200 non-DPR civilian delegates inside the 700-seat MPR. <b>Utusan Daerah</b> (135 seats, 5 from each of the 27 provinces) were elected by provincial parliaments (DPRD I) and included governors, regional party bosses, and local notables. <b>Utusan Golongan</b> (65 seats) were selected from religious councils (MUI, PGI, KWI), labor unions, women's groups, cooperative movements, and universities. Lacking rigid party whips, both blocs were prime targets for intense lobbying during October 1999."
+  },
+  {
+    "term": "ABRI / TNI (Angkatan Bersenjata Republik Indonesia)",
+    "subtitle": "Armed Forces of the Republic of Indonesia (Renamed TNI in April 1999)",
+    "category": "Military & Security",
+    "desc": "Indonesia's military establishment, commanded throughout 1998-1999 by <b>General Wiranto</b> (who served concurrently as Commander of the Armed Forces and Minister of Defense and Security). Prior to April 1, 1999, ABRI encompassed the Army, Navy, Air Force, and the National Police (Polri). Even after its reserved parliamentary bloc was halved from 75 to <b>38 unelected seats</b> for the 1999 election, ABRI voted with iron command discipline."
+  },
+  {
+    "term": "Dwifungsi ABRI (Dual Function Doctrine)",
+    "subtitle": "The Military's Sociopolitical & Security Mandate",
+    "category": "Military & Security",
+    "desc": "Originated by Gen. A.H. Nasution in 1958 ('the Middle Way') and codified into law under Suharto, <i>Dwifungsi</i> held that the Indonesian military was not merely a defense force, but also a permanent sociopolitical force entitled to hold cabinet ministries, governorships, civil service posts, state enterprise boards, and unelected seats in the DPR and MPR. Abolishing <i>Dwifungsi ABRI</i> was one of the core demands of the 1998-1999 student movement."
+  },
+  {
+    "term": "Paradigma Baru ABRI & Pemisahan Polri",
+    "subtitle": "The 1998 Military Reform Doctrine & Separation of the National Police",
+    "category": "Military & Security",
+    "desc": "Unveiled in late 1998 by ABRI Chief of Sociopolitical Affairs <b>Lt. Gen. Susilo Bambang Yudhoyono (SBY)</b> and Gen. Agus Widjojo, the 'New Paradigm' sought to preserve the military's institutional survival by voluntarily retreating from day-to-day front-line politics, ending active-duty secondments (<i>kekaryaan</i>) to the civilian bureaucracy, severing formal ties with Golkar, and separating the National Police (<b>Polri</b>) from the military command structure on April 1, 1999."
+  },
+  {
+    "term": "ABRI Hijau vs. ABRI Merah-Putih",
+    "subtitle": "The 1990s Factional Divide Inside the Indonesian Officer Corps",
+    "category": "Military & Security",
+    "desc": "Journalistic shorthand for the rivalry inside the 1990s military brass. <b>ABRI Merah-Putih</b> ('Red-and-White ABRI') referred to secular-nationalist officers shaped by longtime intelligence chief Gen. Benny Moerdani (such as Edi Sudradjat, Try Sutrisno, and Hendropriyono) who distrusted political Islam and Habibie's ICMI. <b>ABRI Hijau</b> ('Green ABRI') referred to officers promoted by Suharto in the 1990s who cultivated close ties with ICMI and Muslim organizations (such as Gen. Feisal Tanjung, Gen. R. Hartono, Lt. Gen. Prabowo Subianto, and Maj. Gen. Kivlan Zen)."
+  },
+  {
+    "term": "Cilangkap",
+    "subtitle": "Armed Forces Headquarters in East Jakarta",
+    "category": "Military & Security",
+    "desc": "The sprawling military headquarters complex in East Jakarta housing the Armed Forces High Command (Mabes ABRI/TNI). In Indonesian political shorthand, 'Cilangkap' refers to the military brass and General Wiranto's inner circle, just as 'Bina Graha' or 'Merdeka Palace' refers to the Presidency and 'Slipi' refers to Golkar's central party headquarters."
+  },
+  {
+    "term": "Kodam, Korem, Kodim, Koramil & Babinsa",
+    "subtitle": "The Army's Parallel Territorial Command Hierarchy",
+    "category": "Military & Security",
+    "desc": "The backbone of military control over Indonesian society. The Army's Territorial Command structure mirrors every single tier of the civilian government: <b>Kodam</b> (Regional Military Commands covering major island groups and provinces), <b>Korem</b> (Sub-regional commands), <b>Kodim</b> (District commands matching regencies), <b>Koramil</b> (Sub-district commands), and <b>Babinsa</b> (village-level non-commissioned officers). Through this network, the Army monitored local politics, labor strikes, and elections in every village and generated vast off-budget revenue through military business foundations (<i>yayasan</i>)."
+  },
+  {
+    "term": "Kostrad, Kopassus & Tim Mawar",
+    "subtitle": "Army Strategic Reserve, Special Forces & the Covert Abduction Squad",
+    "category": "Military & Security",
+    "desc": "Indonesia's two premier central combat formations. <b>Kostrad</b> is the 35,000-troop rapid-deployment strategic reserve command (which Suharto's son-in-law <b>Lt. Gen. Prabowo Subianto</b> commanded until Habibie and Wiranto relieved him on May 22, 1998). <b>Kopassus</b> is the elite red-beret special forces command, whose covert Group IV unit, codenamed <b>Tim Mawar ('Rose Team')</b>, abducted and tortured more than twenty pro-democracy activists in 1997-1998, thirteen of whom were forcibly disappeared."
+  },
+  {
+    "term": "DKP (Dewan Kehormatan Perwira)",
+    "subtitle": "The August 1998 Military Officers' Honor Council",
+    "category": "Military & Security",
+    "desc": "Convened by General Wiranto in August 1998 and chaired by Army Chief of Staff Gen. Subagyo H.S. (including Lt. Gen. Susilo Bambang Yudhoyono and Lt. Gen. Agum Gumelar) to investigate the abduction of pro-democracy activists by Kopassus troops. Its ruling resulted in the administrative discharge of <b>Lt. Gen. Prabowo Subianto</b> from military service, though he was never brought before a court-martial."
+  },
+  {
+    "term": "BAKIN, BIA (BAIS) & Bakorstanas",
+    "subtitle": "New Order Intelligence & Internal Security Apparatus",
+    "category": "Military & Security",
+    "desc": "<b>BAKIN</b> (<i>Badan Koordinasi Intelijen Negara</i>), headed under Habibie by Lt. Gen. (Ret.) Z.A. Maulani, served as the civilian-executive intelligence agency and was frequently accused of wiretapping opposition leaders. <b>BIA</b> (reorganized as <b>BAIS</b> in 1999) was the military's strategic intelligence agency under Cilangkap, deeply involved in covert operations in East Timor. <b>Bakorstanas</b> (the successor to the feared <i>Kopkamtib</i>) was the military internal-security body used to monitor dissidents and labor strikes."
+  },
+  {
+    "term": "Kamra & Pam Swakarsa",
+    "subtitle": "Civilian Auxiliary Militia Forces Mobilized in 1998-1999",
+    "category": "Military & Security",
+    "desc": "<b>Pam Swakarsa</b> ('Voluntary Security Guards') were civilian youth and religious militias armed with sharpened bamboo spears and trucked into Jakarta by military intelligence during the November 1998 MPR Special Session to confront student demonstrators, triggering bloody clashes around Semanggi. <b>Kamra</b> (<i>Keamanan Rakyat</i>, or 'People's Security') was a formal 40,000-man auxiliary police force recruited by the Defense Ministry in 1999 under the guise of unemployment relief."
+  },
+  {
+    "term": "DOM (Daerah Operasi Militer)",
+    "subtitle": "Military Operations Area Designation in Aceh (1989-1998)",
+    "category": "Military & Security",
+    "desc": "The counter-insurgency regime imposed on Aceh by Jakarta for nearly a decade to crush the Free Aceh Movement (<b>GAM</b>). Thousands of Acehnese civilians were tortured, disappeared, or executed at sites like Rumoh Geudong. Although General Wiranto lifted DOM in August 1998 and President Habibie traveled to Banda Aceh in March 1999 to publicly apologize, renewed military massacres at <b>Simpang KKA</b> (May 1999) and <b>Beutong Ateuh</b> (July 1999) shattered public trust and fueled a massive movement for an Acehnese independence referendum."
+  },
+  {
+    "term": "Aitarak & Besi Merah Putih",
+    "subtitle": "Military-Backed Pro-Integration Militias in East Timor (1999)",
+    "category": "Military & Security",
+    "desc": "Paramilitary groups organized, armed, and funded by local ABRI territorial and special-forces officers in East Timor ahead of the August 30, 1999 UN referendum. <b>Aitarak</b> ('Thorn'), led by <b>Eurico Guterres</b> in Dili, and <b>Besi Merah Putih</b> ('Red and White Iron') in Liquica carried out church massacres, political assassinations, and the scorched-earth destruction of Dili after 78.5% of East Timorese voted for independence."
+  },
+  {
+    "term": "Krismon (Krisis Moneter)",
+    "subtitle": "The 1997-1998 Asian Financial Crisis in Indonesia",
+    "category": "Economy & KKN",
+    "desc": "Triggered after the floating of the Thai baht in July 1997, <i>Krismon</i> devastated Indonesia more severely than any other country in Asia. Crushed by $80 billion in unhedged private corporate dollar debt and rampant crony banking practices, the rupiah plunged from Rp 2,430 per US dollar in June 1997 to nearly Rp 16,800 in early 1998. GDP contracted by 13.1% in 1998, food inflation exceeded 80%, and tens of millions fell into poverty, shattering the New Order's economic legitimacy."
+  },
+  {
+    "term": "BLBI (Bantuan Likuiditas Bank Indonesia)",
+    "subtitle": "Bank Indonesia Emergency Liquidity Assistance",
+    "category": "Economy & KKN",
+    "desc": "Over Rp 144.5 trillion in emergency central-bank liquidity injected into 48 failing private commercial banks during the 1997-1998 bank runs. Rather than using the funds to pay depositors, many politically connected bank owners diverted the money into foreign currency speculation, affiliated conglomerate companies, and offshore accounts in Singapore, leaving Indonesian taxpayers with a massive sovereign debt burden."
+  },
+  {
+    "term": "IBRA / BPPN & MSAA Agreements",
+    "subtitle": "Indonesian Bank Restructuring Agency & Tycoon Debt Settlements",
+    "category": "Economy & KKN",
+    "desc": "Established in January 1998 under the IMF program (headed in 1998-1999 by Glenn Yusuf), <b>IBRA (BPPN)</b> took over collapsed banks and seized corporate assets from defaulting BLBI debtors. Under controversial <b>MSAA (Master Settlement and Acquisition Agreements)</b> negotiated in late 1998, major conglomerate owners (such as Anthony Salim of BCA/Salim Group and Sjamsul Nursalim of BDNI) pledged industrial and plantation assets to IBRA in exchange for immunity from criminal prosecution ('Release and Discharge'), though subsequent audits found the surrendered assets were worth only a fraction of their claimed value."
+  },
+  {
+    "term": "Bank Bali Scandal ('Baligate')",
+    "subtitle": "The Rp 546 Billion Campaign Slush-Fund Scandal of Mid-1999",
+    "category": "Economy & KKN",
+    "desc": "Uncovered in July and August 1999, the scandal centered on a suspicious Rp 546 billion ($70 million) 'commission' paid by state-supervised Bank Bali (out of Rp 904 billion in IBRA interbank guarantees) to <b>PT Era Giat Prima (EGP)</b>, a firm run by Golkar deputy treasurer Setya Novanto and Djoko S. Tjandra. Audits by <b>PricewaterhouseCoopers (PwC)</b> and leaked testimony revealed that the money was intended to bankroll Habibie's re-election campaign in the October MPR session via an informal Palace team known as <i>Tim Sukses</i>, prompting the IMF and World Bank to freeze aid disbursements in September 1999."
+  },
+  {
+    "term": "Jalan Cendana & The Suharto Conglomerates",
+    "subtitle": "Bimantara, Citra Lamtoro Gung & Humpuss",
+    "category": "Economy & KKN",
+    "desc": "Named after former President Suharto's residence at <b>No. 8 Jalan Cendana</b> in Menteng. Suharto's six children built sprawling corporate empires backed by state licenses and state bank loans: middle son <b>Bambang Trihatmodjo</b> headed the <b>Bimantara Group</b> (television RCTI, satellites, shipping, and petrochemicals); eldest daughter <b>Tutut (Siti Hardiyanti Rukmana)</b> headed <b>Citra Lamtoro Gung Persada</b> (Jakarta toll roads, television TPI, and infrastructure); and youngest son <b>Tommy (Hutomo Mandala Putra)</b> headed the <b>Humpuss Group</b> (Pertamina oil transport, Sempati Air, cloves, and the Timor car)."
+  },
+  {
+    "term": "Yayasan Supersemar, Dakab, Dharmais & Amalbhakti",
+    "subtitle": "Suharto's Tax-Free Multi-Billion-Dollar 'Charitable' Foundations",
+    "category": "Economy & KKN",
+    "desc": "Under Presidential Decrees issued by Suharto, state-owned banks, civil servants, and private corporations were required to tithe a percentage of their profits and salaries into tax-exempt foundations personally chaired by Suharto, including <b>Yayasan Supersemar</b>, <b>Dakab</b> (which bankrolled Golkar campaigns), <b>Dharmais</b>, and <b>Amalbhakti Muslim Pancasila</b>. Rather than charity, trillions of rupiah were funneled as low-interest loans into companies owned by Suharto's children and cronies like Bob Hasan."
+  },
+  {
+    "term": "BPPC, Mobil Nasional 'Timor' & Dana Reboisasi",
+    "subtitle": "Flagship Monopolies & Off-Budget Funds of the Late New Order",
+    "category": "Economy & KKN",
+    "desc": "The <b>BPPC</b> (Clove Marketing and Buffer Stock Agency) forced Indonesia's clove farmers to sell their crops to Tommy Suharto's syndicate at half price while charging cigarette makers double. In 1996, Inpres No. 2/1996 granted Tommy's <b>PT Timor Putra Nasional</b> exclusive exemption from luxury and import tariffs to import rebadged Kia sedans as the 'National Car.' Meanwhile, the off-budget <b>Reforestation Fund (<i>Dana Reboisasi</i>)</b> was tapped by presidential decrees to finance both crony pulp mills and a Rp 400 billion loan to Habibie's IPTN aircraft factory."
+  },
+  {
+    "term": "KKN (Korupsi, Kolusi, dan Nepotisme)",
+    "subtitle": "Corruption, Collusion, and Nepotism",
+    "category": "Economy & KKN",
+    "desc": "The rallying cry of the 1998 <i>Reformasi</i> movement, encapsulating the systemic entanglement of state power, crony conglomerates, and the Suharto family. Eradicating KKN and bringing Suharto and his family to trial was the primary benchmark by which students and the public judged the credibility of Habibie's government."
+  },
+  {
+    "term": "IPTN, BPPT & BPIS",
+    "subtitle": "Habibie's Strategic Hi-Tech Industrial Complex",
+    "category": "Economy & KKN",
+    "desc": "For twenty years as Minister of Research and Technology (1978-1998), Habibie led the Agency for the Assessment and Application of Technology (<b>BPPT</b>) and the Strategic Industries Management Agency (<b>BPIS</b>), overseeing ten state-owned high-tech enterprises. Its crown jewel was <b>IPTN</b> (<i>Industri Pesawat Terbang Nusantara</i>) in Bandung, which designed the fly-by-wire <b>N-250 Gatotkaca</b> turboprop airliner. In 1998, the IMF forced Jakarta to cut off state budget subsidies to IPTN as a condition of its bailout."
+  },
+  {
+    "term": "Bulog & Sembako",
+    "subtitle": "The State Logistics Agency & Nine Basic Necessities",
+    "category": "Economy & KKN",
+    "desc": "<b>Bulog</b> (<i>Badan Urusan Logistik</i>) is the state commodity agency responsible for stabilizing the price and supply of Indonesia's nine basic necessities (<b>Sembako</b>: rice, sugar, cooking oil, meat and fish, eggs, milk, corn, kerosene, and salt). Under the New Order, Bulog's import monopolies were a major source of off-budget patronage for politically connected distributors; under IMF pressure in 1998-1999, many of its non-rice monopolies were dismantled."
+  },
+  {
+    "term": "JPS & Ekonomi Kerakyatan",
+    "subtitle": "Social Safety Net & Adi Sasono's 'People's Economy' Program",
+    "category": "Economy & KKN",
+    "desc": "To cushion the devastating social impact of <i>Krismon</i>, the Habibie government launched the World Bank-backed <b>JPS (<i>Jaringan Pengaman Sosial</i> / Social Safety Net)</b> providing subsidized rice (OPK) and emergency public-works employment. Simultaneously, Cooperatives Minister <b>Adi Sasono</b> championed <b>Ekonomi Kerakyatan ('People's Economy')</b>, channeling trillions of rupiah in subsidized state credit to thousands of rural cooperatives and small pribumi businesses, a program praised by populists but attacked by critics as a vote-buying machine for October 1999."
+  },
+  {
+    "term": "Berkeley Mafia (The UI Technocrats)",
+    "subtitle": "Orthodox Neoclassical Economists at the Ministry of Finance & Bappenas",
+    "category": "Economy & KKN",
+    "desc": "A generation of US-educated Indonesian economists from the University of Indonesia's Faculty of Economics (originally led by Widjojo Nitisastro and Ali Wardhana) who championed balanced budgets, open capital accounts, and export-oriented manufacturing. Throughout the 1980s and 1990s, the technocrats clashed constantly with B.J. Habibie's 'technologues' over state spending on tariff-protected heavy industry and aircraft manufacturing."
+  },
+  {
+    "term": "ICMI (Ikatan Cendekiawan Muslim se-Indonesia)",
+    "subtitle": "Association of Indonesian Muslim Intellectuals",
+    "category": "Society & Movements",
+    "desc": "Founded in Malang in December 1990 with Suharto's blessing and chaired by <b>B.J. Habibie</b>. ICMI brought modernist Muslim academics, engineers, bureaucrats, and activists, including <b>Adi Sasono</b>, <b>Jimly Asshiddiqie</b>, <b>Dewi Fortuna Anwar</b>, and early on <b>Amien Rais</b>, into the corridors of power, founding the daily newspaper <i>Republika</i> and serving as Habibie's core political and intellectual base in 1998-1999."
+  },
+  {
+    "term": "Nahdlatul Ulama (NU) & Muhammadiyah",
+    "subtitle": "Indonesia's Two Largest Islamic Mass Organizations",
+    "category": "Society & Movements",
+    "desc": "<b>Nahdlatul Ulama (NU)</b>, founded in 1926 and led in 1999 by <b>Abdurrahman Wahid (Gus Dur)</b>, represents over 35 to 40 million traditionalist Muslims anchored in rural Islamic boarding schools (<i>pesantren</i>), particularly in East and Central Java, and forms the backbone of <b>PKB</b>. <b>Muhammadiyah</b>, founded in 1912 and led until 1998 by <b>Amien Rais</b>, represents 25 to 30 million modernist Muslims with a vast network of urban universities, schools, and hospitals, forming the core base of <b>PAN</b>."
+  },
+  {
+    "term": "Forkot, Famred, KAMMI & Kelompok Cipayung",
+    "subtitle": "The 1998-1999 University Student Action Coalitions & Associations",
+    "category": "Society & Movements",
+    "desc": "The student movements that spearheaded the overthrow of Suharto in May 1998 and mobilized tens of thousands of protesters during Habibie's presidency. Radical cross-campus street coalitions such as <b>Forkot</b> (City Forum), <b>Famred</b>, and <b>FKSMJ</b> demanded an immediate 'Transitional Presidium' and the abolition of <i>Dwifungsi ABRI</i>; <b>KAMMI</b> mobilized campus mosque activists; while the established <b>Cipayung Group</b> associations, led by <b>HMI</b> (Muslim Students' Association, Akbar Tandjung's political alma mater), <b>PMII</b>, and <b>GMNI</b>, bridged street activism and parliamentary party politics."
+  },
+  {
+    "term": "YLBHI (LBH), KontraS, TRuK & Komnas Perempuan",
+    "subtitle": "Legal Aid, Human Rights & Survivors' Advocacy Organizations",
+    "category": "Society & Movements",
+    "desc": "The institutional conscience of the <i>Reformasi</i> era. The <b>Indonesian Legal Aid Foundation (YLBHI / LBH)</b> defended political prisoners throughout the New Order and incubated <b>KontraS</b> (Commission for the Disappeared and Victims of Violence), founded in March 1998 by lawyer <b>Munir Said Thalib</b>. <b>TRuK</b> (Volunteer Team for Humanity), led by Father Sandyawan Sumardi, documented the May 1998 burnings and mass gang rapes of Chinese-Indonesian women, leading to the creation of <b>Komnas Perempuan</b> (National Commission on Violence Against Women) in October 1998."
+  },
+  {
+    "term": "AJI (Aliansi Jurnalis Independen) & SPSI / SBSI",
+    "subtitle": "Independent Journalists' & Trade Union Movements",
+    "category": "Society & Movements",
+    "desc": "Under the New Order, all journalists were forced into the state-supervised <b>PWI</b> and all factory workers into the state-controlled union <b>SPSI</b>. After the 1994 banning of <i>Tempo</i>, dissident reporters led by Goenawan Mohamad and Ahmad Taufik founded the underground <b>Alliance of Independent Journalists (AJI)</b>. Similarly, labor leader <b>Muchtar Pakpahan</b> founded the independent union <b>SBSI</b> (<i>Serikat Buruh Sejahtera Indonesia</i>). Both were legalized by the Habibie administration in mid-1998."
+  },
+  {
+    "term": "Deklarasi Ciganjur (The Ciganjur Four)",
+    "subtitle": "The November 10, 1998 Opposition Reform Summit",
+    "category": "Society & Movements",
+    "desc": "A historic meeting held on November 10, 1998 at Gus Dur's residence in Ciganjur, South Jakarta, bringing together the four most prominent figures outside Habibie's administration: <b>Abdurrahman Wahid (Gus Dur)</b>, <b>Megawati Sukarnoputri</b>, <b>Amien Rais</b>, and the revered Sultan of Yogyakarta, <b>Sri Sultan Hamengkubuwono X</b>. Their joint declaration committed the opposition to peaceful constitutional reform, fair elections in 1999, and a phased six-year end to <i>Dwifungsi ABRI</i>, preventing a revolutionary street overthrow during the November 1998 MPR Special Session."
+  },
+  {
+    "term": "UNAMET, CNRT, Falintil & INTERFET",
+    "subtitle": "Key Forces in the 1999 East Timor Independence Consultation",
+    "category": "Society & Movements",
+    "desc": "Following the May 5, 1999 Tripartite Agreement signed by Indonesia, Portugal, and the UN, the <b>United Nations Mission in East Timor (UNAMET)</b>, led by Ian Martin, organized the August 30, 1999 popular consultation. The pro-independence movement was led politically by the <b>CNRT</b> under imprisoned leader <b>Xanana Gusmao</b> and armed guerrilla wing <b>Falintil</b>, while pro-Indonesia militias were backed by local ABRI units. After 78.5% voted for independence and militias torched Dili, the Australian-led multinational force <b>INTERFET</b> deployed in September 1999."
+  },
+  {
+    "term": "GAM, SIRA & OPM (Tim 100)",
+    "subtitle": "Independence & Referendum Movements in Aceh and Irian Jaya (Papua)",
+    "category": "Society & Movements",
+    "desc": "<b>GAM (Gerakan Aceh Merdeka / Free Aceh Movement)</b>, founded by Hasan di Tiro in 1976, waged an armed insurgency in Aceh, while the student-led coalition <b>SIRA</b> (Aceh Referendum Information Center), inspired by East Timor's ballot, mobilized hundreds of thousands of Acehnese demanding a peaceful independence referendum. In <b>Irian Jaya (Papua)</b>, the <b>OPM (Free Papua Movement)</b> and the <b>Team of 100</b> civil-society delegation (led by Tom Beanal and Theys Eluay, who stunned President Habibie in a face-to-face meeting at Istana Negara on February 26, 1999) demanded immediate independence from Indonesia."
+  },
+  {
+    "term": "Peristiwa Kudatuli (27 Juli 1996) & Tragedi Banyuwangi (1998)",
+    "subtitle": "Political Violence & Covert Provocations of the Late Transition",
+    "category": "Society & Movements",
+    "desc": "<b>Peristiwa Kudatuli</b> (July 27, 1996) was the bloody military-backed raid on Megawati Sukarnoputri's PDI headquarters on Jalan Diponegoro that sparked the worst Jakarta riots in twenty years. Two years later, between August and October 1998, the <b>Banyuwangi 'Ninja' Killings</b> saw over 140 traditional healers (<i>dukun santet</i>) and Nahdlatul Ulama religious teachers (<i>kyai</i>) assassinated across East Java by black-clad hitmen, an episode Gus Dur accused regime hardliners of orchestrating to terrorize his rural NU base."
+  },
+  {
+    "term": "Pidato Pertanggungjawaban",
+    "subtitle": "Presidential Accountability Speech to the MPR General Session",
+    "category": "Political Terms",
+    "desc": "A constitutional report delivered by the incumbent President to the MPR at the end of a term, accounting for state policy, security, and finances. In the October 1999 General Session, the MPR votes by secret ballot on whether to accept (<i>Menerima</i>) or reject (<i>Menolak</i>) Habibie's speech under <b>TAP MPR No. III/MPR/1999</b>. Historically, Habibie's speech was rejected 355 to 322 on the night of October 19-20, 1999, forcing him to withdraw his presidential candidacy."
+  },
+  {
+    "term": "Sidang Istimewa (SI) MPR 1998 & Sidang Umum (SU) MPR 1999",
+    "subtitle": "The Extraordinary & General Sessions of the Assembly",
+    "category": "Political Terms",
+    "desc": "A <b>Sidang Istimewa (Special Session)</b> is an extraordinary sitting of the MPR convened outside the normal five-year cycle; the November 10-13, 1998 Special Session shortened Habibie's caretaker term, scheduled the June 1999 elections, and saw the deadly Semanggi I clashes outside the building. The <b>Sidang Umum (General Session)</b> of October 1-21, 1999 was the full constitutional sitting of the newly seated 700-member MPR to judge Habibie's Accountability Speech and elect a President."
+  },
+  {
+    "term": "Irama Tersedak & Golkar Putih vs. Golkar Hitam",
+    "subtitle": "Inside-Golkar Factional Slang of the 1999 MPR Session",
+    "category": "Political Terms",
+    "desc": "<b>Irama Tersedak</b> ('Choked Rhythm') was a playful Jakarta acronym for <i>Irian, Maluku, Ternate, Sulawesi, Manado, Makassar</i>, referring to the Eastern Indonesian caucus inside Golkar (led by A.A. Baramuli, Marwah Daud Ibrahim, and Fadel Muhammad) that fiercely championed fellow Sulawesi native B.J. Habibie. Media commentators also divided the party into <b>Golkar Putih</b> ('White Golkar', Habibie's ICMI and reformist wing) and <b>Golkar Hitam</b> ('Black Golkar', the pragmatic New Order party machine loyal to Akbar Tandjung)."
+  },
+  {
+    "term": "SIUPP (Surat Izin Usaha Penerbitan Pers)",
+    "subtitle": "Press Publication Business License: The New Order's Censorship Tool",
+    "category": "Political Terms",
+    "desc": "Under the New Order, every newspaper and magazine required a SIUPP license from the Ministry of Information, which could be revoked without trial if a publication crossed regime red lines (as happened to <i>Tempo</i>, <i>Editor</i>, and <i>DeTIK</i> in 1994). In June 1998, Habibie's Information Minister Lt. Gen. Yunus Yosfiah abolished the draconian SIUPP restrictions, ushering in an explosion of press freedom and culminating in the landmark <b>Press Law (Law No. 40/1999)</b>."
+  },
+  {
+    "term": "SP3 (Surat Perintah Penghentian Penyidikan)",
+    "subtitle": "Formal Order Terminating a Criminal Investigation",
+    "category": "Political Terms",
+    "desc": "A legal order issued by the Attorney General's Office halting a criminal prosecution due to purported 'insufficient evidence.' After a leaked February 1999 phone recording caught President Habibie and Attorney General <b>Andi Muhammad Ghalib</b> discussing the Suharto corruption probe in staged, deferential terms, the issuance of an <b>SP3</b> dropping the investigation into former President Suharto on October 11, 1999, just days before the MPR General Session, sparked outrage among reformers while pleasing old-guard Golkar and Cendana brokers."
+  },
+  {
+    "term": "Supersemar (Surat Perintah Sebelas Maret)",
+    "subtitle": "The Order of March 11, 1966: Emergency Transfer of Executive Power",
+    "category": "Political Terms",
+    "desc": "The famous and physically missing document signed by President Sukarno under military pressure on March 11, 1966, authorizing Lt. Gen. Suharto to take 'all measures deemed necessary' to guarantee security and stability. Suharto used it to ban the PKI, arrest cabinet ministers, and seize executive power. In 1998-1999, invoking a 'Supersemar II' or martial-law decree was the ultimate authoritarian temptation whispered by hardliners."
+  },
+  {
+    "term": "Asas Tunggal & Massa Mengambang",
+    "subtitle": "Ideological Uniformity & 'Floating Mass' Doctrines of the New Order",
+    "category": "Political Terms",
+    "desc": "Two foundational pillars of New Order depoliticization. <b>Massa Mengambang</b> ('Floating Mass', 1973) banned opposition parties (PPP and PDI) from organizing below the district level so villagers would remain 'uncorrupted' by politics between five-year elections, while Golkar operated freely through the village bureaucracy. <b>Asas Tunggal</b> ('Sole Foundation', 1985) forced all political parties and civic organizations to adopt state-defined <b>Pancasila</b> as their sole ideology. Both were repealed under Habibie's 1999 political laws."
+  },
+  {
+    "term": "KORPRI & Monoloyalitas",
+    "subtitle": "Civil Servants Corps of the Republic of Indonesia",
+    "category": "Political Terms",
+    "desc": "Established in 1971 as the compulsory sole association for all four million Indonesian civil servants, teachers, and state enterprise employees. Under the doctrine of <b>monoloyalitas</b> (monoloyalty), all KORPRI members and their families were required to vote and campaign exclusively for <b>Golkar</b>. In early 1999, Habibie enacted <b>Government Regulation No. 5/1999</b> establishing civil-service neutrality, cutting off Golkar's automatic bureaucratic vote machine on the eve of the June election."
+  },
+  {
+    "term": "SBKRI, Litsus & Eks-Tapol (Tapol / Napol)",
+    "subtitle": "New Order Discriminatory, Ideological Screening & Detention Terms",
+    "category": "Political Terms",
+    "desc": "<b>SBKRI</b> (<i>Surat Bukti Kewarganegaraan Republik Indonesia</i>) forced ethnic Chinese Indonesians to carry special citizenship certificates to obtain passports, marriage licenses, or university admission. Following the 1965-1966 anti-communist purges, hundreds of thousands of former political detainees had <b>'ET' (<i>Eks-Tapol</i>)</b> stamped on their ID cards, while civil servants, journalists, and candidates faced <b>Litsus</b> ('Special Research') ideological screening. <b>Tapol / Napol</b> referred to political detainees and prisoners held in Cipinang Prison, whom Habibie began releasing in May 1998."
+  },
+  {
+    "term": "Pancasila, Orde Lama & Orde Baru",
+    "subtitle": "Foundational State Philosophy & Regime Epochs of Modern Indonesia",
+    "category": "Political Terms",
+    "desc": "<b>Pancasila</b> is the five-principle philosophical foundation of the Indonesian state proclaimed by Sukarno in June 1945: Belief in the One and Only God, a just and civilized humanity, the unity of Indonesia, democracy guided by the inner wisdom of deliberation among representatives, and social justice for all the people of Indonesia. <b>Orde Lama</b> ('Old Order') refers to Sukarno's 1945-1966 presidency, while <b>Orde Baru</b> ('New Order', or <i>Orba</i>) refers to Suharto's 1966-1998 military-backed developmentalist regime, succeeded in May 1998 by the <b>Era Reformasi</b>."
+  },
+  {
+    "term": "Aliran, Wong Cilik & Cukong",
+    "subtitle": "Sociological Fault Lines & Class Terms in Indonesian Politics",
+    "category": "Political Terms",
+    "desc": "Coined by anthropologist Clifford Geertz, <b>Aliran</b> ('streams') describes the deep cultural-religious cleavages dividing Indonesian voters between secular or syncretic nationalists (<i>abangan</i>, the core base of PDI-P) and pious Muslims (<i>santri</i>, split between traditionalist NU/PKB and modernist Muhammadiyah/PAN/PPP). <b>Wong Cilik</b> ('little people') refers to the urban and rural working poor (pedicab drivers, street vendors, and smallholders) who formed Megawati's devoted grassroots following. <b>Cukong</b> refers to wealthy ethnic Chinese business tycoons (such as Liem Sioe Liong and Bob Hasan) who partnered with New Order generals and the Suharto family in exchange for state monopolies and political protection."
+  }
+]

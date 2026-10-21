@@ -1,0 +1,857 @@
+/* ==========================================================================
+   COLOR SCHEMES  (css/schemes.css)  -- generated from one table
+   --------------------------------------------------------------------------
+   Independent of the window style. <html data-scheme="..."> swaps the palette
+   variables every window style is built from. "standard" has no block: it
+   keeps the defaults. Mac OS 8 keeps its own Platinum gray, so schemes are
+   skipped when <html data-wstyle="macos8">.
+
+   1. Light schemes (Cherry Blossom ... Wheat): recolor the window chrome.
+   2. Dark schemes (Dark, Midnight, Obsidian, Nord, Amethyst, Forest, Dark
+      Cherry, Exusiai Night, Amber Terminal, Green Phosphor, High Contrast):
+      also recolor content areas, text and the game's semantic colors
+      (good / bad / warning ...).
+   ========================================================================== */
+
+:root[data-scheme="cherry"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #F3CFDA;
+    --win95-surface: #FBE6EC;
+    --win95-shadow: #B88A98;
+    --win95-navy: #A8325E;
+    --win95-blue-grad: #F29BB8;
+    --win95-accent: #A8325E;
+    --win95-dark: #6B3A4B;
+    --win95-well: #FFF4F7;
+    --win95-well-alt: #FCE4EC;
+}
+
+:root[data-scheme="exusiai"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #F1DDB0;
+    --win95-surface: #FAF0D4;
+    --win95-shadow: #A9895A;
+    --win95-navy: #A3171F;
+    --win95-blue-grad: #E58A2E;
+    --win95-accent: #A3171F;
+    --win95-dark: #4A2A14;
+    --win95-well: #FFF8E4;
+    --win95-well-alt: #F6E6BE;
+}
+
+:root[data-scheme="mint"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #CFEBDD;
+    --win95-surface: #E8F7F0;
+    --win95-shadow: #8DB3A2;
+    --win95-navy: #1F6B50;
+    --win95-blue-grad: #6CC3A0;
+    --win95-accent: #1F6B50;
+    --win95-dark: #3D6657;
+    --win95-well: #F4FCF8;
+    --win95-well-alt: #E3F5EC;
+}
+
+:root[data-scheme="sky"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #CFE3F3;
+    --win95-surface: #E8F2FA;
+    --win95-shadow: #8DA9BF;
+    --win95-navy: #1F5C99;
+    --win95-blue-grad: #6FB1E6;
+    --win95-accent: #1F5C99;
+    --win95-dark: #3F5E7A;
+    --win95-well: #F3F9FD;
+    --win95-well-alt: #E2EEF8;
+}
+
+:root[data-scheme="peach"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #F7DCC6;
+    --win95-surface: #FCEDE0;
+    --win95-shadow: #C09A7E;
+    --win95-navy: #B04A1F;
+    --win95-blue-grad: #F2A36B;
+    --win95-accent: #B04A1F;
+    --win95-dark: #7A4A2E;
+    --win95-well: #FFF7F0;
+    --win95-well-alt: #FBE8D8;
+}
+
+:root[data-scheme="brick"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #CBB5A6;
+    --win95-surface: #E4D6CB;
+    --win95-shadow: #8A7466;
+    --win95-navy: #7A1F1F;
+    --win95-blue-grad: #C0504D;
+    --win95-accent: #7A1F1F;
+}
+
+:root[data-scheme="desert"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #CFCBA0;
+    --win95-surface: #E6E3C8;
+    --win95-shadow: #8C8A66;
+    --win95-navy: #5E5A2B;
+    --win95-blue-grad: #A39F5C;
+    --win95-accent: #5E5A2B;
+}
+
+:root[data-scheme="lilac"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #C8C0D8;
+    --win95-surface: #E1DCEA;
+    --win95-shadow: #7F7894;
+    --win95-navy: #4B3A7A;
+    --win95-blue-grad: #8F7FC0;
+    --win95-accent: #4B3A7A;
+}
+
+:root[data-scheme="marine"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #B8C8D0;
+    --win95-surface: #D9E3E8;
+    --win95-shadow: #6F8590;
+    --win95-navy: #003B5C;
+    --win95-blue-grad: #2E8FB8;
+    --win95-accent: #003B5C;
+}
+
+:root[data-scheme="rose"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #D8B8C0;
+    --win95-surface: #EBD7DC;
+    --win95-shadow: #947880;
+    --win95-navy: #7A2646;
+    --win95-blue-grad: #C86A8F;
+    --win95-accent: #7A2646;
+}
+
+:root[data-scheme="slate"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #B9C0CB;
+    --win95-surface: #D5DAE2;
+    --win95-shadow: #7B8493;
+    --win95-navy: #2F3E5C;
+    --win95-blue-grad: #6B7FA8;
+    --win95-accent: #2F3E5C;
+}
+
+:root[data-scheme="spruce"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #B5C9B8;
+    --win95-surface: #D7E4D9;
+    --win95-shadow: #6D8872;
+    --win95-navy: #1F4D2B;
+    --win95-blue-grad: #4E9A62;
+    --win95-accent: #1F4D2B;
+}
+
+:root[data-scheme="wheat"]:not([data-wstyle="macos8"]) {
+    --win95-bg: #D8C8A0;
+    --win95-surface: #EADFC4;
+    --win95-shadow: #968A68;
+    --win95-navy: #6B4A12;
+    --win95-blue-grad: #BF9B4A;
+    --win95-accent: #6B4A12;
+}
+
+/* ----- Dark-tone palettes ----- */
+:root[data-scheme="dark"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #2B2B2B;
+    --win95-surface: #3A3A3A;
+    --win95-white: #5C5C5C;
+    --win95-shadow: #161616;
+    --win95-dark: #000000;
+    --win95-navy: #23324F;
+    --win95-blue-grad: #3D5C8F;
+    --win95-window: #1B1B1B;
+    --win95-well: #242424;
+    --win95-well-alt: #303030;
+    --win95-text: #E6E6E6;
+    --win95-text-dim: #A8A8A8;
+    --win95-accent: #8FB4FF;
+    --tone-good: #5FD068;
+    --tone-bad: #FF6B6B;
+    --tone-warn: #E8B84A;
+    --tone-alert: #FF8A4A;
+    --tone-info: #6DB5E8;
+    --tone-link: #7AA7FF;
+    --tint-bad: #6B2B2B;
+    --tint-soft: #5A2A2A;
+    --tint-good: #2B5230;
+    --tint-warn: #5C4A12;
+    --win98-title-inactive: linear-gradient(90deg, #161616 0%, #2B2B2B 100%);
+}
+
+:root[data-scheme="midnight"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #121A2E;
+    --win95-surface: #1E2A47;
+    --win95-white: #3C5486;
+    --win95-shadow: #070B16;
+    --win95-dark: #000000;
+    --win95-navy: #0B1E5B;
+    --win95-blue-grad: #2A5BC0;
+    --win95-window: #0A0F1D;
+    --win95-well: #101830;
+    --win95-well-alt: #17213C;
+    --win95-text: #D6E2FF;
+    --win95-text-dim: #8DA2CF;
+    --win95-accent: #7FB0FF;
+    --tone-good: #4FE0A0;
+    --tone-bad: #FF7C8A;
+    --tone-warn: #FFC857;
+    --tone-alert: #FF9F5A;
+    --tone-info: #62C6F2;
+    --tone-link: #8EB8FF;
+    --tint-bad: #5E2330;
+    --tint-soft: #502438;
+    --tint-good: #1F4D45;
+    --tint-warn: #5A4710;
+    --win98-title-inactive: linear-gradient(90deg, #070B16 0%, #121A2E 100%);
+}
+
+:root[data-scheme="obsidian"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #121212;
+    --win95-surface: #272727;
+    --win95-white: #545454;
+    --win95-shadow: #080808;
+    --win95-dark: #000000;
+    --win95-navy: #1F1F2B;
+    --win95-blue-grad: #3A3A52;
+    --win95-window: #000000;
+    --win95-well: #080808;
+    --win95-well-alt: #181818;
+    --win95-text: #EDEDED;
+    --win95-text-dim: #9A9A9A;
+    --win95-accent: #6FD3FF;
+    --tone-good: #5FD068;
+    --tone-bad: #FF6B6B;
+    --tone-warn: #E8B84A;
+    --tone-alert: #FF8A4A;
+    --tone-info: #6DB5E8;
+    --tone-link: #7AA7FF;
+    --tint-bad: #6B2B2B;
+    --tint-soft: #5A2A2A;
+    --tint-good: #2B5230;
+    --tint-warn: #5C4A12;
+    --win98-title-inactive: linear-gradient(90deg, #080808 0%, #121212 100%);
+}
+
+:root[data-scheme="nord"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #2E3440;
+    --win95-surface: #414651;
+    --win95-white: #696D75;
+    --win95-shadow: #15171D;
+    --win95-dark: #000000;
+    --win95-navy: #3B4F73;
+    --win95-blue-grad: #5E81AC;
+    --win95-window: #191D23;
+    --win95-well: #222730;
+    --win95-well-alt: #383E4A;
+    --win95-text: #E5E9F0;
+    --win95-text-dim: #A3ABBA;
+    --win95-accent: #88C0D0;
+    --tone-good: #A3BE8C;
+    --tone-bad: #E58A93;
+    --tone-warn: #EBCB8B;
+    --tone-alert: #D08770;
+    --tone-info: #81A1C1;
+    --tone-link: #88C0D0;
+    --tint-bad: #5B3036;
+    --tint-soft: #4B2D33;
+    --tint-good: #34483A;
+    --tint-warn: #54472B;
+    --win98-title-inactive: linear-gradient(90deg, #15171D 0%, #2E3440 100%);
+}
+
+:root[data-scheme="amethyst"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #241B35;
+    --win95-surface: #383047;
+    --win95-white: #615B6E;
+    --win95-shadow: #100C18;
+    --win95-dark: #000000;
+    --win95-navy: #4B2A8C;
+    --win95-blue-grad: #8A5FD6;
+    --win95-window: #140F1D;
+    --win95-well: #1B1428;
+    --win95-well-alt: #2F263F;
+    --win95-text: #EADFFB;
+    --win95-text-dim: #AFA0CE;
+    --win95-accent: #C9A8FF;
+    --tone-good: #5FD068;
+    --tone-bad: #FF6B6B;
+    --tone-warn: #E8B84A;
+    --tone-alert: #FF8A4A;
+    --tone-info: #6DB5E8;
+    --tone-link: #B79CFF;
+    --tint-bad: #6B2B2B;
+    --tint-soft: #5A2A2A;
+    --tint-good: #2B5230;
+    --tint-warn: #5C4A12;
+    --win98-title-inactive: linear-gradient(90deg, #100C18 0%, #241B35 100%);
+}
+
+:root[data-scheme="forest"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #17261D;
+    --win95-surface: #2C3A31;
+    --win95-white: #58635C;
+    --win95-shadow: #0A110D;
+    --win95-dark: #000000;
+    --win95-navy: #1F5A3A;
+    --win95-blue-grad: #3E9A66;
+    --win95-window: #0D1510;
+    --win95-well: #111C16;
+    --win95-well-alt: #233128;
+    --win95-text: #DCEEE1;
+    --win95-text-dim: #9DB8A4;
+    --win95-accent: #7EE0A0;
+    --tone-good: #6FDB8F;
+    --tone-bad: #FF6B6B;
+    --tone-warn: #E8B84A;
+    --tone-alert: #FF8A4A;
+    --tone-info: #6DB5E8;
+    --tone-link: #7AA7FF;
+    --tint-bad: #6B2B2B;
+    --tint-soft: #5A2A2A;
+    --tint-good: #2B5230;
+    --tint-warn: #5C4A12;
+    --win98-title-inactive: linear-gradient(90deg, #0A110D 0%, #17261D 100%);
+}
+
+:root[data-scheme="darkcherry"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #2C1822;
+    --win95-surface: #3F2D36;
+    --win95-white: #675960;
+    --win95-shadow: #140B0F;
+    --win95-dark: #000000;
+    --win95-navy: #7A1F45;
+    --win95-blue-grad: #C0507A;
+    --win95-window: #180D13;
+    --win95-well: #21121A;
+    --win95-well-alt: #37242D;
+    --win95-text: #F7DEE8;
+    --win95-text-dim: #C9A0B2;
+    --win95-accent: #FF8FB3;
+    --tone-good: #5FD068;
+    --tone-bad: #FF7A8A;
+    --tone-warn: #E8B84A;
+    --tone-alert: #FF8A4A;
+    --tone-info: #6DB5E8;
+    --tone-link: #7AA7FF;
+    --tint-bad: #6E2A3A;
+    --tint-soft: #5E2634;
+    --tint-good: #2B5230;
+    --tint-warn: #5C4A12;
+    --win98-title-inactive: linear-gradient(90deg, #140B0F 0%, #2C1822 100%);
+}
+
+:root[data-scheme="exusiainight"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #2C1E15;
+    --win95-surface: #3F322A;
+    --win95-white: #675D57;
+    --win95-shadow: #140E09;
+    --win95-dark: #000000;
+    --win95-navy: #8E1B22;
+    --win95-blue-grad: #D17A2A;
+    --win95-window: #18100C;
+    --win95-well: #211610;
+    --win95-well-alt: #372921;
+    --win95-text: #F6E7C8;
+    --win95-text-dim: #C7AE86;
+    --win95-accent: #FFB44D;
+    --tone-good: #8FD16A;
+    --tone-bad: #FF7468;
+    --tone-warn: #FFC24D;
+    --tone-alert: #FF9A4A;
+    --tone-info: #7CC3E8;
+    --tone-link: #FFC66E;
+    --tint-bad: #6B2B22;
+    --tint-soft: #5A2A22;
+    --tint-good: #33502B;
+    --tint-warn: #5E4614;
+    --win98-title-inactive: linear-gradient(90deg, #140E09 0%, #2C1E15 100%);
+}
+
+:root[data-scheme="amber"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #1B1300;
+    --win95-surface: #2E2100;
+    --win95-white: #6B4F10;
+    --win95-shadow: #0D0900;
+    --win95-dark: #000000;
+    --win95-navy: #5C3D00;
+    --win95-blue-grad: #B87800;
+    --win95-window: #0B0800;
+    --win95-well: #120C00;
+    --win95-well-alt: #241800;
+    --win95-text: #FFB000;
+    --win95-text-dim: #C28500;
+    --win95-accent: #FFD54A;
+    --tone-good: #B5E655;
+    --tone-bad: #FF6A45;
+    --tone-warn: #FFD54A;
+    --tone-alert: #FF9A3A;
+    --tone-info: #6CC6FF;
+    --tone-link: #FFD54A;
+    --tint-bad: #5A2A12;
+    --tint-soft: #4A230F;
+    --tint-good: #2F4A12;
+    --tint-warn: #5C4300;
+    --win98-title-inactive: linear-gradient(90deg, #0D0900 0%, #1B1300 100%);
+}
+
+:root[data-scheme="greenterm"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #0C1C0F;
+    --win95-surface: #12301A;
+    --win95-white: #1F6B33;
+    --win95-shadow: #041006;
+    --win95-dark: #000000;
+    --win95-navy: #0F4D1F;
+    --win95-blue-grad: #1F9940;
+    --win95-window: #030803;
+    --win95-well: #07120A;
+    --win95-well-alt: #102414;
+    --win95-text: #39FF6B;
+    --win95-text-dim: #22B24B;
+    --win95-accent: #B6FF5C;
+    --tone-good: #39FF6B;
+    --tone-bad: #FF6B5C;
+    --tone-warn: #E6FF5C;
+    --tone-alert: #FFB05C;
+    --tone-info: #5CE6FF;
+    --tone-link: #B6FF5C;
+    --tint-bad: #4A1F1A;
+    --tint-soft: #3E1A16;
+    --tint-good: #14421E;
+    --tint-warn: #3E4A12;
+    --win98-title-inactive: linear-gradient(90deg, #041006 0%, #0C1C0F 100%);
+}
+
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) {
+    color-scheme: dark;
+    --win95-bg: #000000;
+    --win95-surface: #1C1C1C;
+    --win95-white: #FFFFFF;
+    --win95-shadow: #C0C0C0;
+    --win95-dark: #FFFFFF;
+    --win95-navy: #000080;
+    --win95-blue-grad: #000080;
+    --win95-window: #000000;
+    --win95-well: #000000;
+    --win95-well-alt: #0C0C0C;
+    --win95-text: #FFFFFF;
+    --win95-text-dim: #E0E0E0;
+    --win95-accent: #FFFF00;
+    --tone-good: #00FF00;
+    --tone-bad: #FF6A6A;
+    --tone-warn: #FFD400;
+    --tone-alert: #FF9A3C;
+    --tone-info: #4DD2FF;
+    --tone-link: #8AB4FF;
+    --tint-bad: #5A0000;
+    --tint-soft: #4A0000;
+    --tint-good: #004A00;
+    --tint-warn: #4A3C00;
+    --win98-title-inactive: linear-gradient(90deg, #404040 0%, #404040 100%);
+}
+
+/* ----- Hard-coded text colors in generated HTML (<font color>, inline styles) ----- */
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(0, 0, 0)" i] {
+    color: var(--win95-text) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#111" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#111" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #111" i] {
+    color: var(--win95-text) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#222" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#222" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #222" i] {
+    color: var(--win95-text) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#333" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#333" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #333" i] {
+    color: var(--win95-text-dim) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#444" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#444" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #444" i] {
+    color: var(--win95-text-dim) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#555" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#555" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #555" i] {
+    color: var(--win95-text-dim) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#666" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#666" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #666" i] {
+    color: var(--win95-text-dim) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#777" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#777" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #777" i] {
+    color: var(--win95-text-dim) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#888" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#888" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #888" i] {
+    color: var(--win95-text-dim) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#006400" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#006400" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #006400" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(0, 100, 0)" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(0, 144, 0)" i] {
+    color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#009000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#009000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #009000" i] {
+    color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#008000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#008000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #008000" i] {
+    color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#004D00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#004D00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #004D00" i] {
+    color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#005500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#005500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #005500" i] {
+    color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#1E6840" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#1E6840" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #1E6840" i] {
+    color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #006400" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #009000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #008000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #004D00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #005500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #1E6840" i] {
+    border-color: var(--tone-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#8B0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#8B0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #8B0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(139, 0, 0)" i] {
+    color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#B22222" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#B22222" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #B22222" i] {
+    color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#CC0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#CC0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #CC0000" i] {
+    color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#9E1F14" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#9E1F14" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #9E1F14" i] {
+    color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#660000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#660000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #660000" i] {
+    color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#C0392B" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#C0392B" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #C0392B" i] {
+    color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #8B0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #B22222" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #CC0000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #9E1F14" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #660000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #C0392B" i] {
+    border-color: var(--tone-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#B8860B" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#B8860B" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #B8860B" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(184, 134, 11)" i] {
+    color: var(--tone-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#8A5A00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#8A5A00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #8A5A00" i] {
+    color: var(--tone-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#7D6000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#7D6000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #7D6000" i] {
+    color: var(--tone-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#664D03" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#664D03" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #664D03" i] {
+    color: var(--tone-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #B8860B" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #8A5A00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #7D6000" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #664D03" i] {
+    border-color: var(--tone-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#FF4500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#FF4500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #FF4500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(255, 69, 0)" i] {
+    color: var(--tone-alert) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#FF8C00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#FF8C00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #FF8C00" i] {
+    color: var(--tone-alert) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#FF5F15" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#FF5F15" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #FF5F15" i] {
+    color: var(--tone-alert) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #FF4500" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #FF8C00" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #FF5F15" i] {
+    border-color: var(--tone-alert) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#4682B4" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#4682B4" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #4682B4" i] {
+    color: var(--tone-info) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#004C97" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#004C97" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #004C97" i] {
+    color: var(--tone-info) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #4682B4" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #004C97" i] {
+    border-color: var(--tone-info) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#0000FF" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#0000FF" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #0000FF" i] {
+    color: var(--tone-link) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="dotted #0000FF" i] {
+    border-color: var(--tone-link) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) font[color^="#000080" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color:#000080" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: #000080" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="color: rgb(0, 0, 128)" i] {
+    color: var(--win95-accent) !important;
+}
+
+/* ----- Hard-coded fills in generated HTML ----- */
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#FF9999" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #FF9999" i] {
+    background-color: var(--tint-bad) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#FFCCCC" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #FFCCCC" i] {
+    background-color: var(--tint-soft) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#FFD6D6" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #FFD6D6" i] {
+    background-color: var(--tint-soft) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#D0E8D0" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #D0E8D0" i] {
+    background-color: var(--tint-good) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#FFF3CD" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #FFF3CD" i] {
+    background-color: var(--tint-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#E6D8AD" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #E6D8AD" i] {
+    background-color: var(--tint-warn) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#FFFFFF" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #FFFFFF" i] {
+    background-color: var(--win95-window) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#F8F8F8" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #F8F8F8" i] {
+    background-color: var(--win95-well) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#F5F5F5" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #F5F5F5" i] {
+    background-color: var(--win95-well) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#E0DFE3" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #E0DFE3" i] {
+    background-color: var(--win95-well-alt) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#DFDFDF" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #DFDFDF" i] {
+    background-color: var(--win95-surface) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color:#C0C0C0" i],
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="background-color: #C0C0C0" i] {
+    background-color: var(--win95-bg) !important;
+}
+
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]):not([data-wstyle="macos8"]) [style*="inset #FFF" i] {
+    border-color: var(--win95-white) !important;
+}
+
+/* ----- Scrollbars: light arrows + flat track on dark faces ----- */
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="dark"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="dark"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23E6E6E6'/%3E%3C/svg%3E"); }
+    :root[data-scheme="dark"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23E6E6E6'/%3E%3C/svg%3E"); }
+    :root[data-scheme="dark"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23E6E6E6'/%3E%3C/svg%3E"); }
+    :root[data-scheme="dark"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23E6E6E6'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="midnight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="midnight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23D6E2FF'/%3E%3C/svg%3E"); }
+    :root[data-scheme="midnight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23D6E2FF'/%3E%3C/svg%3E"); }
+    :root[data-scheme="midnight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23D6E2FF'/%3E%3C/svg%3E"); }
+    :root[data-scheme="midnight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23D6E2FF'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="obsidian"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="obsidian"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23EDEDED'/%3E%3C/svg%3E"); }
+    :root[data-scheme="obsidian"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23EDEDED'/%3E%3C/svg%3E"); }
+    :root[data-scheme="obsidian"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23EDEDED'/%3E%3C/svg%3E"); }
+    :root[data-scheme="obsidian"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23EDEDED'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="nord"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="nord"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23E5E9F0'/%3E%3C/svg%3E"); }
+    :root[data-scheme="nord"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23E5E9F0'/%3E%3C/svg%3E"); }
+    :root[data-scheme="nord"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23E5E9F0'/%3E%3C/svg%3E"); }
+    :root[data-scheme="nord"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23E5E9F0'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="amethyst"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="amethyst"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23EADFFB'/%3E%3C/svg%3E"); }
+    :root[data-scheme="amethyst"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23EADFFB'/%3E%3C/svg%3E"); }
+    :root[data-scheme="amethyst"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23EADFFB'/%3E%3C/svg%3E"); }
+    :root[data-scheme="amethyst"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23EADFFB'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="forest"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="forest"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23DCEEE1'/%3E%3C/svg%3E"); }
+    :root[data-scheme="forest"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23DCEEE1'/%3E%3C/svg%3E"); }
+    :root[data-scheme="forest"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23DCEEE1'/%3E%3C/svg%3E"); }
+    :root[data-scheme="forest"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23DCEEE1'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="darkcherry"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="darkcherry"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23F7DEE8'/%3E%3C/svg%3E"); }
+    :root[data-scheme="darkcherry"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23F7DEE8'/%3E%3C/svg%3E"); }
+    :root[data-scheme="darkcherry"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23F7DEE8'/%3E%3C/svg%3E"); }
+    :root[data-scheme="darkcherry"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23F7DEE8'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="exusiainight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="exusiainight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23F6E7C8'/%3E%3C/svg%3E"); }
+    :root[data-scheme="exusiainight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23F6E7C8'/%3E%3C/svg%3E"); }
+    :root[data-scheme="exusiainight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23F6E7C8'/%3E%3C/svg%3E"); }
+    :root[data-scheme="exusiainight"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23F6E7C8'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="amber"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="amber"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23FFB000'/%3E%3C/svg%3E"); }
+    :root[data-scheme="amber"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23FFB000'/%3E%3C/svg%3E"); }
+    :root[data-scheme="amber"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23FFB000'/%3E%3C/svg%3E"); }
+    :root[data-scheme="amber"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23FFB000'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="greenterm"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="greenterm"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%2339FF6B'/%3E%3C/svg%3E"); }
+    :root[data-scheme="greenterm"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%2339FF6B'/%3E%3C/svg%3E"); }
+    :root[data-scheme="greenterm"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%2339FF6B'/%3E%3C/svg%3E"); }
+    :root[data-scheme="greenterm"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%2339FF6B'/%3E%3C/svg%3E"); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    :root[data-scheme="contrast"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-track { background-image: none; background-color: var(--win95-surface); }
+    :root[data-scheme="contrast"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 5l4 5H4z' fill='%23FFFFFF'/%3E%3C/svg%3E"); }
+    :root[data-scheme="contrast"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M8 11l4-5H4z' fill='%23FFFFFF'/%3E%3C/svg%3E"); }
+    :root[data-scheme="contrast"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M5 8l5-4v8z' fill='%23FFFFFF'/%3E%3C/svg%3E"); }
+    :root[data-scheme="contrast"]:not([data-wstyle="macos8"]) ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Cpath d='M11 8l-5-4v8z' fill='%23FFFFFF'/%3E%3C/svg%3E"); }
+}
+
+/* ----- High Contrast extras ----- */
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) ::selection { background-color: #FFFF00; color: #000000; }
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) a { color: #FFFF00; text-decoration: underline; }
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) button:focus-visible,
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) input:focus-visible,
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) select:focus-visible { outline: 3px solid #FFFF00; outline-offset: 2px; }
+:root[data-scheme="contrast"]:not([data-wstyle="macos8"]) button:disabled { color: #A0A0A0; text-shadow: none; }

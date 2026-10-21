@@ -1,0 +1,1732 @@
+[
+  {
+    "date": "June 14, 1999",
+    "id": "ev_post_election",
+    "title": "Post-Election Reality",
+    "image": "photo/events/1.png",
+    "desc": "It has been a week since the ballots closed, and Jakarta still feels suspended in mid-air. On June 7, more than 105 million citizens turned out at over 300,000 polling stations for the first freely contested parliamentary election since 1955, a logistical triumph conducted by General Rudini's 53-member General Election Commission (KPU) without the widespread bloodshed many had feared. Now the manual counting drags on village by village, kecamatan by kecamatan, while television crews camp outside the KPU headquarters on Jalan Imam Bonjol waiting for numbers that trickle in painfully slowly.<br><br>What is already unmistakable from the early tallies across Java and Bali is dire for the Palace. Megawati Sukarnoputri's PDI-P is surging toward roughly a third of the national vote, nearly twelve points ahead of Golkar in second place. Red-shirted Banteng crowds are already celebrating along Jalan Thamrin as though the presidency itself has been decided, even though under the 1945 Constitution the street does not elect the president; the 700-member MPR does, four months from now. With small parties in the KPU already threatening to refuse certification over alleged irregularities, your advisors are divided on what signal Merdeka Palace should send.",
+    "options": [
+      {
+        "text": "\"Patience has served this transition well, and I see no reason to abandon it now. General Rudini's commission deserves the chance to finish its count undisturbed, and if the small parties deadlock the certification later, this office will step in by decree to validate the people's vote.\"",
+        "effects": {
+          "PC": 5,
+          "stab": 6,
+          "ref": 6,
+          "pop": -3,
+          "golkar_akbar": -3,
+          "pdip": -3,
+          "cendana": 1,
+          "golkar_habibie": 2
+        },
+        "reaction": "KOMPAS: 'ISTANA MEMBISU DI TENGAH KEMACETAN KPU, SINYAL KELUMPUHAN POLITIK?'<br><br>While Merdeka Palace hides behind procedural pieties and promises to let General Rudini's deadlocked commission finish its glacial count, political observers are calling the President's silence by its real name: shell-shock. Even the Palace's hint that it may validate the tally by decree if minor parties refuse to sign has drawn immediate suspicion from Diponegoro, where PDI-P cadres warn that every day of bureaucratic delay at the KPU is another twenty-four hours for Golkar brokers to buy off regional delegates before October."
+      },
+      {
+        "text": "\"A leader ought to read a room honestly, even when the reading is uncomfortable. Whatever shape the final district tallies take, PDI-P's plurality at the ballot box is unmistakable, and I would rather congratulate Ibu Megawati on a historic democratic showing now than pretend otherwise.\"",
+        "effects": {
+          "PC": -5,
+          "ref": 8,
+          "pop": 6,
+          "stab": 5,
+          "golkar_akbar": -6,
+          "mil": -4,
+          "pdip": 8,
+          "abri": -4,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "SUARA KARYA: 'HABIBIE MENGALAH SEBELUM BERTANDING'<br><br>Foreign embassies may be applauding President Habibie's hasty congratulations to Megawati Sukarnoputri as 'statesmanlike,' but inside Golkar's Slipi headquarters the gesture is being denounced as an act of political self-harm. Senior regional chairmen who spent months defending the Banyan Tree against street mobs in Java told this newspaper that the President has effectively surrendered the moral mandate to PDI-P before a single MPR seat has been negotiated. Meanwhile, PDI-P Deputy Secretary-General Pramono Anung dismissed the olive branch with cold derision: 'If Pak Habibie truly respects our victory, he can start packing his model airplanes at Patra Kuningan rather than sending flowers.'"
+      },
+      {
+        "text": "\"The numbers from the DPR ballot tell you one thing, and the presidency, under the 1945 Constitution this Republic operates by, is decided in October by 700 delegates in the MPR, not by a one-third plurality in June. I would ask everyone to resist premature certainty.\"",
+        "effects": {
+          "PC": 8,
+          "pop": -6,
+          "stab": -4,
+          "golkar_akbar": 8,
+          "pdip": -8,
+          "cendana": 2,
+          "golkar_habibie": 2
+        },
+        "reaction": "RAKYAT MERDEKA: 'KALAU KALAH YA KALAH SAJA! AKAL-AKALAN KONSTITUSI ALA HABIBIE'<br><br>Barely a week after 105 million Indonesians stood in the sun to bury the New Order at the ballot box, Pak Habibie has unveiled his newest magic trick! Explaining to the public that elections don't actually choose presidents! By hiding behind the 700-seat MPR (where 238 appointed military, regional, and functional delegates sit waiting to be lobbied), Habibie has signaled that he intends to overturn Megawati's landslide through backroom engineering. 'This is classic Suharto legalism spoken in Aachen terminology,' student leaders from FORKOT declared outside the DPR gates yesterday, warning that if Senayan subverts the popular vote in October, Jakarta will burn hotter than May 1998."
+      },
+      {
+        "text": "\"Wait for the outer island tallies from Sulawesi, Sumatra, and Nusa Tenggara before allowing Jakarta media networks to crown a winner. Golkar's regional machinery remains the backbone of the archipelago, and the party deserves to hear that confidence from the Palace.\"",
+        "effects": {
+          "PC": 5,
+          "golkar_akbar": 8,
+          "utusan_daerah": 6,
+          "pop": -5,
+          "ref": -5,
+          "pdip": -6,
+          "cendana": 2,
+          "golkar_habibie": 1
+        },
+        "reaction": "MAJALAH TEMPO: 'MENGHITUNG KURSI DI ATAS POHON BERINGIN YANG RETAK'<br><br>In the air-conditioned briefing rooms of Bina Graha, the President and his Sulawesi confidant A.A. Baramuli are comforted by maps showing Golkar sweeping 60 percent of the vote across Bone, Parepare, and Kupang. Out on the streets of Java, where two-thirds of the Republic actually lives, that math reads like dangerous delusion. Within forty-eight hours of the Palace's boast that outer-island seats will offset PDI-P's Java landslide, furious crowds in Solo and Surabaya pelted three district Golkar offices with stones. Commentator Andi Mallarangeng noted that pitting outer-island seat weights against Java's popular vote is a reckless gamble with national cohesion purely to salvage one man's job."
+      },
+      {
+        "text": "\"Before positions calcify into camps neither side can walk back from, send a discreet envoy to Taufik Kiemas and the Diponegoro circle, not a press conference, just an early conversation about how the Republic is governed after October.\"",
+        "effects": {
+          "PC": -5,
+          "pdip": 6,
+          "golkar_akbar": -5,
+          "stab": 5,
+          "ref": 5,
+          "cendana": -2,
+          "golkar_habibie": 1
+        },
+        "reaction": "THE JAKARTA POST: 'PALACE BACKCHANNEL TO DIPONEGORO EXPOSED AS SIGN OF PANIC'<br><br>What was intended as a clandestine midnight overture to Taufik Kiemas at Jalan Kebagusan leaked to the press corps before the Palace envoy's sedan had even cleared South Jakarta. While Kiemas himself heard the emissary out over coffee, PDI-P's nationalist hardliners wasted no time weaponizing the visit as proof that Habibie knows his candidacy is dead on arrival. Worse, word of the secret approach has triggered immediate paranoia inside Golkar Chairman Akbar Tandjung's camp, where senior MPs are asking aloud whether the President is preparing to sell out his own party's speakership ambitions to buy personal clemency from Megawati."
+      }
+    ]
+  },
+  {
+    "date": "June 28, 1999",
+    "id": "ev_press_freedom",
+    "title": "Press Freedom & Law No. 40",
+    "image": "photo/events/2.png",
+    "desc": "Your decision last year to instruct Information Minister Lt. Gen. Muhammad Yunus Yosfiah to abolish the dreaded SIUPP publishing-license revocations, the New Order's favorite garrote against independent journalism, has unleashed an explosion of print and broadcast media that nobody in the bureaucracy knows how to contain. In less than twelve months, the number of licensed publications has rocketed from 289 to over 1,600. Tabloids, investigative weeklies like Tempo (back in print after its 1994 ban), and raucous radio call-in shows now lampoon your voice, your gestures, and your cabinet daily, routinely printing the phrase 'Suharto's lingering shadow' as though it were your official title. More alarmingly for Cilangkap, classified cabinet minutes on state bank recapitalizations and leaked ABRI telegrams on troop deployments in Aceh and East Timor are turning up verbatim on front pages. With the draft Press Bill (RUU Pers) now moving toward the DPR floor, security chiefs are pressing you to reinsert 'national security' licensing controls before press freedom is permanently locked into statute.",
+    "options": [
+      {
+        "text": "\"Rather than referee newsroom disputes week by week for the rest of my term, let us codify the abolition of censorship once and for all. Push the new Press Bill (UU Pers) through the DPR with a total ban on newspaper closures and an independent Press Council.\"",
+        "effects": {
+          "PC": 5,
+          "ref": 12,
+          "intl": 8,
+          "pop": 6,
+          "stab": 4,
+          "mil": -6,
+          "abri": -6,
+          "utusan_golongan": 6,
+          "cendana": -3,
+          "golkar_habibie": 3
+        },
+        "reaction": "MEDIA INDONESIA: 'UU PERS DIKEBUT DEMI SIMPATI OKTOBER: MONUMEN ATAU MANUVER?'<br><br>Even as editors across Jakarta welcome the fast-tracking of the Press Bill, which permanently outlaws <i>bredel</i> (newspaper bans) and strips the Ministry of Information of its licensing whip, few in the press gallery are buying the Palace's sudden conversion to Lockean liberalism at face value. 'A drowning president is throwing lifebuoys to the journalists hoping we will forget he spent twenty years sitting silently in Suharto's cabinet every time Tempo, DeTIK, and Sinar Harapan were being strangled,' wrote columnist Goenawan Mohamad. Meanwhile, senior generals at Cilangkap have privately blasted the bill as an act of institutional disarmament that leaves state secrets defenseless."
+      },
+      {
+        "text": "\"I have no interest in reviving the old SIUPP bans, and I want that understood clearly. But there is a difference between freedom and recklessness, and an off-the-record luncheon at Bina Graha with the chief editors might establish some ground rules on classified military cables.\"",
+        "effects": {
+          "mil": 5,
+          "stab": 5,
+          "ref": -5,
+          "pop": -6,
+          "intl": -3,
+          "abri": 5,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "MAJALAH TEMPO: 'KULIAH DUA JAM DI BINA GRAHA: BUDAYA TELEPON GAYA BARU'<br><br>Fifteen chief editors were summoned to Bina Graha yesterday for what was billed as an 'informal luncheon,' only to be subjected to a two-hour monologue from the President on the difference between 'responsible freedom' and 'anarchy.' According to three editors in attendance, Habibie's rambling appeal to stop printing leaked military and banking memoranda sounded suspiciously like the old New Order <i>budaya telepon</i> (telephone censorship), merely translated into polite German-engineered jargon. The Alliance of Independent Journalists (AJI) issued a blistering statement within an hour of dessert, declaring that the press answers to the public, not to Palace dinner invitations."
+      },
+      {
+        "text": "\"Whatever personal discomfort these caricatures bring me, and I will admit there has been plenty, Information Minister Yunus Yosfiah has my full backing to leave the newsrooms completely untouched, even when they print leaked cabinet memos.\"",
+        "effects": {
+          "ref": 8,
+          "pop": 6,
+          "intl": 10,
+          "mil": -10,
+          "stab": -4,
+          "abri": -10,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "FORUM KEADILAN: 'CILANGKAP GERAH: ISTANA BIARKAN RAHASIA NEGARA DITELANJANGI PERS'<br><br>President Habibie's refusal to prosecute newspapers publishing classified ABRI operational cables from Aceh and East Timor has triggered a quiet revolt inside military intelligence. Senior officers at BAIS and Cilangkap headquarters told Forum this week that the Palace is sacrificing operational security on the altar of Western diplomatic applause. Worse, leaving the tabloid press completely unchecked has done nothing to soften their coverage of the President himself. This morning's newsstands still feature caricatures of Habibie as a wind-up toy spinning out of control while his own ministries leak against each other."
+      },
+      {
+        "text": "\"Silence has never won an argument in the newspapers. Direct TVRI, RRI, and Antara to launch an aggressive counter-information campaign putting this government's economic and legislative achievements in front of the public every evening.\"",
+        "effects": {
+          "PC": 5,
+          "pop": -4,
+          "ref": -5,
+          "intl": -3,
+          "golkar_akbar": 6,
+          "mil": -3,
+          "abri": -3,
+          "cendana": 2,
+          "golkar_habibie": -1
+        },
+        "reaction": "POS KOTA: 'WARGA BOSAN DONGENG TVRI: HARMOKO GANTI KACAMATA!'<br><br>Viewers tuning into TVRI's 7:00 PM <i>Dunia Dalam Berita</i> this week were treated to an eerie blast from the New Order past. Thirty minutes of glowing, uncritical state broadcasts praising the cabinet's rice statistics and legislative output. Far from swaying public opinion, the state media blitz has become the butt of jokes in coffee stalls from Tanah Abang to Glodok. 'We endured thirty-two years of Harmoko telling us the price of chillies was stable while our pockets were empty; now Habibie is playing the same cassette tape,' mocked media watchdog Veven Sp. Wardhana."
+      },
+      {
+        "text": "\"Instruct BAIS and the police to quietly visit the editors printing classified defense telegrams and remind them that Criminal Code provisions on state secrets and defamation of the head of state remain on the books.\"",
+        "effects": {
+          "PC": 8,
+          "mil": 8,
+          "abri": 8,
+          "ref": -18,
+          "intl": -12,
+          "pop": -12,
+          "stab": -5,
+          "cendana": 3,
+          "golkar_habibie": -3
+        },
+        "reaction": "RAKYAT MERDEKA: 'ORBA BANGKIT LAGI! INTEL DATANGI REDAKSI, PASAL HINA PRESIDEN DIPAKAI GEBUK PERS'<br><br>The reformist mask slipped off Merdeka Palace yesterday afternoon as plainclothes intelligence officers and National Police investigators paid unannounced 'courtesy visits' to three major Jakarta newsrooms, waving colonial-era <i>Haatzai Artikelen</i> (hate-sowing statutes) and Criminal Code provisions on insulting the head of state. Within hours, hundreds of journalists and UI students blockaded the Ministry of Information on Jalan Medan Merdeka Barat with black ribbons taped over their mouths, chanting a slogan that is now echoing across foreign wire services: 'Habibie is just Suharto with a German doctorate!'"
+      }
+    ]
+  },
+  {
+    "date": "July 8, 1999",
+    "id": "ev_aceh_insurgency",
+    "title": "Bloodshed in Aceh",
+    "image": "photo/events/3.png",
+    "desc": "The lifting of Aceh's Military Operations Area (DOM) status last August, followed by your personal apology at the Baiturrahman Grand Mosque in Banda Aceh in March, was meant to open a path toward reconciliation. Instead, the province is spiraling into an even bloodier cycle of insurgency and reprisal. Free Aceh Movement (GAM) guerrillas have ambushed military convoys across Pidie, North Aceh, and East Aceh, while tens of thousands of villagers flee into mosque compounds. Worse, following the May shooting of protesters at Simpang KKA in Lhokseumawe, territorial troops and Kostrad units are executing ruthless sweeps across the countryside, culminating in reports of a brutal military raid on charismatic cleric Teungku Bantaqiah's boarding school in Beutong Ateuh.<br><br>While student leaders of SIRA demand an East Timor-style independence referendum in Banda Aceh, General Wiranto's field commanders are demanding the restoration of emergency military authority, and human rights advocates led by Amran Zamzami are pressing you to sign a Presidential Decree establishing an Independent Commission for the Investigation of Violence in Aceh (KPTKA).",
+    "options": [
+      {
+        "text": "\"Sign Keppres No. 88/1999 establishing the Independent Commission for the Investigation of Violence in Aceh (KPTKA), paired with the new Special Autonomy cultural and religious guarantees. If soldiers committed atrocities in Beutong Ateuh and Simpang KKA, the state must investigate its own uniform.\"",
+        "effects": {
+          "PC": 5,
+          "ref": 10,
+          "intl": 8,
+          "utusan_daerah": 8,
+          "utusan_golongan": 6,
+          "mil": -10,
+          "abri": -10,
+          "stab": -3,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "HARIAN WASPADA: 'KOMISI INDEPENDEN DIBENTUK, TAPI SIAPA BERANI ADILI JENDERAL?'<br><br>President Habibie's signing of Keppres No. 88/1999 chartering the 27-member Independent Commission for the Investigation of Violence in Aceh (KPTKA) was greeted in Banda Aceh with bitter skepticism. While human rights lawyers welcome the mandate to investigate the Simpang KKA and Beutong Ateuh massacres, KontraS coordinator Munir pointed out the glaring flaw in the Palace's decree: KPTKA has power only to compile reports, not to prosecute a single Kopassus or Kostrad officer in a civilian court. Meanwhile, inside Cilangkap, senior generals are livid that Jakarta is parading army abuses in public while soldiers are being ambushed daily along the Banda Aceh–Medan highway."
+      },
+      {
+        "text": "\"An apology means nothing if the conduct on the ground never changes. Order an immediate pullback of non-organic Kostrad and Brimob units from North Aceh and invite Acehnese ulama and civic leaders directly to Merdeka Palace.\"",
+        "effects": {
+          "PC": -5,
+          "ref": 12,
+          "intl": 10,
+          "mil": -15,
+          "stab": -8,
+          "abri": -15,
+          "utusan_daerah": 8,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "SUARA PEMBARUAN: 'TENTARA DITARIK MENDADAK, ACEH UTARA JATUH KE TANGAN GAM'<br><br>The Palace's abrupt order pulling non-organic Kostrad and Brimob battalions out of Pidie and North Aceh has triggered an immediate security vacuum across the province's industrial corridor. Within hours of the troop trucks rolling out of Lhokseumawe, armed GAM guerrillas raised their crescent-and-star banners over three sub-district offices and forced the Arun LNG complex to scale back operations. At ABRI headquarters in Cilangkap, furious colonels accuse Habibie of stabbing soldiers in the back for a cheap public-relations stunt that GAM's exiled leadership in Sweden has already mocked as a sign of Jakarta's impending collapse."
+      },
+      {
+        "text": "\"Money alone will not erase the DOM years, but starved provinces breed rebellion. Fast-track the new fiscal balance allocations for Aceh, guaranteeing the province 70% of its oil and gas revenues alongside reconstruction aid for Pidie and Lhokseumawe.\"",
+        "effects": {
+          "ref": 5,
+          "utusan_daerah": 12,
+          "ppp": 5,
+          "econ": -6,
+          "mil": -4,
+          "stab": 5,
+          "abri": -4,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "MEDIA INDONESIA: 'HABIBIE COBA BELI LUKA ACEH DENGAN UANG GAS ARUN'<br><br>Faced with mass graves from the DOM era and student banners demanding a referendum across Banda Aceh, the Habibie administration has reached for the only tool technocrats seem to understand: a checkbook. While provincial elites in the Aceh DPRD and Jakarta's Utusan Daerah caucus eagerly pocketed the promise of 70 percent oil-and-gas revenue retention, student leaders of SIRA burned copies of the fiscal package outside the Baiturrahman Grand Mosque yesterday. 'Jakarta thinks ten years of military torture and widowed mothers can be paid off like an overdue gas invoice,' SIRA leader Muhammad Nazar told reporters."
+      },
+      {
+        "text": "\"Keep the counter-insurgency campaign out of the headlines. Authorize Joint Intelligence and Police Operations (Operasi Sadar Rencong) to target GAM cells quietly without formally re-declaring a Military Operations Area.\"",
+        "effects": {
+          "PC": 5,
+          "mil": 6,
+          "abri": 6,
+          "stab": -4,
+          "intl": -5,
+          "ref": -8,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "MAJALAH TEMPO: 'GANTI BAJU OPERASI MILITER: DARI JARING MERAH KE SADAR RENCONG'<br><br>Four months after President Habibie stood weeping in Banda Aceh to beg forgiveness for a decade of military terror, the terror is back under a polite new bureaucratic euphemism. By authorizing <i>Operasi Sadar Rencong</i> nominally under a police badge while BKO military intelligence units conduct midnight sweeps through Pidie and West Aceh, the Palace has fooled nobody. Local Legal Aid Foundation (LBH) offices in Banda Aceh documented nineteen Mysterious killings and burned shop-houses this week alone, proving that Habibie's March apology was merely a rhetorical curtain for the same old New Order security reflex."
+      },
+      {
+        "text": "\"Restraint stops looking like wisdom when separatists are ambushing soldiers daily. Grant General Wiranto's commanders full operational latitude to crush GAM by force, a Republic that cannot hold its borders together has nothing left to govern.\"",
+        "effects": {
+          "PC": 8,
+          "mil": 12,
+          "abri": 12,
+          "stab": -6,
+          "ref": -12,
+          "intl": -10,
+          "utusan_daerah": -8,
+          "ppp": -6,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "HARIAN WASPADA: 'SERAMBI MEKKAH KEMBALI MEMBARA, MOGOK MASSAL LUMPUHKAN BANDA ACEH'<br><br>All pretense of a 'New Paradigm' evaporated in Aceh this week as fresh combat battalions poured into Lhokseumawe, Pidie, and West Aceh with carte blanche from Merdeka Palace. In response to the renewed military offensive, a two-day general strike has turned Banda Aceh into a ghost town while over 100,000 villagers flee into refugee camps inside mosque compounds. In Jakarta, PPP legislators and Acehnese community figures accused Habibie of washing his hands in Acehnese blood solely to curry favor with General Wiranto's bloc ahead of the October MPR session."
+      }
+    ]
+  },
+  {
+    "date": "July 15, 1999",
+    "id": "ev_timor_militia",
+    "title": "Militia Terror in East Timor",
+    "image": "photo/events/4.png",
+    "desc": "Under the tripartite New York Agreement signed on May 5 by Foreign Minister Ali Alatas, Portuguese Foreign Minister Jaime Gama, and UN Secretary-General Kofi Annan, Ian Martin's United Nations Mission in East Timor (UNAMET) is scheduled to open voter registration tomorrow across all thirteen districts of East Timor. Instead of an orderly administrative process, pro-integration militias (Eurico Guterres's Aitarak in Dili, Besi Merah Putih in Liquiça, and Mahidi in Ainaro) are waging a campaign of arson and terror, having already attacked UN offices in Maliana and Viqueque.<br><br>Every credible diplomatic cable reaching your desk confirms what UN monitors are saying openly: the militias are being armed, funded, and directed by elements of Kodam IX/Udayana (Maj. Gen. Adam Damiri) and Korem 164/Wira Dharma (Col. Tono Suratman) alongside Kopassus veterans. Kofi Annan has already delayed voter registration by three days and warned Jakarta that the entire consultation is in jeopardy unless Indonesia fulfills its May 5 obligation to maintain peace.",
+    "options": [
+      {
+        "text": "\"Order General Wiranto and a senior delegation of fifteen cabinet ministers, including Ali Alatas and Muladi, to fly directly to Dili this week, inspect UNAMET's security personally, and put Korem 164 on notice that the eyes of the cabinet are on them.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 10,
+          "stab": 4,
+          "mil": -4,
+          "econ": -3,
+          "abri": -4,
+          "cendana": 1,
+          "golkar_habibie": 1
+        },
+        "reaction": "SYDNEY MORNING HERALD: 'FIFTEEN MINISTERS FLY TO DILI FOR FOUR-HOUR CHARADE'<br><br>President Habibie's much-hyped dispatch of General Wiranto, Foreign Minister Ali Alatas, and a dozen cabinet ministers to Dili yesterday lasted barely four hours on the tarmac and convinced not a single diplomat on the ground. While Wiranto promised UNAMET chief Ian Martin 'strict neutrality,' foreign television crews filmed Indonesian territorial troops standing idly by less than two kilometers away as armed Aitarak militiamen manned roadblocks in broad daylight. Western ambassadors in Jakarta privately described the ministerial fly-in as pathetic proof that Habibie can command air force VIP jets, but cannot command a single infantry colonel on the ground in Dili."
+      },
+      {
+        "text": "\"Issue a direct presidential order relieving Col. Tono Suratman of command in Dili and warning every territorial officer in Kodam IX/Udayana that anyone caught supplying weapons to Aitarak or Besi Merah Putih will face immediate court-martial.\"",
+        "effects": {
+          "PC": -5,
+          "ref": 10,
+          "intl": 12,
+          "mil": -10,
+          "abri": -12,
+          "stab": -4,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "FORUM KEADILAN: 'DICOPOT DI DILI, NAIK PANGKAT DI JAKARTA: SANDIWARA MUTASI TIMTIM'<br><br>While Western capitals applauded President Habibie's order removing Korem 164 commander Col. Tono Suratman ahead of UNAMET voter registration, insiders at Cilangkap are laughing at the Palace's naivety. Far from facing court-martial over militia attacks in Liquiça and Maliana, Suratman is already slated for promotion to brigadier general and a prestigious desk at ABRI headquarters. Meanwhile, the ABRI faction in Senayan is seething at Habibie's public humiliation of field officers who claim they were merely executing orders to defend integration, vowing that the President will pay for his disloyalty when the MPR votes in October."
+      },
+      {
+        "text": "\"Dispatch a permanent civilian task force from Jakarta (diplomats from Pejambon, Komnas HAM monitors, and Political Affairs Envoy Dino Patti Djalal) to embed in Dili and report militia violations directly to Merdeka Palace, bypassing military intelligence filters.\"",
+        "effects": {
+          "ref": 6,
+          "intl": 6,
+          "mil": -5,
+          "abri": -5,
+          "utusan_golongan": 4,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "THE JAKARTA POST: 'PALACE CIVILIAN ENVOYS PINNED DOWN IN DILI HOTELS BY GUNMEN'<br><br>Nothing illustrates the impotence of civilian authority in Jakarta more vividly than the fate of President Habibie's special monitoring team in Dili this week. Sent to bypass biased military intelligence reports, the Pejambon diplomats and Komnas HAM monitors have been virtually barricaded inside the Mahkota Hotel by Eurico Guterres's Aitarak militia, while local police claim they lack the fuel to escort them to Maliana."
+      },
+      {
+        "text": "\"Instruct Foreign Minister Ali Alatas to quietly request that Kofi Annan push voter registration and the August ballot back by several weeks, giving Bishop Belo, Xanana Gusmão, and the pro-integration leaders time to implement the June Dare II peace talks.\"",
+        "effects": {
+          "intl": -5,
+          "mil": -3,
+          "abri": -3,
+          "stab": -3,
+          "ref": -4,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "FAR EASTERN ECONOMIC REVIEW: 'JAKARTA'S CLUMSY FOOT-DRAGGING FOOLS NOBODY AT THE UN'<br><br>Foreign Minister Ali Alatas's plea for another delay in the East Timor consultation calendar was met with icy contempt in New York and Lisbon this week. While Kofi Annan conceded a brief technical postponement to August 30 to allow UNAMET to secure its registration posts, UN officials publicly blasted Jakarta for using militia terror of its own making as an excuse to stall the vote. Back home, neither camp is happy: ABRI generals complain that a two-week delay changes nothing, while reformists accuse Habibie of dithering over a crisis he recklessly started himself."
+      },
+      {
+        "text": "\"Reject the bias in the foreign press. Instruct the Foreign Ministry to state plainly that the clashes in Liquiça and Maliana are horizontal communal disputes between pro-integration and pro-independence Timorese factions, and that UNAMET's own local hires are tilting the field.\"",
+        "effects": {
+          "PC": 5,
+          "mil": 10,
+          "abri": 10,
+          "golkar_akbar": 5,
+          "intl": -12,
+          "ref": -10,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "KOMPAS: 'DIPLOMASI KEPALA DI DALAM PASIR: DUNIA TAK PERCAYA DONGENG KONFLIK HORIZONTAL'<br><br>By parroting Cilangkap's threadbare claim that the slaughter in Liquiça and the attacks on UN offices in Maliana are merely 'spontaneous tribal clashes' provoked by biased UNAMET staff, Merdeka Palace has torched what little international credibility it had left. Foreign correspondents in Dili have already published photographs of Besi Merah Putih militiamen drawing rations and ammunition directly from district military commands. 'Listening to Habibie's spokesmen blame the UN for militia violence is like watching an arsonist sue the fire brigade for water damage,' human rights lawyer Todung Mulya Lubis said yesterday."
+      }
+    ]
+  },
+  {
+    "date": "July 22, 1999",
+    "id": "ev_referendum_countdown",
+    "title": "Referendum Countdown",
+    "image": "photo/events/5.png",
+    "desc": "Despite the militia roadblocks, UNAMET's 400 registration centers are witnessing an extraordinary surge of East Timorese registering to vote ahead of the August 30 consultation. Back in Jakarta, the realization that East Timor might actually vote to leave the Republic has triggered a political firestorm. Recall how this began in January: after receiving Australian Prime Minister John Howard's December letter suggesting a long New Caledonia-style transition followed by a vote decades later, you scribbled a historic note on the margin of the letter to Wiranto and Alatas asking why Indonesia should continue carrying a 'thankless burden' for another ten years when the question could be settled immediately before the MPR session.<br><br>Now, PDI-P nationalists and retired generals are accusing you of exceeding a transitional president's mandate by gambling away the '27th province' without parliamentary approval, while Western creditors warn that aborting the August 30 ballot will trigger an immediate financial freeze.",
+    "options": [
+      {
+        "text": "\"A commitment signed in New York in the name of the Republic of Indonesia is binding. We offered Wide-Ranging Autonomy in good faith, and the ballot proceeds on August 30 as scheduled; this government will not be remembered for breaking its word to the world.\"",
+        "effects": {
+          "PC": 5,
+          "ref": 10,
+          "pop": 4,
+          "intl": 14,
+          "mil": -12,
+          "stab": -6,
+          "abri": -12,
+          "utusan_daerah": -4,
+          "cendana": -2,
+          "golkar_habibie": 3
+        },
+        "reaction": "SUARA KARYA: 'HABIBIE PERTARUHKAN NYAWA POLITIKNYA DI KOTAK SUARA TIMTIM'<br><br>Even President Habibie's closest allies inside Golkar are watching in horror as he lashed his entire political survival to the mast of the August 30 East Timor ballot. At a heated closed-door caucus in Senayan yesterday, legislators from both Golkar and PDI-P questioned by what constitutional right an unelected transitional caretaker gambled away a province where 20,000 Indonesian soldiers died without first asking the MPR. 'He made this decision on an impulse after reading a letter from John Howard, and when East Timor votes to leave next month, that memo will be his political death warrant,' one senior Golkar strategist said."
+      },
+      {
+        "text": "\"Release CNRT leader Xanana Gusmão from Cipinang Prison to a special house-arrest residence in Salemba so he can meet directly with UNAMET, Bishop Belo, and pro-integration leaders to calm tensions ahead of August 30.\"",
+        "effects": {
+          "intl": 10,
+          "ref": 8,
+          "stab": 4,
+          "mil": -8,
+          "abri": -8,
+          "cendana": -1,
+          "golkar_habibie": 2
+        },
+        "reaction": "RAKYAT MERDEKA: 'XANANA DISERVIS BAK TAMU AGUNG DI SALEMBA, JENDERAL PENSIUNAN NGAMUK!'<br><br>While wounded veterans of <i>Operasi Seroja</i> struggle to survive on meager military pensions, Fretilin rebel commander Xanana Gusmão is now receiving foreign diplomats and UN envoys in an air-conditioned state house on Jalan Percetakan Negara VII courtesy of President Habibie! Retired generals led by Try Sutrisno and nationalist MPs from PDI-P erupted in fury yesterday, accusing the Palace of rolling out the red carpet for a separatist leader who is openly preparing his victory lap before the August 30 ballot has even been cast."
+      },
+      {
+        "text": "\"Make the stakes crystal clear to both Jakarta and Dili, if the East Timorese people reject our offer of Wide-Ranging Autonomy, I will ask the MPR in October to revoke the 1978 integration decree so Indonesia and East Timor can part ways cleanly as neighbors.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 6,
+          "mil": -10,
+          "abri": -10,
+          "golkar_akbar": -5,
+          "pop": -4,
+          "cendana": 1,
+          "golkar_habibie": 1
+        },
+        "reaction": "KOMPAS: 'KETIKA PRESIDEN BICARA PELEPASAN WILAYAH BAGAI MEMUTUS KONTRAK DAGANG'<br><br>President Habibie's blunt declaration that Indonesia will simply 'part ways as friends' with East Timor if autonomy is rejected on August 30 has stunned constitutional scholars and infuriated nationalists across the spectrum. Editorialists noted that the President spoke of severing a province with the breezy detachment of an aerospace executive closing down an unprofitable subsidiary. 'A head of state is sworn to defend the territorial integrity of the Republic, not to shrug and hold the door open based on a margin note he scribbled in January,' PDI-P theorist Kwik Kian Gie charged yesterday."
+      },
+      {
+        "text": "\"Explain the fiscal reality to the Indonesian public that East Timor absorbs billions of rupiah in subsidies every year while costing us crippling diplomatic isolation and IMF friction at a moment when millions of Indonesians need food and jobs.\"",
+        "effects": {
+          "econ": 6,
+          "intl": 5,
+          "pop": -6,
+          "ref": -3,
+          "mil": -5,
+          "abri": -5,
+          "cendana": 1,
+          "golkar_habibie": 1
+        },
+        "reaction": "MEDIA INDONESIA: 'LOGIKA KALKULATOR HABIBIE: TIMTIM DIANGGAP BEBAN, DARAH PRAJURIT DILUPAKAN'<br><br>In a speech that sounded more like a bankruptcy receiver's report than a presidential address, B.J. Habibie lectured the nation yesterday on how East Timor is nothing but 'rocks and pebbles' draining budget subsidies that Jakarta can no longer afford. While IMF economists quietly nodded along, the remarks provoked outrage from both ends of the political spectrum: human rights groups noted that the speech ignored twenty-four years of state violence against the Timorese, while ABRI veterans' associations fumed that the man who poured billions of dollars into failed IPTN airplanes now lectures soldiers about fiscal prudence."
+      },
+      {
+        "text": "\"Pivot back toward John Howard's original December formula. Instruct Ali Alatas to propose suspending the August 30 winner-take-all ballot in favor of a five-to-ten-year interim autonomy period before any final vote is held.\"",
+        "effects": {
+          "PC": -8,
+          "intl": -12,
+          "mil": 10,
+          "stab": 4,
+          "ref": -10,
+          "econ": -6,
+          "abri": 10,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "THE JAKARTA POST: 'ZIGZAG PRESIDENCY: HABIBIE TRIES TO RETREAT FROM HIS OWN TIMOR GAMBLE'<br><br>Six months after rejecting Australian Prime Minister John Howard's proposal for a ten-year autonomy transition and insisting on an immediate 1999 referendum, President Habibie has panicked at the eleventh hour and tried to reverse course. The humiliating result is the worst of both worlds: Washington, the UN, and the IMF immediately rejected any retreat from the August 30 ballot, while domestic critics in Senayan pointed out that Habibie's amateurish flip-flopping has exposed Indonesia to global ridicule without saving East Timor."
+      }
+    ]
+  },
+  {
+    "date": "Late-July 1999",
+    "id": "ev_islamic_concessions",
+    "title": "The Islamic Caucus",
+    "image": "photo/events/6.png",
+    "desc": "With the KPU vote tally confirming that PDI-P has won 153 seats to Golkar's 120, the parliamentary mathematics for October has crystallized. Neither Megawati nor Golkar can reach the 351-vote threshold in the 700-seat MPR alone. Recognizing this deadlock first, PAN Chairman Amien Rais has begun floating the idea of a 'Poros Tengah' (Central Axis), an alliance of Islamic parties bridging modernist and traditionalist divides, while delegations from Hamzah Haz's PPP (58 seats), Yusril Ihza Mahendra's PBB (13 seats), and Nur Mahmudi Ismail's Justice Party (7 seats) have been arriving at Merdeka Palace with concrete legislative demands.<br><br>Chief among them are immediate passage of the Hajj Administration Bill (RUU Penyelenggaraan Ibadah Haji) and the Zakat Management Bill (RUU Pengelolaan Zakat), alongside a quiet understanding that ICMI and Muslim parties will hold key portfolios if they block Megawati in October.",
+    "options": [
+      {
+        "text": "\"Fast-track the Hajj Administration Act (UU No. 17/1999) and the Zakat Management Act (UU No. 38/1999) through the DPR immediately, delivering concrete reforms for the Ummah without reopening divisive constitutional debates over the Jakarta Charter.\"",
+        "effects": {
+          "PC": 5,
+          "poros_tengah": 8,
+          "ppp": 10,
+          "pkb": 6,
+          "other_parties": 6,
+          "pop": 4,
+          "ref": 4,
+          "golkar_habibie": 3,
+          "cendana": -1
+        },
+        "reaction": "REPUBLIKA: 'UU HAJI DAN ZAKAT DISAHKAN, POROS TENGAH TETAP ENGGAN JADI STEMPEL HABIBIE'<br><br>While Islamic organizations across the archipelago welcomed the swift passage of Law No. 17/1999 on Hajj Administration and Law No. 38/1999 on Zakat Management, political analysts in Senayan warn that President Habibie is sorely mistaken if he thinks statutory favors will buy him the unconditional loyalty of the emerging Central Axis. Speaking to reporters after Friday prayers, PAN Chairman Amien Rais praised the legislation as overdue, before pointedly adding that 'the Ummah needs a clean new national leadership, not merely a few religious bills signed by a beleaguered incumbent.'"
+      },
+      {
+        "text": "\"Go further behind closed doors with PPP and PBB leaders. Signal openness to provincial sharia regulations and promise key religious and economic ministries in October in exchange for an explicit front against Megawati.\"",
+        "effects": {
+          "poros_tengah": 10,
+          "ppp": 12,
+          "other_parties": 8,
+          "pdip": -12,
+          "pkb": -8,
+          "intl": -8,
+          "ref": -5,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "SUARA PEMBARUAN: 'POLITIK DAGANG SAPI SEKTarian DI ISTANA DEMI JEGAL MEGAWATI'<br><br>Details of a closed-door meeting at Merdeka Palace between President Habibie's inner circle and hardline Islamic party negotiators have sparked outrage across nationalist and minority communities. By dangling ministerial portfolios and tacit support for sectarian fatwas against a female presidency solely to block PDI-P's 34 percent plurality, Habibie is accused of playing with primordial fire. Even Nahdlatul Ulama Chairman Abdurrahman Wahid blasted the maneuver yesterday, warning that politicians who weaponize religion to cling to office are dragging the Republic toward a dangerous sectarian precipice."
+      },
+      {
+        "text": "\"Some constitutional foundations are not available for horse-trading, whatever the dynamics of the October session looks like. Reaffirm Pancasila as the sole non-sectarian foundation of the state and reach out to both pluralist NU clerics and secular nationalists.\"",
+        "effects": {
+          "pdip": 6,
+          "pkb": 6,
+          "utusan_golongan": 6,
+          "intl": 6,
+          "poros_tengah": -8,
+          "ppp": -10,
+          "other_parties": -6,
+          "cendana": -1,
+          "golkar_habibie": 2
+        },
+        "reaction": "FORUM KEADILAN: 'DITINGGAL KANAN, DITOLAK KIRI: DILEMA HABIBIE USAI TOLAK TUNTUTAN PARTAI ISLAM'<br><br>President Habibie's refusal to entertain concessions to PPP and the modernist Islamic caucus has triggered bitter recriminations among the very ICMI and DDII networks that once championed him as their champion in the Palace. Preachers at Al-Azhar Mosque accused the President of betraying the Ummah to appease Western embassies and secularists; yet PDI-P's leadership on Jalan Diponegoro showed zero gratitude in return, noting that Habibie's sudden embrace of pluralist nationalism is merely the panic of a man watching his coalition math evaporate."
+      },
+      {
+        "text": "\"Use DPR committee leadership allocations and advisory posts to court PPP and the smaller Islamic parties directly through Golkar's parliamentary whips, keeping them tied to the Palace rather than to Amien Rais's independent axis.\"",
+        "effects": {
+          "PC": 5,
+          "ppp": 8,
+          "other_parties": 6,
+          "golkar_akbar": 4,
+          "poros_tengah": -4,
+          "pdip": -5,
+          "cendana": 1
+        },
+        "reaction": "RAKYAT MERDEKA: 'BELUM APA-APA UDAH BAGI-BAGI KURSI! ISTANA OBROL JABATAN KOMISI DPR'<br><br>Before the newly elected members of parliament have even had their official suits measured, Bina Graha's political brokers are already running a wholesale clearance auction on DPR commission chairmanships! In a transparent bid to bribe Hamzah Haz's PPP and minor Islamic parties away from Amien Rais's Central Axis, Palace emissaries have been promising parliamentary perks using the exact same patronage playbook Suharto used for thirty years. 'They take the perks at noon and still meet Amien Rais at midnight, Habibie is being fleeced by professional politicians,' one senior DPR staffer laughed."
+      },
+      {
+        "text": "\"Play on the deep historical rivalry between traditionalist Nahdlatul Ulama (PKB) and modernist Muhammadiyah (PAN) to prevent Amien Rais and Gus Dur from ever uniting behind a single alternative candidate.\"",
+        "effects": {
+          "poros_tengah": -10,
+          "ppp": -5,
+          "pkb": -6,
+          "pop": -5,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "KOMPAS: 'POLITIK ADU DOMBA ISTANA TERBACA, GUS DUR DAN AMIEN RAIS JUSTRU SEMAKIN RAPAT'<br><br>An amateurish attempt by Palace operatives to whisper anti-Muhammadiyah warnings to PKB kiai while feeding anti-NU rumors to PAN cadres has blown up spectacularly in the President's face. Appearing side by side before reporters in Ciganjur yesterday, Abdurrahman Wahid and Amien Rais openly mocked the Palace's 'colonial divide-and-rule' intrigue. Far from splitting the traditionalist and modernist camps, the clumsy interference has given Gus Dur and Amien Rais a shared target, accelerating the very Central Axis consolidation Bina Graha feared."
+      }
+    ]
+  },
+  {
+    "date": "August 3, 1999",
+    "id": "ev_bank_bali",
+    "title": "Bank Bali Scandal Breaks",
+    "image": "photo/events/7.png",
+    "desc": "A political bombshell has detonated across every front page in Jakarta. Banking law analyst Pradjoto, backed by leaked central bank transfer records, has revealed that Rp 546 billion ($80 million), nearly 60% of an interbank debt claim owed to nationalized Bank Bali by closed banks BDNI, BUN, and Bank Tiara, was paid out as an extraordinary 'collection fee' to PT Era Giat Prima (EGP), a private firm run by businessman Djoko S. Tjandra and Golkar Deputy Treasurer Setya Novanto. Worse still, because interbank claims were already fully guaranteed by the government under Presidential Decree No. 26/1998, no private collector was ever needed, meaning state recapitalization funds from the Indonesian Bank Restructuring Agency (IBRA) were effectively siphoned straight into EGP. Opposition MPs and investigative reporters have already dubbed it 'Baligate,' alleging that the Rp 546 billion war chest was engineered by your closest confidant, Supreme Advisory Council (DPA) Chairman A.A. Baramuli, and State Enterprises Minister Tanri Abeng to buy MPR delegates for your October re-election campaign (*Tim Sukses*).",
+    "options": [
+      {
+        "text": "\"No presidency survives a half-measure on a scandal of this magnitude. Order Supreme Audit Agency (BPK) Chairman Billy Joedono and IBRA Chairman Glenn Yusuf to freeze the PT Era Giat Prima accounts immediately and invite an independent international forensic audit.\"",
+        "effects": {
+          "PC": -5,
+          "pop": 10,
+          "intl": 8,
+          "econ": 6,
+          "ref": 10,
+          "golkar_akbar": -15,
+          "pdip": 5,
+          "utusan_golongan": 6,
+          "cendana": -4,
+          "golkar_habibie": 2
+        },
+        "reaction": "MAJALAH TEMPO: 'SENJATA MAKAN TUAN DI BANK BALI: HABIBIE KORBANKAN TIM SUKSES DEMI SELAMATKAN DIRI'<br><br>Cornered by banking analyst Pradjoto's explosive revelations and threats of an immediate IMF freeze, President Habibie has ordered the Rp 546 billion PT Era Giat Prima accounts frozen and opened the door to foreign forensic auditors. Yet nobody in Jakarta believes the Palace was an innocent bystander: as banking investigator Pradjoto noted yesterday, EGP is run by Golkar Deputy Treasurer Setya Novanto and backed by Habibie's own chief lobbyist, DPA Chairman A.A. Baramuli. Inside Golkar's Slipi headquarters, furious party bosses accuse Habibie of handing prosecutors the rope to hang his own campaign treasurers while pretending his own hands are clean."
+      },
+      {
+        "text": "\"Have IBRA Chairman Glenn Yusuf and Bank Bali's Rudy Ramli quietly place the disputed Rp 546 billion into a frozen escrow account at Bank Indonesia, returning the money to the state balance sheet before the scandal metastasizes.\"",
+        "effects": {
+          "golkar_akbar": 5,
+          "econ": 5,
+          "pop": -5,
+          "ref": -5,
+          "intl": -3,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "KOMPAS: 'UANG RP 546 MILIAR MASUK ESCROW, TAPI SIAPA OTAK PENJARAHAN BANK BALI?'<br><br>Shoving half a trillion rupiah of skimmed state recapitalization funds into a Bank Indonesia escrow account after being caught red-handed does not erase a felony; that was the blunt verdict from legal experts and DPR Commission VIII members yesterday. 'If a pickpocket hands back the wallet only after the whole bus grabs his wrist, he still goes to prison,' Indonesia Corruption Watch (ICW) coordinator Teten Masduki told reporters. By attempting to settle the Bank Bali heist like an accounting clerical error, the Palace has only convinced the public that the trail leads straight into Bina Graha."
+      },
+      {
+        "text": "\"Create immediate political distance between Merdeka Palace and the implicated operatives: publicly dissolve the informal 'Tim Sukses' campaign team and instruct A.A. Baramuli to step back from all MPR lobbying operations.\"",
+        "effects": {
+          "PC": -8,
+          "pop": 5,
+          "ref": 5,
+          "golkar_akbar": -8,
+          "golkar_habibie": -5,
+          "stab": -3,
+          "cendana": -2
+        },
+        "reaction": "RAKYAT MERDEKA: 'CUCI TANGAN ALA HABIBIE: BARAMULI DIJADIKAN KAMBING HITAM SKANDAL BANK BALI!'<br><br>After months of letting DPA Chairman A.A. Baramuli and the shadowy 'Tim Sukses' roam Senayan with suitcases of campaign promises, President Habibie is suddenly pretending he barely knows the men running his own re-election bid! Opposition legislators in DPR Commission VIII laughed openly at the Palace's announcement dissolving the campaign team yesterday. 'Who was the Rp 546 billion war chest meant to elect, Baramuli or Habibie?' asked PDI-P economist Kwik Kian Gie, while inside the Sulawesi caucus, Baramuli's loyalists are fuming at being thrown under the bus."
+      },
+      {
+        "text": "\"Treat this as a technical banking dispute between Rudy Ramli's management at Bank Bali and PT Era Giat Prima. Leave the review entirely to Bank Indonesia Governor Sjahril Sabirin and Finance Minister Bambang Subianto behind closed doors.\"",
+        "effects": {
+          "PC": 5,
+          "golkar_akbar": 10,
+          "pop": -14,
+          "intl": -10,
+          "econ": -8,
+          "ref": -14,
+          "cendana": 3,
+          "golkar_habibie": -2
+        },
+        "reaction": "MEDIA INDONESIA: 'KEBOHONGAN PUBLIK RP 546 MILIAR: ISTANA SEBUT PERAMPOKAN UANG RAKYAT CUMA SENGKETA KOMISI'<br><br>At a time when millions of Indonesians are queuing for subsidized rice and IBRA is bleeding hundreds of trillions of rupiah in taxpayer bonds to recapitalize collapsed banks, Merdeka Palace has the audacity to call an Rp 546 billion fee paid to Golkar treasurer Setya Novanto's shell company a 'routine commercial dispute.' Anti-corruption protesters burned effigies of Baramuli and Djoko Tjandra outside Bank Indonesia yesterday, while World Bank officials warned that Jakarta's brazen whitewash will cost the country every cent of its remaining international bailout."
+      },
+      {
+        "text": "\"Go on the offensive: support A.A. Baramuli and Djoko Tjandra in filing criminal defamation complaints against Pradjoto and the newspapers, questioning why Rudy Ramli leaked internal banking records right before the MPR session.\"",
+        "effects": {
+          "PC": 8,
+          "golkar_akbar": 18,
+          "pop": -20,
+          "intl": -18,
+          "ref": -20,
+          "stab": -10,
+          "cendana": 5,
+          "golkar_habibie": -3
+        },
+        "reaction": "MAJALAH TEMPO: 'MALING TERIAK MALING: PENYINGKAP SKANDAL BANK BALI DIPOLISIKAN ISTANA'<br><br>In a display of authoritarian shamelessness that would make the old New Order blush, the Habibie administration has responded to the biggest banking corruption scandal of the Reformasi era by siccing the police on whistleblower Pradjoto and the journalists who exposed it. As Setya Novanto, Djoko Tjandra, and A.A. Baramuli parade into National Police headquarters to file defamation suits rather than sit in the dock, foreign institutional investors dumped Indonesian bonds in disgust, sending the Jakarta Stock Exchange tumbling 6 percent in a single afternoon."
+      }
+    ]
+  },
+  {
+    "date": "August 12, 1999",
+    "id": "ev_imf_ultimatum",
+    "title": "The IMF & World Bank Ultimatum",
+    "image": "photo/events/8.png",
+    "desc": "The Bank Bali scandal has rapidly escalated from a domestic political crisis into an international financial standoff. World Bank Country Director Mark Baird and IMF Asia-Pacific Director Hubert Neiss have formally notified Coordinating Minister Ginandjar Kartasasmita that all remaining bailout disbursements (over $1.4 billion in IMF, World Bank, and Asian Development Bank budgetary support) are suspended indefinitely. Their condition for resuming aid is non-negotiable: the international accounting firm PricewaterhouseCoopers (PwC) must be contracted to conduct an unrestricted forensic audit of the Bank Bali transaction, with full authority to trace every rupiah that flowed out of PT Era Giat Prima into the personal accounts of politicians, ministers, and MPR delegates, and the complete findings must be shared with the DPR and international creditors.",
+    "options": [
+      {
+        "text": "\"Grant PricewaterhouseCoopers unrestricted forensic access to trace the Bank Bali funds wherever they lead, and override any bank-secrecy objections from Bank Indonesia or IBRA. Restoring international financial trust comes before shielding any individual.\"",
+        "effects": {
+          "PC": -5,
+          "intl": 12,
+          "econ": 10,
+          "ref": 10,
+          "utusan_golongan": 5,
+          "golkar_akbar": -10,
+          "utusan_daerah": -5,
+          "cendana": -3,
+          "golkar_habibie": 2
+        },
+        "reaction": "BISNIS INDONESIA: 'DEMI PENCAIRAN DANA IMF, ISTANA SERAHKAN KUNCI BRANKAS BANK INDONESIA KE AUDITOR ASING'<br><br>Held over a barrel by Hubert Neiss and World Bank Director Mark Baird, President Habibie has capitulated unconditionally to Washington's demand for a unrestricted PricewaterhouseCoopers forensic audit of the Bank Bali scandal. While currency traders welcomed the move, domestic politicians across Senayan reacted with a mixture of humiliation and terror: nationalists blasted the government for letting foreign accountants subpoena sovereign central bank servers, while Golkar treasurers implicated in the Rp 546 billion EGP transfers are frantically shredding records before PwC's team walks through the door."
+      },
+      {
+        "text": "\"Authorize Supreme Audit Agency (BPK) Chairman Billy Joedono to hire PricewaterhouseCoopers under BPK's statutory auspices, granting PwC access to the banking records while keeping legal custody of the final report inside a sovereign Indonesian institution.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 5,
+          "econ": 5,
+          "stab": 4,
+          "golkar_akbar": -3,
+          "cendana": 1,
+          "golkar_habibie": 1
+        },
+        "reaction": "THE JAKARTA POST: 'PALACE HIDES BEHIND BPK SECRECY RULES TO KEEP CONTROL OF PWC AUDIT'<br><br>Nobody in the diplomatic community is fooled by Bina Graha's clever legal maneuver placing the PricewaterhouseCoopers audit under the formal custody of Supreme Audit Agency (BPK) Chairman Billy Joedono. As DPR Commission VIII legislators pointed out immediately, routing the contract through BPK allows the government to invoke Article 18 of the BPK statute and Banking Secrecy laws the moment PwC's final report names Habibie's inner circle. The IMF's Hubert Neiss warned bluntly yesterday that unless the full, unredacted audit is published, not a single dollar of the frozen $1.4 billion tranche will be released."
+      },
+      {
+        "text": "\"Ask Hubert Neiss and Mark Baird for a sixty-day administrative window so BPK and the Attorney General's Office can complete their own domestic audit before any foreign accounting firm is handed subpoena power over Indonesian banks.\"",
+        "effects": {
+          "intl": -6,
+          "econ": -6,
+          "stab": -4,
+          "golkar_akbar": 4,
+          "cendana": 2,
+          "golkar_habibie": -1
+        },
+        "reaction": "ASIAN WALL STREET JOURNAL: 'HABIBIE PLAYS CALENDAR GAMES TO BURY BALIGATE PAST OCTOBER VOTE'<br><br>Even a primary school student in Jakarta can do the calendar math behind President Habibie's request for a 'sixty-day domestic review' of the Bank Bali scandal: sixty days from August 12 lands conveniently after the October 19 MPR presidential election. International creditors and opposition MPs alike dismissed the proposal as a transparent cover-up designed to shield the President's *Tim Sukses* until the ballots are cast. In response, the World Bank and IMF confirmed that the $1.4 billion aid freeze remains locked tight."
+      },
+      {
+        "text": "\"Send Ginandjar Kartasasmita to Tokyo and the Miyazawa Initiative administrators to seek bilateral Japanese bridge financing, bypassing the IMF's political conditions in Washington.\"",
+        "effects": {
+          "intl": -8,
+          "econ": -5,
+          "golkar_akbar": 6,
+          "cendana": 2,
+          "golkar_habibie": -1
+        },
+        "reaction": "KOMPAS: 'MENGEMIS KE TOKYO DITOLak MENTAH-MENTAH, JEPANG TUNDUK PADA SYARAT IMF'<br><br>Coordinating Minister Ginandjar Kartasasmita returned from Tokyo empty-handed and visibly embarrassed yesterday after Japanese Finance Ministry officials flatly refused to release New Miyazawa Initiative bridge loans to cover the IMF's Bank Bali freeze. Economist Sri Mulyani Indrawati criticized the abortive Tokyo mission as 'humiliating diplomatic panhandling,' noting that instead of cleaning up the Rp 546 billion rot inside his own campaign circle, Habibie sent his chief economic minister abroad to beg for a no-questions-asked bailout and got the door slammed in his face."
+      },
+      {
+        "text": "\"Reject the ultimatum publicly. Indonesia is a sovereign republic with its own Supreme Audit Agency (BPK) and central bank; we will not hand private banking records over to foreign auditors as though we were a colonial dependency.\"",
+        "effects": {
+          "PC": 8,
+          "stab": 4,
+          "pop": 4,
+          "econ": -15,
+          "intl": -15,
+          "utusan_daerah": 8,
+          "golkar_akbar": 10,
+          "cendana": 3,
+          "golkar_habibie": -2
+        },
+        "reaction": "RAKYAT MERDEKA: 'SOK NASIONALIS DEMI TUTUPI KORUPSI! TOLAK AUDIT PWC, RUPIAH LANGSUNG TERJUN BEBAS'<br><br>How convenient that Bina Graha only discovers 'anti-colonial economic sovereignty' when foreign auditors ask to inspect the bank accounts of Golkar's campaign treasurers! President Habibie's chest-thumping refusal to allow PricewaterhouseCoopers into Bank Bali drew loud applause from A.A. Baramuli's cronies in Senayan, but the bill for that bravado arrived on the currency markets within thirty minutes: the IMF and World Bank froze $1.4 billion in budget aid indefinitely, foreign funds dumped Jakarta equities, and ordinary Indonesians are left paying the price for a sovereignty speech designed to hide a Rp 546 billion slush fund."
+      }
+    ]
+  },
+  {
+    "date": "August 24, 1999",
+    "id": "ev_rupiah_plummets",
+    "title": "The Rupiah Slides Toward 8,500",
+    "image": "photo/events/9.png",
+    "desc": "The convergence of the Bank Bali scandal, the IMF aid freeze, and daily reports of militia gunfire in East Timor has snapped the five-month financial rally you had counted on as the centerpiece of your October Accountability Speech. Having strengthened from Rp 16,800 per US dollar in June 1998 to a post-election peak of Rp 6,600 in late June, the rupiah is now tumbling again on Singapore and Jakarta trading floors, sliding past Rp 8,000 toward Rp 8,500 per dollar in days. Under the newly enacted Bank Indonesia Act (UU No. 23/1999), Governor Sjahril Sabirin holds statutory independence over monetary policy, but with imported rice, wheat, and medicine prices threatening to surge right as the MPR prepares to convene, your economic team at Bina Graha is clashing over how to halt the slide.",
+    "options": [
+      {
+        "text": "\"Coordinate closely with Bank Indonesia Governor Sjahril Sabirin to deploy targeted foreign exchange sterilization and temporary SBI interest rate hikes, defending the Rp 7,500–8,000 band so inflation remains near zero heading into October.\"",
+        "effects": {
+          "PC": -5,
+          "econ": 10,
+          "stab": 6,
+          "pop": 3,
+          "intl": -3,
+          "golkar_habibie": 2
+        },
+        "reaction": "BISNIS INDONESIA: 'BANK INDONESIA BAKAR CADANGAN DEVISA DEMI KOSMETIK PIDATO PERTANGGUNGJAWABAN'<br><br>Bank Indonesia's aggressive dollar sales in the spot market yesterday succeeded in dragging the rupiah back below Rp 7,900, but market economists are warning of the steep hidden cost. 'The government is burning through scarce foreign exchange reserves not to fix the underlying political rot of Bank Bali or East Timor, but simply to dress up the exchange rate window for Habibie's October 14 speech before the MPR,' economist Faisal Basri warned, noting that hiking SBI interest rates again will choke off credit to the real sector just as factories were beginning to rehire."
+      },
+      {
+        "text": "\"Sign an emergency addendum to the IMF Letter of Intent committing to accelerated IBRA asset sales and bank restructuring milestones, bringing Hubert Neiss back to the table to calm currency traders without burning central bank reserves.\"",
+        "effects": {
+          "econ": 7,
+          "intl": 10,
+          "pop": -8,
+          "ref": -3,
+          "utusan_daerah": -6,
+          "golkar_akbar": -8,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "MEDIA INDONESIA: 'OBRAL ASET BPPN KE PEMODAL ASING: HARGA PANIK PEMERINTAHAN HABIBIE'<br><br>To stop the rupiah's slide without opening up the Bank Bali books, the Habibie cabinet has signed yet another humiliating commitment with the IMF, this time pledging to accelerate fire-sale auctions of nationalized corporate assets held by the Indonesian Bank Restructuring Agency (IBRA). In Senayan, legislators across both PDI-P and Golkar accused the economic team of auctioning off billions of dollars in Indonesian industrial assets at twenty cents on the dollar to foreign vulture funds purely to buy six weeks of currency calm before the MPR session."
+      },
+      {
+        "text": "\"Respect Bank Indonesia's statutory independence under Law No. 23/1999: let the rupiah float freely rather than burning precious foreign reserves, and direct BULOG to release buffer rice stocks to shield poor households from import prices.\"",
+        "effects": {
+          "intl": 8,
+          "ref": 5,
+          "econ": -6,
+          "pop": -5,
+          "stab": -4,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "POS KOTA: 'DOLAR TEMBUS RP 8.500, HARGA SEMBAKO DAN OBAT LANGSUNG MELAMBUNG DI PASAR!'<br><br>Central bankers and foreign textbook economists may be applauding the Palace for letting the rupiah 'find its market equilibrium' without burning dollar reserves, but at Pasar Senen and Pasar Induk Kramat Jati yesterday, housewives and small traders were in no mood for monetary theory. As the rupiah tumbled past Rp 8,500 to the dollar, wholesalers immediately marked up imported soy, sugar, flour, and prescription medicines. 'Habibie's ministers boast every week that inflation is under control, yet one rumor from Senayan sends our grocery money up in smoke,' a furious vendor told *Pos Kota*."
+      },
+      {
+        "text": "\"Announce an immediate austerity freeze on non-essential ministerial spending, official foreign travel, and state vehicle purchases, redirecting the savings into urban Padat Karya (labor-intensive) public works.\"",
+        "effects": {
+          "PC": 5,
+          "pop": 6,
+          "stab": 5,
+          "econ": -3,
+          "golkar_akbar": -4,
+          "cendana": -1
+        },
+        "reaction": "KOMPAS: 'KOSMETIK PENGHEMATAN ISTANA TAK MAMPU OBATI KRISIS KEPERCAYAAN PASAR'<br><br>While expanding *Padat Karya* ditch-clearing and road-sweeping jobs in Jakarta and Surabaya provides welcome daily wages for a fraction of the urban unemployed, financial analysts dismissed the Palace's freeze on ministerial travel and official sedans as theatrical window-dressing. 'Singapore currency desks are not shorting the rupiah because ministers drink too much coffee at Bina Graha; they are shorting it because Rp 546 billion vanished at Bank Bali and Dili is on the verge of war,' INDEF economist Didik J. Rachbini observed sharply."
+      },
+      {
+        "text": "\"Impose temporary Malaysia-style administrative reporting controls on short-term offshore rupiah swaps to punish Singapore currency speculators directly.\"",
+        "effects": {
+          "PC": 5,
+          "econ": -8,
+          "intl": -10,
+          "stab": -5,
+          "golkar_akbar": 4,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "FAR EASTERN ECONOMIC REVIEW: 'JAKARTA'S CLUMSY FLIRTATION WITH CAPITAL CONTROLS SPARKS PANIC EXODUS'<br><br>Attempting to imitate Mahathir Mohamad's capital controls without Malaysia's administrative discipline or foreign reserve cushion has blown up in Bina Graha's face within twenty-four hours. The moment rumors of offshore rupiah swap restrictions leaked from the Ministry of Finance, domestic conglomerates and foreign portfolio managers stampeded for the exits, wiring hundreds of millions of dollars to Singapore overnight and driving interbank overnight rates through the roof."
+      }
+    ]
+  },
+  {
+    "date": "August 30, 1999",
+    "id": "ev_timor_votes",
+    "title": "East Timor Votes",
+    "image": "photo/events/10.png",
+    "desc": "Defying months of militia intimidation, burned villages, and armed roadblocks, an astonishing 98.6% of the 451,792 registered East Timorese voters queued before dawn today at 850 polling stations across East Timor and diaspora centers to cast their ballots in the UN-administered popular consultation. UNAMET chief Ian Martin and international parliamentary observers describe scenes of extraordinary quiet determination as voters dressed in their Sunday best waited hours to mark their choice between accepting or rejecting special autonomy within Indonesia. Yet as the ballot boxes are sealed and transported under UN police escort to the Dili museum counting center, ominous reports are already pouring in: four local UNAMET staff members have been murdered in Ermera as the polls closed, and BAIS intelligence reports indicate that Eurico Guterres's militias and Korem 164 units have pre-positioned fuel drums and trucks across Dili for 'Operasi Sapu Jagad' the moment an independence vote is confirmed.",
+    "options": [
+      {
+        "text": "\"Go on national television tonight to commend the peaceful 98.6% turnout and state unequivocally that whatever verdict the UN certifies from those ballot boxes, the Republic of Indonesia will honor its signature on the May 5 Agreement.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 12,
+          "ref": 10,
+          "mil": -12,
+          "stab": -6,
+          "abri": -12,
+          "golkar_akbar": -8,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "MAJALAH TEMPO: 'TERTIPU LAPORAN ASAL BAPAK SENANG: ISTANA TERPANA MELIHAT ANTREAN 98,6 PERSEN'<br><br>Up until the polls closed at 4:00 PM yesterday, military intelligence chiefs and Foreign Ministry officials had solemnly assured President Habibie that a 'silent majority' of East Timorese would vote to retain the red-and-white flag. Now, as every field report from Dili to Baucau points toward an overwhelming landslide for independence, the President's televised pledge to respect the outcome has triggered an earthquake inside the Indonesian establishment. In officers' messes across Cilangkap and Kupang, furious commanders accuse Habibie of walking blindly into a historic national humiliation on the strength of wishful thinking."
+      },
+      {
+        "text": "\"Convene an urgent reconciliation council in Dili bringing together Bishop Carlos Filipe Ximenes Belo, Xanana Gusmão's CNRT representatives, and pro-integration leaders under the Peace and Stability Commission before the count is announced.\"",
+        "effects": {
+          "intl": 6,
+          "ref": 6,
+          "stab": 5,
+          "mil": -5,
+          "abri": -5,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "THE JAKARTA POST: 'PEACE CEREMONIES IN DILI AS MILITIAS STOCKPILE GASOLINE CANS'<br><br>While Jakarta's envoys staged one more round of handshakes for the cameras in Dili yesterday between CNRT representatives and pro-integration figures, the reality outside the conference room doors made a mockery of the proceedings. Eurico Guterres's Aitarak gunmen openly boycotted the afternoon session, and UN police reported military trucks unloading drums of gasoline and automatic weapons in Becora and Ermera. 'Jakarta is organizing cocktail-party reconciliation committees while its own security forces prepare to burn the house down,' one Western diplomat in Dili said bitterly."
+      },
+      {
+        "text": "\"Issue quiet contingency orders to General Wiranto and National Police Chief Gen. Roesmanhadi to prepare sea and airlift transport for an orderly evacuation of civil servants, teachers, and security units if autonomy is rejected.\"",
+        "effects": {
+          "ref": 8,
+          "intl": 8,
+          "mil": -15,
+          "abri": -15,
+          "stab": -6,
+          "cendana": -2,
+          "golkar_habibie": 1
+        },
+        "reaction": "SUARA PEMBARUAN: ' BOCORNYA PERINTAH EVAKUASI PICU KEPANIKAN DAN AMUK MILISI DI DILI'<br><br>Word that Merdeka Palace has quietly instructed Pelni passenger ships and Navy LSTs to stand by for a mass evacuation of Indonesian civil servants and teachers leaked across Dili within hours yesterday, confirming to pro-integration militias that Jakarta already knows autonomy has been crushed at the polls. Far from ensuring an orderly transition, the leaked withdrawal order has sent armed militia gangs into a frenzy of betrayal, with Aitarak commanders vowing over local radio to reduce Dili to cinders before handing it over to Fretilin."
+      },
+      {
+        "text": "\"Keep the cabinet in continuous closed session at Merdeka Palace and decline all public comment until Kofi Annan and Ian Martin formally certify the final count.\"",
+        "effects": {
+          "stab": -4,
+          "intl": -4,
+          "mil": -4,
+          "abri": -4,
+          "pop": -4,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "DETIKCOM: 'ISTANA BUNGKAM SERIBU BAHASA SAAT EMPAT STAF LOKAL UNAMET TEWAS DI ERMERA'<br><br>As the world's television networks broadcast images of 98.6 percent of East Timorese defying death threats to vote, followed immediately by the murder of four local UN staffers in Ermera as the polls closed, Merdeka Palace has pulled down the shutters and refused to utter a single word. Reporters camped outside Bina Graha until midnight saw ministers slip out through side gates without taking questions, leaving the impression of a caretaker government paralyzed by the realization that its own referendum gamble has blown up."
+      },
+      {
+        "text": "\"Have the Foreign Ministry file formal complaints accusing UNAMET local staff of systemic pro-independence bias during the ballot, laying the groundwork to challenge the legitimacy of the count if autonomy loses.\"",
+        "effects": {
+          "PC": 5,
+          "mil": 10,
+          "abri": 10,
+          "golkar_akbar": 5,
+          "intl": -15,
+          "econ": -10,
+          "ref": -15,
+          "pop": -8,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "SYDNEY MORNING HERALD: 'SORE LOSERS IN JAKARTA CRY FOUL OVER 98.6% TURNOUT'<br><br>Having failed to intimidate the East Timorese electorate into staying home through months of militia terror, Jakarta is now attempting the equally absurd tactic of claiming that UNAMET rigged a vote witnessed by hundreds of international parliamentary observers. UN Secretary-General Kofi Annan dismissed the Indonesian complaint out of hand last night, while even Jakarta's own independent election monitors (KIPP) noted that blaming UN translators for an impending four-to-one defeat makes the Habibie government look both dishonest and delusional."
+      }
+    ]
+  },
+  {
+    "date": "September 4, 1999",
+    "id": "ev_dili_flames",
+    "title": "Dili in Flames",
+    "image": "photo/events/11.png",
+    "desc": "At 9:00 AM today in Dili (9:00 PM on September 3 at UN Headquarters in New York), UNAMET Chief Ian Martin and UN Secretary-General Kofi Annan simultaneously announced the certified result of the East Timor consultation: 94,388 voters (21.5%) accepted special autonomy, while 344,580 voters (78.5%) rejected it in favor of independence. Within hours of the announcement, East Timor descended into hell. Pro-integration militias, operating openly alongside territorial soldiers and police, have unleashed 'Operasi Sapu Jagad', systematically torching 70% of Dili's buildings, slaughtering civilians sheltering at the Suai Church compound, firing on Nobel laureate Bishop Carlos Belo's residence, and laying siege to the UNAMET compound where foreign staff and 1,500 terrified Timorese refugees are trapped behind razor wire. Over 250,000 civilians are being herded onto military trucks and ships at gunpoint for forced deportation into West Timor. Kofi Annan is on the telephone from New York demanding immediate action.",
+    "options": [
+      {
+        "text": "\"Sign Presidential Decree No. 107/1999 declaring Martial Law (Darurat Militer) across East Timor, relieve Col. Tono Suratman and Maj. Gen. Adam Damiri of operational control, and dispatch Maj. Gen. Kiki Syahnakri with fresh Kostrad battalions to restore order within 48 hours.\"",
+        "effects": {
+          "PC": 5,
+          "mil": 12,
+          "abri": 12,
+          "intl": -12,
+          "econ": -8,
+          "stab": -6,
+          "ref": -10,
+          "cendana": 2,
+          "golkar_habibie": -1
+        },
+        "reaction": "THE JAKARTA POST: 'MARTIAL LAW FAILS TO HALT THE TORCHING OF DILI AS WORLD FURY MOUNTS'<br><br>President Habibie's declaration of Martial Law under Keppres No. 107/1999 and the dispatch of Maj. Gen. Kiki Syahnakri have done nothing to stem the scorched-earth rampage consuming East Timor. Even after Syahnakri landed in Dili, eyewitnesses inside the besieged UNAMET compound reported Indonesian soldiers loading looted refrigerators onto military trucks while Aitarak militias burned entire city blocks to the ground. In Washington and New York, diplomats dismissed the martial law decree as 'handing the fire hose to the arsonists,' while in Senayan, PDI-P and Golkar MPs alike are already sharpening their knives over the 78.5 percent humiliation."
+      },
+      {
+        "text": "\"Bypass the generals' stalling entirely: inform Kofi Annan tonight that Indonesia cannot contain its own rogue territorial units in Dili and formally invite an international peacekeeping force to land immediately.\"",
+        "effects": {
+          "PC": -10,
+          "intl": 16,
+          "pop": 4,
+          "ref": 12,
+          "mil": -18,
+          "stab": 4,
+          "abri": -18,
+          "golkar_akbar": -8,
+          "cendana": -3,
+          "golkar_habibie": 2
+        },
+        "reaction": "RAKYAT MERDEKA: 'HABIBIE ANGKAT BENDERA PUTIH! UNDANG TENTARA ASING MASUK DILI TANPA RESTU DPR'<br><br>Less than twenty-four hours after the 78.5 percent referendum defeat was announced, President Habibie has capitulated to Western pressure and invited foreign peacekeepers into East Timor without giving his own armed forces a single day to restore order! While Kofi Annan praised the move from New York, nationalist fury has erupted across Jakarta: retired generals and DPR Commission I legislators accused the President of high treason against the memory of fallen soldiers, and inside Cilangkap, senior commanders are openly declaring that Habibie's political career is finished."
+      },
+      {
+        "text": "\"Reject both martial law and foreign peacekeepers: hand absolute security authority to General Wiranto's existing command structure in Kodam IX/Udayana and insist that reports of military complicity are Western media fabrications.\"",
+        "effects": {
+          "PC": 8,
+          "mil": 18,
+          "abri": 18,
+          "intl": -22,
+          "econ": -15,
+          "ref": -18,
+          "stab": -10,
+          "pdip": -10,
+          "cendana": 3,
+          "golkar_habibie": -3
+        },
+        "reaction": "SYDNEY MORNING HERALD: 'BLOODBATH IN SUAI AND DILI AS JAKARTA DENIES THE OBVIOUS'<br><br>With priests and ratusan of refugees slaughtered inside the Suai Church compound, Bishop Carlos Belo's home burned to the ground, and smoke rising over 70 percent of Dili in full view of satellite cameras, the Habibie government has plumbed new depths of moral bankruptcy by leaving Kodam IX/Udayana's commanders in place and blaming 'Western media fabrications.' The UN Security Council has convened in emergency session to draft Chapter VII sanctions, while the rupiah plunged 8 percent on panic selling in Singapore."
+      },
+      {
+        "text": "\"Order an immediate military escort to evacuate Bishop Carlos Belo, UNAMET personnel, and foreign journalists to Darwin and Baucau, while instructing Komnas HAM's KPP-HAM team to document every atrocity on the ground.\"",
+        "effects": {
+          "intl": 6,
+          "ref": 6,
+          "utusan_golongan": 6,
+          "pop": -4,
+          "mil": -6,
+          "stab": -4,
+          "abri": -6,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "MAJALAH TEMPO: ' SAKSI MATA DIUSIR DARI DILI SAAT OPERASI SAPU JAGAD BERLANSUNG'<br><br>Evacuating Nobel laureate Bishop Carlos Belo and foreign correspondents out of burning Dili on RAAF Hercules flights prevented the massacre of UN staff, but global television networks are broadcasting a devastating image around the clock: terrified Timorese mothers passing their babies over the razor wire of the UNAMET compound as foreign personnel are airlifted out, leaving an entire population behind in the dark with the militias. At home, nationalist politicians attack Habibie for losing the province, while human rights advocates condemn him for failing to stop his own army."
+      },
+      {
+        "text": "\"Release Xanana Gusmão unconditionally from his Salemba house arrest to the British Embassy and invite the UN Security Council delegation led by Ambassador Martin Andjaba to fly into Jakarta and Dili to inspect the situation with General Wiranto.\"",
+        "effects": {
+          "ref": 8,
+          "intl": 8,
+          "stab": 4,
+          "mil": -8,
+          "abri": -8,
+          "cendana": -1,
+          "golkar_habibie": 2
+        },
+        "reaction": "MEDIA INDONESIA: 'XANANA BEBAS KE KEDUBES INGGRIS, TIM DEWAN KEAMANAN PBB DATANG MENGHAKIMI JAKARTA'<br><br>As Dili burns and 250,000 refugees are trucked at gunpoint into West Timor, President Habibie's release of Xanana Gusmão to the British Embassy and his invitation to five UN Security Council ambassadors to inspect East Timor has pleased nobody at home. In Senayan, DPR Commission I members called the UN Security Council visit 'a colonial inspection tour of a defeated nation,' while UN Ambassador Martin Andjaba made clear upon landing at Halim that diplomatic gestures will not save Indonesia from sanctions unless foreign peacekeepers are admitted immediately."
+      }
+    ]
+  },
+  {
+    "date": "September 10, 1999",
+    "id": "ev_intl_sanctions",
+    "title": "Sanctions Ultimatum",
+    "image": "photo/events/12.png",
+    "desc": "At the APEC Leaders' Summit in Auckland, which you declined to attend in person, dispatching Coordinating Minister Ginandjar Kartasasmita and Foreign Minister Ali Alatas in your stead, world leaders have turned the summit into an emergency tribunal on East Timor. Yesterday, US President Bill Clinton suspended all US-Indonesian military sales and Pentagon cooperation, warning bluntly that 'if Indonesia does not end the violence, it must invite the international community to assist in restoring security.' Today, the European Union imposed an arms embargo, the IMF froze its scheduled September mission to Jakarta, and UN Secretary-General Kofi Annan gave Jakarta a forty-eight-hour ultimatum to accept an Australian-led multinational force or face binding UN Security Council Chapter VII enforcement and economic isolation. Tomorrow morning, General Wiranto will fly to Dili alongside the five-member UN Security Council delegation led by Ambassador Martin Andjaba.",
+    "options": [
+      {
+        "text": "\"Order General Wiranto to accompany the UN Security Council ambassadors to Dili tomorrow morning so he sees the burned city and the international fury with his own eyes, then convene the full political and security cabinet to force Cilangkap's agreement to peacekeepers.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 10,
+          "econ": 6,
+          "stab": 5,
+          "mil": -8,
+          "abri": -8,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "KOMPAS: 'PERTEMUAN TEGANG DI ISTANA USAI KUNJUNGAN DILI: HABIBIE DAN WIRANTO SALING LEMPAR TANGGUNG JAWAB'<br><br>Walking through the blackened ruins of Dili alongside five furious UN Security Council ambassadors yesterday finally forced General Wiranto to confront the diplomatic abyss facing Indonesia, but the subsequent midnight cabinet session at Merdeka Palace was anything but harmonious. According to two ministers in the room, civilian technocrats warned that Indonesia is forty-eight hours away from an international banking freeze, while military commanders bitterly blamed Habibie's January referendum impulse for putting the armed forces in an impossible position."
+      },
+      {
+        "text": "\"Instruct Ali Alatas in New York to lobby for strong ASEAN participation (Thailand, the Philippines, Malaysia, and Singapore) inside any UN force so the deployment is not purely an Anglo-Australian occupation.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 6,
+          "mil": 4,
+          "abri": 4,
+          "utusan_daerah": 5,
+          "stab": 5,
+          "golkar_habibie": 1
+        },
+        "reaction": "THE JAKARTA POST: 'PALACE SCRAMBLES FOR ASEAN FIG LEAF AS AUSTRALIAN TROOPS STAGE IN DARWIN'<br><br>Foreign Minister Ali Alatas's frantic lobbying for Thai, Filipino, and Malaysian contingents to join the incoming East Timor force has given Merdeka Palace a thin diplomatic fig leaf to sell to the domestic public. Yet nobody in Canberra or Senayan is under any illusion about who will actually run the operation: with 4,500 Australian combat troops already staging in Darwin under Maj. Gen. Peter Cosgrove, DPR nationalists mocked the Palace's 'ASEAN peacekeeping' spin as putting a Southeast Asian bumper sticker on an Australian armored column."
+      },
+      {
+        "text": "\"Go before the cameras to denounce Washington and Canberra's hypocrisy, pointing out that Western powers supported Indonesia's annexation in 1975 and have no right to threaten 210 million Indonesians with economic starvation now.\"",
+        "effects": {
+          "PC": 8,
+          "pop": 10,
+          "mil": 10,
+          "abri": 10,
+          "golkar_akbar": 6,
+          "intl": -16,
+          "econ": -15,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "BISNIS INDONESIA: ' pidato Konfrontasi HABIBIE DISORAKI PENDEMO, TAPI PELABUHAN DAN PERBANKAN LUMPUH'<br><br>Youths from Pemuda Pancasila and nationalist student fronts cheered outside the US and Australian embassies yesterday after President Habibie blasted Western 'hypocrisy' on television. Down at Tanjung Priok port and across Jakarta's banking district, however, the cost of that rhetoric is already devastating: international correspondent banks refused to honor Indonesian letters of credit this morning, container ships diverted to Singapore, and the IMF warned that Jakarta is hurtling toward Yugoslav-style pariah status."
+      },
+      {
+        "text": "\"Send Foreign Minister Ali Alatas on an emergency flight to UN Headquarters in New York to plead for another week of Indonesian martial law under Maj. Gen. Kiki Syahnakri before any UN resolution is drafted.\"",
+        "effects": {
+          "intl": -5,
+          "stab": -4,
+          "econ": -4,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "MAJALAH TEMPO: 'MISI MUSTAHIL ALI ALATAS: MENJUAL DARURAT MILITER DI MARKAS PBB YANG MARAH'<br><br>For twenty-four years Veteran Foreign Minister Ali Alatas has had to defend Indonesia's East Timor policy before skeptical UN chambers, calling it 'a pebble in Indonesia's shoe.' Yesterday in New York, that pebble became a boulder: Kofi Annan and the Security Council flatly rejected Alatas's plea to give Maj. Gen. Kiki Syahnakri's martial law another week, telling the exhausted minister that Jakarta has until Sunday night to accept international peacekeepers unconditionally or face Chapter VII enforcement."
+      },
+      {
+        "text": "\"Brief foreign correspondents off the record that civilian leadership wants to invite UN peacekeepers immediately, but is being held hostage by hardline generals threatening a coup if foreign soldiers land.\"",
+        "effects": {
+          "PC": -8,
+          "ref": 8,
+          "mil": -15,
+          "abri": -15,
+          "stab": -10,
+          "cendana": -1,
+          "golkar_habibie": -2
+        },
+        "reaction": "RAKYAT MERDEKA: 'PRESIDEN CURHAT KE WARTAWAN ASING TAKUT DIKUDETA: PANGLIMA TERTINGGI MACAM APA?'<br><br>Off-the-record briefings by Palace aides to Western wire services claiming that President Habibie is 'a prisoner of his own generals' backfired with devastating force this morning when the quotes were splashed across every front page in Jakarta. Instead of winning sympathy, the leak has made Habibie look pitifully weak to MPR delegates while provoking outrage at Cilangkap, where ABRI spokesman Brig. Gen. Sudrajat barked that 'a Supreme Commander who slanders his own officer corps to foreign reporters has lost the moral authority to lead.'"
+      }
+    ]
+  },
+  {
+    "date": "September 12, 1999",
+    "id": "ev_peacekeeper_decision",
+    "title": "The September 12 Peacekeeper Decision",
+    "image": "photo/events/13.png",
+    "desc": "It is Sunday evening, September 12, 1999, the single most consequential night of your presidency. The UN Security Council delegation has just met with you at Merdeka Palace after returning from the burned ruins of Dili, and Kofi Annan's forty-eight-hour deadline expires tonight. Across the cabinet table sit General Wiranto, Foreign Minister Ali Alatas, Coordinating Ministers Ginandjar Kartasasmita and Feisal Tanjung, and the service chiefs of the Army, Navy, Air Force, and Police. If you refuse an international peacekeeping force tonight, the UN Security Council will invoke Chapter VII sanctions tomorrow, the IMF will terminate Indonesia's bailout, and the economy will collapse. If you accept unconditionally on live television, nationalist factions across the MPR will brand you the President who lost East Timor and invited foreign boots onto archipelago soil.",
+    "options": [
+      {
+        "text": "\"Phone Kofi Annan personally to invite a UN-mandated peacekeeping force, then walk out to the Merdeka Palace microphones at 7:30 PM flanked by General Wiranto and the entire cabinet to announce the decision together on live national television.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 15,
+          "econ": 10,
+          "ref": 8,
+          "stab": 5,
+          "mil": -8,
+          "abri": -8,
+          "golkar_akbar": -5,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "KOMPAS: 'INDONESIA AKHIRNYA TERIMA PASUKAN PBB: WAJAH KAKU WIRANTO DI BELAKANG HABIBIE BUKA TABIR RETAKNYA ISTANA'<br><br>At 7:30 PM last night at Merdeka Palace, a visibly exhausted President Habibie went before live television cameras to announce that he had telephoned UN Secretary-General Kofi Annan to invite an international peacekeeping force into East Timor immediately. While the decision averts catastrophic economic sanctions, no viewer in Indonesia missed the body language behind the podium: General Wiranto stood stone-faced with his jaw clenched, staring straight ahead without uttering a word. In Senayan this morning, both PDI-P nationalists and Golkar's Akbar Tandjung faction called the broadcast 'the funeral march of Habibie's re-election campaign.'"
+      },
+      {
+        "text": "\"Announce the invitation for UN peacekeepers alone from the presidential study as a matter of civilian moral conscience, and order an immediate unilateral withdrawal of all ABRI units from East Timor without waiting for joint handover protocols.\"",
+        "effects": {
+          "PC": -5,
+          "intl": 16,
+          "econ": 10,
+          "ref": 12,
+          "mil": -20,
+          "abri": -20,
+          "stab": -6,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "SUARA PEMBARUAN: 'HABIBIE TAMPIL SENDIRI SERAHKAN TIMTIM KE PBB, PARA JENDERAL BOIKOT SIARAN ISTANA'<br><br>The conspicuous absence of General Wiranto and the military service chiefs from Merdeka Palace during President Habibie's Sunday night broadcast inviting UN peacekeepers into East Timor sent a chill through Jakarta's political establishment. Across Java this morning, nationalist protesters burned effigies of Habibie wearing an Australian slouch hat, while inside the MPR corridors, ABRI and Golkar delegates openly declared that a President who humiliates the armed forces on live television will never survive the October 19 accountability vote."
+      },
+      {
+        "text": "\"Accept the UN peacekeeping force in principle, but pair it with the immediate abrogation of the 1995 Australia-Indonesia Security Agreement and demand that ASEAN commanders share leadership of the incoming force.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 6,
+          "econ": 5,
+          "pop": 6,
+          "mil": -4,
+          "abri": -4,
+          "golkar_akbar": 4,
+          "cendana": 1,
+          "golkar_habibie": 1
+        },
+        "reaction": "MEDIA INDONESIA: 'ROBEK PERJANJIAN KEAMANAN DENGAN AUSTRALIA: HIBURAN KECIL DI TENGAH KEHILANGAN PROVINSI KE-27'<br><br>Tearing up the 1995 bilateral defense treaty with Canberra on the same night Jakarta bowed to the UN Security Council's ultimatum on East Timor may have given wounded nationalists a symbolic bone to chew on, but commentators were quick to point out the hollowness of the gesture. 'Habibie is slamming the door on John Howard right after handing him the keys to Dili airport,' DPR Commission I member Yasril Ananta Baharuddin remarked acidly."
+      },
+      {
+        "text": "\"Threaten across the cabinet table to resign the presidency tonight and hand the collapsing currency and UN sanctions directly to General Wiranto if the armed forces refuse to endorse the peacekeeping deployment.\"",
+        "effects": {
+          "intl": 10,
+          "econ": 5,
+          "mil": -6,
+          "abri": -6,
+          "stab": -8,
+          "pop": -6,
+          "cendana": 1,
+          "golkar_habibie": -2
+        },
+        "reaction": "MAJALAH TEMPO: 'ANCAMAN MUNDUR DI MEJA KABINET: SENJATA TERAKHIR PRESIDEN YANG TERKEPUNG'<br><br>According to multiple cabinet sources, President Habibie only forced the generals' signature on the UN peacekeeping invitation yesterday evening by slamming his fist on the Bina Graha table and threatening to resign on the spot, which under the constitution would have dumped an immediate economic collapse and UN embargo into the lap of the triumvirate of ministers. While the ultimatum forced Wiranto to blink, word that Habibie is already talking about resigning has spread like wildfire through Senayan, convincing wavering Golkar delegates that the President is a lame duck."
+      },
+      {
+        "text": "\"Defy Kofi Annan's ultimatum: reject foreign peacekeepers outright and order Maj. Gen. Kiki Syahnakri's martial law command to seal East Timor's borders against any unauthorized foreign landing.\"",
+        "effects": {
+          "PC": -10,
+          "mil": 12,
+          "abri": 12,
+          "intl": -25,
+          "econ": -20,
+          "stab": -12,
+          "ref": -15,
+          "cendana": 3,
+          "golkar_habibie": -3
+        },
+        "reaction": "ASIAN WALL STREET JOURNAL: 'INDONESIA PLUNGES INTO GLOBAL ISOLATION AS HABIBIE DEFIES UN SECURITY COUNCIL'<br><br>President Habibie's Sunday night refusal to admit UN peacekeepers into East Timor has triggered the worst diplomatic and financial catastrophe in modern Indonesian history. At midnight in New York, the UN Security Council began drafting binding Chapter VII economic sanctions; the IMF and World Bank suspended all operations in Jakarta; and the rupiah crashed past Rp 10,000 per dollar at the Monday morning open as panic-stricken citizens queued outside banks to withdraw their savings."
+      }
+    ]
+  },
+  {
+    "date": "September 20, 1999",
+    "id": "ev_interfet_lands",
+    "title": "INTERFET Lands in Dili",
+    "image": "photo/events/14.png",
+    "desc": "Authorized five days ago by UN Security Council Resolution 1264, Australian Major General Peter Cosgrove and Thai Deputy Commander Major General Songkitti Jaggabatara have landed at Dili's Comoro Airport at the head of the first 2,500 troops of the International Force East Timor (INTERFET). Maj. Gen. Kiki Syahnakri's Indonesian forces have begun handing over security sector by sector, though sullen departing soldiers are burning barracks and looting fixtures as their transport ships load in Dili harbor. In Jakarta and Surabaya, television footage of Australian soldiers pointing rifles at disarmed militia members and Indonesian policemen has triggered an explosion of wounded nationalist fury. Demonstrators have fired shots at the Australian Embassy on Jalan Rasuna Said, burned Australian flags in Medan and Yogyakarta, and DPR Commission I members from both PDI-P and Golkar are demanding that you answer for 'humiliating the Red-and-White.'",
+    "options": [
+      {
+        "text": "\"Instruct Maj. Gen. Kiki Syahnakri to execute a disciplined, professional handover to Maj. Gen. Cosgrove and Thai Deputy Commander Maj. Gen. Songkitti, while publicly emphasizing that Indonesia honored its international commitments and saved the nation from economic ruin.\"",
+        "effects": {
+          "PC": 5,
+          "intl": 10,
+          "econ": 6,
+          "stab": 4,
+          "mil": 3,
+          "abri": 3,
+          "pop": -6,
+          "golkar_akbar": -6,
+          "cendana": -1,
+          "golkar_habibie": 2
+        },
+        "reaction": "RAKYAT MERDEKA: 'TENTARA KITA DITODONG SEPATU LARS AUSTRALIA, ISTANA MASIH SEBUT SUKSES DIPLOMASI!'<br><br>Photographs on every front page this morning showing Australian INTERFET paratroopers standing over hog-tied Timorese militiamen and Indonesian policemen with Steyr rifles have sent a wave of revulsion and fury across the country. When President Habibie's spokesman attempted to describe the handover at Comoro Airport as 'an orderly diplomatic success,' lawmakers in DPR Commission I erupted in jeers. 'Only B.J. Habibie could lose an entire province, watch foreign soldiers humiliate our uniform on global television, and ask for a round of applause,' snapped PDI-P legislator Permadi."
+      },
+      {
+        "text": "\"Authorize an immediate humanitarian and resettlement fund through the Ministry of Social Affairs and West Timor Governor Piet Tallo to house and feed the 250,000 displaced persons and civil servants pouring across the border into Atambua and Kupang.\"",
+        "effects": {
+          "utusan_daerah": 10,
+          "mil": 5,
+          "abri": 5,
+          "pop": 3,
+          "econ": -5,
+          "intl": -2,
+          "cendana": 1
+        },
+        "reaction": "KOMPAS: 'ATAMBUA DAN KUPANG LUMPUH KEBANJIRAN 250.000 PENGUNGSI, DANA BANTUAN DISUNAT MILISI'<br><br>While East Nusa Tenggara Governor Piet Tallo welcomed Jakarta's emergency disbursement for the quarter-million refugees crammed into squalid camps across Atambua, Belu, and Kupang, reporters on the ground paint a grim picture of where the money is actually going. Armed Aitarak and Besi Merah Putih militiamen who fled across the border ahead of INTERFET have taken control of camp distribution points, intimidating both local NTT residents and Timorese families who were deported at gunpoint and now want to return home."
+      },
+      {
+        "text": "\"Channel the public anger toward Canberra: formally abrogate the 1995 bilateral defense agreement with Australia, recall our ambassador for consultations, and protest Australian troop conduct at the UN.\"",
+        "effects": {
+          "PC": 5,
+          "pop": 10,
+          "mil": 8,
+          "abri": 8,
+          "golkar_akbar": 5,
+          "intl": -10,
+          "econ": -4,
+          "cendana": 1
+        },
+        "reaction": "THE JAKARTA POST: 'PALACE RIDES ANTI-AUSTRALIAN WAVE TO DEFLECT BLAME FOR TIMOR DEBACLE'<br><br>With nationalist crowds burning Australian flags outside the embassy on Jalan Rasuna Said and taking potshots at diplomatic vehicles, Merdeka Palace has eagerly joined the chorus denouncing Prime Minister John Howard's 'deputy sheriff' arrogance. Yet political analysts in Jakarta note that the anti-Canberra outrage is a transparent diversion: 'John Howard did not sign the January 27 cabinet decision offering a referendum without preparing the military on the ground, B.J. Habibie did,' wrote columnist Christianto Wibisono."
+      },
+      {
+        "text": "\"Authorize Komnas HAM to establish the Commission of Inquiry into Human Rights Violations in East Timor (KPP-HAM), led by Albert Hasibuan, Todung Mulya Lubis, and Munir, so Indonesian investigators, rather than a foreign UN tribunal, hold perpetrators accountable.\"",
+        "effects": {
+          "ref": 12,
+          "intl": 10,
+          "utusan_golongan": 8,
+          "mil": -12,
+          "abri": -12,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "FORUM KEADILAN: 'KPP-HAM TIMTIM DIBENTUK: PARA JENDERAL TUDING HABIBIE SERAHKAN LEHER TNI KE LSM'<br><br>To head off a UN War Crimes Tribunal modeled on Yugoslavia and Rwanda, President Habibie has authorized Komnas HAM to form an independent domestic inquiry (KPP-HAM) featuring some of the military's fiercest critics, including Munir, Albert Hasibuan, and Todung Mulya Lubis. At Cilangkap headquarters, the announcement landed like a bombshell: senior generals whose names are already on KPP-HAM's witness list for the Suai and Dili massacres accuse Habibie of using the officer corps as human shields to save his own international reputation."
+      },
+      {
+        "text": "\"Pivot the Palace's public schedule entirely back to domestic economic recovery and the upcoming MPR session, declining all further press questions on East Timor.\"",
+        "effects": {
+          "pop": -5,
+          "ref": -5,
+          "stab": 4,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "POS KOTA: 'TIMTIM LEPAS, ISTANA PURA-PURA PIKUN!'<br><br>As foreign tanks roll through Dili, a city built over twenty-four years with trillions of rupiah in Indonesian tax money and the lives of thousands of soldiers, President Habibie's press office announced yesterday that the Palace has 'moved on' to domestic economic agendas and will take no further questions on East Timor. Cartoonists in this morning's papers depicted the President whistling past a graveyard with his fingers plugged firmly in his ears, while MPR faction leaders promised that East Timor will be Question Number One when he steps to the podium on October 14."
+      }
+    ]
+  },
+  {
+    "date": "September 24, 1999",
+    "id": "ev_semanggi_ii",
+    "title": "Semanggi II Tragedy",
+    "image": "photo/events/15.png",
+    "desc": "Yesterday afternoon, in its final days before dissolving, the outgoing DPR rushed through the State of Danger Bill (RUU Penanggulangan Keadaan Bahaya / PKB), a sweeping statute championed by Defense Minister General Wiranto to replace the 1959 emergency law, granting the President and regional military commanders broad powers to declare states of civil or military emergency, ban demonstrations, wiretap communications, and detain suspects. Seeing the bill as the reincarnation of New Order authoritarianism, tens of thousands of university students from UI, Trisakti, and Atma Jaya have occupied Jalan Gatot Subroto and the Semanggi cloverleaf outside the DPR/MPR complex. Over the past twenty-four hours, security forces have fired tear gas and live rounds into the crowds: University of Indonesia engineering student Yap Yun Hap has been shot dead near Semanggi, and violent clashes in Jakarta, Lampung, and Palembang have left eleven dead and over two hundred wounded. With the MPR convening in seven days, the capital is on the verge of exploding.",
+    "options": [
+      {
+        "text": "\"Refuse to sign the State of Danger Bill (RUU PKB) into law and announce an indefinite postponement of its ratification, depriving the bill of legal force and immediately pulling the fuse out of the student uprising before the MPR convenes.\"",
+        "effects": {
+          "PC": 5,
+          "pop": 12,
+          "ref": 15,
+          "stab": 10,
+          "intl": 6,
+          "utusan_golongan": 8,
+          "poros_tengah": 8,
+          "pdip": 5,
+          "mil": -12,
+          "abri": -12,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "KOMPAS: 'SETELAH NYAWA YAP YUN HAP MELAYANG, BARU ISTANA TUNDA UU PENANGGULANGAN KEADAAN BAHAYA'<br><br>Why does it always take student corpses on the asphalt of Jalan Sudirman before the Habibie government listens to its own people? That was the bitter question asked by University of Indonesia students weeping over the casket of engineering student Yap Yun Hap at the UI Salemba campus yesterday, hours after the Palace announced it was shelving the hated State of Danger Bill (RUU PKB). While freezing the bill prevented a full-scale insurrection ahead of next week's MPR session, student senates pointed out that Habibie's own ministers drafted and pushed the draconian bill through the DPR in the first place, and inside Cilangkap, General Wiranto's staff are furious at being abandoned mid-stream."
+      },
+      {
+        "text": "\"Postpone the Security Bill AND order Jakarta Military Commander Maj. Gen. Djaja Suparman and National Police Chief Gen. Roesmanhadi to identify and court-martial the personnel who fired live rounds at Yap Yun Hap and the protesters.\"",
+        "effects": {
+          "pop": 14,
+          "ref": 14,
+          "stab": 6,
+          "utusan_golongan": 8,
+          "mil": -16,
+          "abri": -16,
+          "cendana": -2,
+          "golkar_habibie": 2
+        },
+        "reaction": "MAJALAH TEMPO: 'TUMBAL DI JEMBATAN SEMANGGI: PRAJURIT BAWAHAN DIKORBANKAN, PEMBERI KOMANDO AMAN'<br><br>Shelving the RUU PKB and ordering Military Police to arrest the field personnel who fired live ammunition at Semanggi II has cooled the barricades along Jalan Gatot Subroto, but neither the students nor the officer corps are satisfied. At UI Salemba, student leaders noted that the shooters from Trisakti (May 1998) and Semanggi I (November 1998) were similarly 'investigated' while the generals who deployed combat troops with live rounds went untouched; meanwhile, Kodam Jaya and Brimob commanders are fuming that the Palace pushed their men onto the streets to defend a government bill and then threw them to the wolves when bullets flew."
+      },
+      {
+        "text": "\"Receive a delegation of UI rectorate leaders and student representatives at Merdeka Palace to express condolences to Yap Yun Hap's family and form a joint civilian-student review team on the emergency law.\"",
+        "effects": {
+          "ref": 6,
+          "pop": 2,
+          "stab": 2,
+          "mil": -4,
+          "abri": -4,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "RAKYAT MERDEKA: 'MAHASISWA DITEMBAK PELURU TAJAM, HABIBIE MALAH AJAK BIKIN TIM KAJIAN!'<br><br>With eleven protesters dead across Jakarta, Lampung, and Palembang and over two hundred students lying in hospital wards at St. Carolus and Atma Jaya with gunshot wounds and shattered skulls, Merdeka Palace's offer to form a 'joint academic review team' on the State Security Bill was greeted with derision on the streets. Student coalitions from FORKOT, FAMRED, and KB-UI boycotted the Palace invitation outright, burning copies of the RUU PKB at the Semanggi flyover and chanting that they want the law dead, not edited."
+      },
+      {
+        "text": "\"Deliver an unscripted televised address offering personal prayers for the victims at Semanggi and Lampung while pleading with students to return to their campuses so the MPR General Session can proceed in peace.\"",
+        "effects": {
+          "pop": -6,
+          "ref": -5,
+          "stab": -4,
+          "mil": -3,
+          "abri": -3,
+          "cendana": 1,
+          "golkar_habibie": -1
+        },
+        "reaction": "POS KOTA: 'AIR MATA BUAYA DI LAYAR KACA TAK BISA HIDUPKAN KEMBALI YAP YUN HAP!'<br><br>President Habibie's emotional, rambling television address last night, pleading for calm while refusing to explicitly kill the State of Danger Bill that sparked the bloodshed, landed with a thud across the capital. Tens of thousands of mourners marching behind Yap Yun Hap's hearse from Salemba to Tanah Kusir jeered the President's name, pointing out that less than eleven months after Semanggi I, security forces under his command have once again gunned unarmed students down on the exact same stretch of asphalt."
+      },
+      {
+        "text": "\"Sign the State of Danger Bill (UU PKB) into law immediately and authorize Maj. Gen. Djaja Suparman to invoke its emergency provisions to clear Jalan Gatot Subroto before the MPR delegates arrive on October 1.\"",
+        "effects": {
+          "PC": 8,
+          "mil": 12,
+          "abri": 12,
+          "golkar_akbar": 8,
+          "stab": -15,
+          "pop": -18,
+          "ref": -20,
+          "intl": -10,
+          "utusan_golongan": -12,
+          "cendana": 3,
+          "golkar_habibie": -3
+        },
+        "reaction": "MEDIA INDONESIA: 'JAKARTA DARURAT PERANG: HABIBIE TEKEN UU PKB DI ATAS DARAH MAHASISWA SEMANGGI'<br><br>By signing the despised State of Danger Bill into law on the very day University of Indonesia student Yap Yun Hap was buried, President Habibie has severed his last thread of democratic legitimacy. Over the past twelve hours, central Jakarta has descended into open urban warfare: black smoke billows from burning police posts along Jalan Sudirman, campuses in Yogyakarta, Bandung, and Surabaya have declared a nationwide strike, and Amien Rais warned from Senayan that the President has handed his opponents the ultimate reason to reject his Accountability Speech."
+      }
+    ]
+  },
+  {
+    "date": "September 28, 1999",
+    "id": "ev_pwc_audit",
+    "title": "PwC Bank Bali Audit Leaks",
+    "image": "photo/events/16.png",
+    "desc": "Three days before the new MPR is sworn in, the complete 120-page PricewaterhouseCoopers (PwC) long-form forensic audit of the Bank Bali scandal has leaked in full to DPR Commission VIII and the Jakarta press corps. Although Supreme Audit Agency (BPK) Chairman Billy Joedono initially distributed only a sanitized 41-page summary omitting individual names on bank-secrecy grounds, the leaked unredacted PwC report names everyone: it documents indicators of fraud, collusion, and political interference tracing the Rp 546 billion from Bank Bali through Djoko Tjandra and Setya Novanto's PT Era Giat Prima straight to accounts linked to DPA Chairman A.A. Baramuli, State Enterprises Minister Tanri Abeng, IBRA officials, BI Governor Sjahril Sabirin, and your own 'Tim Sukses' re-election operation. DPR Pansus members are holding up copies of the leaked pages for television cameras in Senayan.",
+    "options": [
+      {
+        "text": "\"Declassify and transmit the full unredacted 120-page PwC audit to the DPR Pansus committee, and instruct the Attorney General and National Police to question every official named in it, including A.A. Baramuli and Setya Novanto.\"",
+        "effects": {
+          "PC": -5,
+          "ref": 12,
+          "intl": 12,
+          "econ": 10,
+          "pop": 10,
+          "pdip": 8,
+          "utusan_golongan": 8,
+          "golkar_akbar": -18,
+          "cendana": -5,
+          "golkar_habibie": 2
+        },
+        "reaction": "MAJALAH TEMPO: 'AUDIT PWC BUKA BOROK TIM SUKSES: HABIBIE LEMPAR BARAMULI KE KANDANG SINGA DPR'<br><br>Only after photocopies of the unredacted 120-page PricewaterhouseCoopers forensic audit were already circulating in every newsroom and embassy in Jakarta did Merdeka Palace finally bow to reality and 'declassify' the report. And what a devastating document it is: page after page traces the Rp 546 billion Bank Bali payout through Setya Novanto and Djoko Tjandra's PT Era Giat Prima straight into the inner sanctum of Habibie's own re-election machine (*Tim Sukses*). Inside Golkar, a furious A.A. Baramuli is threatening to drag down everyone with him if prosecuted, while Akbar Tandjung's camp is openly preparing to abandon a presidency drowning in sleaze."
+      },
+      {
+        "text": "\"Stand behind BPK Chairman Billy Joedono's statutory interpretation: release the 41-page official summary publicly while keeping the raw annexes restricted to law enforcement investigators under Indonesia's banking secrecy statute.\"",
+        "effects": {
+          "golkar_akbar": 8,
+          "ref": -10,
+          "intl": -8,
+          "econ": -6,
+          "pop": -10,
+          "cendana": 2,
+          "golkar_habibie": -1
+        },
+        "reaction": "RAKYAT MERDEKA: 'SENSOR SPIDOL HITAM BPK JADI BAHAN TERTAWAAN! FOTOKOPI AUDIT PWC DIJUAL DI LAMPU MERAH'<br><br>Supreme Audit Agency (BPK) Chairman Billy Joedono and Bina Graha turned themselves into a national laughingstock yesterday by solemnly handing DPR members a sanitized 41-page 'summary' of the PwC Bank Bali report with all the politicians' names scrubbed out, at the exact moment street boys at the Kuningan and Slipi traffic lights were hawking bootleg copies of the full 120-page unredacted audit for Rp 10,000 apiece! 'The Palace is trying to hide an elephant behind a handkerchief,' DPR Pansus member Angelina Sondakh's colleagues jeered on the floor."
+      },
+      {
+        "text": "\"Call on Bank Indonesia Governor Sjahril Sabirin and IBRA Chairman Glenn Yusuf to accept institutional responsibility for the regulatory failure that allowed the Rp 904 billion interbank claim to be paid out in the first place.\"",
+        "effects": {
+          "econ": -6,
+          "stab": -3,
+          "golkar_akbar": -3,
+          "cendana": -1,
+          "golkar_habibie": 1
+        },
+        "reaction": "BISNIS INDONESIA: 'DITUDING ISTANA, GUBERNUR BI SJAHRIL SABIRIN MELAWAN DAN BONGKAR TEKANAN BARAMULI'<br><br>President Habibie's attempt to pin the blame for the Bank Bali scandal on Bank Indonesia Governor Sjahril Sabirin and IBRA Chairman Glenn Yusuf backfired spectacularly in DPR hearings yesterday afternoon. Protected by the central bank independence statute Habibie himself signed in May, Sabirin flatly refused to resign and instead testified under oath that he only authorized the Rp 904 billion transfer after relentless political pressure and threats from Habibie's closest confidant, DPA Chairman A.A. Baramuli."
+      },
+      {
+        "text": "\"Have State Enterprises Minister Tanri Abeng and your legal counsel argue that since the Rp 546 billion has now been frozen in escrow at Bank Indonesia, the state treasury has suffered zero net financial loss.\"",
+        "effects": {
+          "PC": 5,
+          "golkar_akbar": 6,
+          "pop": -10,
+          "ref": -10,
+          "econ": -4,
+          "cendana": 2,
+          "golkar_habibie": -2
+        },
+        "reaction": "KOMPAS: 'LOGIKA ABSURD TANPA KERUGIAN NEGARA: PENJARAHAN BANK BALI BUKAN SEKADAR SOAL AKUNTANSI'<br><br>The Palace's latest legal defense of the Bank Bali scandal, claiming that because the Rp 546 billion was eventually frozen in escrow, 'the state suffered zero loss and therefore no corruption occurred', was shredded by legal scholars and IMF officials alike yesterday. 'By that logic, a bank robber who drops the money bag when surrounded by police at the door commits no crime,' banking analyst Pradjoto told *Kompas*, noting that the PwC audit proves beyond doubt a premeditated conspiracy to loot state recapitalization funds for the October presidential election."
+      },
+      {
+        "text": "\"Declare the leaked PwC document a violation of state and banking secrecy laws, and order the police to raid the offices of the newspapers and DPR staffers circulating the unredacted pages.\"",
+        "effects": {
+          "PC": 5,
+          "golkar_akbar": 14,
+          "ref": -18,
+          "pop": -18,
+          "intl": -15,
+          "stab": -10,
+          "cendana": 4,
+          "golkar_habibie": -3
+        },
+        "reaction": "THE JAKARTA POST: 'POLICE RAID DPR OFFICES OVER PWC LEAK AS IMF CONDEMNS COVER-UP'<br><br>In a breathtaking act of political self-destruction just seventy-two hours before the MPR convenes, the Habibie government has sent police investigators into Senayan to hunt down the leakers of the 120-page PwC Bank Bali audit rather than the thieves named inside it. In response, student protesters plastered enlarged pages of the audit showing the transfers to Setya Novanto and Baramuli's network across the walls of the DPR compound, while IMF Director Hubert Neiss announced from Washington that Indonesia's bailout remains frozen solid."
+      }
+    ]
+  },
+  {
+    "date": "October 1, 1999",
+    "id": "ev_assembly_convenes",
+    "title": "MPR Convenes",
+    "image": "photo/events/17.png",
+    "desc": "All 700 delegates of the People's Consultative Assembly (MPR), 462 elected DPR party representatives, 38 appointed ABRI officers, 135 provincial delegates (Utusan Daerah) elected by the 27 regional parliaments, and 65 civic and functional delegates (Utusan Golongan), have taken their oaths beneath the green tortoiseshell dome of the Senayan complex. Before your Accountability Speech or the presidential election can take place, the Assembly must elect two crucial leaders: the Speaker of the MPR (who will preside over the General Session and set the rules for your Accountability Vote) on October 3, and the Speaker of the DPR on October 6. In the hotel suites of the Hilton and the Mulia, a high-stakes three-way chess match is underway between Amien Rais, PKB Chairman Matori Abdul Djalil (backed by Megawati's PDI-P), and Golkar Chairman Akbar Tandjung.",
+    "options": [
+      {
+        "text": "\"Execute a grand parliamentary bargain: instruct Golkar's whips to back Amien Rais for MPR Speaker against PDI-P's candidate Matori Abdul Djalil on October 3, in exchange for the Islamic parties backing Akbar Tandjung for DPR Speaker on October 6.\"",
+        "effects": {
+          "PC": 8,
+          "golkar_akbar": 12,
+          "poros_tengah": 10,
+          "ppp": 6,
+          "pdip": -10,
+          "pkb": -5,
+          "stab": 4,
+          "golkar_habibie": 2
+        },
+        "reaction": "KOMPAS: 'AMIEN RAIS KETUA MPR, AKBAR TANDJUNG KETUA DPR: KEMENANGAN TAKTIS YANG MENYIMPAN RANJAU BAGI HABIBIE'<br><br>On paper, the hotel-suite pact engineered between Golkar and the Islamic parties was a surgical triumph, electing Amien Rais as MPR Speaker (305–279 over PDI-P's Matori Abdul Djalil) and handing Akbar Tandjung the DPR Speakership by a landslide (411 votes). Yet seasoned Senayan veterans are asking whether President Habibie just built the gallows for his own presidency: Amien Rais now holds the MPR gavel to advance his own 'Central Axis' candidate, and Akbar Tandjung has already secured the five-year prize he wanted most, leaving him with zero incentive to go down with Habibie's sinking ship on October 19."
+      },
+      {
+        "text": "\"Throw the Palace's full weight behind Akbar Tandjung for the DPR Speakership unconditionally, rallying both Golkar wings and the regional delegates to demonstrate the Banyan Tree's discipline.\"",
+        "effects": {
+          "PC": 5,
+          "golkar_akbar": 10,
+          "utusan_daerah": 5,
+          "pdip": -8,
+          "ref": -4,
+          "cendana": 2,
+          "golkar_habibie": 1
+        },
+        "reaction": "MAJALAH TEMPO: 'AKBAR TANDJUNG AMANKAN KURSI KETUA DPR, HABIBIE BELUM TENTU KEBAGIAN KURSI PRESIDEN'<br><br>With Palace whips delivering the regional and Golkar blocs en masse, Akbar Tandjung coasted to the DPR Speakership yesterday with 411 votes. But inside the Hilton Hotel suites where Akbar's former HMI (Islamic Students Association) lieutenants gather late at night, the mood was anything but grateful toward Merdeka Palace. 'Habibie paid cash up front to make Akbar the second most powerful man in the country, and now Akbar holds all the cards for the next two weeks,' observed political analyst Eep Saefulloh Fatah."
+      },
+      {
+        "text": "\"Reach across the aisle to Diponegoro: offer Golkar support for PDI-P's preferred leadership slate in the DPR and MPR in exchange for PDI-P toning down its attacks on your upcoming Accountability Speech.\"",
+        "effects": {
+          "PC": -5,
+          "pdip": 12,
+          "pkb": 6,
+          "golkar_akbar": -15,
+          "poros_tengah": -8,
+          "stab": 5,
+          "cendana": -2,
+          "golkar_habibie": 1
+        },
+        "reaction": "SUARA KARYA: 'MANUVER ISTANA DEKATI PDI-P PICU PEMBERONTAKAN FRAKSI GOLKAR DI SENAYAN'<br><br>President Habibie's backchannel offer to trade away Golkar's claim on the parliamentary leadership in exchange for a softer PDI-P stance on his Accountability Speech triggered an open mutiny inside his own party caucus yesterday. Defying Bina Graha's emissaries outright, Akbar Tandjung's 120 DPR legislators cut their own deal with Amien Rais and ABRI to seize the Speakerships anyway, leaving Habibie alienated from his own party apparatus while PDI-P pockets his concessions with a smirk."
+      },
+      {
+        "text": "\"Host the 135 Utusan Daerah and 65 Utusan Golongan delegates at Istana Negara to organize an independent non-partisan 'Fraksi Utusan' bloc loyal directly to the Presidency.\"",
+        "effects": {
+          "utusan_daerah": 10,
+          "utusan_golongan": 6,
+          "pop": -6,
+          "ref": -6,
+          "pdip": -5,
+          "cendana": 1
+        },
+        "reaction": "RAKYAT MERDEKA: 'JAMUAN KAVIAR DI ISTANA GAGAL! DPR BUBARKAN FRAKSI UTUSAN DAERAH ANDALAN HABIBIE'<br><br>After wining and dining 200 regional and functional delegates at Istana Negara in a blatant attempt to reconstruct Suharto's old 200-vote rubber-stamp *Fraksi Utusan Daerah*, Bina Graha suffered a humiliating defeat on the MPR floor yesterday afternoon. United for once in their determination to stop the Palace from herding regional delegates like cattle, PDI-P, PKB, PAN, and even Akbar Tandjung's Golkar voted to abolish the standalone Regional Faction, forcing provincial delegates to sit inside the regular party caucuses!"
+      },
+      {
+        "text": "\"Respect the separation of powers strictly: keep Merdeka Palace out of the parliamentary Speakership elections and let the 700 delegates choose their own presiding officers.\"",
+        "effects": {
+          "ref": 6,
+          "stab": -4,
+          "pop": -3,
+          "golkar_akbar": -5,
+          "golkar_habibie": -2
+        },
+        "reaction": "MEDIA INDONESIA: 'HABIBIE JADI PENONTON DI SENAYAN SAAT AMIEN RAIS DAN AKBAR BAGI-BAGI KEKUASAAN'<br><br>While Amien Rais, Akbar Tandjung, Taufik Kiemas, and General Wiranto spent the last seventy-two hours locked in marathon horse-trading across the hotel suites of central Jakarta to divide the MPR and DPR Speakerships, Merdeka Palace sat on its hands piously preaching 'separation of powers.' The result is a parliamentary leadership that owes its gavels entirely to its own backroom deals and nothing whatsoever to B.J. Habibie."
+      }
+    ]
+  },
+  {
+    "date": "October 7, 1999",
+    "id": "ev_central_axis",
+    "title": "The Central Axis Nominates Gus Dur",
+    "image": "photo/events/18.png",
+    "desc": "Fresh off his election as MPR Speaker on October 3, Amien Rais has pulled off a political masterstroke that has shattered the two-horse race between you and Megawati Sukarnoputri. At a packed press conference today, flanked by leaders of the Reform Faction (PAN and PK), PPP Chairman Hamzah Haz, PKB Chairman Matori Abdul Djalil, and PBB Chairman Yusril Ihza Mahendra, the newly consolidated 'Poros Tengah' (Central Axis) has formally nominated Abdurrahman Wahid (Gus Dur, the near-blind cleric who leads the 40-million-strong Nahdlatul Ulama) as its candidate for President of the Republic. While Gus Dur himself had previously expressed sympathy for Megawati, he has accepted the nomination to prevent what the ulama call a destructive polarization between secular nationalists and political Islam.<br><br><font color=\"#C0392B\"><b>Amien Rais has formally consolidated the Islamic parties, absorbing PPP, PKB, and 20 minor Islamic party delegates into the 'Poros Tengah' coalition. Instantly commanding 163 MPR Delegates and transforming into the ultimate kingmaker of the General Session.</b></font>",
+    "options": [
+      {
+        "text": "\"Welcome Gus Dur's nomination graciously as proof of Indonesia's democratic maturity, while reminding the Central Axis that splitting the Muslim and reformist vote risks handing the presidency straight to PDI-P unless we coordinate on the Accountability Vote first.\"",
+        "effects": {
+          "PC": 5,
+          "ref": 8,
+          "intl": 5,
+          "poros_tengah": 8,
+          "golkar_habibie": 3,
+          "cendana": -1
+        },
+        "reaction": "REPUBLIKA: 'HABIBIE SAMBUT PENCALONAN GUS DUR, TAPI POROS TENGAH SIAPKAN SKENARIO TANPA HABIBIE'<br><br>President Habibie's polite welcome for Abdurrahman Wahid's surprise presidential nomination could not mask the cold sweat breaking out inside his campaign headquarters at Patra Kuningan. For months, Habibie's strategists had assumed the Islamic parties would have no choice but to back the founder of ICMI in order to stop Megawati. Now, by nominating Gus Dur, Amien Rais has given Muslim and reformist delegates a viable third door; one that only opens wide if Habibie's Accountability Speech is voted down on October 19."
+      },
+      {
+        "text": "\"Meet privately with Gus Dur and Amien Rais to propose a grand power-sharing ticket: support your re-election as President on October 20 with Gus Dur or Hamzah Haz elevated to a constitutionally empowered Vice Presidency.\"",
+        "effects": {
+          "poros_tengah": 6,
+          "pdip": -10,
+          "ref": -3,
+          "cendana": 1,
+          "golkar_habibie": 1
+        },
+        "reaction": "KOMPAS: 'DITAWARI KURSI WAPRES OLEH HABIBIE, GUS DUR BERSeloroh: NGAPAIN JADI WAKIL KALAU BISA JADI PRESIDEN?'<br><br>Abdurrahman Wahid needed only one sentence to puncture Bina Graha's latest trial balloon yesterday afternoon. Asked by reporters outside the Ciganjur compound about President Habibie's offer to make him or Hamzah Haz Vice President in exchange for Poros Tengah's 163 votes, the near-blind NU cleric chuckled: 'Why on earth should I apply to be Pak Habibie's assistant when Amien Rais is already working overtime to make me his replacement?' The press corps roared with laughter, though PPP insiders privately admit they are still listening to Palace offers."
+      },
+      {
+        "text": "\"Bypass Amien Rais and send an emergency envoy to Megawati Sukarnoputri and Taufik Kiemas: propose a nationalist-technocratic understanding between Golkar and PDI-P to stop Amien Rais's Central Axis from hijacking the election.\"",
+        "effects": {
+          "pdip": 12,
+          "poros_tengah": -12,
+          "golkar_akbar": -8,
+          "stab": 8,
+          "cendana": -2,
+          "golkar_habibie": 1
+        },
+        "reaction": "MAJALAH TEMPO: 'PANIK DIKEPUNG POROS TENGAH, ISTANA COBA MERAYU BANTENG YANG TERLUKA'<br><br>Politics makes strange bedfellows, but watching B.J. Habibie's emissaries knock on Jalan Diponegoro's door to warn Megawati Sukarnoputri about Amien Rais's 'treachery' takes the prize for 1999. While Taufik Kiemas's pragmatic wing inside PDI-P is furious at Gus Dur for abandoning his alliance with Megawati and heard the Palace envoy out, PDI-P's rank-and-file delegates remain adamant that they will never vote to accept Habibie's Accountability Speech just to spite Amien Rais."
+      },
+      {
+        "text": "\"Double down on the Banyan Tree and the provinces: ignore the Central Axis's maneuvering and concentrate all Palace resources on locking down Golkar's 120 DPR seats, ABRI's 38 seats, and the 135 Utusan Daerah delegates.\"",
+        "effects": {
+          "PC": 5,
+          "golkar_akbar": 10,
+          "utusan_daerah": 10,
+          "abri": 4,
+          "poros_tengah": -12,
+          "pop": -6,
+          "cendana": 2
+        },
+        "reaction": "THE JAKARTA POST: 'PALACE DISMISSES CENTRAL AXIS AS BLUFF, BETS THE HOUSE ON GOLKAR AND REGIONAL VOTES'<br><br>Campaign strategists inside Habibie's *Tim Sukses* dismissed Gus Dur's nomination by the Central Axis yesterday as 'a paper tiger that will fold before October 20,' vowing instead to steamroll the MPR with Golkar, ABRI, and outer-island delegates. Parliamentary mathematicians in Senayan were less impressed: with PPP, PKB, and PAN now consolidated into a 163-seat bloc under Speaker Amien Rais, snubbing the Central Axis leaves Habibie with zero margin for error if even thirty Golkar delegates defect behind the secret-ballot curtain."
+      },
+      {
+        "text": "\"Have Palace surrogates publicly question whether a man who has suffered two near-fatal strokes and cannot read a briefing paper with his own eyes is medically fit under Article 6 of the Constitution to serve as President.\"",
+        "effects": {
+          "pop": -15,
+          "poros_tengah": -20,
+          "ref": -10,
+          "stab": -10,
+          "cendana": 2,
+          "golkar_habibie": -3
+        },
+        "reaction": "RAKYAT MERDEKA: 'HINA FISIK GUS DUR, JUTAAN WARGA NAHDLIYIN DAN BANSER NGAMUK KE ISTANA!'<br><br>Of all the blunders committed by President Habibie's surrogates this year, publicly mocking Abdurrahman Wahid's blindness and stroke recovery as a constitutional disqualification under Article 6 may prove the most suicidal. Within hours, Nahdlatul Ulama boarding schools across East and Central Java erupted in fury, Banser youth brigades burned Habibie campaign banners in Surabaya and Jombang, and wavering PKB and PPP delegates vowed to bury the President's Accountability Speech on October 19."
+      }
+    ]
+  },
+  {
+    "date": "October 11, 1999",
+    "id": "ev_suharto_probe",
+    "title": "Suharto SP3 Order",
+    "image": "photo/events/19.png",
+    "desc": "Three days before you are scheduled to step to the MPR podium to deliver your Accountability Speech, Acting Attorney General Ismudjoko, who replaced Lt. Gen. Andi Muhammad Ghalib in June after Indonesia Corruption Watch (ICW) exposed suspicious bank transfers and a leaked wiretap of your private phone call to Ghalib ('Halo Andi...') mocked the anti-corruption probe, has dropped a political grenade. Today, October 11, Ismudjoko formally issued an SP3 (Surat Perintah Penghentian Penyidikan / Order to Terminate Investigation) shutting down the state corruption investigation into former President Suharto and his seven charitable foundations (Dakab, Supersemar, Dharmais), citing 'insufficient legal evidence of state losses' and Suharto's recent hospitalization at Pertamina Central Hospital. Within hours of the announcement, thousands of furious students have marched toward Jalan Cendana and the Attorney General's Office in Blok M, chanting that your entire 17-month presidency was a calculated charade to pardon your old mentor.",
+    "options": [
+      {
+        "text": "\"Override Acting Attorney General Ismudjoko immediately: annul the SP3 order, place Suharto's seven foundation accounts under full state receivership, and pledge before the MPR that the corruption probe will continue under an independent special prosecutor.\"",
+        "effects": {
+          "PC": -5,
+          "pop": 15,
+          "ref": 12,
+          "intl": 6,
+          "utusan_golongan": 8,
+          "pdip": 6,
+          "poros_tengah": 6,
+          "stab": -6,
+          "golkar_akbar": -16,
+          "abri": -8,
+          "mil": -8,
+          "cendana": -15,
+          "golkar_habibie": 3
+        },
+        "reaction": "MEDIA INDONESIA: 'PANIK DIKEPUNG MAHASISWA, HABIBIE BATALKAN SP3 SOEHARTO H-3 PIDATO PERTANGGUNGJAWABAN'<br><br>Terrified that Acting Attorney General Ismudjoko's October 11 termination of the Suharto corruption probe would ignite a student revolution on the eve of his Accountability Speech, President Habibie scrambled yesterday to annul the SP3 order and seize the Cendana foundations. While anti-corruption activists welcomed the reversal, nobody in Senayan missed the opportunism of the timing: for sixteen months Habibie slow-walked the probe, even getting caught on a wiretap coaching Andi Ghalib, only to discover anti-Suharto zeal seventy-two hours before the MPR votes on his job. Meanwhile, Jalan Cendana's financiers have declared total war on Habibie's candidacy."
+      },
+      {
+        "text": "\"Uphold the Attorney General's SP3 order on legal and humanitarian grounds, reminding the nation that Suharto has already transferred Rp 4 trillion in foundation assets to the state under Keppres No. 133/1998 and is gravely ill.\"",
+        "effects": {
+          "PC": 8,
+          "golkar_akbar": 15,
+          "mil": 10,
+          "abri": 10,
+          "stab": 6,
+          "pop": -15,
+          "ref": -15,
+          "pdip": -8,
+          "utusan_golongan": -10,
+          "cendana": 10,
+          "golkar_habibie": -2
+        },
+        "reaction": "RAKYAT MERDEKA: 'MURID BAKTI PADA SANG GURU! HABIBIE RESMIKAN SP3 SOEHARTO, REFORMASI DIKHIANATI'<br><br>The charade that began with the leaked *'Halo, Andi? Apa kabar?'* wiretap in February reached its cynical climax yesterday afternoon as Acting Attorney General Ismudjoko, with President Habibie's full blessing, issued an SP3 order dropping all corruption charges against former President Suharto just three days before the MPR Accountability Speech! Molotov cocktails rained down on the gates of the Attorney General's Office in Blok M last night as thousands of students clashed with riot police, chanting that the man who once called Suharto 'Super Genius' was installed in May 1998 for one purpose only: to wash his master's sins clean."
+      },
+      {
+        "text": "\"Clarify through Justice Minister Muladi that an SP3 is only a provisional suspension while Suharto is hospitalized at Pertamina Hospital, and sign an instruction keeping the travel ban on Tommy Suharto and the Cendana family strictly in force.\"",
+        "effects": {
+          "golkar_akbar": 4,
+          "econ": 4,
+          "pop": -5,
+          "ref": -5,
+          "cendana": -2,
+          "golkar_habibie": 1
+        },
+        "reaction": "MAJALAH TEMPO: 'AKROBAT HUKUM MULADI: SP3 DISEBUT SEMENTARA, SOEHARTO TETAP LENGGANG KANGKUNG'<br><br>Justice Minister Muladi spent two hours yesterday trying to convince a skeptical press corps that terminating the Suharto corruption investigation via an SP3 on October 11 is merely a 'reversible procedural pause' while the former strongman rests at Pertamina Central Hospital. Legal Aid Foundation (YLBHI) chairman Bambang Widjojanto called the explanation 'insulting legal gymnastics designed to placate Cendana cronies inside Golkar while anesthetizing the students until next week's MPR vote is over.'"
+      },
+      {
+        "text": "\"Insist on strict judicial non-interference: state that under a rule-of-law republic the President cannot order the Attorney General to indict or drop charges against any citizen, and leave the SP3 to judicial pre-trial review.\"",
+        "effects": {
+          "pop": -8,
+          "ref": -8,
+          "stab": -4,
+          "cendana": 3,
+          "golkar_habibie": -1
+        },
+        "reaction": "KOMPAS: 'MENDADAK HORMATI INDEPENDENSI KEJAKSAAN SETELAH REKAMAN TELEPON ANDI GHALIB'<br><br>President Habibie's pious claim yesterday that he 'cannot interfere with the independent legal judgment of Acting Attorney General Ismudjoko' on the Suharto SP3 was greeted with derisive laughter across Senayan. Every newspaper reader in Indonesia still remembers the verbatim transcript of Habibie's private telephone call to former Attorney General Andi Ghalib earlier this year, in which the President choreographed the three-hour questioning of Suharto down to the minute. Pretending to be a bystander now fools not a single soul."
+      },
+      {
+        "text": "\"Order security forces to place Jalan Cendana under visible 24-hour protective custody and freeze the remaining Supersemar and Dakab foundation disbursements pending an MPR special committee review.\"",
+        "effects": {
+          "pop": 8,
+          "ref": 6,
+          "utusan_golongan": 4,
+          "mil": -5,
+          "abri": -5,
+          "golkar_akbar": -8,
+          "cendana": -5,
+          "golkar_habibie": 1
+        },
+        "reaction": "POS KOTA: 'SANDIWARA JAGA JALAN CENDANA: TENTARA SENYUM HORMAT SAAT MOBIL KELUARGA CENDANA LEWAT!'<br><br>To deflect public outrage over the Attorney General's SP3 order dropping the Suharto probe, Bina Graha announced yesterday that soldiers have been posted around No. 8 Jalan Cendana and the family's foundation accounts frozen for MPR review. *Pos Kota* photographers stationed on Jalan Cendana all afternoon observed a rather different reality: the guards snapped to attention and saluted every time Tutut and Bambang Trihatmodjo's tinted Mercedes convoys glided in and out of the compound."
+      }
+    ]
+  },
+  {
+    "date": "October 13, 1999",
+    "id": "ev_megawati_push",
+    "title": "Barricades at Senayan",
+    "image": "photo/events/21.png",
+    "desc": "Tomorrow night you will stand before the 700 delegates of the MPR to deliver your Pidato Pertanggungjawaban. Outside the Senayan parliamentary complex, the atmosphere has reached a boiling point: over a hundred thousand PDI-P supporters, wearing red headbands and waving Banteng flags, have converged with student coalitions along Jalan Gatot Subroto, pressing against massive coils of razor wire, water cannons, and 30,000 Kostrad, Marines, and Brimob troops deployed by General Wiranto. Meanwhile, inside your own camp at Patra Kuningan, your strategists are urging a bold preemptive move before tomorrow night's speech: formally announce General Wiranto as your running mate for Vice President on the 1999–2004 ticket, locking in ABRI's 38 seats and forcing Golkar's wavering nationalist wing under Akbar Tandjung to stay in line.",
+    "options": [
+      {
+        "text": "\"Announce publicly that you have asked General Wiranto to stand as your Vice Presidential running mate for 1999–2004, while instructing the Marines, whom the students respect, to man the front lines at Senayan without live ammunition.\"",
+        "effects": {
+          "PC": 8,
+          "mil": 10,
+          "abri": 10,
+          "golkar_akbar": 8,
+          "stab": 6,
+          "ref": -4,
+          "pop": -2,
+          "cendana": 1,
+          "golkar_habibie": 2
+        },
+        "reaction": "KOMPAS: 'LAMARAN TERBUKA HABIBIE KEPADA WIRANTO: MANUVER PUTUS ASA ATAU TIKET PENYELAMAT?'<br><br>On the eve of his Accountability Speech, President Habibie has played his final trump card by publicly proposing Armed Forces Commander General Wiranto as his Vice Presidential running mate for 1999–2004. Yet while deploying the pink-bereted Marines eased tensions with students along Jalan Gatot Subroto, Wiranto's own response to the marriage proposal was conspicuously frigid: rather than accepting on the spot, the general told reporters he 'needs to consult the officer corps and weigh the national interest first', leaving Habibie hanging in public view like an anxious suitor."
+      },
+      {
+        "text": "\"Send a personal emissary to Megawati Sukarnoputri and Taufik Kiemas tonight: pledge a clean, democratic vote in the MPR without military intimidation, and offer PDI-P a co-governing coalition if your Accountability Speech is accepted.\"",
+        "effects": {
+          "pdip": 14,
+          "stab": 10,
+          "ref": 6,
+          "golkar_akbar": -8,
+          "cendana": -2,
+          "golkar_habibie": 1
+        },
+        "reaction": "SUARA PEMBARUAN: 'UTUSAN MALAM ISTANA KE KEBAGUSAN: MEGAWATI TENANGKAN MASSA, TAPI TOLAK KOMPROMI PIDATO'<br><br>After a late-night visit from Palace emissaries promising an unrigged MPR ballot and dangling a power-sharing cabinet, PDI-P Chairwoman Megawati Sukarnoputri instructed her red-shirted Satgas commanders outside Senayan to pull back from the razor wire and avoid clashes with the Marines. Inside the chamber, however, PDI-P faction leader Dimyati Hartono made clear that peaceful streets will not buy Habibie a single pardon on the floor tomorrow night: 'We will keep our supporters calm outside so the world can watch us reject his speech cleanly inside.'"
+      },
+      {
+        "text": "\"Go on national television and radio tonight to address the students and citizens outside Senayan directly, reminding them that you are standing before the MPR tomorrow under truly democratic rules for the first time in 44 years.\"",
+        "effects": {
+          "pop": 6,
+          "stab": 6,
+          "ref": 5,
+          "pdip": 4,
+          "utusan_golongan": 5,
+          "golkar_habibie": 2
+        },
+        "reaction": "THE JAKARTA POST: 'HABIBIE PLEADS FOR FAIR HEARING AS 100,000 PROTESTERS RING SENAYAN'<br><br>Speaking directly into the television cameras last night, President Habibie reminded the nation that tomorrow night's *Pidato Pertanggungjawaban* marks the first time since 1955 that an Indonesian head of state will stand before an unscripted parliament that actually has the power to fire him. While civic intellectuals acknowledged the democratic milestone, the sea of red-shirted Banteng supporters and student marchers camped around the Senayan Hilton drowned out the broadcast on giant outdoor screens with deafening chants of *'Tolak! Tolak! Tolak!'*"
+      },
+      {
+        "text": "\"Move executive cabinet operations temporarily to Bogor Palace for security continuity while General Wiranto's security ring seals off central Jakarta.\"",
+        "effects": {
+          "PC": -8,
+          "stab": -8,
+          "pop": -10,
+          "mil": -5,
+          "pdip": -5,
+          "abri": -5,
+          "cendana": 1,
+          "golkar_habibie": -3
+        },
+        "reaction": "RAKYAT MERDEKA: 'BELUM DISIDANG SUDAH NGUNGSI KE BOGOR! NYALI ISTANA CIUT LIHAT LAUTAN MERAH DI SENAYAN'<br><br>Nothing signals a collapsing regime faster than moving the furniture out of the capital. Word that Bina Graha quietly shifted executive secretariat operations fifty kilometers south to Bogor Palace yesterday as 100,000 PDI-P supporters and students surrounded Senayan triggered immediate mockery across the MPR floor. 'Sukarno went to Bogor in March 1966 right before Supersemar, and Suharto wanted to go to Bogor in May 1998; now Habibie is following the exact same exit map,' one Golkar dissident whispered to reporters at the Hotel Mulia."
+      },
+      {
+        "text": "\"Order Kodam Jaya and Brimob to clear Jalan Gatot Subroto and the Semanggi approaches by force tonight so MPR delegates do not have to pass a single red flag tomorrow morning.\"",
+        "effects": {
+          "mil": 8,
+          "abri": 8,
+          "stab": -18,
+          "pdip": -20,
+          "pop": -18,
+          "ref": -15,
+          "cendana": 2,
+          "golkar_habibie": -5
+        },
+        "reaction": "POS KOTA: 'SENAYAN BANJIR DARAH DAN GAS AIR MATA H-1 PIDATO HABIBIE!'<br><br>Central Jakarta looked like a war zone at dawn today after Brimob riot squads and armored water cannons stormed student and PDI-P encampments along Jalan Gatot Subroto and the Semanggi flyover on orders from the Palace. Over a hundred bloodied demonstrators were carried into Atma Jaya and Jakarta Hospital as tear-gas canisters detonated inside the Hilton Hotel compound where MPR delegates are sleeping, ensuring that when President Habibie walks into the Plenary Hall tonight, the chamber will be waiting for him with pure venom."
+      }
+    ]
+  },
+  {
+    "date": "October 14, 1999",
+    "id": "ev_the_speech",
+    "title": "Pidato Pertanggungjawaban",
+    "image": "photo/events/22.png",
+    "desc": "Just after nightfall on October 14, 1999, you walk to the rostrum of the Plenary Hall of the People's Consultative Assembly as MPR Speaker Amien Rais bangs the gavel for order. Before you sit 700 delegates, and tens of millions of Indonesians watching live on television, for your <i>Pidato Pertanggungjawaban</i>, the constitutional accounting of your 512 days in office. Unlike the choreographed unanimous ovations of Suharto's six terms, you are greeted by a chorus of 'Huuuu!' jeers and floor interruptions from PDI-P and student-aligned delegates before you even read your first page.<br><br>For nearly three hours, and again in your formal reply (<i>Jawaban Presiden</i>) after all eleven MPR factions deliver their sharp critiques over October 15–17, you must frame the overarching narrative of your presidency. Will you anchor your defense in the macroeconomic miracle of rescuing the rupiah from Rp 16,800 to the 7,000s and crushing inflation from 77% to 2%? Will you champion the democratic revolution of freeing political prisoners, unleashing a free press, enacting regional autonomy, and holding the June 1999 election? Or will you confront your two greatest vulnerabilities, East Timor and Bank Bali, head-on?<br><br><font color=\"#0000FF\"><b>Your speech tonight grants an immediate burst of Political Capital and sets the tone for the final forty-eight hours of backroom caucuses (Turns 21–22), where all Final Faction Appeals are now unlocked before the October 19 roll call.</b></font>",
+    "options": [
+      {
+        "text": "\"Lead with the undeniable record of Reformasi and macroeconomic rescue: remind the Assembly that in 512 days we brought the rupiah back from Rp 16,800, broke inflation from 77%, freed political prisoners, enacted Laws No. 22 & 25 on Regional Autonomy, liberated the press, and delivered the freest election since 1955.\"",
+        "effects": {
+          "PC": 20,
+          "ref": 8,
+          "econ": 8,
+          "stab": 10,
+          "pop": 5,
+          "golkar_habibie": 10,
+          "golkar_akbar": 5,
+          "utusan_daerah": 5,
+          "utusan_golongan": 5
+        },
+        "reaction": "KOMPAS: 'TIGA JAM DI PODIUM MPR: ANGKA STATISTIK HABIBIE DIHADANG HUJATAN TIMTIM DAN BANK BALI'<br><br>Standing for nearly three hours beneath the glare of the television lights as PDI-P delegates repeatedly interrupted him with cries of *'Huuuu!'*, President Habibie marshaled a barrage of macroeconomic charts and legislative statistics, reminding the 700 delegates that his 512-day administration passed 39 laws, cut inflation from 77 percent to single digits, and brought the dollar down from Rp 16,800. Yet when the eleven MPR factions rose one by one to deliver their formal *Pemandangan Umum* replies, even Golkar's own spokesman slammed the speech for glossing over East Timor, Bank Bali, and the SP3 for Suharto, warning that statistics alone will not save him on October 19."
+      },
+      {
+        "text": "\"Confront East Timor and Bank Bali with candor and humility: apologize to the nation for the shortcomings of your transitional cabinet, explain that East Timor was never recognized by the UN and had become a bleeding wound, and pledge full prosecution of anyone implicated in Bank Bali.\"",
+        "effects": {
+          "PC": 8,
+          "ref": 8,
+          "intl": 10,
+          "pop": 7,
+          "stab": 8,
+          "pdip": 5,
+          "poros_tengah": 5,
+          "utusan_golongan": 5,
+          "golkar_habibie": 10
+        },
+        "reaction": "MAJALAH TEMPO: 'PERMINTAAN MAAF DI TENGAH MALAM: KETULUSAN NEGARAWAN ATAU TAKTIK MEREDAM PALU SIDANG?'<br><br>In a dramatic departure from three decades of presidential infallibility, B.J. Habibie bowed his head from the MPR rostrum during his *Jawaban Presiden* reply to apologize directly to the Indonesian people for the shortcomings of his seventeen-month transition, while defending the East Timor referendum as the only way to free Indonesia from a twenty-four-year international pariah trap. The humility noticeably quieted the jeering benches of PKB and the functional groups, though nationalist hardliners in PDI-P and ABRI immediately attacked the apology as an admission of guilt that warrants rejecting his mandate."
+      },
+      {
+        "text": "\"Deliver a fiery appeal to the Golkar family, the outer islands, and the Islamic caucus: warn the Assembly that rejecting your speech is a backdoor coup designed to erase everything ICMI, the regions, and reformist Muslims have built since May 1998.\"",
+        "effects": {
+          "PC": 15,
+          "golkar_akbar": 10,
+          "golkar_habibie": 15,
+          "poros_tengah": 3,
+          "utusan_daerah": 10,
+          "other_parties": 5,
+          "stab": 7,
+          "pdip": -10
+        },
+        "reaction": "SUARA PEMBARUAN: 'PIDATO PERTANGGUNGJAWABAN RASA KAMPANYE: HABIBIE GALANG SENTIMEN KEDAERAHAN DAN ISLAM'<br><br>Dropping all pretense of a neutral constitutional accounting, President Habibie turned his three-hour address before the MPR into a combative campaign rally aimed squarely at outer-island delegates, Golkar stalwarts, and the Islamic parties of the Central Axis. While his loyalists from Sulawesi and the PBB benches cheered every line, secular nationalists and independent commentators accused the President of polarizing the chamber along regional and religious fault lines in a desperate bid to scrape together 351 votes."
+      },
+      {
+        "text": "\"Extend a constitutional olive branch to the entire Assembly: present your 17 months as a bridge to full democracy and pledge that a 1999–2004 cabinet will be a National Unity Rainbow Cabinet shared proportionally across PDI-P, the Central Axis, Golkar, and ABRI.\"",
+        "effects": {
+          "PC": 35,
+          "stab": 25,
+          "ref": 10,
+          "pdip": 6,
+          "poros_tengah": 8,
+          "golkar_akbar": 6,
+          "abri": 6,
+          "other_parties": 8,
+          "golkar_habibie": 10
+        },
+        "reaction": "MEDIA INDONESIA: 'JANJI KABINET PELANGI DARI PODIUM MPR: RAYUAN TERAKHIR SEBELUM KOTAK SUARA DIBUKA'<br><br>Facing eleven factions sharpening their blades for the October 19 accountability vote, President Habibie used his address at the MPR podium to dangle the ultimate prize before every party boss in the hall: a proportional 'National Unity Rainbow Cabinet' where PDI-P, Poros Tengah, Golkar, and the military all get a slice of executive power if his speech is accepted. In the Senayan coffee lounges afterward, opposition MPs smiled cynically: 'Why take a slice of Habibie's rainbow cake when we can reject his speech tomorrow and take the whole bakery?'"
+      }
+    ]
+  },
+  {
+    "date": "October 18, 1999",
+    "id": "ev_eve_of_vote",
+    "title": "Night of the Long Knives",
+    "image": "photo/events/habibie_feisal_tanjung_wiranto.png",
+    "desc": "It is the night of October 18, 1999, less than twenty-four hours before the MPR votes by secret ballot to accept or reject your Accountability Speech. Across the eleven MPR factions, four have announced they will accept (Reformasi/PAN-PK, PBB, PDU, and FKKI), four have announced they will reject (PDI-P, PKB, KKI, and PDKB), leaving the entire survival of your presidency hanging on three decisive blocs: Golkar (120 seats), PPP (58 seats), and ABRI (38 seats), alongside the 200 regional and functional delegates. Then, two earthquakes strike within hours of each other: at 3:30 PM today, General Wiranto appeared on television to announce that after consulting the officer corps, he is declining your offer to run as your Vice Presidential candidate; and tonight at the Hotel Mulia, a rebel faction of roughly 40 Golkar delegates led by Akbar Tandjung and Marzuki Darusman ('Golkar Putih') is threatening to defect and vote 'Reject' tomorrow on secret ballot unless you pull their votes back into line at Patra Kuningan tonight.",
+    "options": [
+      {
+        "text": "\"Summon Akbar Tandjung, Marzuki Darusman, and the entire Golkar MPR caucus to Patra Kuningan tonight: confront the 'Golkar Putih' defectors face-to-face and demand party discipline under the Banyan Tree for tomorrow's secret ballot.\"",
+        "effects": {
+          "PC": 10,
+          "golkar_akbar": 15,
+          "golkar_habibie": 15,
+          "utusan_daerah": 5
+        },
+        "reaction": "MAJALAH TEMPO: 'MALAM JAHANAM DI PATRA KUNINGAN: HABIBIE BENTAK AKBAR TANDJUNG DI DEPAN KADER GOLKAR'<br><br>Tempers exploded past midnight at President Habibie's private residence on Jalan Patra Kuningan as the President and A.A. Baramuli confronted Golkar Chairman Akbar Tandjung and Marzuki Darusman over reports that up to forty 'Golkar Putih' legislators intend to stab Habibie in the back during tomorrow's secret-ballot vote. Witnesses say shouting echoed into the courtyard as Sulawesi loyalists accused Akbar of treason; while Akbar emerged at 2:00 AM promising reporters that 'Golkar's official line remains to accept the speech,' nobody in Jakarta is sure what his lieutenants will actually mark once they step behind the curtain tomorrow."
+      },
+      {
+        "text": "\"Pivot immediately after Wiranto's refusal: invite Amien Rais, Hamzah Haz, and Yusril Ihza Mahendra to Patra Kuningan and offer the Vice Presidency directly to the Central Axis and PPP in exchange for their undivided vote tomorrow.\"",
+        "effects": {
+          "PC": 10,
+          "poros_tengah": 14,
+          "other_parties": 12,
+          "golkar_habibie": 6
+        },
+        "reaction": "REPUBLIKA: 'DITINGGAL WIRANTO SORE HARI, MALAM HARI HABIBIE TAWARKAN KURSI WAPRES KE POROS TENGAH'<br><br>Reeling from General Wiranto's 3:30 PM televised announcement declining to run as his Vice President, President Habibie pivoted in sheer desperation last night, summoning PPP Chairman Hamzah Haz and Central Axis leaders to Patra Kuningan to offer them the vacant number-two slot before tomorrow's vote. While PPP's 58 delegates and Yusril Ihza Mahendra's PBB welcomed the late-night courtship, critics mocked the spectacle of a sitting President peddling the Vice Presidency from door to door at midnight like a last-minute concert ticket."
+      },
+      {
+        "text": "\"Deploy A.A. Baramuli, Fadel Muhammad, and your floor whips across the hotel suites of the 135 Utusan Daerah and 65 Utusan Golongan delegates tonight to lock down every uncommitted regional and functional vote.\"",
+        "effects": {
+          "PC": 10,
+          "utusan_daerah": 14,
+          "utusan_golongan": 12,
+          "cendana": 2
+        },
+        "reaction": "RAKYAT MERDEKA: 'OPERASI FAJAR DI HOTEL MULIA DAN HILTON! BROKER ISTANA GERILYA BELI SUARA UTUSAN DAERAH'<br><br>Sleep was impossible inside the Hilton, Mulia, and Atlet Century Park hotels last night as operatives from President Habibie's *Tim Sukses*, led by A.A. Baramuli and Fadel Muhammad, went suite to suite knocking on the doors of outer-island and functional delegates ahead of today's secret ballot. Student monitors from Forum Kota camped in the hotel lobbies accused the Palace brokers of carrying briefcases of cash and project pledges to buy the 351-vote threshold before sunrise."
+      },
+      {
+        "text": "\"Hold an urgent one-on-one meeting with General Wiranto and the ABRI faction leadership under Lt. Gen. Hari Sabarno to ensure that even though Wiranto declined the VP slot, ABRI's 38 delegates vote 'Accept' on your Accountability Speech.\"",
+        "effects": {
+          "PC": 10,
+          "abri": 15,
+          "mil": 15,
+          "stab": 8
+        },
+        "reaction": "KOMPAS: 'WIRANTO TOLAK PINANGAN WAPRES, FRAKSI TNI/POLRI JADI KUNCI PENENTU NASIB HABIBIE HARI INI'<br><br>General Wiranto's dramatic afternoon press conference declining President Habibie's Vice Presidential offer stunned the Patra Kuningan camp, forcing Habibie into an urgent midnight meeting with Wiranto and ABRI Faction Chairman Lt. Gen. Hari Sabarno. While the generals assured the President that stepping back from the ticket was merely to keep the armed forces neutral and that the 38-seat military bloc will 'respect constitutional continuity' today, Senayan insiders note that Wiranto has carefully untied his own lifeboat from Habibie's hull just hours before the iceberg hits."
+      },
+      {
+        "text": "\"Reject the midnight hotel horse-trading entirely: spend the evening quietly at Patra Kuningan with Ibu Ainun and your closest family, trusting the 700 delegates of the MPR to judge your 512 days on their honest merits.\"",
+        "effects": {
+          "PC": 15,
+          "ref": 15,
+          "stab": 15,
+          "pop": 15,
+          "utusan_golongan": 8,
+          "golkar_habibie": 8
+        },
+        "reaction": "THE JAKARTA POST: 'AS SENAYAN BROKERS TRADE VOTES TILL DAWN, A LONELY PRESIDENT WAITS AT KUNINGAN'<br><br>While Akbar Tandjung's dissidents, Amien Rais's Central Axis, and Taufik Kiemas's operatives spent the night horse-trading furiously across the hotel suites of Senayan after General Wiranto's afternoon bombshell, President Habibie called off his floor whips and spent a quiet evening praying with his wife Ainun at Patra Kuningan. Even his fiercest critics in the press gallery admitted a grudging respect for his refusal to turn the final night into a cash auction, though in the shark tank of the 1999 MPR, a clear conscience counts for zero votes."
+      }
+    ]
+  },
+  {
+    "date": "October 19, 1999",
+    "id": "ev_timtim_merdeka",
+    "title": "TAP MPR No. V/1999",
+    "image": "photo/events/east_timor_free.png",
+    "desc": "Twenty-one years ago, in July 1978, a New Order MPR enacted <b>Decree No. VI (TAP MPR No. VI/MPR/1978)</b>, formally incorporating the former Portuguese colony of East Timor into the Republic of Indonesia as its 27th province, an annexation the United Nations never recognized. Today, October 19, 1999, as its final act before bringing the wooden ballot boxes onto the floor to vote by secret ballot on your Accountability Speech (<b>TAP MPR No. III/MPR/1999</b>), the People's Consultative Assembly takes up <b>TAP MPR No. V/MPR/1999</b> on the East Timor Referendum.<br><br>With remarkably little floor resistance, the Assembly formally revokes TAP MPR No. VI/1978, constitutionally recognizing the August 30 referendum result in which 78.5% of East Timorese voters chose independence, and clearing the legal path for the United Nations Transitional Administration in East Timor (UNTAET) to assume authority over the territory. As MPR Speaker Amien Rais prepares to call the 700 delegates forward one by one to cast their secret ballots on your presidency, you issue your final word on the close of the East Timor chapter.",
+    "options": [
+      {
+        "text": "\"This twenty-four-year chapter closes today with constitutional dignity rather than endless war. Indonesia's obligations under the May 5 Agreement are honorably discharged, may Indonesia and an independent Timor Lorosa'e live side by side in peace.\"",
+        "effects": {
+          "intl": 15,
+          "ref": 10,
+          "stab": 6,
+          "utusan_golongan": 5,
+          "abri": -6,
+          "mil": -5
+        },
+        "reaction": "KOMPAS: 'MPR CABUT TAP INTEGRASI TIMTIM, KINI 700 ANGGOTA DEWAN SIAP HAKIMI NASIB HABIBIE'<br><br>In a bitter historical irony, the very same MPR factions that spent the past week savaging President Habibie for 'losing the 27th province' voted unanimously this afternoon to pass TAP MPR No. V/MPR/1999, formally revoking the 1978 integration decree and letting East Timor go without a single dissenting vote. Having used East Timor to bludgeon Habibie's reputation to pieces, the 700 delegates have now washed their own hands of the territory just in time to unlock the wooden ballot boxes and pass judgment on the man who dared to hold the referendum."
+      },
+      {
+        "text": "\"I will not pretend this was the outcome I hoped for when we offered Wide-Ranging Autonomy, but a Republic that honors the free vote of the ballot box, even when the result hurts, proves to the world and to itself that Reformasi is real.\"",
+        "effects": {
+          "ref": 10,
+          "intl": 10,
+          "pop": 6,
+          "golkar_habibie": 5,
+          "abri": -4
+        },
+        "reaction": "MAJALAH TEMPO: 'BABAK TERAKHIR TIMOR TIMUR DITUTUP, PALU AMIEN RAIS MEMBUKA MALAM PENENTUAN'<br><br>With the stroke of Amien Rais's gavel ratifying TAP MPR No. V/MPR/1999, twenty-four years of blood, international isolation, and broken promises in East Timor came to a formal constitutional end this afternoon in Senayan. Yet as diplomats in the gallery applauded President Habibie's parting words on democratic honor, the floor below was already clearing for the main event: the secret-ballot roll call on his Accountability Speech has begun, and every politician in the hall is ready to collect their pound of flesh."
+      }
+    ]
+  }
+]

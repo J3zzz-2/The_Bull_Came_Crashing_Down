@@ -1,0 +1,487 @@
+/* ==========================================================================
+   CLASSIC MAC OS 8 "PLATINUM" THEME  (css/macos8/styles.css)
+   --------------------------------------------------------------------------
+   An OVERRIDE LAYER. Load it AFTER css/default/styles.css and css/news.css.
+   Layout and responsive rules are inherited; this file only re-skins chrome.
+
+   What changes:
+   - Pinstriped title bars with a centered caption, a close box on the left and
+     zoom / window-shade boxes on the right
+   - Rounded Platinum push buttons with a 1px black outline
+   - The bottom taskbar becomes a MENU BAR at the top of the screen: the
+     Start button is the Apple menu, the Start menu drops down from it
+   - Platinum scrollbars (grip thumb), popup-menu selects, X check boxes
+   - Charcoal / Geneva type, blue-purple highlight color
+   ========================================================================== */
+
+:root {
+    --win95-bg: #DDDDDD;
+    --win95-surface: #EEEEEE;
+    --win95-navy: #333399;          /* Platinum highlight color */
+    --mac-hilite: #333399;
+
+    --mac-stripes: repeating-linear-gradient(to bottom, #FFFFFF 0, #FFFFFF 1px, #B9B9B9 1px, #B9B9B9 2px);
+    /* hides the stripes behind caption text, like the real title-bar label patch */
+    --mac-halo: 0 0 3px #DDD, 0 0 3px #DDD, 0 0 3px #DDD, 0 0 3px #DDD, 0 0 3px #DDD, 0 0 3px #DDD;
+    --mac-sheen: linear-gradient(to bottom, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 55%, rgba(0,0,0,0.10) 100%);
+
+    --bevel-raised:
+        0 0 0 1px #000000,
+        inset 1px 1px 0px #FFFFFF,
+        inset -1px -1px 0px #888888,
+        inset 2px 2px 0px #F0F0F0,
+        inset -2px -2px 0px #BBBBBB;
+
+    --bevel-sunken:
+        0 0 0 1px #555555,
+        inset 1px 1px 0px #777777,
+        inset -1px -1px 0px #FFFFFF;
+
+    --bevel-status-well:
+        inset 1px 1px 0px #888888,
+        inset -1px -1px 0px #FFFFFF;
+
+    --bevel-pressed:
+        0 0 0 1px #000000,
+        inset 1px 1px 0px #444444,
+        inset -1px -1px 0px #CCCCCC,
+        inset 2px 2px 0px #777777;
+
+    --bevel-window:
+        0 0 0 1px #000000,
+        2px 2px 0px 1px rgba(0, 0, 0, 0.55),
+        inset 1px 1px 0px #FFFFFF,
+        inset -1px -1px 0px #888888;
+}
+
+* {
+    font-family: "Charcoal", "Chicago", "Geneva", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: auto;
+}
+
+::selection { background-color: #9999DD; color: #000000; }
+
+body { padding-top: 30px; padding-bottom: 0; }
+
+/* ========================================== */
+/* --- WINDOWS & TITLE BARS               --- */
+/* ========================================== */
+.container {
+    padding: 0 0 8px 0;
+    margin-top: 6px;
+}
+
+.container::before {
+    background: var(--mac-stripes), #DDDDDD;
+    color: #000000;
+    box-sizing: border-box;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 40px;
+    margin-bottom: 6px;
+    text-align: center;
+    text-shadow: var(--mac-halo);
+    letter-spacing: 0;
+    border-bottom: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* close box (left) + zoom / window-shade boxes (right) */
+.container::after {
+    content: "";
+    top: 4px;
+    left: 8px;
+    right: 8px;
+    width: auto;
+    height: 13px;
+    line-height: 0;
+    font-size: 0;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13' %3E%3Crect x='0.5' y='.5' width='12' height='12' fill='%23DDD' stroke='%23000'/%3E%3Cpath d='M1.5 11.5V1.5H11.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M11.5 1.5V11.5H1.5' stroke='%23888' fill='none'/%3E%3C/svg%3E") no-repeat left center, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='29' height='13' viewBox='0 0 29 13' %3E%3Crect x='0.5' y='.5' width='12' height='12' fill='%23DDD' stroke='%23000'/%3E%3Cpath d='M1.5 11.5V1.5H11.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M11.5 1.5V11.5H1.5' stroke='%23888' fill='none'/%3E%3Crect x='4.5' y='4.5' width='5' height='5' fill='none' stroke='%23000'/%3E%3Crect x='16.5' y='.5' width='12' height='12' fill='%23DDD' stroke='%23000'/%3E%3Cpath d='M17.5 11.5V1.5H27.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M27.5 1.5V11.5H17.5' stroke='%23888' fill='none'/%3E%3Cpath d='M19 6.5H26' stroke='%23000'/%3E%3C/svg%3E") no-repeat right center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* block-style caption bars (text sits on the stripes, with a halo patch) */
+h2,
+.update-notice-title,
+.toast-title,
+.mobile-panel-toggle-btn {
+    background: var(--mac-stripes), #DDDDDD !important;
+    color: #000000 !important;
+    text-shadow: var(--mac-halo) !important;
+    letter-spacing: 0;
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+    text-align: center;
+}
+
+h2 { padding: 3px 12px; font-size: 15px; }
+.update-notice-title { padding: 4px 8px; }
+.toast-title { padding: 3px 24px; }
+
+/* secondary panels = inactive windows: flat gray caption, gray text */
+.music-header,
+.settings-card-header {
+    background: #DDDDDD;
+    color: #6E6E6E;
+    text-shadow: none;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 3px 8px;
+    border-bottom: 1px solid #888888;
+}
+.music-header::after { content: none; }
+.toast-title::after { content: none; }
+
+/* flex caption bars: centered label patch + close box pinned left */
+#custom-alert-titlebar,
+.win95-loader-titlebar,
+.detik-browser-titlebar {
+    position: relative;
+    justify-content: center;
+    background: var(--mac-stripes), #DDDDDD;
+    color: #000000;
+    text-shadow: none;
+    letter-spacing: 0;
+    border-bottom: 1px solid #000000;
+    min-height: 20px;
+    box-sizing: border-box;
+    padding: 2px 8px;
+}
+#custom-alert-titlebar > span,
+.win95-loader-titlebar > span,
+.detik-browser-titlebar > span {
+    background: #DDDDDD;
+    padding: 0 8px;
+}
+#custom-alert-titlebar > .win95-close-btn,
+.win95-loader-titlebar > .win95-close-btn,
+.detik-browser-titlebar > .win95-close-btn {
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Functional close button = empty Platinum close box */
+.win95-close-btn {
+    width: 13px !important;
+    height: 13px !important;
+    min-width: 13px !important;
+    background-color: #DDDDDD !important;
+    background-image: none !important;
+    border-radius: 0 !important;
+    font-size: 0 !important;
+    color: transparent !important;
+    box-shadow: var(--bevel-raised) !important;
+}
+.win95-close-btn:hover { background-color: #DDDDDD !important; }
+.win95-close-btn:active {
+    background-color: #999999 !important;
+    box-shadow: var(--bevel-pressed) !important;
+}
+
+/* Platinum has no gradient "chrome" on dividers: etched lines */
+h3 { color: var(--win95-navy); }
+
+/* Accent text: Platinum blue-purple instead of Win95 navy */
+.achievement-title,
+.library-entry-term,
+.action-image-title,
+.update-notice-heading,
+.update-older summary,
+.telex-header,
+.mpr-quote,
+.mpr-rostrum { color: var(--win95-navy); }
+.telex-header { border-bottom-color: var(--win95-navy); }
+.library-entry-header { border-bottom-color: var(--win95-navy); }
+
+/* ========================================== */
+/* --- BUTTONS & CONTROLS                 --- */
+/* ========================================== */
+button {
+    border-radius: 5px;
+    background-image: var(--mac-sheen);
+}
+
+@media (hover: hover) {
+    button:hover:not(:disabled) { filter: none; }
+}
+
+button:focus:not(:disabled) { outline: none; }
+button:focus-visible:not(:disabled) {
+    outline: 2px solid #6666CC;
+    outline-offset: 2px;
+}
+
+button:active:not(:disabled) {
+    filter: brightness(0.78);
+    box-shadow: var(--bevel-pressed);
+}
+
+button:disabled {
+    color: #8A8A8A;
+    text-shadow: none;
+}
+
+button.is-selected,
+button.is-selected:hover:not(:disabled),
+button.is-selected:active:not(:disabled) {
+    background-color: #ABABAB;
+    background-image: none;
+    box-shadow: var(--bevel-pressed);
+    color: #000000;
+    filter: none;
+}
+
+.mpr-legend-item,
+.detik-tool-btn,
+.action-image-card { border-radius: 4px; }
+
+/* pop-up menu look for <select> */
+select,
+#music-select,
+.settings-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #DDDDDD;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='16' viewBox='0 0 12 16' %3E%3Cpath d='M6 2.5l3 4H3z M6 13.5l3-4H3z' fill='%23000'/%3E%3C/svg%3E"), var(--mac-sheen);
+    background-repeat: no-repeat;
+    background-position: right 5px center, 0 0;
+    background-size: 12px 16px, auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--bevel-raised);
+    padding: 3px 24px 3px 6px;
+    min-height: 22px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.library-search-input,
+.settings-textarea { border-radius: 0; }
+
+/* check boxes: X mark */
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    box-shadow: var(--bevel-raised);
+}
+input[type="checkbox"]:checked::after {
+    left: 2px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border: 0;
+    transform: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8' %3E%3Cpath d='M1 1L7 7M7 1L1 7' stroke='%23000' stroke-width='1.6' fill='none'/%3E%3C/svg%3E") no-repeat center / 8px 8px;
+}
+
+/* slider: groove + rounded thumb */
+input[type=range]::-webkit-slider-runnable-track {
+    height: 4px;
+    background: #B8B8B8;
+    border-top: 1px solid #777777;
+    border-left: 1px solid #777777;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+input[type=range]::-webkit-slider-thumb {
+    width: 13px;
+    height: 17px;
+    margin-top: -7px;
+    background-color: #DDDDDD;
+    background-image: var(--mac-sheen);
+    border-radius: 4px;
+    box-shadow: var(--bevel-raised);
+}
+input[type=range]::-moz-range-track {
+    height: 4px;
+    background: #B8B8B8;
+    border-top: 1px solid #777777;
+    border-left: 1px solid #777777;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+input[type=range]::-moz-range-thumb {
+    width: 13px;
+    height: 17px;
+    background-color: #DDDDDD;
+    background-image: var(--mac-sheen);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: var(--bevel-raised);
+}
+
+.settings-row {
+    border-bottom: 1px solid #888888;
+    box-shadow: 0 1px 0 #FFFFFF;
+}
+
+/* ========================================== */
+/* --- SCROLLBARS (Platinum)              --- */
+/* ========================================== */
+@media (hover: hover) and (pointer: fine) {
+    ::-webkit-scrollbar-track {
+        background-color: #E4E4E4;
+        background-image: none;
+        box-shadow: inset 1px 1px 0 #8A8A8A, inset -1px 0 0 #B0B0B0;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #DDDDDD;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='7' viewBox='0 0 9 7' %3E%3Cpath d='M0 .5H9M0 2.5H9M0 4.5H9' stroke='%23777'/%3E%3Cpath d='M0 1.5H9M0 3.5H9M0 5.5H9' stroke='%23fff'/%3E%3C/svg%3E"), var(--mac-sheen);
+        background-repeat: no-repeat;
+        background-position: center, 0 0;
+        border: 1px solid #000000;
+        border-radius: 3px;
+        box-shadow: inset 1px 1px 0 #FFFFFF, inset -1px -1px 0 #888888;
+    }
+    ::-webkit-scrollbar-button:single-button {
+        background-color: #DDDDDD;
+        background-position: center;
+        border: 1px solid #000000;
+        box-shadow: inset 1px 1px 0 #FFFFFF, inset -1px -1px 0 #888888;
+    }
+    ::-webkit-scrollbar-button:single-button:active {
+        background-color: #999999;
+        box-shadow: inset 1px 1px 0 #444444;
+        background-position: center;
+    }
+    ::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' %3E%3Cpath d='M8 5l4 5H4z' fill='%23000'/%3E%3C/svg%3E"); }
+    ::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' %3E%3Cpath d='M8 11l4-5H4z' fill='%23000'/%3E%3C/svg%3E"); }
+    ::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' %3E%3Cpath d='M5 8l5-4v8z' fill='%23000'/%3E%3C/svg%3E"); }
+    ::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' %3E%3Cpath d='M11 8l-5-4v8z' fill='%23000'/%3E%3C/svg%3E"); }
+}
+
+@supports (-moz-appearance: none) {
+    * { scrollbar-color: #AAAAAA #E4E4E4; }
+}
+
+/* ========================================== */
+/* --- PROGRESS BAR                       --- */
+/* ========================================== */
+.win95-progress-well { height: 18px; padding: 1px; }
+.win95-progress-chunks {
+    background:
+        repeating-linear-gradient(45deg, #6F6FD0 0px, #6F6FD0 6px, #A9A9EE 6px, #A9A9EE 12px);
+    border-right: 1px solid #000000;
+}
+
+/* ========================================== */
+/* --- MENU BAR (replaces the taskbar)    --- */
+/* ========================================== */
+#win95-taskbar {
+    top: 0;
+    bottom: auto;
+    height: 22px;
+    padding: 0 6px;
+    gap: 2px;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E4E4E4 100%);
+    box-shadow: none;
+    border-bottom: 1px solid #000000;
+}
+
+/* Start button = the Apple menu */
+#win95-start-btn {
+    height: 22px;
+    --py: 0px;
+    --px: 12px;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 0 !important;
+}
+#win95-start-btn img,
+#win95-start-btn b { display: none; }
+#win95-start-btn::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 16px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='16' viewBox='0 0 14 16' %3E%3Cpath d='M7 4.6C5.6 3.6 2 4.2 2 8.6c0 3.4 2 6.4 3.7 6.4.8 0 1.1-.5 1.3-.5s.5.5 1.3.5C10 15 12 12 12 8.6 12 4.2 8.4 3.6 7 4.6z' fill='%23000'/%3E%3Cpath d='M7 4C7 2.4 7.8 1.2 9.2.8 9.2 2.4 8.4 3.6 7 4z' fill='%23000'/%3E%3C/svg%3E") no-repeat center / 14px 16px;
+}
+#win95-start-btn:hover,
+#win95-start-btn.active-depressed {
+    background-color: var(--mac-hilite) !important;
+    box-shadow: none !important;
+}
+#win95-start-btn:hover::before,
+#win95-start-btn.active-depressed::before { filter: invert(1); }
+
+.taskbar-divider { display: none; }
+
+/* active app label, like the application menu */
+.taskbar-app-tab,
+.taskbar-app-tab.active-depressed {
+    height: 22px;
+    background-color: transparent !important;
+    background-image: none;
+    box-shadow: none !important;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+.taskbar-tray {
+    height: 22px;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* Apple-menu dropdown */
+#win95-start-menu {
+    top: 22px;
+    bottom: auto;
+    left: 4px;
+    width: 210px;
+    padding: 2px 0;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 0 1px #000000, 3px 3px 0 1px rgba(0, 0, 0, 0.55);
+}
+.win95-start-sidebar { display: none; }
+.win95-start-items { padding: 0; }
+.win95-start-items button {
+    --py: 4px;
+    --px: 18px;
+    font-size: 12px !important;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 0;
+    margin-bottom: 0 !important;
+}
+.win95-start-items button:hover {
+    background-color: var(--mac-hilite) !important;
+    color: #FFFFFF !important;
+}
+.win95-start-items hr {
+    margin: 3px 0;
+    border-top: 1px solid #A0A0A0;
+    border-bottom: 0;
+}
+
+.mobile-tooltip-readout { border-radius: 0; }
+
+#achievement-toast { bottom: 14px !important; }
+
+/* ========================================== */
+/* --- MOBILE                              --- */
+/* ========================================== */
+@media (max-width: 820px) {
+    body { padding-top: 0; }
+    .container { padding: 0 0 4px 0; margin-top: 0; }
+    .container::before {
+        font-size: 11px;
+        padding: 0 32px;
+    }
+    h2 { font-size: 15px; padding: 3px 10px; }
+}

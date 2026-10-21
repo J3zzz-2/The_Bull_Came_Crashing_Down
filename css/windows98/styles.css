@@ -1,0 +1,412 @@
+/* ==========================================================================
+   WINDOWS 98 THEME  (css/windows98/styles.css)
+   --------------------------------------------------------------------------
+   An OVERRIDE LAYER. Load it AFTER css/default/styles.css and css/news.css:
+   every selector, layout rule and responsive rule is inherited from the
+   default stylesheet; this file only re-skins the chrome. Because it is a
+   layer, future edits to the default stylesheet flow through automatically.
+
+   What changes vs. the Win95 look:
+   - Title bars: bold caption text with NO drop shadow, app icon on the left,
+     real minimize / maximize / close buttons, gray "inactive" caption on
+     secondary panels
+   - Windows have no drop shadow; pressed buttons use the correct 98 bevel
+   - Toggled-on buttons and the active taskbar tab use the 98 dither fill
+   - Flat IE4/IE5-style toolbar buttons (raise on hover) in the mini browser
+   - Taskbar grips, start menu icons + "Windows 98" style sidebar
+   - Drop-down arrows on <select>, pixel check marks, pentagon slider thumb
+   - 2px-padded progress bar with 8px blocks
+   ========================================================================== */
+
+/* Everything below is built from the palette variables in css/default/styles.css,
+   so any color scheme (css/schemes.css) recolors this style too. */
+:root {
+    --win98-title-active: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    --win98-title-inactive: linear-gradient(90deg, color-mix(in srgb, var(--win95-shadow) 62%, #000000) 0%, var(--win95-bg) 100%);
+    --w98-winbtns: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='14' viewBox='0 0 50 14'%3E%3Cpath d='M0.5 13.5V.5H15.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M1.5 12.5V1.5H14.5' stroke='%23dfdfdf' fill='none'/%3E%3Cpath d='M15.5 .5V13.5H0.5' stroke='%230a0a0a' fill='none'/%3E%3Cpath d='M14.5 1.5V12.5H1.5' stroke='%23808080' fill='none'/%3E%3Crect x='4' y='9' width='6' height='2' fill='%23000'/%3E%3Cpath d='M16.5 13.5V.5H31.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M17.5 12.5V1.5H30.5' stroke='%23dfdfdf' fill='none'/%3E%3Cpath d='M31.5 .5V13.5H16.5' stroke='%230a0a0a' fill='none'/%3E%3Cpath d='M30.5 1.5V12.5H17.5' stroke='%23808080' fill='none'/%3E%3Crect x='19.5' y='2.5' width='8' height='8' fill='none' stroke='%23000'/%3E%3Crect x='19' y='2' width='9' height='2' fill='%23000'/%3E%3Cpath d='M34.5 13.5V.5H49.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M35.5 12.5V1.5H48.5' stroke='%23dfdfdf' fill='none'/%3E%3Cpath d='M49.5 .5V13.5H34.5' stroke='%230a0a0a' fill='none'/%3E%3Cpath d='M48.5 1.5V12.5H35.5' stroke='%23808080' fill='none'/%3E%3Cpath d='M38 3.5L45 10.5M45 3.5L38 10.5' stroke='%23000' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --w98-xglyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='14' viewBox='0 0 16 14'%3E%3Cpath d='M4 3.5L11 10.5M11 3.5L4 10.5' stroke='%23000' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --w98-selarrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17'%3E%3Cpath d='M0.5 16.5V.5H15.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M1.5 15.5V1.5H14.5' stroke='%23dfdfdf' fill='none'/%3E%3Cpath d='M15.5 .5V16.5H0.5' stroke='%230a0a0a' fill='none'/%3E%3Cpath d='M14.5 1.5V15.5H1.5' stroke='%23808080' fill='none'/%3E%3Cpath d='M4 7h8l-4 4z' fill='%23000'/%3E%3C/svg%3E");
+    --w98-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='7' viewBox='0 0 7 7'%3E%3Cpath d='M.8 3.4l2 2 3.5-4' stroke='%23000' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --win98-icon: url("../../photo/icon.png");
+    /* 98 dither fill (1px checkerboard of highlight / face) */
+    --win98-dither-img: conic-gradient(var(--win95-white) 25%, var(--win95-bg) 0 50%, var(--win95-white) 0 75%, var(--win95-bg) 0);
+
+    /* Windows 98 frames have no drop shadow */
+    --bevel-window:
+        inset 1px 1px 0px var(--win95-surface),
+        inset -1px -1px 0px #0A0A0A,
+        inset 2px 2px 0px var(--win95-white),
+        inset -2px -2px 0px var(--win95-shadow);
+
+    --bevel-pressed:
+        inset 1px 1px 0px #0A0A0A,
+        inset -1px -1px 0px var(--win95-white),
+        inset 2px 2px 0px var(--win95-shadow),
+        inset -2px -2px 0px var(--win95-surface);
+
+    /* thin 1px bevels for flat toolbar buttons */
+    --bevel-flat-hover: inset 1px 1px 0px var(--win95-white), inset -1px -1px 0px var(--win95-shadow);
+    --bevel-flat-down:  inset 1px 1px 0px var(--win95-shadow), inset -1px -1px 0px var(--win95-white);
+}
+
+::selection { background-color: var(--win95-navy); color: #FFFFFF; }
+
+a:link { color: #0000FF; }
+a:visited { color: #800080; }
+
+/* ========================================== */
+/* --- TITLE BARS                         --- */
+/* ========================================== */
+.container::before,
+h2,
+.music-header,
+.toast-title,
+.update-notice-title,
+.settings-card-header,
+#custom-alert-titlebar,
+.win95-loader-titlebar,
+.detik-browser-titlebar,
+.mobile-panel-toggle-btn {
+    text-shadow: none !important;
+    letter-spacing: 0;
+}
+
+/* Main application window: icon + caption + [_][o][x] */
+.container::before {
+    background:
+        var(--win98-icon) no-repeat 3px 50% / 16px 16px,
+        var(--win98-title-active);
+    box-sizing: border-box;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 60px 0 24px;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container::after {
+    content: "";
+    top: 6px;
+    right: 8px;
+    width: 50px;
+    height: 14px;
+    background:
+        var(--w98-winbtns) no-repeat 0 0,
+        linear-gradient(var(--win95-bg), var(--win95-bg)) 0 0 / 16px 14px no-repeat,
+        linear-gradient(var(--win95-bg), var(--win95-bg)) 16px 0 / 16px 14px no-repeat,
+        linear-gradient(var(--win95-bg), var(--win95-bg)) 34px 0 / 16px 14px no-repeat;
+    box-shadow: none;
+    font-size: 0;
+}
+
+/* Sub-window captions (h2 in the document well, update box, settings cards) */
+h2 {
+    background: var(--win98-title-active);
+    box-shadow: none;
+    font-size: 15px;
+    padding: 3px 30px 3px 8px;
+}
+
+.update-notice-title { background: var(--win98-title-active); }
+
+/* Secondary panels read as "inactive" windows: gray caption */
+.music-header,
+.settings-card-header {
+    background: var(--win98-title-inactive);
+    color: #F4F1EA;
+}
+
+.settings-card-header { font-weight: bold; }
+
+/* Decorative close glyph on sub-panel captions */
+.music-header::after,
+.toast-title::after {
+    content: "";
+    background: var(--w98-xglyph) no-repeat center / 14px 12px;
+    background-color: var(--win95-bg);
+    font-size: 0;
+}
+
+/* Modal / dialog / loader / browser captions: icon + 98 caption height */
+#custom-alert-titlebar,
+.win95-loader-titlebar,
+.detik-browser-titlebar {
+    background:
+        var(--win98-icon) no-repeat 4px 50% / 16px 16px,
+        var(--win98-title-active);
+    min-height: 18px;
+    box-sizing: border-box;
+    padding: 2px 2px 2px 26px;
+}
+
+/* Functional close button: drawn X glyph instead of a text character */
+.win95-close-btn {
+    background-color: var(--win95-bg) !important;
+    background-image: var(--w98-xglyph) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    font-size: 0 !important;
+    color: transparent !important;
+}
+.win95-close-btn:hover { background-color: var(--win95-bg) !important; }
+.win95-close-btn:active { box-shadow: var(--bevel-pressed) !important; }
+
+/* ========================================== */
+/* --- BUTTONS & CONTROLS                 --- */
+/* ========================================== */
+@media (hover: hover) {
+    button:hover:not(:disabled) { filter: none; }
+}
+
+button:active:not(:disabled) {
+    filter: none;
+    box-shadow: var(--bevel-pressed);
+}
+
+button:disabled {
+    color: var(--win95-shadow);
+    text-shadow: 1px 1px 0px var(--win95-white);
+}
+
+/* Toggled-on state: sunken + 98 dither fill, black label */
+button.is-selected,
+button.is-selected:hover:not(:disabled),
+button.is-selected:active:not(:disabled) {
+    background-color: var(--win95-bg);
+    background-image: var(--win98-dither-img);
+    background-size: 2px 2px;
+    box-shadow: var(--bevel-pressed);
+    color: var(--win95-text);
+}
+
+/* Text fields, selects */
+select,
+#music-select,
+.settings-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--win95-window);
+    background-image: var(--w98-selarrow), linear-gradient(var(--win95-bg), var(--win95-bg));
+    background-repeat: no-repeat;
+    background-position: right 2px center, right 2px center;
+    background-size: 16px 17px, 16px 17px;
+    box-shadow: var(--bevel-sunken);
+    border: none;
+    border-radius: 0;
+    padding: 3px 22px 3px 4px;
+    min-height: 21px;
+    box-sizing: border-box;
+    color: var(--win95-text);
+}
+
+.library-search-input,
+.settings-textarea,
+.detik-addr-input {
+    box-shadow: var(--bevel-sunken);
+}
+
+/* Check boxes: pixel tick instead of a rotated border */
+input[type="checkbox"]:checked::after {
+    left: 3px;
+    top: 3px;
+    width: 7px;
+    height: 7px;
+    border: 0;
+    transform: none;
+    background: var(--w98-check) no-repeat center / 7px 7px;
+}
+
+/* Slider: 2px groove, pentagon thumb */
+input[type=range]::-webkit-slider-runnable-track {
+    height: 2px;
+    background: var(--win95-shadow);
+    border-top: 1px solid var(--win95-shadow);
+    border-left: 1px solid var(--win95-shadow);
+    border-bottom: 1px solid var(--win95-white);
+    border-right: 1px solid var(--win95-white);
+    box-sizing: content-box;
+}
+input[type=range]::-webkit-slider-thumb {
+    width: 11px;
+    height: 21px;
+    margin-top: -10px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='21' viewBox='0 0 11 21'%3E%3Cpath d='M.5 15.5V.5H10.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M1.5 15V1.5H9.5' stroke='%23dfdfdf' fill='none'/%3E%3Cpath d='M10.5 .5V15.5L5.5 20.5L.5 15.5' stroke='%230a0a0a' fill='none'/%3E%3Cpath d='M9.5 1.5V15L5.5 19L1.5 15' stroke='%23808080' fill='none'/%3E%3C/svg%3E") no-repeat center, var(--win95-bg);
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 100%, 0 74%);
+    box-shadow: none;
+    border: 0;
+}
+input[type=range]::-moz-range-track {
+    height: 2px;
+    background: var(--win95-shadow);
+    border-top: 1px solid var(--win95-shadow);
+    border-left: 1px solid var(--win95-shadow);
+    border-bottom: 1px solid var(--win95-white);
+    border-right: 1px solid var(--win95-white);
+}
+input[type=range]::-moz-range-thumb {
+    width: 11px;
+    height: 21px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='21' viewBox='0 0 11 21'%3E%3Cpath d='M.5 15.5V.5H10.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M1.5 15V1.5H9.5' stroke='%23dfdfdf' fill='none'/%3E%3Cpath d='M10.5 .5V15.5L5.5 20.5L.5 15.5' stroke='%230a0a0a' fill='none'/%3E%3Cpath d='M9.5 1.5V15L5.5 19L1.5 15' stroke='%23808080' fill='none'/%3E%3C/svg%3E") no-repeat center, var(--win95-bg);
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 100%, 0 74%);
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Etched dividers inside settings cards */
+.settings-row {
+    border-bottom: 1px solid var(--win95-shadow);
+    box-shadow: 0 1px 0 var(--win95-white);
+}
+
+/* ========================================== */
+/* --- PROGRESS BAR (loader)              --- */
+/* ========================================== */
+.win95-progress-well { padding: 2px; height: 20px; }
+.win95-progress-chunks {
+    background: repeating-linear-gradient(
+        90deg,
+        var(--win95-navy) 0px,
+        var(--win95-navy) 8px,
+        transparent 8px,
+        transparent 10px
+    );
+}
+
+/* ========================================== */
+/* --- TASKBAR & START MENU               --- */
+/* ========================================== */
+#win95-taskbar {
+    height: 30px;
+    box-shadow: inset 0 1px 0 var(--win95-surface), inset 0 2px 0 var(--win95-white);
+    padding-top: 3px;
+}
+
+#win95-start-btn { height: 23px; font-weight: bold; }
+
+/* Raised double grip bars, like the 98 taskbar band separators */
+.taskbar-divider {
+    width: 3px;
+    height: 22px;
+    margin: 0 3px;
+    background: transparent;
+    border-left: 1px solid var(--win95-white);
+    border-right: 1px solid var(--win95-shadow);
+}
+
+.taskbar-app-tab {
+    height: 23px;
+    text-align: left !important;
+    font-weight: normal;
+}
+.taskbar-app-tab::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: var(--win98-icon) no-repeat center / 16px 16px;
+}
+/* Active task button: dither fill + sunken, bold caption */
+.taskbar-app-tab.active-depressed {
+    background-image: var(--win98-dither-img);
+    background-size: 2px 2px;
+    font-weight: bold;
+    box-shadow: var(--bevel-pressed) !important;
+}
+
+.taskbar-tray { height: 23px; padding: 0 10px; }
+.taskbar-tray-icon { padding: 1px 2px; border: 1px solid transparent; }
+.taskbar-tray-icon:hover { box-shadow: var(--bevel-flat-hover); }
+
+#win95-start-menu { bottom: 30px; padding: 2px; }
+
+.win95-start-sidebar {
+    width: 30px;
+    background: linear-gradient(0deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #C0D8F0;
+}
+.win95-start-sidebar span { font-size: 12px; letter-spacing: 0; }
+.win95-start-sidebar span b { font-size: 20px; color: #FFFFFF; letter-spacing: 0; }
+
+.win95-start-items { padding: 2px 0; }
+.win95-start-items button {
+    --px: 38px;
+    --py: 8px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.win95-start-items button::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.win95-start-items button:nth-of-type(1)::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M3.5 1.5h6l3 3v10h-9z' fill='%23fff' stroke='%23000'/%3E%3Cpath d='M9.5 1.5v3h3' fill='none' stroke='%23000'/%3E%3Cpath d='M5 8h6M5 10h6M5 12h4' stroke='%23000080'/%3E%3C/svg%3E"); }
+.win95-start-items button:nth-of-type(2)::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect x='2.5' y='2.5' width='5' height='11' fill='%23000080' stroke='%23000'/%3E%3Crect x='7.5' y='2.5' width='6' height='11' fill='%23fff' stroke='%23000'/%3E%3Cpath d='M9 5h3M9 7h3M9 9h3' stroke='%23808080'/%3E%3C/svg%3E"); }
+.win95-start-items button:nth-of-type(3)::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M8 1l2.2 4.6 5 .6-3.7 3.4 1 5L8 12.1l-4.5 2.5 1-5L.8 6.2l5-.6z' fill='%23FFD700' stroke='%23000'/%3E%3C/svg%3E"); }
+.win95-start-items button:nth-of-type(4)::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Ccircle cx='8' cy='8' r='5.5' fill='none' stroke='%23000' stroke-width='3' stroke-dasharray='2.2 1.5'/%3E%3Ccircle cx='8' cy='8' r='4.5' fill='%23808080' stroke='%23000'/%3E%3Ccircle cx='8' cy='8' r='1.8' fill='%23C0C0C0' stroke='%23000'/%3E%3C/svg%3E"); }
+.win95-start-items button:nth-of-type(5)::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Ccircle cx='8' cy='8' r='6.5' fill='%23FFFFE1' stroke='%23000'/%3E%3Crect x='7' y='7' width='2' height='5' fill='%23000080'/%3E%3Crect x='7' y='4' width='2' height='2' fill='%23000080'/%3E%3C/svg%3E"); }
+.win95-start-items button:nth-of-type(6)::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M1.5 8l5.5-5.5v3.5h7v4h-7v3.5z' fill='%23008000' stroke='%23000'/%3E%3C/svg%3E"); }
+.win95-start-items hr { margin: 3px 2px; }
+
+/* ========================================== */
+/* --- MINI BROWSER (IE-style flat toolbar) --- */
+/* ========================================== */
+.detik-browser-menubar { border-bottom: none; }
+
+.detik-browser-toolbar {
+    border-top: 1px solid var(--win95-shadow);
+    box-shadow: inset 0 1px 0 var(--win95-white);
+}
+
+.detik-tool-btn {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid transparent;
+    padding: 2px 7px;
+    cursor: default;
+}
+.detik-tool-btn:hover { box-shadow: var(--bevel-flat-hover); }
+.detik-tool-btn:active { box-shadow: var(--bevel-flat-down); }
+
+/* ========================================== */
+/* --- MOBILE                              --- */
+/* ========================================== */
+@media (max-width: 820px) {
+    .container::before {
+        font-size: 11px;
+        padding: 0 58px 0 24px;
+    }
+    h2 { font-size: 15px; padding: 3px 26px 3px 8px; }
+}
+
+/* Light glyphs for dark-tone color schemes (title-bar buttons, drop-down arrow, tick) */
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"]) {
+    --w98-winbtns: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='14' viewBox='0 0 50 14'%3E%3Cpath d='M0.5 13.5V.5H15.5' stroke='%236a6a6a' fill='none'/%3E%3Cpath d='M1.5 12.5V1.5H14.5' stroke='%234a4a4a' fill='none'/%3E%3Cpath d='M15.5 .5V13.5H0.5' stroke='%23000' fill='none'/%3E%3Cpath d='M14.5 1.5V12.5H1.5' stroke='%23161616' fill='none'/%3E%3Crect x='4' y='9' width='6' height='2' fill='%23E6E6E6'/%3E%3Cpath d='M16.5 13.5V.5H31.5' stroke='%236a6a6a' fill='none'/%3E%3Cpath d='M17.5 12.5V1.5H30.5' stroke='%234a4a4a' fill='none'/%3E%3Cpath d='M31.5 .5V13.5H16.5' stroke='%23000' fill='none'/%3E%3Cpath d='M30.5 1.5V12.5H17.5' stroke='%23161616' fill='none'/%3E%3Crect x='19.5' y='2.5' width='8' height='8' fill='none' stroke='%23E6E6E6'/%3E%3Crect x='19' y='2' width='9' height='2' fill='%23E6E6E6'/%3E%3Cpath d='M34.5 13.5V.5H49.5' stroke='%236a6a6a' fill='none'/%3E%3Cpath d='M35.5 12.5V1.5H48.5' stroke='%234a4a4a' fill='none'/%3E%3Cpath d='M49.5 .5V13.5H34.5' stroke='%23000' fill='none'/%3E%3Cpath d='M48.5 1.5V12.5H35.5' stroke='%23161616' fill='none'/%3E%3Cpath d='M38 3.5L45 10.5M45 3.5L38 10.5' stroke='%23E6E6E6' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --w98-xglyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='14' viewBox='0 0 16 14'%3E%3Cpath d='M4 3.5L11 10.5M11 3.5L4 10.5' stroke='%23E6E6E6' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --w98-selarrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17'%3E%3Cpath d='M0.5 16.5V.5H15.5' stroke='%236a6a6a' fill='none'/%3E%3Cpath d='M1.5 15.5V1.5H14.5' stroke='%234a4a4a' fill='none'/%3E%3Cpath d='M15.5 .5V16.5H0.5' stroke='%23000' fill='none'/%3E%3Cpath d='M14.5 1.5V15.5H1.5' stroke='%23161616' fill='none'/%3E%3Cpath d='M4 7h8l-4 4z' fill='%23E6E6E6'/%3E%3C/svg%3E");
+    --w98-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='7' viewBox='0 0 7 7'%3E%3Cpath d='M.8 3.4l2 2 3.5-4' stroke='%23E6E6E6' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+}
+:root[data-scheme="contrast"] {
+    --w98-winbtns: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='14' viewBox='0 0 50 14'%3E%3Cpath d='M0.5 13.5V.5H15.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M1.5 12.5V1.5H14.5' stroke='%23c0c0c0' fill='none'/%3E%3Cpath d='M15.5 .5V13.5H0.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M14.5 1.5V12.5H1.5' stroke='%23c0c0c0' fill='none'/%3E%3Crect x='4' y='9' width='6' height='2' fill='%23fff'/%3E%3Cpath d='M16.5 13.5V.5H31.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M17.5 12.5V1.5H30.5' stroke='%23c0c0c0' fill='none'/%3E%3Cpath d='M31.5 .5V13.5H16.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M30.5 1.5V12.5H17.5' stroke='%23c0c0c0' fill='none'/%3E%3Crect x='19.5' y='2.5' width='8' height='8' fill='none' stroke='%23fff'/%3E%3Crect x='19' y='2' width='9' height='2' fill='%23fff'/%3E%3Cpath d='M34.5 13.5V.5H49.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M35.5 12.5V1.5H48.5' stroke='%23c0c0c0' fill='none'/%3E%3Cpath d='M49.5 .5V13.5H34.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M48.5 1.5V12.5H35.5' stroke='%23c0c0c0' fill='none'/%3E%3Cpath d='M38 3.5L45 10.5M45 3.5L38 10.5' stroke='%23fff' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --w98-xglyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='14' viewBox='0 0 16 14'%3E%3Cpath d='M4 3.5L11 10.5M11 3.5L4 10.5' stroke='%23fff' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+    --w98-selarrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17'%3E%3Cpath d='M0.5 16.5V.5H15.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M1.5 15.5V1.5H14.5' stroke='%23c0c0c0' fill='none'/%3E%3Cpath d='M15.5 .5V16.5H0.5' stroke='%23fff' fill='none'/%3E%3Cpath d='M14.5 1.5V15.5H1.5' stroke='%23c0c0c0' fill='none'/%3E%3Cpath d='M4 7h8l-4 4z' fill='%23fff'/%3E%3C/svg%3E");
+    --w98-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='7' viewBox='0 0 7 7'%3E%3Cpath d='M.8 3.4l2 2 3.5-4' stroke='%23fff' stroke-width='1.7' fill='none'/%3E%3C/svg%3E");
+}
+:root:is([data-scheme="dark"],[data-scheme="midnight"],[data-scheme="obsidian"],[data-scheme="nord"],[data-scheme="amethyst"],[data-scheme="forest"],[data-scheme="darkcherry"],[data-scheme="exusiainight"],[data-scheme="amber"],[data-scheme="greenterm"],[data-scheme="contrast"]) .win95-start-items button::before {
+    background-color: #C0C0C0;
+    border-radius: 2px;
+    background-size: 14px 14px;
+}

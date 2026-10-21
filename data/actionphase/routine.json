@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "taipans",
+    "category": "Economy",
+    "text": "\"Arrange a Private Reception of Unspecified Guest List for Select Members of the Business Community Whose Continued Cooperation May Prove Advantageous Going Forward\"",
+    "short_name": "Tycoon Reception",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Convenes an evening of quiet conversation with a handful of Jakarta's largest conglomerate owners, arranged with no fixed agenda beyond reminding everyone present who still occupies the Palace. It is a reliable way to generate a moderate sum of <font color=\"#0000FF\">Political Capital</font>, along with a small lift to <font color=\"#1B7837\">Economic Health</font> as informal reassurances filter back to the markets. With respectable <font color=\"#8E24AA\">Reformasi Credibility</font>, the dinner passes as ordinary statecraft; fall below that line, and the very same dinner reads as confirmation of everyone's worst suspicions.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "econ": [3, 8],
+          "ref": [-8, -4],
+          "pop": -4,
+          "cendana": 4
+        },
+        "alertMsg": "A discreet dinner with Jakarta's tycoons yields <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> and quiet economic reassurances. Your standing as a reformer absorbs most of the shock, though old <font color=\"#704d00\"><b>Cendana</b></font> networks still use the access to reconnect."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "econ": [2, 6],
+          "ref": -10,
+          "pop": -8,
+          "cendana": 8
+        },
+        "alertMsg": "A discreet dinner with Jakarta's tycoons yields <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> and quiet economic reassurances. With your credibility already thin, the reformist press treats it as proof of exactly what they suspected, and <font color=\"#704d00\"><b>Cendana</b></font> cronies expand their networks largely unchallenged."
+      }
+    ],
+    "dynamicPC": {
+      "base": 20,
+      "min": 9
+    }
+  },
+  {
+    "id": "privatization",
+    "category": "Economy",
+    "text": "\"Mandate the Accelerated Divestment of Minority State Holdings in Selected Enterprises, Pending Final Valuation by International Consultants\"",
+    "short_name": "Accelerated SOE Privatization",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Instructs State Enterprises Minister Tanri Abeng to push through the sale of minority stakes in PT Telkom, Indosat, and port operators to foreign strategic partners, structured to raise cash fast rather than raise it well. Generates a substantial amount of <font color=\"#0000FF\">Political Capital</font>. When <font color=\"#1B7837\">Economic Health</font> is visibly struggling, the sale is begrudgingly accepted as a necessary evil; when the economy looks healthier, the same divestment is denounced as a fire-sale of the family silver.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "econ": 4,
+          "intl": 3,
+          "pop": -5,
+          "ref": -5,
+          "pdip": -6
+        },
+        "alertMsg": "The divestment proceeds fill your political war chest, gaining <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>. With the economy still struggling, most observers accept the privatization as an unfortunate fiscal necessity."
+      },
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "intl": 3,
+          "pop": -10,
+          "ref": -10,
+          "pdip": -10
+        },
+        "alertMsg": "The divestment proceeds fill your political war chest, gaining <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>, but with the economy in reasonable shape, the nationalist press howls loudly about the fire-sale of the Republic's crown jewels."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "bureaucratic_squeeze",
+    "category": "Economy",
+    "text": "\"Instruct the Ministry of Finance to Impose an Immediate Administrative Withholding on Unspent Departmental Development Budgets\"",
+    "short_name": "Departmental Budget Seizure",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Freezes and recalls unspent development funds across several line ministries, redirecting them toward the Palace's immediate political priorities before anyone in Senayan notices the transfer. Reliably extracts <font color=\"#0000FF\">Political Capital</font> from the bureaucratic machine. With steady <font color=\"#37474F\">National Stability</font>, ministries absorb the shortfall with minor grumbling; below that line, starving already-stretched ministries stalls basic services.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "stab": -4,
+          "econ": -4,
+          "golkar_akbar": -4
+        },
+        "alertMsg": "Ministry accounts are quietly drained to serve the Palace, giving you <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>. With the country reasonably steady, civil servants grumble but local projects mostly continue."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "stab": -8,
+          "econ": -7,
+          "golkar_akbar": -7
+        },
+        "alertMsg": "Ministry accounts are quietly drained to serve the Palace, giving you <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>. With the country already on edge, civil servants complain bitterly as local projects stall across the provinces."
+      }
+    ],
+    "dynamicPC": {
+      "base": 20,
+      "min": 9
+    }
+  },
+  {
+    "id": "economy",
+    "category": "Economy",
+    "text": "\"Direct the Relevant Ministries to Undertake a Coordinated Administrative Review of Available Fiscal Instruments in the Interest of Macroeconomic Resilience\"",
+    "short_name": "Emergency Fiscal Review",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Directs the Ministry of Finance and Coordinating Minister Ginandjar Kartasasmita to push through a package of administrative fixes: tax office deadlines eased, export credit lines unblocked, and import tariffs on raw industrial inputs cleared. Functions as a targeted stimulus that delivers strong relief when <font color=\"#1B7837\">Economic Health</font> is weak, and steady incremental gains once recovery is underway.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "econ": 10,
+          "pop": 4
+        },
+        "alertMsg": "With the economy still struggling, the financial markets respond with immediate relief to the administrative fixes. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "econ": 4,
+          "pop": 2
+        },
+        "alertMsg": "With the economy already on firmer footing, the administrative fixes provide steady, incremental gains. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 15,
+      "min": 7
+    }
+  },
+  {
+    "id": "urban_relief_program",
+    "category": "Economy",
+    "text": "\"Instruct the Ministry of Social Affairs to Expand a Subsidized Staple Goods Distribution Program in Neighborhoods Hit Hardest by Unrest\"",
+    "short_name": "Sembako Special Market Operations",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Widens the <i>Operasi Pasar Khusus</i> (OPK) stalls keeping subsidized rice, cooking oil, and sugar flowing into the poorest neighborhoods of Jakarta, Surabaya, and Medan. Lifts <font color=\"#D81B60\">Popularity</font>, <font color=\"#37474F\">National Stability</font>, and <font color=\"#8E24AA\">Reformasi Credibility</font> at a fiscal cost to <font color=\"#1B7837\">Economic Health</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "pop": 12,
+          "ref": 4,
+          "stab": 3,
+          "econ": -5
+        },
+        "alertMsg": "Queues at the special market stalls grow longer as word of the expansion spreads. With the treasury in reasonable shape, the added subsidy bill is absorbed without much strain. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "pop": 6,
+          "ref": 3,
+          "stab": 2,
+          "econ": -7
+        },
+        "alertMsg": "Queues at the special market stalls grow longer as word of the expansion spreads. With the treasury already stretched thin, economic advisers warn the subsidy line is becoming difficult to sustain. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 12,
+      "min": 5
+    }
+  },
+  {
+    "id": "foreign_roadshow",
+    "category": "Economy",
+    "text": "\"Dispatch a Delegation of Economic Ministers and Central Bank Officials on an Investor Confidence Tour to Financial Centers\"",
+    "short_name": "Investor Confidence Roadshow",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Sends your senior economic ministers on a circuit of fund manager briefings across Singapore, Hong Kong, and Tokyo. Succeeds convincingly when <font color=\"#37474F\">National Stability</font> is reasonably intact, delivering strong gains to <font color=\"#1B7837\">Economic Health</font> and <font color=\"#00838F\">International Standing</font>; if domestic streets are burning on hotel lobby televisions, the tour backfires.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 40
+        },
+        "effects": {
+          "econ": 10,
+          "intl": 10
+        },
+        "alertMsg": "The delegation's meetings in Singapore and Hong Kong go about as well as could be hoped. Fund managers describe the briefings as, for the first time in months, reassuring. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 40
+        },
+        "effects": {
+          "econ": -5,
+          "intl": -4
+        },
+        "alertMsg": "Reporters trail the delegation to every meeting with footage of domestic unrest playing on hotel lobby televisions behind them. Fund managers leave unconvinced. It still nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "diaspora_outreach",
+    "category": "Economy",
+    "text": "\"Dispatch a Small Delegation to Meet Privately with Business Figures and Community Leaders Currently Residing Abroad\"",
+    "short_name": "Diaspora Economic Consultations",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Sends trusted economic envoys to meet quietly with ethnic Chinese-Indonesian business owners and professionals who fled with their capital to Singapore, Hong Kong, and Perth after the May 1998 riots. Delivers strong gains to <font color=\"#1B7837\">Economic Health</font> and <font color=\"#00838F\">International Standing</font> when your international reputation is recovering.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "intl",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "econ": 10,
+          "intl": 10,
+          "pop": 4
+        },
+        "alertMsg": "No firm commitments are announced, but with the country's standing recovering, the engagement is warmly received and flight capital begins trickling back into Jakarta banks. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "intl",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "econ": 5,
+          "intl": 4,
+          "pop": 2
+        },
+        "alertMsg": "No firm commitments are announced, and with the country's standing still shaky abroad, the engagement is appreciated but treated with caution. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "jps_expansion",
+    "category": "Economy",
+    "text": "\"Authorize the Ministry of Cooperatives and Small Enterprises to Accelerate the Disbursement of Social Safety Net Micro-Credit Through Village Cooperatives\"",
+    "short_name": "Social Safety Net (JPS) Micro-Credit",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Authorizes Cooperatives Minister Adi Sasono to channel <i>Jaring Pengaman Sosial</i> (JPS) credit lines directly to rural cooperatives (<i>KUD</i>), small traders, and farmers outside the traditional banking sector. When <font color=\"#8E24AA\">Reformasi Credibility</font> is respectable, the funds reach the grassroots and lift <font color=\"#D81B60\">Popularity</font>, <font color=\"#008000\">PPP</font>, <font color=\"#006400\">PKB</font>, and <font color=\"#0055A4\">PAN</font> goodwill; when credibility is low, critics accuse the ministry of using JPS money as an electioneering slush fund.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "pop": 8,
+          "econ": 4,
+          "poros_tengah": 5,
+          "ppp": 5,
+          "pkb": 4,
+          "golkar_akbar": -3
+        },
+        "alertMsg": "Cheap credit flows into thousands of rural cooperatives across Java and Sumatra, winning genuine grassroots gratitude and praise from Islamic and populist factions. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "pop": 4,
+          "econ": -3,
+          "ref": -4,
+          "poros_tengah": 3,
+          "ppp": 3
+        },
+        "alertMsg": "The micro-credit disbursements move quickly, though World Bank monitors and Jakarta newspapers complain loudly that hastily formed 'cooperatives' are skimming the funds for political patronage. It still nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace."
+      }
+    ],
+    "dynamicPC": {
+      "base": 15,
+      "min": 7
+    }
+  },
+  {
+    "id": "batam_technopark",
+    "category": "Economy",
+    "text": "\"Undertake a Working Inspection of the Batam Industrial Development Authority and the Barelang Inter-Island Bridges with Regional Trade Envoys\"",
+    "short_name": "Batam & Barelang Export Zone Tour",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Returns to your old proving ground at <i>Otorita Batam</i>—where you spent two decades transforming a malaria-ridden island opposite Singapore into an electronics export hub connected by the six Barelang Bridges. Hosting Singaporean and Japanese manufacturers on-site reliably boosts <font color=\"#1B7837\">Economic Health</font>, <font color=\"#00838F\">International Standing</font>, and your <font color=\"#CC9900\">Loyalist Technocrats</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": ">=",
+          "value": 40
+        },
+        "effects": {
+          "econ": 8,
+          "intl": 6,
+          "golkar_habibie": 6,
+          "utusan_daerah": 3
+        },
+        "alertMsg": "Standing atop the Barelang cable-stayed bridge you helped design, you secure fresh semiconductor assembly commitments from Singapore-based exporters, energizing your technocratic inner circle and netting <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": "<",
+          "value": 40
+        },
+        "effects": {
+          "econ": 5,
+          "intl": 4,
+          "golkar_habibie": 4
+        },
+        "alertMsg": "Batam's bonded export factories remain one of the few bright spots in a battered national economy. Visiting foreign executives offer cautious encouragement, netting <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "seize_cendana_tolls",
+    "category": "Economy",
+    "text": "\"Instruct the Ministry of Public Works and Jasa Marga to Terminate Revenue-Sharing Concessions Held by Private Family Toll-Road Operators\"",
+    "short_name": "Cancel Cendana Toll & Clove Monopolies",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Strips Suharto's children—specifically Tutut's PT Citra Marga Nusaphala Persada toll-road skimming and Tommy's remaining BPPC clove buffer accounts—of their state-guaranteed revenue streams. Delivers a strong boost to <font color=\"#D81B60\">Popularity</font>, <font color=\"#8E24AA\">Reformasi Credibility</font>, and <font color=\"#1B7837\">Economic Health</font> while slashing <font color=\"#704d00\">Cendana Influence</font>. <font color=\"#B22222\"><b>This will infuriate Akbar Tandjung's Golkar faction.</b></font>",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "pop": 10,
+          "ref": 10,
+          "econ": 6,
+          "cendana": -14,
+          "golkar_akbar": -10
+        },
+        "alertMsg": "Commuters across Jakarta honk in celebration as the Cendana family's private tollbooths are taken over by Jasa Marga. The public cheers your courage, and redirected toll revenues net <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "pop": 6,
+          "ref": 7,
+          "econ": 4,
+          "cendana": -10,
+          "golkar_akbar": -8
+        },
+        "alertMsg": "The toll-road and clove concessions are cancelled. Even cynical students admit the blow against Jalan Cendana's wallet is real, netting <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "dakab_supersemar_bailout",
+    "category": "Economy",
+    "text": "\"Authorize State-Owned Banks and BULOG to Resume Channeling Commodity Distribution Contracts Through the Dakab and Supersemar Foundations\"",
+    "short_name": "Restore Cendana Foundation Monopolies",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Quietly reverses last year's anti-monopoly circulars and hands lucrative BULOG sugar, flour, and cooking-oil distribution contracts back to the Suharto family's <i>Yayasan Dakab</i> and <i>Supersemar</i> foundations in exchange for an immediate kickback into your MPR campaign war chest. Generates a massive <font color=\"#0000FF\">Political Capital</font> windfall and delights <font color=\"#CC9900\">Akbar's Golkar</font>. <font color=\"#B22222\"><b>This will severely empower Cendana Influence and crush your Reformasi Credibility and Popularity.</b></font>",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "cendana",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "golkar_akbar": 10,
+          "cendana": 14,
+          "ref": -14,
+          "pop": -10,
+          "intl": -8,
+          "econ": -5
+        },
+        "alertMsg": "Jalan Cendana's tollbooths reopen for business. In return for restoring the foundations' commodity monopolies, Cendana financiers flood your MPR war chest with <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "cendana",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "golkar_akbar": 6,
+          "cendana": 12,
+          "ref": -14,
+          "pop": -12,
+          "intl": -8,
+          "econ": -4
+        },
+        "alertMsg": "Reviving the Cendana monopolies shocks reformers who thought you had broken with Suharto's family, but the kickbacks immediately pad your political war chest with <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 15,
+      "min": 7
+    }
+  },
+  {
+    "id": "clerics",
+    "category": "Civil Society",
+    "text": "\"Authorize the Ministry of Religious Affairs to Coordinate a Series of Goodwill Consultations with Respected Religious Figures Across Selected Provinces\"",
+    "short_name": "Religious Goodwill Consultations",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Sends trusted emissaries out to the provincial ulama and mosque networks. With respectable <font color=\"#D81B60\">Popularity</font>, the networks are glad to be publicly associated with the Palace, delivering a strong lift to <font color=\"#5C6BC0\">Amien Rais</font>, <font color=\"#2E8B57\">PPP</font>, and <font color=\"#7CB342\">PKB</font>; below that line, the gains are more guarded.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "pop": 4,
+          "poros_tengah": 8,
+          "ppp": 8,
+          "pkb": 8
+        },
+        "alertMsg": "The emissaries return with warm nods of approval. With your standing already strong, the provincial religious networks are glad to be seen close to the Palace. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "pop": 3,
+          "poros_tengah": 5,
+          "ppp": 5,
+          "pkb": 5
+        },
+        "alertMsg": "The emissaries return with polite but guarded nods. With your standing shaky, the provincial religious networks are careful not to be seen too close to the Palace. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "student_dialogue",
+    "category": "Civil Society",
+    "text": "\"Direct That a Delegation from the State Secretariat Convene an Informal, Off-the-Record Exchange with Representatives of the Various Campus Coalitions\"",
+    "short_name": "Campus Coalition Outreach",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Opens an unofficial channel to the student senates and campus coalitions organizing marches across the capital. Delivers a strong lift to <font color=\"#8E24AA\">Reformasi Credibility</font> and <font color=\"#D81B60\">Popularity</font> when credibility is still being built, at a modest cost to <font color=\"#556B2F\">Military Support</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "ref": 9,
+          "pop": 5,
+          "mil": -4
+        },
+        "alertMsg": "The students are combative, but with your credibility still shaky, the fact that you sent envoys at all scores real points. The generals grumble that you are negotiating with street agitators. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "ref": 5,
+          "pop": 3,
+          "mil": -3
+        },
+        "alertMsg": "The students are combative, and with your reformist credentials already well established, the meeting provides a steady, modest boost. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "trisakti_semanggi_commemoration",
+    "category": "Civil Society",
+    "text": "\"Authorize a State Ceremony in Recognition of Names That Student Groups Have Been Reading Aloud at the Start of Nearly Every Rally Held This Year\"",
+    "short_name": "Student Martyrs Commemoration",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Authorizes a state commemorative ceremony for the students killed at <font color=\"#B22222\">Trisakti</font> and <font color=\"#B22222\">Semanggi</font>, with their families invited to Merdeka Palace. Provides a strong boost to <font color=\"#8E24AA\">Reformasi Credibility</font> and <font color=\"#D81B60\">Popularity</font>, while straining <font color=\"#556B2F\">Military Support</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "mil",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "ref": 10,
+          "pop": 10,
+          "mil": -8
+        },
+        "alertMsg": "The ceremony is genuinely moving, with families weeping openly as their children's names are read aloud. The officer corps takes the implicit blame hard, straining <font color=\"#556B2F\">Military Support</font>. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "mil",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "ref": 6,
+          "pop": 6,
+          "mil": -5
+        },
+        "alertMsg": "The ceremony is genuinely moving, with families weeping openly as their children's names are read aloud. With the military's trust already limited, officers privately grumble. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 12,
+      "min": 5
+    }
+  },
+  {
+    "id": "chinatown_reconciliation",
+    "category": "Civil Society",
+    "text": "\"Undertake a Personal, Largely Unscheduled Visit to a District of the Capital Where Certain Events from Last Year Are Still Being Quietly Discussed\"",
+    "short_name": "Glodok Reconciliation Visit",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Walks personally through Glodok and the commercial districts of old Chinatown Jakarta, still visibly scarred more than a year after May 1998. Delivers gains across <font color=\"#D81B60\">Popularity</font>, <font color=\"#8E24AA\">Reformasi Credibility</font>, <font color=\"#00838F\">International Standing</font>, and <font color=\"#1B7837\">Economic Health</font>, at a minor cost to <font color=\"#CC9900\">Golkar</font>'s old guard.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "pop": 5,
+          "ref": 6,
+          "intl": 6,
+          "econ": 4,
+          "golkar_akbar": -5
+        },
+        "alertMsg": "You are received in Glodok with gratitude and lingering grief. With your standing respectable, the visit dominates the evening news as a moment of real reconciliation. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "pop": 3,
+          "ref": 4,
+          "intl": 4,
+          "econ": 3,
+          "golkar_akbar": -3
+        },
+        "alertMsg": "You are received in Glodok politely, though with visible wariness. Even so, commercial confidence ticks upward slightly. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "sbkri_review",
+    "category": "Civil Society",
+    "text": "\"Direct the Ministry of Home Affairs to Undertake a Quiet Administrative Review of a Longstanding Documentary Requirement\"",
+    "short_name": "SBKRI Citizenship Directive (Inpres No. 4/1999)",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Enforces Presidential Instruction No. 4/1999 abolishing the requirement for ethnic Chinese Indonesians to produce the discriminatory SBKRI citizenship certificate at civil registries and passport offices. Delivers a strong lift to <font color=\"#8E24AA\">Reformasi Credibility</font>, <font color=\"#D81B60\">Popularity</font>, and <font color=\"#1B7837\">Economic Health</font>, at a cost to <font color=\"#CC9900\">Golkar</font>'s old bureaucratic guard.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "ref": 10,
+          "pop": 7,
+          "econ": 4,
+          "golkar_akbar": -7
+        },
+        "alertMsg": "The presidential instruction goes out to provincial civil registries. With your reformist credentials still being built, Chinese Indonesian civic organizations treat it as a tangible milestone. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "ref": 5,
+          "pop": 3,
+          "econ": 3,
+          "golkar_akbar": -4
+        },
+        "alertMsg": "The presidential instruction goes out to provincial civil registries. With your reformist record already established, the change is welcomed as steady progress. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "ciganjur_dialogue",
+    "category": "Civil Society",
+    "text": "\"Extend a Formal Invitation to the Four Signatories of the Ciganjur Declaration for a Constitutional Roundtable at Wisma Negara\"",
+    "short_name": "Ciganjur Four Roundtable",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Reaches out simultaneously to the 'Ciganjur Four'—Megawati Sukarnoputri, Abdurrahman Wahid, Amien Rais, and Sultan Hamengkubuwono X—who met in South Jakarta last November to lay out their own vision for the transition. When <font color=\"#8E24AA\">Reformasi Credibility</font> is respectable, hosting them together calms the nation and warms <font color=\"#C0392B\">PDI-P</font>, <font color=\"#006400\">PKB</font>, <font color=\"#0055A4\">PAN</font>, and <font color=\"#A0522D\">Regional Delegates</font>; if credibility is low, they boycott the invitation and embarrass the Palace.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "stab": 8,
+          "ref": 5,
+          "pdip": 5,
+          "poros_tengah": 5,
+          "pkb": 5,
+          "utusan_daerah": 5,
+          "golkar_akbar": -4
+        },
+        "alertMsg": "Photographs of you sitting across from the Ciganjur leaders at Wisma Negara dominate every front page, lowering the political temperature in Jakarta and earning <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "pop": -4,
+          "stab": -3,
+          "ref": 2,
+          "utusan_daerah": 3
+        },
+        "alertMsg": "Only Sultan Hamengkubuwono X attends in person while the party leaders send junior deputies, leaving empty chairs at Wisma Negara that the press mocks. Even so, the effort nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "womens_commission",
+    "category": "Civil Society",
+    "text": "\"Expand State Funding and Archival Access for the National Commission on Violence Against Women Established Under Keppres No. 181/1998\"",
+    "short_name": "Komnas Perempuan Fact-Finding Support",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Strengthens the mandate and budget of <i>Komnas Perempuan</i>, chaired by Prof. Saparinah Sadli, which you established by decree last October following the Joint Fact-Finding Team (TGPF) investigation into the May 1998 riots. Reliably boosts <font color=\"#8E24AA\">Reformasi Credibility</font>, <font color=\"#00838F\">International Standing</font>, and <font color=\"#2E8B57\">Utusan Golongan</font> support, while irritating <font color=\"#556B2F\">Military</font> commanders.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "ref": 7,
+          "intl": 7,
+          "utusan_golongan": 8,
+          "pop": 3,
+          "mil": -5
+        },
+        "alertMsg": "Prof. Saparinah Sadli and women's civil society coalitions welcome the expanded resources as proof that the state will not bury the truths of May 1998. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "ref": 5,
+          "intl": 5,
+          "utusan_golongan": 5,
+          "mil": -4
+        },
+        "alertMsg": "Human rights advocates welcome the support for Komnas Perempuan, though activists continue to press the Attorney General for actual prosecutions. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "declassify_1965_files",
+    "category": "Civil Society",
+    "text": "\"Authorize the State Secretariat and Komnas HAM to Open Restricted Archival Records Pertaining to the Penal Camps of Buru Island and the Events of 1965\"",
+    "short_name": "Buru Island & Ex-Tapol Rehabilitation",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Breaks the deepest taboo of the New Order by restoring full civil rights—and removing the 'ET' (<i>Eks-Tapol</i>) stamp from national ID cards—for the hundreds of thousands of citizens imprisoned without trial on Buru Island and across the archipelago after 1965. Greatly increases <font color=\"#8E24AA\">Reformasi Credibility</font>, <font color=\"#00838F\">International Standing</font>, and <font color=\"#2E8B57\">Utusan Golongan</font> support. <font color=\"#B22222\"><b>This will provoke fierce backlash from ABRI and conservative Islamic groups.</b></font>",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 55
+        },
+        "effects": {
+          "ref": 14,
+          "intl": 10,
+          "utusan_golongan": 12,
+          "pdip": 6,
+          "mil": -12,
+          "abri": -12,
+          "ppp": -8,
+          "poros_tengah": -6
+        },
+        "alertMsg": "Literary icon Pramoedya Ananta Toer and human rights advocates hail the abolition of the 'ET' identity-card stigma as a historic triumph of conscience. Generals at Cilangkap and conservative preachers denounce the move furiously. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 55
+        },
+        "effects": {
+          "ref": 9,
+          "intl": 6,
+          "utusan_golongan": 8,
+          "mil": -10,
+          "abri": -10,
+          "ppp": -8,
+          "stab": -5
+        },
+        "alertMsg": "Removing the 'Eks-Tapol' stigma sparks loud protests from anti-communist youth fronts and ABRI veterans, though international observers praise the humanitarian gesture. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 12,
+      "min": 5
+    }
+  },
+  {
+    "id": "leak",
+    "category": "Security",
+    "text": "\"Facilitate the Discreet Circulation of Certain Background Materials Through Informal Channels Understood to Be Sympathetic to the Administration\"",
+    "short_name": "Discreet Intelligence Leak",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Targets Cendana operatives through the press, feeding carefully selected financial and intelligence files to investigative journalists inclined to run with them. Against an entrenched <font color=\"#704d00\">Cendana Influence</font> network, the sweep delivers a solid boost to <font color=\"#D81B60\">Popularity</font> and <font color=\"#8E24AA\">Reformasi Credibility</font> and cuts <font color=\"#704d00\">Cendana Influence</font> sharply, at a modest cost to <font color=\"#37474F\">National Stability</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "cendana",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "pop": 6,
+          "ref": 6,
+          "stab": -5,
+          "intl": -2,
+          "cendana": -12
+        },
+        "alertMsg": "Targeted intelligence sweeps away entrenched <font color=\"#704d00\"><b>Cendana</b></font> operatives and dominates the morning tabloids. The public relishes a purge, though foreign diplomats quietly note the pattern. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "cendana",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "pop": 3,
+          "ref": 3,
+          "stab": -2,
+          "intl": -2,
+          "cendana": -6
+        },
+        "alertMsg": "Targeted intelligence sweeps up a handful of minor <font color=\"#704d00\"><b>Cendana</b></font> holdouts. The story runs, but with the network already thinned out, it barely dents the morning news cycle. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 15,
+      "min": 7
+    }
+  },
+  {
+    "id": "military",
+    "category": "Security",
+    "text": "\"Request That the Coordinating Ministry for Political, Social, and Security Affairs Facilitate an Interagency Consultation with Armed Forces Stakeholders\"",
+    "short_name": "ABRI Interagency Consultation",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Sends Coordinating Minister Gen. (Ret.) Feisal Tanjung to Cilangkap to sit down with Wiranto's senior staff away from any camera. With higher <font color=\"#37474F\">National Stability</font>, the officer corps extends real goodwill across <font color=\"#556B2F\">Military Support</font>, <font color=\"#37474F\">National Stability</font>, and the <font color=\"#6B8E23\">ABRI faction</font>, while easing accumulated strain on the military neutrality pact.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "mil": 8,
+          "stab": 5,
+          "abri": 8
+        },
+        "alertMsg": "You successfully assured the top generals behind closed doors. With the country feeling reasonably secure, the <font color=\"#6B8E23\">ABRI</font> apparatus grows meaningfully more cooperative. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "mil": 4,
+          "stab": 3,
+          "abri": 4
+        },
+        "alertMsg": "You met with the top generals behind closed doors, but with the country on edge, they offer cautious assurances. The <font color=\"#6B8E23\">ABRI</font> apparatus shifts modestly. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "kamra_deployment",
+    "category": "Security",
+    "text": "\"Authorize the Deployment of Civilian Auxiliary Security Detachments (Kamra) to Assist Police Units in Securing Urban Commercial Corridors\"",
+    "short_name": "Deploy Kamra Police Auxiliaries",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Mobilizes the 40,000 unemployed youths recruited and trained this year as <i>Keamanan Rakyat</i> (Kamra) civilian police auxiliaries to guard markets, bus terminals, and intersections. When <font color=\"#37474F\">National Stability</font> is shaky, the extra boots on the street provide a strong lift to <font color=\"#37474F\">Stability</font> and <font color=\"#556B2F\">Military Support</font>, though <font color=\"#8E24AA\">Reformasi</font> advocates worry about poorly trained paramilitaries.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "stab": 10,
+          "mil": 5,
+          "abri": 5,
+          "pop": 2,
+          "ref": -4,
+          "utusan_golongan": -3
+        },
+        "alertMsg": "Thousands of yellow-cuffed Kamra auxiliaries take up posts at markets and bus terminals across Java, visibly deterring street looting and easing the burden on overstretched police units. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "stab": 5,
+          "mil": 3,
+          "abri": 3,
+          "ref": -5,
+          "pop": -2
+        },
+        "alertMsg": "With the streets already relatively calm, deploying thousands of Kamra auxiliaries draws skeptical commentary from legal aid groups who compare them to the New Order's Hansip squads. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "kostrad_rotation",
+    "category": "Security",
+    "text": "\"Consult with the Armed Forces Chief of Territorial Staff to Expedite the Routine Tour-of-Duty Rotation of Selected Regional Commanders\"",
+    "short_name": "Kodam Command Rotation",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Works through reform-minded staff officers at Cilangkap—such as Lt. Gen. Susilo Bambang Yudhoyono and Maj. Gen. Agus Widjojo—to quietly rotate Cendana-era holdover colonels out of sensitive regional <i>Kodam</i> posts. Cuts <font color=\"#704d00\">Cendana Influence</font> and lifts <font color=\"#8E24AA\">Reformasi Credibility</font> and <font color=\"#CC9900\">Loyalist</font> confidence.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "mil",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "cendana": -8,
+          "stab": 5,
+          "ref": 4,
+          "golkar_habibie": 5
+        },
+        "alertMsg": "With Cilangkap's cooperation, several old-guard territorial officers with close ties to Jalan Cendana are quietly reassigned to non-command staff desks, strengthening professional command discipline. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "mil",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "cendana": -5,
+          "ref": 4,
+          "golkar_habibie": 3,
+          "mil": -3
+        },
+        "alertMsg": "The command rotations go through, though with your standing inside Cilangkap already strained, conservative generals grumble about civilian meddling in internal army promotions. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "maluku_peace_envoy",
+    "category": "Security",
+    "text": "\"Dispatch an Interministerial Task Force and Joint Religious Reconciliation Delegation to Ambon and the Lease Islands\"",
+    "short_name": "Maluku Interfaith Peace Mission",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Addresses the bloody communal conflict between Christian and Muslim communities that has convulsed Ambon and the Moluccas since January. Sending interfaith mediators alongside neutral Marine units lifts <font color=\"#37474F\">National Stability</font>, <font color=\"#A0522D\">Regional Delegates</font>, and <font color=\"#808080\">Minor Parties</font> across both Christian and Islamic benches.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 55
+        },
+        "effects": {
+          "stab": 8,
+          "utusan_daerah": 6,
+          "other_parties": 5,
+          "poros_tengah": 3,
+          "econ": -2
+        },
+        "alertMsg": "Joint Christian and Muslim leaders walk the damaged neighborhoods of Ambon under Marine escort, establishing a fragile truce corridor and earning gratitude from eastern Indonesian delegates. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 55
+        },
+        "effects": {
+          "stab": 4,
+          "utusan_daerah": 4,
+          "other_parties": 4,
+          "intl": 3
+        },
+        "alertMsg": "The reconciliation mission reinforces the fragile peace lines in Ambon and reassures both Christian and Muslim delegations in Senayan. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "audit_kodam_foundations",
+    "category": "Security",
+    "text": "\"Direct the Supreme Audit Agency to Inspect Non-Budgetary Timber and Shipping Concessions Operated by Regional Military Foundations\"",
+    "short_name": "Audit Territorial Military Foundations",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Sends civilian auditors into the untouchable economic empire of the army's <i>Yayasan</i> (foundations)—from Kostrad's airline and banking ventures to regional timber concessions in Kalimantan and Irian Jaya. Boosts <font color=\"#1B7837\">Economic Health</font>, <font color=\"#8E24AA\">Reformasi Credibility</font>, and <font color=\"#00838F\">International Standing</font>. <font color=\"#B22222\"><b>This will severely strain Military Support.</b></font>",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "ref": 10,
+          "econ": 8,
+          "intl": 8,
+          "pop": 6,
+          "cendana": -8,
+          "mil": -12,
+          "abri": -12
+        },
+        "alertMsg": "Civilian auditors uncover hundreds of billions of rupiah in off-budget timber and customs revenue. The IMF and student reformers applaud the unprecedented civilian oversight, while Cilangkap's generals seethe. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "ref": 6,
+          "econ": 4,
+          "mil": -10,
+          "abri": -10,
+          "stab": -4
+        },
+        "alertMsg": "Regional commanders slow-walk the audit teams at barracks gates, but the inspection still claws back revenue for the state treasury and nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 15,
+      "min": 7
+    }
+  },
+  {
+    "id": "mobilize_pam_swakarsa",
+    "category": "Security",
+    "text": "\"Authorize the Quiet Mobilization of Civilian Self-Defense Spear Groups (Pam Swakarsa) and Youth Organizations to Secure the Approaches to Senayan\"",
+    "short_name": "Mobilize Pam Swakarsa Street Militias",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Repeats the controversial playbook of the November 1998 MPR Special Session: trucks in thousands of bamboo-spear-wielding <i>Pam Swakarsa</i> vigilantes, <i>Pemuda Pancasila</i> youths, and hired street auxiliaries to physically confront student demonstrators. Yields a large burst of <font color=\"#0000FF\">Political Capital</font> and boosts <font color=\"#556B2F\">Military</font> and <font color=\"#704d00\">Cendana</font> clout. <font color=\"#B22222\"><b>This will severely damage your Reformasi Credibility and Popularity.</b></font>",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "mil",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "stab": 8,
+          "mil": 6,
+          "abri": 6,
+          "cendana": 6,
+          "ref": -12,
+          "pop": -10,
+          "utusan_golongan": -8
+        },
+        "alertMsg": "Truckloads of bamboo-spear-wielding Pam Swakarsa auxiliaries clear the student marches off Jalan Gatot Subroto while security forces watch approvingly. Cendana and military backers reward your resolve with <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "mil",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "stab": -4,
+          "cendana": 6,
+          "ref": -12,
+          "pop": -12,
+          "utusan_golongan": -8
+        },
+        "alertMsg": "Without tight military coordination, the Pam Swakarsa vigilantes clash with local Jakarta residents in bloody street brawls. Even so, Cendana financiers replenish your tactical chest with <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 24,
+      "min": 10
+    }
+  },
+  {
+    "id": "slushfund",
+    "category": "Politics",
+    "text": "\"Authorize a Discretionary Reallocation of Certain Non-Budgetary Organizational Resources for Purposes to Be Clarified at a Later Date\"",
+    "short_name": "Off-Book Reallocation",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Reaches into some of the old regime's remaining off-book tactical funds, no signature required and no book-keeping entry that anyone outside a very small circle will ever see. Tapping into these hidden reserves gives a substantial amount of <font color=\"#0000FF\">Political Capital</font>. With high <font color=\"#D81B60\">Popularity</font>, the inevitable leak lands as a sharp betrayal; with low popularity, the public has already priced in this behavior, though <font color=\"#704d00\">Cendana Influence</font> still grows.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "pop": -10,
+          "intl": -5,
+          "ref": -10,
+          "cendana": 8
+        },
+        "alertMsg": "You quietly tapped into off-book funds, securing <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>. With your standing still relatively high, the revelation lands as a betrayal, badly damaging your <font color=\"#D81B60\">Popularity</font> and empowering the <font color=\"#704d00\"><b>Cendana clique</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "pop": -4,
+          "intl": -3,
+          "ref": -4,
+          "cendana": 5
+        },
+        "alertMsg": "You quietly tapped into off-book funds, securing <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>. The public, already skeptical of you, treats the news as barely news at all, though the <font color=\"#704d00\"><b>Cendana clique</b></font> still quietly grows stronger."
+      }
+    ],
+    "dynamicPC": {
+      "base": 12,
+      "min": 5
+    }
+  },
+  {
+    "id": "campaign",
+    "category": "Politics",
+    "text": "\"Instruct the Directorate General of Sociopolitical Affairs to Formulate and Implement a Multi-Regional Public Confidence Initiative\"",
+    "short_name": "Public Confidence Initiative",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Sends the Home Affairs Directorate General's field staff into the provinces to run civic forums aimed at shoring up your public image. Provides a guaranteed lift to <font color=\"#8E24AA\">Reformasi Credibility</font>, while the effect on <font color=\"#D81B60\">Popularity</font> scales with current <font color=\"#37474F\">National Stability</font>.",
+    "effects": {
+      "ref": 8
+    },
+    "dynamicScaling": {
+      "target": "pop",
+      "base": 8,
+      "scaleFrom": "stab",
+      "scaleOffset": -45,
+      "scaleDivisor": 5,
+      "min": -3
+    },
+    "alertMsgs": {
+      "success": "Campaign completed at no cost to the treasury. Intelligence reports indicate public sentiment has shifted in your favor as <font color=\"#D81B60\">Popularity</font> ticks upward. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use.",
+      "failure": "The campaign fell flat. With <font color=\"#37474F\">National Stability</font> already fragile, your public rallies read as out of touch with reality. It still nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+    },
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "address",
+    "category": "Politics",
+    "text": "\"Instruct the State Broadcasting Apparatus to Reserve Airtime for a Forthcoming Communication of Presently Unspecified Scope and Subject Matter\"",
+    "short_name": "Presidential Broadcast",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Reserves a prime-time slot on TVRI and RRI for a full national address. If <font color=\"#D81B60\">Popularity</font> is respectable, the speech projects calm authority and reinforces your mandate; if you are deeply unpopular, it risks reading as a desperate, out-of-touch lecture.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "pop": 9,
+          "stab": 9
+        },
+        "alertMsg": "The broadcast lands well. Your earnest, unscripted delivery projects stability and reinforces your mandate. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "pop",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "pop": -5,
+          "stab": -5
+        },
+        "alertMsg": "The broadcast backfires. Given your shaky standing, the public hears a desperate, out-of-touch lecture, and unrest ticks upward in response. It still nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  },
+  {
+    "id": "icmi_caucus",
+    "category": "Politics",
+    "text": "\"Mobilize the Center for Information and Development Studies (CIDES) and Associated Print Outlets to Articulate the Administration's Reformist Trajectory\"",
+    "short_name": "CIDES & ICMI Media Offensive",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Deploys the intellectual network you founded in 1990—the Association of Indonesian Muslim Intellectuals (ICMI), its think tank CIDES, and the daily newspaper <i>Republika</i>—to publish policy white papers and op-eds defending your record ahead of the MPR session. Reliably boosts <font color=\"#CC9900\">Loyalist Golkar</font>, <font color=\"#0055A4\">PAN / Poros Tengah</font>, and <font color=\"#808080\">Minor Islamic Parties</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "golkar_habibie": 8,
+          "poros_tengah": 6,
+          "other_parties": 5,
+          "ref": 4,
+          "pdip": -3
+        },
+        "alertMsg": "CIDES symposiums and Republika editorials frame your presidency as the historic synthesis of Islam, science, and constitutional democracy, rallying modernist Muslim delegates and netting <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "ref",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "golkar_habibie": 6,
+          "poros_tengah": 3,
+          "other_parties": 3,
+          "pdip": -4
+        },
+        "alertMsg": "Your loyalists inside ICMI rally to your defense in the press, though secular commentators dismiss the op-eds as factional spin. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 15,
+      "min": 7
+    }
+  },
+  {
+    "id": "wednesday_cabinet",
+    "category": "Politics",
+    "text": "\"Convene an Extraordinary Full Plenary of the Development Reform Cabinet at Bina Graha to Enforce Interministerial Policy Discipline\"",
+    "short_name": "Bina Graha Cabinet Discipline Plenary",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Locks all thirty-six ministers of the <i>Kabinet Reformasi Pembangunan</i> inside the Bina Graha conference room with your famous stack of handwritten notes until the public bickering between technocrats, Golkar politicians, and party ministers stops. Generates solid <font color=\"#0000FF\">Political Capital</font> and lifts <font color=\"#CC9900\">Golkar</font> and <font color=\"#37474F\">National Stability</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "stab": 5,
+          "econ": 4,
+          "golkar_habibie": 6,
+          "golkar_akbar": 5
+        },
+        "alertMsg": "After a marathon five-hour briefing at Bina Graha, competing ministers emerge speaking from the same page for once, projecting executive coherence and netting <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "stab": 3,
+          "golkar_habibie": 5,
+          "golkar_akbar": 3,
+          "cendana": -3
+        },
+        "alertMsg": "You dress down several ministers suspected of leaking cabinet disputes to the press, restoring a measure of discipline inside Bina Graha and netting <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 16,
+      "min": 8
+    }
+  },
+  {
+    "id": "litsus_screening",
+    "category": "Politics",
+    "text": "\"Instruct the Directorate General of Sociopolitical Affairs to Subject Newly Seated Parliamentary Delegates to 'Special Background Screening' (Penelitian Khusus)\"",
+    "short_name": "Revive 'Litsus' Ideological Screening",
+    "baseCost": 0,
+    "cooldown": 3,
+    "description": "Dusts off the New Order's feared <i>Penelitian Khusus</i> (Litsus) dossiers—using old BAKORSTANAS intelligence files to blackmail wavering MPR delegates over real or fabricated family ties to banned movements or unpaid state bank loans. Extracts substantial <font color=\"#0000FF\">Political Capital</font> and forces <font color=\"#CC9900\">Golkar</font> and <font color=\"#A0522D\">Regional Delegates</font> into line. <font color=\"#B22222\"><b>This will severely damage your Reformasi Credibility and alienate civil society delegates.</b></font>",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "cendana",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "golkar_akbar": 8,
+          "utusan_daerah": 8,
+          "abri": 5,
+          "cendana": 8,
+          "ref": -14,
+          "pop": -8,
+          "utusan_golongan": -10
+        },
+        "alertMsg": "Manila folders containing old BAKORSTANAS dossiers land quietly on hotel nightstands across Senayan. Wavering regional and Golkar delegates suddenly rediscover their loyalty to the Palace, yielding <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "cendana",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "golkar_akbar": 4,
+          "utusan_daerah": 4,
+          "cendana": 6,
+          "ref": -12,
+          "pop": -8
+        },
+        "alertMsg": "Several opposition MPs leak the Litsus intimidation attempts to the press, sparking outrage over the revival of New Order police-state tactics, though the operation still extracts <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 7
+    }
+  },
+  {
+    "id": "papua_dialogue",
+    "category": "Regional Affairs",
+    "text": "\"Instruct the State Secretariat to Proceed with the Discussions Presently Being Facilitated by Certain Irian Jaya Civic and Religious Organizations\"",
+    "short_name": "Irian Jaya National Dialogue",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Continues the direct engagement framework you opened on February 26 when you hosted Tom Beanal and the 'Team of 100' Papuan leaders at Istana Negara. Reliably lifts <font color=\"#00838F\">International Standing</font> and <font color=\"#8E24AA\">Reformasi Credibility</font>, though domestic pushback on <font color=\"#37474F\">National Stability</font> and <font color=\"#A0522D\">Regional Delegate</font> trust is milder when stability is already firm.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "intl": 8,
+          "ref": 6,
+          "stab": -4,
+          "utusan_daerah": -4
+        },
+        "alertMsg": "The delegation uses the Palace platform to press its demands. With the country reasonably steady, the diplomatic corps praises your openness and the reaction at home stays manageable. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "intl": 6,
+          "ref": 4,
+          "stab": -8,
+          "utusan_daerah": -7
+        },
+        "alertMsg": "The delegation uses the Palace platform to press its demands. With the country already on edge, domestic politicians react furiously at what they call one more sign of the center losing its grip. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "sultan_outreach",
+    "category": "Regional Affairs",
+    "text": "\"Authorize the Ministry of Home Affairs to Extend a Formal Courtesy Visit to the Traditional Royal and Customary Authorities of Selected Provinces\"",
+    "short_name": "Traditional Authorities Courtesy Visit",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Engages the sultanates, <i>adat</i> councils, and customary leadership structures across Yogyakarta, Solo, Cirebon, Ternate, and South Sulawesi whose informal authority outlasts whatever governor Jakarta appoints. When <font color=\"#37474F\">National Stability</font> is shaky, leaning on traditional authority structures provides a major boost to <font color=\"#A0522D\">Regional Delegate</font> loyalty and <font color=\"#37474F\">Stability</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 50
+        },
+        "effects": {
+          "utusan_daerah": 10,
+          "pop": 4,
+          "stab": 4
+        },
+        "alertMsg": "The visiting delegation is received with elaborate courtesy. With the provinces restless, <font color=\"#A0522D\">Regional Delegates</font> take real note of the respect shown to institutions older than the Republic itself. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 50
+        },
+        "effects": {
+          "utusan_daerah": 5,
+          "pop": 3,
+          "stab": 2
+        },
+        "alertMsg": "The visiting delegation is received warmly, as ever. With the provinces already calm, the gesture reinforces <font color=\"#A0522D\">Regional Delegate</font> goodwill. It also nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font> for the Palace's discretionary use."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "kalimantan_accord",
+    "category": "Regional Affairs",
+    "text": "\"Dispatch a Home Affairs Mediation Team and Emergency Reconstruction Package to Pontianak and Sambas Following Communal Disturbances\"",
+    "short_name": "West Kalimantan Reconstruction & Accord",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Addresses the aftermath of the communal violence in Sambas, West Kalimantan, where tens of thousands of Madurese settlers have been displaced into Pontianak stadiums following clashes with local Malay and Dayak communities. Facilitating a customary peace pact and refugee relief boosts <font color=\"#37474F\">National Stability</font>, <font color=\"#A0522D\">Regional Delegates</font>, and <font color=\"#006400\">PKB</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": ">=",
+          "value": 40
+        },
+        "effects": {
+          "stab": 7,
+          "utusan_daerah": 7,
+          "pkb": 6,
+          "ppp": 4,
+          "econ": -3
+        },
+        "alertMsg": "Reconstruction funds and housing relief reach Pontianak and Sambas quickly, calming provincial tensions and earning sincere thanks from both Kalimantan delegates and Madurese kiai in PKB. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "econ",
+          "operator": "<",
+          "value": 40
+        },
+        "effects": {
+          "stab": 4,
+          "utusan_daerah": 5,
+          "pkb": 4,
+          "econ": -4
+        },
+        "alertMsg": "Despite tight budget constraints, the mediation team brokers a local truce in West Kalimantan and delivers emergency rations to displaced families. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 13,
+      "min": 6
+    }
+  },
+  {
+    "id": "riau_kaltim_summit",
+    "category": "Regional Affairs",
+    "text": "\"Convene a Working Summit at Merdeka Palace with the Governors and Regional Assembly Speakers of Riau and East Kalimantan\"",
+    "short_name": "Oil & Gas Governors' Summit",
+    "baseCost": 0,
+    "cooldown": 2,
+    "description": "Brings the governors, regents, and civic leaders of Riau and East Kalimantan to Jakarta, promising them direct community development stakes in Pertamina and Caltex operations. Boosts <font color=\"#A0522D\">Regional Delegates</font> and <font color=\"#1B7837\">Economic Health</font>.",
+    "conditionalEffects": [
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": ">=",
+          "value": 45
+        },
+        "effects": {
+          "utusan_daerah": 9,
+          "econ": 5,
+          "golkar_akbar": 4,
+          "stab": 3
+        },
+        "alertMsg": "The oil-and-gas governors leave Merdeka Palace with concrete commitments on coastal infrastructure and Pertamina revenue sharing, defusing separatist rhetoric in Pekanbaru and Samarinda. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      },
+      {
+        "condition": {
+          "stat": "stab",
+          "operator": "<",
+          "value": 45
+        },
+        "effects": {
+          "utusan_daerah": 6,
+          "econ": 3,
+          "stab": 2
+        },
+        "alertMsg": "Even with tensions running high across the outer islands, your willingness to hear out Riau and East Kalimantan's fiscal grievances keeps their MPR delegations engaged with the Palace. Nets <font color=\"#0000FF\"><b>+{pcGained} PC</b></font>."
+      }
+    ],
+    "dynamicPC": {
+      "base": 14,
+      "min": 6
+    }
+  }
+]

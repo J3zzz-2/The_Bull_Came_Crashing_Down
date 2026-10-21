@@ -1,0 +1,65 @@
+{
+  "systemModifiers": {
+    "lowStatThreshold": 40,
+    "highStatThreshold": 60,
+    "malusMultiplier": 0.45,
+    "malusDecayNormal": 0.5,
+    "malusDecayHigh": 1.5,
+    "maxGlobalMalus": 10.0,
+    "bonusMultiplier": 0.3,
+    "maxBonusDrift": 2.0,
+    "baseLobbyCost": 20,
+    "loyalistDrainMitigation": 0.35,
+    "routineRepeatDecay": 0.15
+  },
+  "situationImage": "photo/images/situation.png",
+  "habibieCoverImage": "photo/faction/habibibe.png",
+  "victoryImage": "photo/images/win.png",
+  "defeatImage": "photo/images/defeat.png",
+  "difficultySettings": {
+    "easy": {
+      "image": "photo/difficulty/easy.png",
+      "name": "Easy",
+      "pc": 75,
+      "statMod": 15,
+      "cendana": 40,
+      "malusCap": 0.0,
+      "actionCostMod": -5,
+      "passivePCMod": 2,
+      "description": "A version of that year where things did not quite go the way everyone remembers. The Palace begins in a somewhat sturdier position than history is generally willing to admit, the old regime's lingering hooks into the state a bit looser than usual, and <font color=\"#0000FF\"><b>the consequences of a misstep slower to arrive and gentler when they do.</b></font> It is still 1999. It is just, for once, a somewhat kinder one. <p></p>• Significantly higher starting <font color=\"#0000FF\"><b>Political Capital</b></font> and a steady passive tailwind. <p></p>• Early national metrics and faction stances are significantly boosted. <p></p>• Starting <font color=\"#704d00\"><b>Cendana Influence</b></font> is Contained. <p></p>• There are no passive <font color=\"#B22222\"><b>maluses</b></font> on faction loyalty. <p></p>• The cost of actions is noticeably reduced. <p></p>• The army and the old regime grumble, but rarely do more than that."
+    },
+    "medium": {
+      "image": "photo/difficulty/medium.png",
+      "name": "Medium",
+      "pc": 50,
+      "statMod": 5,
+      "cendana": 60,
+      "malusCap": 0.35,
+      "actionCostMod": 0,
+      "passivePCMod": 1,
+      "description": "Something closer to the middle ground between what actually happened and what might have happened under slightly better circumstances. <font color=\"#0000FF\"><b>You inherit a position that is neither generous nor especially cruel.</b></font> The administration is still tangled up in the old regime's entanglements to a degree that will make itself known eventually. <p></p>• Moderate starting <font color=\"#0000FF\"><b>Political Capital</b></font> and a slight passive tailwind. <p></p>• Early national metrics are modestly boosted. <p></p>• Starting <font color=\"#704d00\"><b>Cendana Influence</b></font> is Subversive. <p></p>• Passive <font color=\"#B22222\"><b>maluses</b></font> are mild and manageable. <p></p>• Standard action costs. <p></p>• <font color=\"#B22222\"><b>An alienated military</b></font> will push back some of the time."
+    },
+    "high": {
+      "image": "photo/difficulty/high.png",
+      "name": "High",
+      "pc": 35,
+      "statMod": 0,
+      "cendana": 75,
+      "malusCap": 0.75,
+      "actionCostMod": 0,
+      "passivePCMod": 0,
+      "description": "<font color=\"#0000FF\"><b>You inherit a position that owes very little to luck and even less to generosity.</b></font> With the old regime's fingerprints still very much present in places the Palace would rather they weren't. Left unattended, certain problems have a way of making other problems worse. Beyond that, it is probably better left for you to find out for yourself, <font color=\"#B22222\"><b>the way Habibie did.</b></font> <p></p>• Lower starting <font color=\"#0000FF\"><b>Political Capital.</b></font> <p></p>• Starting <font color=\"#704d00\"><b>Cendana Influence</b></font> is deeply Entrenched. <p></p>• Passive <font color=\"#B22222\"><b>maluses</b></font> bite hard if stability falters. <p></p>• Standard action costs. <p></p>• <font color=\"#B22222\"><b>Alienate the generals</b></font> and expect sabotage in the streets and in East Timor."
+    },
+    "historical": {
+      "image": "photo/difficulty/historical.png",
+      "name": "Historical",
+      "pc": 20,
+      "statMod": 0,
+      "cendana": 95,
+      "malusCap": 1.25,
+      "actionCostMod": 5,
+      "passivePCMod": 0,
+      "description": "<font color=\"#B22222\"><b>What really went down that year.</b></font> The old regime's grip on the state has barely loosened, and the problems Suharto left unattended have an unpleasant tendency to compound into one another before you fully notice it happening. Even the ordinary business of governing costs more than it should. <b>RECOMMENDED WAY TO PLAY.</b> <p></p>• Scarce starting <font color=\"#0000FF\"><b>Political Capital.</b></font> <p></p>• Starting <font color=\"#704d00\"><b>Cendana Influence</b></font> is Untouchable. <p></p>• Passive <font color=\"#B22222\"><b>maluses</b></font> are unforgiving when the country destabilizes. <p></p>• Every political action costs more than it should. <p></p>• When the generals turn, <font color=\"#B22222\"><b>every incident is devastating</b></font>: stability, credibility, allies and even Political Capital are all on the table."
+    }
+  }
+}

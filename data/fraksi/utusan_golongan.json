@@ -1,0 +1,145 @@
+{
+  "name": "Fraksi Utusan Golongan",
+  "short": "U. Golongan",
+  "seats": 65,
+  "affinity": 35,
+  "image": "photo/usdar.png",
+  "coverImage": "photo/faction/usdar.png",
+  "summary": "The <font color=\"#555555\"><b>Functional Group Delegates Faction (Fraksi Utusan Golongan)</b></font> seats sixty-five non-partisan representatives drawn from Indonesia's independent labor unions, women's coalitions, academic bodies, agrarian cooperatives, and religious minorities. For three decades under the <font color=\"#704d00\"><b>New Order</b></font>, <font color=\"#704d00\"><b>Suharto</b></font> used corporatist umbrella organizations—such as the state labor monopoly <font color=\"#704d00\"><b>SPSI</b></font>, the civil wives' association <font color=\"#704d00\"><b>Dharma Wanita</b></font>, and regime-vetted youth fronts—to pack these seats with pliant appointees who rubber-stamped presidential decrees in the name of organic state harmony.<p></p>Under the reform rules of <font color=\"#000080\"><b>Law No. 4/1999</b></font>, however, the independent <font color=\"#000080\"><b>General Elections Commission (KPU)</b></font> stripped the presidency of appointment power and awarded the sixty-five mandates to autonomous civil-society organizations. This class of <font color=\"#555555\"><b>Utusan Golongan</b></font> brings human rights lawyers, feminist organizers, Protestant and Catholic synod leaders, Buddhist and Hindu representatives, and independent trade unionists straight onto the <font color=\"#000080\"><b>Senayan</b></font> floor. Viewing themselves as the moral conscience of the <font color=\"#000080\"><b>MPR</b></font>, they reject backroom patronage envelopes. <font color=\"#0000FF\"><b>Demonstrating genuine reformist credibility at home and earning respect from international human rights and labor monitors give the Palace strong leverage over this principled caucus.</b></font>",
+  "biography": "Born out of the 1945 Constitution's provision for societal representation in the <font color=\"#000080\"><b>MPR</b></font>, the <font color=\"#555555\"><b>Utusan Golongan</b></font> seats were subverted after 1966 into an instrument of <font color=\"#704d00\"><b>New Order</b></font> state corporatism. In the wake of the 1965–1966 purge of the leftist labor federation <i>SOBSI</i>, <font color=\"#704d00\"><b>Suharto's</b></font> security apparatus herding urban factory workers into the state-policed <font color=\"#704d00\"><b>All-Indonesia Workers Union (SPSI)</b></font>, while independent organizers like <font color=\"#555555\"><b>Muchtar Pakpahan</b></font> and <font color=\"#C0392B\"><b>Dita Indah Sari</b></font> were thrown into prison and the murdered East Java strike leader <font color=\"#B22222\"><b>Marsinah</b></font> became a martyr for underground labor.<p></p>The collapse of <font color=\"#704d00\"><b>Suharto's</b></font> regime in May 1998 shattered that corporatist monopoly. Within weeks of taking office, your cabinet freed <font color=\"#555555\"><b>Muchtar Pakpahan</b></font> from Cipinang Prison, ratified <font color=\"#004C97\"><b>ILO Convention No. 87</b></font> on freedom of association, and opened the <font color=\"#555555\"><b>Utusan Golongan</b></font> nomination process to independent NGOs, the <font color=\"#555555\"><b>Indonesian Women's Coalition (KPI)</b></font>, <font color=\"#555555\"><b>LIPI</b></font> researchers, and the interfaith councils (<font color=\"#555555\"><b>PGI</b></font>, <font color=\"#555555\"><b>KWI</b></font>, <font color=\"#555555\"><b>PHDI</b></font>, and <font color=\"#555555\"><b>Walubi</b></font>). Though grateful for the breathing room of the post-1998 thaw, these sixty-five delegates remain vigilant against any relapse into military impunity or <font color=\"#704d00\"><b>New Order</b></font> authoritarianism.",
+  "moods": [
+    {
+      "min": 80,
+      "text": "Supportive",
+      "color": "#006400",
+      "overlay": "rgba(0, 255, 0, 0.15)"
+    },
+    {
+      "min": 60,
+      "text": "Favorable",
+      "color": "#009000",
+      "overlay": "rgba(0, 191, 255, 0.10)"
+    },
+    {
+      "min": 50,
+      "text": "Observing",
+      "color": "#4682B4",
+      "overlay": "rgba(0, 0, 255, 0.10)"
+    },
+    {
+      "min": 40,
+      "text": "Skeptical",
+      "color": "#2F4F4F",
+      "overlay": "rgba(255, 140, 0, 0.10)"
+    },
+    {
+      "min": 30,
+      "text": "Vocal Critics",
+      "color": "#FF4500",
+      "overlay": "rgba(255, 69, 0, 0.15)"
+    },
+    {
+      "min": 20,
+      "text": "Protesting",
+      "color": "#FF0000",
+      "overlay": "rgba(255, 0, 0, 0.15)"
+    },
+    {
+      "min": 0,
+      "text": "Irreconcilable",
+      "color": "#8B0000",
+      "overlay": "rgba(139, 0, 0, 0.25)"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "golongan_rights",
+      "text": "Issue executive safeguards for YLBHI legal aid lawyers, KontraS investigators, and agrarian NGOs",
+      "cost": 18,
+      "repeatable": true,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Across the provinces, regional military commands (<i>Kodam</i>) and local police still harass public-interest lawyers from the <font color=\"#555555\"><b>Indonesian Legal Aid Foundation (YLBHI)</b></font>, missing-persons investigators at <font color=\"#555555\"><b>KontraS</b></font>, and peasant land-rights advocates. Sign a presidential instruction barring security forces from interfering with registered legal-aid, women's, and agrarian NGOs.",
+      "effects": {
+        "utusan_golongan": 14,
+        "ref": 6,
+        "mil": -6,
+        "abri": -5,
+        "pop": 2,
+        "intl": 2
+      },
+      "alertMsg": "Human rights advocates at YLBHI and civic delegates inside the MPR applaud the presidential directive, while territorial commanders in Cilangkap complain that NGO lawyers are tying the hands of field officers."
+    },
+    {
+      "id": "golongan_komnas",
+      "text": "Grant Komnas HAM subpoena backing and budget autonomy for its human rights inquiries",
+      "cost": 18,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "The <font color=\"#000080\"><b>National Commission on Human Rights (Komnas HAM)</b></font>—spearheaded by figures like <font color=\"#CC9900\"><b>Marzuki Darusman</b></font>, <font color=\"#555555\"><b>Asmara Nababan</b></font>, and <font color=\"#555555\"><b>Saparinah Sadli</b></font>—is probing abuses ranging from the 1997–1998 activist abductions to mass graves in <font color=\"#FF0000\"><b>Aceh</b></font> and militia violence in <font color=\"#FF0000\"><b>East Timor</b></font>. Throw the authority of the presidency behind <font color=\"#000080\"><b>Komnas HAM's</b></font> investigative teams and expand their independent budget. <font color=\"#0000FF\"><b>Earns a lasting political commitment from the Utusan Golongan caucus,</b></font> <font color=\"#B22222\"><b>while antagonizing ABRI's senior brass.</b></font>",
+      "effects": {
+        "utusan_golongan": 16,
+        "utusan_golongan_favor": 1,
+        "ref": 7,
+        "mil": -6,
+        "abri": -5,
+        "intl": 4,
+        "pop": 2
+      },
+      "alertMsg": "Civic and religious delegates inside Fraksi Utusan Golongan hail the presidential backing for Komnas HAM as proof that the era of state impunity is ending, even as generals in Cilangkap bristle at civilian investigators summoning active-duty officers."
+    },
+    {
+      "id": "golongan_ilo_labor",
+      "text": "Enforce ILO Convention No. 87 and grant collective-bargaining rights to independent unions",
+      "cost": 16,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Although Manpower Minister <font color=\"#CC9900\"><b>Fahmi Idris</b></font> ratified <font color=\"#004C97\"><b>ILO Convention No. 87</b></font> in June 1998, factory owners and local security commanders still favor the <font color=\"#704d00\"><b>New Order's</b></font> corporatist union monopoly (<font color=\"#704d00\"><b>FSPSI</b></font>) to suppress strikes in Tangerang, Bekasi, and Surabaya. Issue binding ministerial regulations compelling industrial estates to recognize independent labor federations at the bargaining table. <font color=\"#0000FF\"><b>Secures a major political obligation from labor and civic delegates in the MPR.</b></font>",
+      "effects": {
+        "utusan_golongan": 16,
+        "utusan_golongan_favor": 1,
+        "intl": 8,
+        "pop": 5,
+        "ref": 5,
+        "econ": -2,
+        "abri": -4
+      },
+      "alertMsg": "Independent trade unionists and International Labour Organization monitors in Geneva praise the regulations as the death knell of New Order corporatist labor control, cementing goodwill across the Utusan Golongan benches."
+    },
+    {
+      "id": "golongan_pakpahan",
+      "text": "Invite freed SBSI union leader Muchtar Pakpahan to Istana Merdeka to co-draft the Manpower Bill",
+      "cost": 10,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Four days after taking the oath of office in May 1998, you signed the amnesty releasing <font color=\"#555555\"><b>Indonesian Prosperous Workers Union (SBSI)</b></font> founder <font color=\"#555555\"><b>Muchtar Pakpahan</b></font> from Cipinang Prison, where <font color=\"#704d00\"><b>Suharto's</b></font> prosecutors had held him on subversion charges. Welcome <font color=\"#555555\"><b>Pakpahan</b></font> and independent labor delegates to <font color=\"#000080\"><b>Istana Merdeka</b></font> to help draft the new Trade Union Bill.",
+      "effects": {
+        "utusan_golongan": 12,
+        "pop": 4,
+        "ref": 4,
+        "intl": 3,
+        "abri": -3
+      },
+      "alertMsg": "Photographs of the former political prisoner reviewing legislative drafts with you at Istana Merdeka run across the national press, winning praise from labor and civil-society delegates in Senayan."
+    },
+    {
+      "id": "golongan_final_appeal",
+      "text": "Deliver a candid appeal to the sixty-five civil-society and minority delegates before the ballot",
+      "cost": 0,
+      "repeatable": false,
+      "maxTurn": 22,
+      "minTurn": 20,
+      "description": "Unlike the party machines trading cabinet seats in the hotel suites, the sixty-five scholars, labor organizers, women's advocates, and interfaith leaders of <font color=\"#555555\"><b>Fraksi Utusan Golongan</b></font> judge your administration on its reform ledger: press freedom, political prisoner releases, the <font color=\"#000080\"><b>Komnas Perempuan</b></font> commission, and democratic elections. Meet their caucus in <font color=\"#000080\"><b>Senayan</b></font> before the roll call and ask them to weigh your sixteen months of reform on the merits. <font color=\"#B22222\"><b>Redeems every reform commitment and political obligation banked with the civil-society caucus.</b></font>",
+      "effects": {
+        "utusan_golongan": 18,
+        "ref": 4,
+        "pop": 2,
+        "intl": 2
+      },
+      "alertMsg": "The scholars, unionists, and interfaith leaders of Fraksi Utusan Golongan hear your appeal with thoughtful gravity. Having weighed the laws you signed against the authoritarian system you inherited, your allies inside the caucus rise to rally their colleagues before the ballot boxes open."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Fraksi Kebangkitan Bangsa<br>(Gus Dur)",
+  "short": "PKB",
+  "seats": 51,
+  "affinity": 30,
+  "image": "photo/jalil.png",
+  "coverImage": "photo/faction/pkb.png",
+  "summary": "The <font color=\"#006400\"><b>National Awakening Party (PKB)</b></font> functions as the electoral wing of <font color=\"#006400\"><b>Nahdlatul Ulama (NU)</b></font>, Indonesia's largest traditionalist Islamic organization with over thirty million adherents. While <font color=\"#006400\"><b>Matori Abdul Djalil</b></font> holds the chairmanship in <font color=\"#000080\"><b>Senayan</b></font>, the party's spiritual and tactical direction obeys <font color=\"#006400\"><b>Abdurrahman Wahid</b></font>—<font color=\"#006400\"><i><b>Gus Dur</b></i></font>. Winning fifty-one seats in June 1999, <font color=\"#006400\"><b>PKB</b></font> anchors a vast, rural voting bloc concentrated across East and Central Java, where <font color=\"#006400\"><b>NU's</b></font> network of ulama, boarding schools (<i>pesantren</i>), and village shrines outlasts any secular party machine.<p></p>Theologically pluralist and fiercely opposed to enforcing Islamic law through the state, <font color=\"#006400\"><b>PKB</b></font> rejects the sectarian rigidities championed by conservative factions. Yet <font color=\"#006400\"><b>Gus Dur's</b></font> mercurial political artistry keeps his caucus open to alignment with whoever serves his overarching strategy. Rooted in neo-modernist Islamic discourse, his brand of pluralism harmonizes Islamic jurisprudence with Indonesian nationalism. <font color=\"#0000FF\"><b>Financial support for rural pesantren, medical diplomacy, and respect for traditionalist networks secure this bloc's cooperation,</b></font> though <font color=\"#006400\"><b>Gus Dur</b></font> holds ultimate ambition for the presidency himself.",
+  "biography": "Formed in July 1998 immediately following the collapse of the <font color=\"#704d00\"><b>New Order</b></font>, <font color=\"#006400\"><b>PKB</b></font> gave <font color=\"#006400\"><b>Nahdlatul Ulama's</b></font> clergy their first legal political vehicle since <font color=\"#704d00\"><b>Suharto's</b></font> forced 1973 party fusion (<i>fusi</i>) drove NU into <font color=\"#2E8B57\"><b>PPP</b></font>. <font color=\"#006400\"><b>Gus Dur</b></font>—then recovering from a severe stroke that left him visually impaired—envisioned <font color=\"#006400\"><b>PKB</b></font> as an inclusive, nationalist home for traditionalist Islam that contextualized Koranic and Hadith interpretation for a modern democratic society.<p></p>Initial assumptions that <font color=\"#006400\"><b>PKB</b></font> would form an automatic coalition with <font color=\"#C0392B\"><b>Megawati Sukarnoputri's PDI Perjuangan</b></font>—grounded in <font color=\"#006400\"><b>Gus Dur</b></font> and <font color=\"#C0392B\"><b>Megawati's</b></font> long-standing personal friendship—dissolved as <font color=\"#006400\"><b>Gus Dur</b></font> began playing the major factions against one another to position himself as the master kingmaker of the transition. Fusing traditional Javanese political intuition with deep theological authority, he moves through Jakarta's corridors as the pivotal figure capable of bridging the secular-religious chasm threatening the Republic.",
+  "moods": [
+    {
+      "min": 80,
+      "text": "Aligned with Gus Dur",
+      "color": "#006400",
+      "overlay": "rgba(0, 255, 0, 0.15)"
+    },
+    {
+      "min": 60,
+      "text": "Supportive",
+      "color": "#009000",
+      "overlay": "rgba(0, 191, 255, 0.10)"
+    },
+    {
+      "min": 50,
+      "text": "Pragmatic",
+      "color": "#4682B4",
+      "overlay": "rgba(0, 0, 255, 0.10)"
+    },
+    {
+      "min": 40,
+      "text": "Unpredictable",
+      "color": "#2F4F4F",
+      "overlay": "rgba(255, 140, 0, 0.10)"
+    },
+    {
+      "min": 30,
+      "text": "Distant",
+      "color": "#FF4500",
+      "overlay": "rgba(255, 69, 0, 0.15)"
+    },
+    {
+      "min": 20,
+      "text": "Opposed",
+      "color": "#FF0000",
+      "overlay": "rgba(255, 0, 0, 0.15)"
+    },
+    {
+      "min": 0,
+      "text": "Hostile",
+      "color": "#8B0000",
+      "overlay": "rgba(139, 0, 0, 0.25)"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "pkb_fund",
+      "text": "Direct state development funds toward the pesantren heartland of East Java",
+      "cost": 15,
+      "repeatable": true,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "The rural <font color=\"#006400\"><b>pesantren</b></font> networks across East Java—specifically around Jombang and the <font color=\"#006400\"><b>Tebuireng</b></font> madrasah founded by <font color=\"#006400\"><b>Gus Dur's</b></font> grandfather, Hasyim Asy'ari—form the organizational bedrock beneath <font color=\"#006400\"><b>PKB's</b></font> parliamentary seats. Route a discreet infusion of state agricultural and educational funds directly into those rural districts.",
+      "effects": {
+        "pkb": 12,
+        "poros_tengah": 3,
+        "pop": 2,
+        "ref": 1,
+        "utusan_daerah": 2
+      },
+      "alertMsg": "Gus Dur sends his wry, unpredictable regards through an intermediary at Bina Graha, acknowledging the gesture with characteristic dry amusement. In Jombang and the East Java countryside, the rural clerics whose influence drives PKB's turnout register the support with satisfaction."
+    },
+    {
+      "id": "pkb_gusdur_health",
+      "text": "Arrange confidential international medical evacuation and specialist care for Gus Dur",
+      "cost": 15,
+      "repeatable": false,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "<font color=\"#006400\"><b>Abdurrahman Wahid's</b></font> failing vision and chronic health complications require expert neurological attention abroad. Coordinate through a secure private channel—bypassing the public health bureaucracy—to fly specialist physicians to Jakarta or arrange treatment in Europe. <font color=\"#0000FF\"><b>Secures a vital political obligation from Gus Dur's inner circle that carries forward into the Central Axis.</b></font>",
+      "effects": {
+        "pkb": 15,
+        "pkb_favor": 1,
+        "ref": 5,
+        "poros_tengah": 5,
+        "pop": 2,
+        "ppp": 2
+      },
+      "alertMsg": "The assistance is accepted with characteristic dry wit rather than conventional deference. Those closest to Gus Dur note the gesture, recognizing that the Palace extended a humanitarian hand when politics hung in the balance."
+    },
+    {
+      "id": "pkb_ansor",
+      "text": "Coordinate security in NU strongholds directly with GP Ansor and Banser militia units",
+      "cost": 18,
+      "repeatable": true,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "<font color=\"#006400\"><b>Nahdlatul Ulama's</b></font> youth wing (<font color=\"#006400\"><b>GP Ansor</b></font>) maintains its own uniformed security corps (<font color=\"#006400\"><b>Banser</b></font>) across Java, mobilizing hundreds of thousands of young men for crowd control and defense of religious sites. Rather than relying solely on <font color=\"#556B2F\"><b>ABRI</b></font> detachments in traditionalist strongholds, open a direct liaison channel to <font color=\"#006400\"><b>Banser's</b></font> command staff to maintain public order.",
+      "effects": {
+        "pkb": 10,
+        "poros_tengah": 3,
+        "stab": 6,
+        "mil": -4,
+        "abri": -3,
+        "ref": 2,
+        "pop": 2
+      },
+      "alertMsg": "The security coordination functions without friction, allowing Banser units to quell potential sectarian flashpoints across Central and East Java without deploying territorial troops. Cilangkap generals, watching a civilian administration parley directly with religious militias, grumble behind closed doors."
+    },
+    {
+      "id": "pkb_matori_role",
+      "text": "Appoint PKB Chairman Matori Abdul Djalil to a senior cabinet portfolio",
+      "cost": 20,
+      "repeatable": false,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "While <font color=\"#006400\"><b>Gus Dur</b></font> holds spiritual command over the party, <font color=\"#006400\"><b>Matori Abdul Djalil</b></font> manages <font color=\"#006400\"><b>PKB's</b></font> legislative machinery in <font color=\"#000080\"><b>Senayan</b></font>. Elevate <font color=\"#006400\"><b>Matori</b></font> to a major cabinet post to anchor the party's institutional wing firmly to your administration ahead of October. <font color=\"#0000FF\"><b>Secures a lasting political debt from PKB's parliamentary leadership.</b></font>",
+      "effects": {
+        "pkb": 14,
+        "pkb_favor": 1,
+        "golkar_akbar": 2,
+        "ref": 2,
+        "stab": 2
+      },
+      "alertMsg": "Matori Abdul Djalil accepts the portfolio with evident pleasure, cementing an institutional bridge between PKB's parliamentary caucus and Bina Graha as the MPR General Session approaches."
+    },
+    {
+      "id": "pkb_nu_congress",
+      "text": "Subsidize Nahdlatul Ulama's national congress and affiliated regional madrasahs",
+      "cost": 15,
+      "repeatable": false,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "The upcoming national congress of <font color=\"#006400\"><b>Nahdlatul Ulama</b></font> and the upkeep of thousands of affiliated boarding schools across the archipelago require substantial financial backing. Authorize a direct state grant to support the proceedings.",
+      "effects": {
+        "pkb": 12,
+        "poros_tengah": 4,
+        "pop": 4,
+        "econ": -3,
+        "ref": 1,
+        "stab": 2
+      },
+      "alertMsg": "NU's executive board accepts the state contribution with deep appreciation, and news of the presidential backing travels through traditionalist networks across Java within days."
+    }
+  ]
+}

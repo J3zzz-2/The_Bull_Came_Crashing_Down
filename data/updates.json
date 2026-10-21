@@ -1,0 +1,53 @@
+[
+  {
+  "version": "0.1.3 Hotfix",
+  "date": "October 21, 2026",
+  "title": "Beta 0.1.3 Hotfix",
+  "notes": [
+    "The military now coordinate with the other factions to oust you if you piss them off, they also let people protest and scapegoat minorities.",
+    "PDIP and Central Axis are reluctant to be in the same coalition.",
+    "dissolving seats affect your credibility among the delegates, and they may not appear during the vote.",
+    "Reworked opposition AI (Placeholder for later updates).<ul><li><font color='#ff0000'>There are no popups yet, but Megawati, Rais, and Wiranto is fucking over your administration in the backgrond.</font></li></ul>",
+    "Added placeholder for localisation rework.",
+    "Rewrote faction information to be more concise.",
+    "Changed Golkar loyalist portrait with A.A Baramuli.",
+    "Changed Golkar loyalist name from Irama Tersedak to Irama Suka Nusantara (Irian Jaya, Maluku, Sumatra, Sulawesi, Kalimantan, and Nusa Tenggara).",
+    "Improved some election UI.",
+    "Download Results now show enacted decrees.",
+    "Small rebalancing.",
+    "Decluttered settings by making color schemes be a dropdown."
+  ]
+  },
+  {
+  "version": "0.1.2 Hotfix",
+  "date": "October 20, 2026",
+  "title": "Beta 0.1.2 Hotfix",
+  "notes": [
+    "General Wiranto’s patience is no longer infinite: Leave Cilangkap out in the cold, and troops will happily stay in their barracks while the streets burn.",
+    "Amien Rais and Gus Dur remembered they control 163 seats and don't work for you.",
+    "Akbar Tandjung caught on to your weekly blackmail routine.",
+    "Taufik Kiemas has had enough free coffee.",
+    "Increased betrayal."
+  ]
+  },
+  {
+  "version": "0.1.1 Hotfix",
+  "date": "October 19, 2026",
+  "title": "Beta 0.1.1 Hotfix",
+  "notes": [
+    "<b>Amien Rais and Gus Dur will no longer blindly hand you the presidency:</b> Coalition favors are now taxed on merge, and final appeal favor-dumping has heavy diminishing returns.",
+    "<b>Infinite PC button patched:</b> Slashed base Political Capital payouts across routine actions so you can't just print 300+ PC like an ATM.",
+    "<b>PDI-P will literally burn the capital down and then crucify you:</b> Freezing out Megawati into deep hostility now triggers massive red-shirt demonstrations, bleeding National Stability and spooking regional delegates.<ul><li>Added a 'Street Mobilization' indicator to PDI-P's screen so you can see how close the Satgas is to rioting before things explode.</li></ul>",
+    "<b>Cendana actually does something instead of sleeping:</b> Nuking Suharto's family influence too fast in a single turn now causes liquidity runs and street-level sabotage.",
+    "Reunifying Golkar under Slipi sets a reasonable floor instead of permanently making him 100% loyal."
+  ]
+  },
+  {
+    "version": "0.1",
+    "date": "October 19, 2026",
+    "title": "Beta Release \"Pidato Pertanggungjawaban\"",
+    "notes": [
+      "Expect some bugs and missing features, but the game is playable and the core mechanics are in place.<br><font color='#ff0000'>This is a beta release, so please report any bugs you find!<br>Notes: <ul><li>Missing images</li><li>Some untested features</li><li>Broken display</li></ul></font><br><br><font color='#000080'>"
+    ]
+  }
+]

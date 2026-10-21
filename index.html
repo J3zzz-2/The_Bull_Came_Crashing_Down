@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Twilight of the Banyan Tree</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <link rel="icon" href="photo/icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/default/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    <link rel="stylesheet" type="text/css" href="css/schemes.css">
+    <link rel="stylesheet" type="text/css" href="css/accessibility.css">
+    <link rel="stylesheet" type="text/css" href="css/effects.css">
+    <script>
+    // Apply the saved window style / color scheme before first paint (prevents a flash of the default look)
+    (function () {
+        try {
+            var s = JSON.parse(localStorage.getItem('habibie_settings') || '{}');
+            var css = { win98: 'css/windows98/styles.css', macos8: 'css/macos8/styles.css' };
+            var w = 'default';
+            if (css[s.windowStyle] || s.windowStyle === 'default') w = s.windowStyle;
+            else if (css[s.currentTheme]) w = s.currentTheme;   // older saves
+            var c = /^[a-z]+$/.test(s.colorScheme || '') ? s.colorScheme : 'standard';
+            document.documentElement.setAttribute('data-wstyle', w);
+            document.documentElement.setAttribute('data-scheme', c);
+            var fx = [];   // Effects: apply the saved CSS effects before first paint
+            var ef = s.effects || {};
+            ['glow', 'flicker', 'curve', 'aberration'].forEach(function (k) { if (ef[k] === true) fx.push(k); });
+            if (fx.length) document.documentElement.setAttribute('data-fx', fx.join(' '));
+            var x = s.extra || {};
+            if (x.leftMode) {   // Accessibility: left-side touch mode
+                document.documentElement.setAttribute('data-left', '1');
+                document.documentElement.style.setProperty('--left-pct', Math.min(95, Math.max(40, parseInt(x.leftWidth, 10) || 70)));
+            }
+            if (css[w]) document.write('<link id="theme-css" rel="stylesheet" href="' + css[w] + '">');
+        } catch (e) {}
+    })();
+    </script>
+</head>
+<body>
+<div id="crt-overlay"></div>
+<div id="fx-bloom" class="fx-layer"></div>
+<div id="fx-static" class="fx-layer"></div>
+<div id="fx-flicker" class="fx-layer"></div>
+<div id="fx-curve" class="fx-layer"></div>
+<div class="container">
+    <div id="mobile-status-bar">
+        <button type="button" id="msb-toggle" onclick="toggleMobileStatusSheet()" aria-expanded="false" aria-controls="msb-sheet">
+            <span class="msb-item">PC <b id="msb-pc">-</b></span>
+            <span class="msb-item">GOV <b id="msb-gov">-</b></span>
+            <span class="msb-item">T <b id="msb-turn">-</b></span>
+            <span class="msb-caret" id="msb-caret">&#9660;</span>
+        </button>
+        <div id="msb-sheet"></div>
+    </div>
+    <table class="layout" id="game-layout" cellpadding="5" cellspacing="5">
+        <tr>
+            <td class="panel" id="left-panel" width="30%" style="display: none;">
+                
+                <center>
+                    <div class="player-portrait-container" style="cursor: pointer;" onclick="showHabibieBio()">
+                        <span style="color:#555;">[ PHOTO:<br>HABIBIE ]</span>
+                        <img src="photo/habibi.png" class="portrait-img" alt="[HABIBIE]">
+                    </div>
+                    <div style="font-family: 'MS Sans Serif', sans-serif; font-size: 15px; font-weight: bold;">His Excellency</div>
+                    <div style="font-family: 'MS Sans Serif', sans-serif; font-size: 15px; font-weight: bold; margin-bottom: 18px;">
+                        Bacharuddin Jusuf Habibie<br>
+                        <span style="font-size:11px; font-weight:normal; color:#333;">3rd President of the Republic of Indonesia</span>
+                    </div>
+                </center>
+                
+                <div class="stat-row">
+                    <span class="stat-label">Popularity</span>
+                    <span class="stat-value" id="val-pop"></span>
+                </div>
+                
+                <div class="stat-row">
+                    <span class="stat-label">Military Support</span>
+                    <span class="stat-value" id="val-mil"></span>
+                </div>
+                
+                <div class="stat-row">
+                    <span class="stat-label">Reformasi Credibility</span>
+                    <span class="stat-value" id="val-ref"></span>
+                </div>
+
+                <div class="stat-row">
+                    <span class="stat-label">Economic Health</span>
+                    <span class="stat-value" id="val-econ"></span>
+                </div>
+
+                <div class="stat-row">
+                    <span class="stat-label">International Standing</span>
+                    <span class="stat-value" id="val-intl"></span>
+                </div>
+
+                <div class="stat-row">
+                    <span class="stat-label">National Stability</span>
+                    <span class="stat-value" id="val-stab"></span>
+                </div>
+
+                <div class="stat-row" style="margin-bottom: 20px;">
+                    <span class="stat-label">Cendana Influence</span>
+                    <span class="stat-value" id="val-cendana"></span>
+                </div>
+                <div style="text-align: center; font-family: MS Sans Serif, sans-serif; font-size: 12px; font-weight: bold; margin-bottom: 5px;">GOVERNMENT STABILITY</div>
+                <div class="pc-display" id="val-gov-stab">-</div>
+                <div style="text-align: center; font-family: 'MS Sans Serif', sans-serif; font-size: 12px; font-weight: bold; margin-bottom: 5px;">POLITICAL CAPITAL</div>
+                <div class="pc-display" id="val-pc">40</div>
+
+                <div class="music-player">
+                    <div class="music-header">Music Player</div>
+                    <select id="music-select" onchange="changeMusic()"></select>
+                    <button id="play-pause-btn" onclick="toggleMusic()" style="text-align: center; margin-bottom: 0;">⏵ Play</button>
+                    <audio id="bg-music" style="display: none;"></audio>
+                </div>
+
+                <div class="achievements-container">
+                    <div class="music-header">Miscellaneous</div>
+                    <button class="left-tab-btn" style="text-align: center; margin-bottom: 5px;" onclick="showLibraryMenu()">Library</button>
+                    <button onclick="showSettingsMenu()" style="width: 100%; text-align: center; margin-bottom: 8px;">Settings</button>
+                    <button onclick="showAchievementsMenu()" style="width: 100%; text-align: center; margin-bottom: 8px;">View Achievements</button>
+                    <button onclick="showCredits()" style="width: 100%; text-align: center; margin-bottom: 0;">Credits</button>
+                </div>
+            </td>
+
+            <td class="panel" id="main-panel" width="70%" style="background-color: #FFFFFF; width: 100%">
+            </td>
+        </tr>
+    </table>
+
+    <div class="mpr-section" id="mpr-dashboard" style="display: none;">
+        <div class="mpr-header-container">
+            <div class="mpr-logo-left">
+                <img src="photo/mpr.png" alt="[MPR]">
+            </div>
+            
+            <div class="mpr-header-center">
+                <div class="mpr-quote">"My struggle was easier because I expelled the colonizers, but your struggle will be harder because you will fight your own people."</div>
+                <hr style="width: 85%; margin-bottom: 15px;">
+                
+                <font color="#FF0000" face="MS Sans Serif" size="4"><b>TURN: <span id="turn-display">1</span> / <span id="max-turn-display">20</span></b></font><br>
+                <font color="#000080" face="MS Sans Serif" size="3"><b id="date-display">Loading...</b></font><br>
+                <font size="2" face="MS Sans Serif"><b>700 Seats Total</b> | 351 Required to defend your Presidency</font><br>
+                <div style="margin-top: 4px; font-size: 12px;"><span id="whip-projection-display">-</span></div>
+            </div>
+            
+            <div class="mpr-logo-right">
+                <img src="photo/pancasila.png" alt="[COAT OF ARMS]">
+            </div>
+        </div>
+        
+        <hr>
+
+        <div id="portraits-area">
+        </div>
+    </div>
+</div>
+
+<div id="custom-alert-overlay" style="display:none;">
+    <div id="custom-alert-box">
+        <div id="custom-alert-titlebar">
+            <span>EXECUTIVE DISPATCH</span>
+            <button type="button" class="win95-close-btn" onclick="closeCustomAlert()" title="Close">&#10005;</button>
+        </div>
+        <div id="custom-alert-message"></div>
+        <button id="custom-alert-btn" onclick="closeCustomAlert()">CONTINUE</button>
+    </div>
+</div>
+
+<div id="achievement-toast">
+    <div class="toast-title">Achievement Unlocked!</div>
+    <div id="toast-name"></div>
+</div>
+
+<!-- WIN95 LOADING MODAL -->
+<div id="win95-loader-overlay" style="display: none;">
+    <div class="win95-loader-window">
+        <div class="win95-loader-titlebar">
+            <span id="win95-loader-title">LOADING ASSETS</span>
+        </div>
+        <div class="win95-loader-body">
+            <div class="win95-loader-status-row">
+                <span id="win95-loader-flavor">LOADING</span>
+                <span id="win95-loader-pct">0%</span>
+            </div>
+            <div class="win95-progress-well">
+                <div id="win95-loader-bar-fill" class="win95-progress-chunks"></div>
+            </div>
+            <div id="win95-loader-file" class="win95-loader-filepath">LOADING ALL ASSETS AND FILES</div>
+        </div>
+    </div>
+</div>
+
+<!-- WIN95 START MENU POPUP -->
+<div id="win95-start-menu" style="display: none;">
+    <div class="win95-start-menu-inner">
+        <div class="win95-start-sidebar">
+            <span><b>TOTBT</b> Beta Release 1</span>
+        </div>
+        <div class="win95-start-items">
+            <button type="button" onclick="runStartMenuAction('showDifficultyMenu')">New Campaign</button>
+            <button type="button" onclick="runStartMenuAction('showLibraryMenu')">Library</button>
+            <button type="button" onclick="runStartMenuAction('showAchievementsMenu')">Achievements</button>
+            <button type="button" onclick="runStartMenuAction('showSettingsMenu')">Settings</button>
+            <button type="button" onclick="runStartMenuAction('showCredits')">Credits</button>
+            <hr style="margin: 4px 0;">
+            <button type="button" onclick="runStartMenuAction('returnToTitleScreen')">Return to Title Screen</button>
+        </div>
+    </div>
+</div>
+
+<!-- WIN95 BOTTOM TASKBAR -->
+<div id="win95-taskbar">
+    <button type="button" id="win95-start-btn" onclick="toggleWin95StartMenu(event)">
+        <img src="photo/icon.png" alt="" onerror="this.style.display='none'" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;">
+        <b>Start</b>
+    </button>
+    <div class="taskbar-divider"></div>
+    <button type="button" class="taskbar-app-tab active-depressed" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <span id="taskbar-window-title">Twilight of the Banyan Tree</span>
+    </button>
+    <div class="taskbar-tray">
+        <span id="taskbar-tray-audio" class="taskbar-tray-icon" onclick="toggleMusic()" title="Toggle Music">&#128266;</span>
+        <span id="taskbar-tray-date">June 1999</span>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/shell.js"></script>
+<script type="text/javascript" src="js/storage.js"></script>
+<script type="text/javascript" src="js/achievements.js"></script>
+<script type="text/javascript" src="js/mobile.js"></script>
+<script type="text/javascript" src="js/music.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+<script type="text/javascript" src="js/oppositionAI/opposition.js"></script>
+<script type="text/javascript" src="js/library.js"></script>
+<script type="text/javascript" src="js/election.js"></script>
+<script type="text/javascript" src="js/stateofrepublic.js"></script>
+<script type="text/javascript" src="js/settings.js"></script>
+<script type="text/javascript" src="js/news.js"></script>
+<script type="text/javascript" src="js/debug.js"></script>
+</body>
+</html>

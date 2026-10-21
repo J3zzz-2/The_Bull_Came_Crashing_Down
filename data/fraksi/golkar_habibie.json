@@ -1,0 +1,157 @@
+{
+  "name": "Fraksi Karya Pembangunan<br>(Irama Suka Nusantara)",
+  "short": "Loyalists",
+  "seats": 40,
+  "affinity": 80,
+  "image": "photo/loyal.png",
+  "coverImage": "photo/faction/loyal.png",
+  "summary": "Spearheaded by Sulawesi kingmaker <font color=\"#D49B00\"><b>Ahmad Arnold Baramuli</b></font> and fiery parliamentarian <font color=\"#D49B00\"><b>Marwah Daud Ibrahim</b></font>, the <font color=\"#D49B00\"><i><b>Irama Suka Nusantara</b></i></font> or the <font color=\"#D49B00\"><i><b>Iramasuka Group</b></i></font> caucus—mocked in the Jakarta press as <font color=\"#D49B00\"><i><b>Irama Tersedak</b></i></font> ('Choked Rhythm')—forms your palace guard inside <font color=\"#CC9900\"><b>Golkar</b></font>. This forty-seat bloc unites outer-island barons from Sulawesi, Kalimantan, and Nusa Tenggara with modernist Muslim scholars from <font color=\"#006400\"><b>ICMI</b></font> and state engineers who climbed the ranks beside you at <font color=\"#000080\"><b>BPPT</b></font> and the <font color=\"#000080\"><b>IPTN</b></font> aircraft works in Bandung. Where <font color=\"#CC9900\"><b>Akbar Tandjung's</b></font> <font color=\"#CC9900\"><b>DPP Slipi</b></font> operators calculate coalition odds, these men and women treat your presidency as a personal crusade: proof that Indonesia's eastern islands and civilian technocrats can govern the Republic without asking permission from Java's military brass or <font color=\"#704d00\"><b>Jalan Cendana</b></font>.<p></p>Unlike <font color=\"#CC9900\"><b>Slipi's</b></font> machine politicians, <font color=\"#D49B00\"><b>Baramuli's</b></font> partisans have nowhere else to go. Their cabinet portfolios, their <font color=\"#000080\"><b>BPIS</b></font> research budgets, and their protection from <font color=\"#8B0000\"><b>Bank Bali</b></font> subpoenas hang on keeping you in <font color=\"#000080\"><b>Istana Merdeka</b></font> past October. <font color=\"#0000FF\"><b>Sustaining reformist momentum, reviving economic confidence, and maintaining Indonesia's standing abroad keep this caucus energized and sharpen your leverage over them,</b></font> though forty loyalists alone cannot carry the <font color=\"#000080\"><b>MPR</b></font> floor if the larger blocs turn against you.",
+  "biography": "For twenty years before May 1998, you built an archipelago of laboratories, shipyards, and aircraft hangars under the umbrella of the <font color=\"#000080\"><b>Agency for the Assessment and Application of Technology (BPPT)</b></font> and the <font color=\"#000080\"><b>Strategic Industries Management Agency (BPIS)</b></font>. In December 1990, with <font color=\"#704d00\"><b>Suharto's</b></font> blessing at a symposium in Malang, you added a political engine to that technocratic base by founding the <font color=\"#006400\"><b>Association of Indonesian Muslim Intellectuals (ICMI)</b></font>. Through its think tank <font color=\"#006400\"><b>CIDES</b></font> and the daily <font color=\"#006400\"><i><b>Republika</b></i></font>, figures like <font color=\"#006400\"><b>Adi Sasono</b></font>, <font color=\"#006400\"><b>Jimly Asshiddiqie</b></font>, and <font color=\"#006400\"><b>Wardiman Djojonegoro</b></font> challenged the dominance of secular-nationalist generals and CSIS technocrats who had shaped <font color=\"#704d00\"><b>New Order</b></font> policy since 1966.<p></p>When <font color=\"#704d00\"><b>Suharto</b></font> stepped down on May 21, 1998, your ascension marked the triumph of the <font color=\"#006400\"><b>ICMI</b></font> intelligentsia, the <font color=\"#000080\"><b>BPPT</b></font> engineering corps, and eastern Indonesian powerbrokers led by Supreme Advisory Council chair <font color=\"#D49B00\"><b>A.A. Baramuli</b></font> and Gorontalo entrepreneur <font color=\"#D49B00\"><b>Fadel Muhammad</b></font>. Yet their grip on state power remains precarious. Resented by <font color=\"#556B2F\"><b>Cilangkap's</b></font> officer corps, distrusted by <font color=\"#C0392B\"><b>Megawati's</b></font> secular nationalists, and outmaneuvered inside <font color=\"#CC9900\"><b>Golkar's</b></font> central board by <font color=\"#CC9900\"><b>Akbar Tandjung's</b></font> <font color=\"#006400\"><b>HMI</b></font> network, your inner circle knows that if your accountability speech fails in <font color=\"#000080\"><b>Senayan</b></font>, their decade-long march through Indonesia's institutions ends that same night.",
+  "moods": [
+    {
+      "min": 80,
+      "text": "Ride or Die",
+      "color": "#006400",
+      "overlay": "rgba(0, 255, 0, 0.15)"
+    },
+    {
+      "min": 60,
+      "text": "Faithful",
+      "color": "#009000",
+      "overlay": "rgba(0, 191, 255, 0.10)"
+    },
+    {
+      "min": 50,
+      "text": "Nervous",
+      "color": "#4682B4",
+      "overlay": "rgba(0, 0, 255, 0.10)"
+    },
+    {
+      "min": 40,
+      "text": "Worried",
+      "color": "#2F4F4F",
+      "overlay": "rgba(255, 140, 0, 0.10)"
+    },
+    {
+      "min": 30,
+      "text": "Losing Confidence",
+      "color": "#FF4500",
+      "overlay": "rgba(255, 69, 0, 0.15)"
+    },
+    {
+      "min": 20,
+      "text": "Panicking",
+      "color": "#FF0000",
+      "overlay": "rgba(255, 0, 0, 0.15)"
+    },
+    {
+      "min": 0,
+      "text": "Jumping Ship",
+      "color": "#8B0000",
+      "overlay": "rgba(139, 0, 0, 0.25)"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "loyalist_rally",
+      "text": "Host an off-the-record midnight strategy session at the Patra Kuningan residence",
+      "cost": 10,
+      "repeatable": true,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Your private residence at <font color=\"#000080\"><b>Patra Kuningan</b></font> has served as the nerve center for this circle since the early years at <font color=\"#000080\"><b>IPTN</b></font> and the tense nights of May 1998 when <font color=\"#704d00\"><b>Suharto</b></font> cut you loose. Summon <font color=\"#D49B00\"><b>A.A. Baramuli</b></font>, <font color=\"#006400\"><b>Adi Sasono</b></font>, <font color=\"#D49B00\"><b>Marwah Daud Ibrahim</b></font>, and your senior <font color=\"#000080\"><b>BPPT</b></font> deputies to the house after midnight—no press, no State Secretariat stenographers, just strong Makassar coffee and a candid reckoning of what hangs in the balance.",
+      "effects": {
+        "golkar_habibie": 10,
+        "poros_tengah": 2,
+        "pop": 2,
+        "ref": 2
+      },
+      "alertMsg": "Sitting around the dining table at Patra Kuningan until three in the morning, your oldest comrades rediscover the conviction that carried them from the hangars of Bandung to Istana Merdeka. Doubts that had begun to fester in the corridors of Senayan evaporate by dawn."
+    },
+    {
+      "id": "loyalist_bppt",
+      "text": "Carve out off-budget bridge financing to shield BPIS and BPPT laboratories from IMF austerity",
+      "cost": 18,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Ever since <font color=\"#004C97\"><b>IMF</b></font> Managing Director <font color=\"#004C97\"><b>Michel Camdessus</b></font> stood over <font color=\"#704d00\"><b>Suharto</b></font> in January 1998, Fund auditors have targeted the strategic industries you spent two decades building—<font color=\"#000080\"><b>IPTN</b></font> in Bandung, <font color=\"#000080\"><b>PT PAL</b></font> in Surabaya, and <font color=\"#000080\"><b>PT Pindad</b></font>—as wasteful prestige projects. Instruct the Finance Ministry to route emergency bridge funds through research endowments to keep your <font color=\"#000080\"><b>BPPT</b></font> and <font color=\"#000080\"><b>BPIS</b></font> engineering teams on the payroll. <font color=\"#0000FF\"><b>Binds your technocratic inner circle with a lasting debt of gratitude,</b></font> <font color=\"#B22222\"><b>though IMF monitors and foreign creditors will penalize the fiscal sleight of hand.</b></font>",
+      "effects": {
+        "golkar_habibie": 14,
+        "golkar_habibie_favor": 1,
+        "econ": -6,
+        "intl": -6,
+        "ref": -2,
+        "golkar_akbar": 2
+      },
+      "alertMsg": "The disbursement keeps the laboratories open and spares hundreds of aerospace and maritime engineers from pink slips. Inside BPPT and BPIS, your veteran directors greet the lifeline with palpable relief, even as IMF mission chiefs in Jakarta flag the off-budget transfer as a breach of the Letter of Intent."
+    },
+    {
+      "id": "loyalist_icmi",
+      "text": "Convene ICMI scholars and CIDES fellows for an evening colloquium on modernist Muslim statecraft",
+      "cost": 10,
+      "repeatable": true,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "The intellectual network you assembled at Malang in 1990 through the <font color=\"#006400\"><b>Association of Indonesian Muslim Intellectuals (ICMI)</b></font> now spans cabinet ministries, university rectorates, and the editorial board of <font color=\"#006400\"><i><b>Republika</b></i></font>—though several of its brightest minds have drifted toward <font color=\"#0055A4\"><b>Amien Rais's PAN</b></font> and <font color=\"#2E8B57\"><b>PPP</b></font>. Gather <font color=\"#006400\"><b>ICMI's</b></font> senior council and <font color=\"#006400\"><b>CIDES</b></font> researchers for a closed-door colloquium to reaffirm that <font color=\"#000080\"><b>Bina Graha</b></font> remains the home of modernist Muslim governance.",
+      "effects": {
+        "golkar_habibie": 8,
+        "poros_tengah": 3,
+        "ppp": 2,
+        "pop": 2,
+        "ref": 2
+      },
+      "alertMsg": "Word of the evening colloquium travels through campus mosques, ministry corridors, and the newsroom at Republika. Because several ICMI scholars in attendance also advise Amien Rais and Hamzah Haz, the goodwill generated in the room ripples beyond your own caucus into the modernist Islamic parties."
+    },
+    {
+      "id": "loyalist_technocrat_defense",
+      "text": "Defend your economic technocrats in public against populist attacks over IMF structural adjustments",
+      "cost": 10,
+      "repeatable": true,
+      "maxTurn": 21,
+      "minTurn": 6,
+      "description": "Your economic team—Coordinating Minister <font color=\"#D49B00\"><b>Ginandjar Kartasasmita</b></font>, Finance Minister <font color=\"#000080\"><b>Bambang Subianto</b></font>, and <font color=\"#000080\"><b>Bappenas</b></font> chief <font color=\"#000080\"><b>Boediono</b></font>—faces daily broadsides in the press over bank closures, subsidy cuts, and food prices. Rather than letting your technocrats absorb the street's anger alone while the Palace keeps its distance, step before the microphones at <font color=\"#000080\"><b>Bina Graha</b></font> and claim full presidential ownership of their stabilization program.",
+      "effects": {
+        "golkar_habibie": 10,
+        "econ": 4,
+        "ref": 3,
+        "intl": 3,
+        "pop": 1
+      },
+      "alertMsg": "Several economic ministers who had drafted resignation letters return them to their desk drawers after watching your press conference. Foreign bondholders and Jakarta's financial press welcome the display of cabinet solidarity, and morale across your technocratic wing rebounds."
+    },
+    {
+      "id": "loyalist_n250",
+      "text": "Authorize prototype continuation funding for IPTN's N-250 Gatotkaca turboprop in Bandung",
+      "cost": 18,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "To the engineers who followed you home from Aachen and Hamburg, August 10, 1995—the day the fly-by-wire <font color=\"#000080\"><b>N-250 Gatotkaca</b></font> lifted off the tarmac in Bandung—remains the proudest hour of the Republic's industrial history. Defy the <font color=\"#004C97\"><b>IMF's</b></font> structural adjustment ban on aerospace subsidies and sign a presidential authorization releasing state funds to keep the <font color=\"#000080\"><b>N-250</b></font> flight-test program alive. <font color=\"#0000FF\"><b>Earns an enduring personal debt from the IPTN and BPPT old guard,</b></font> <font color=\"#B22222\"><b>at the cost of straining the state budget and provoking Washington and the IMF.</b></font>",
+      "effects": {
+        "golkar_habibie": 14,
+        "golkar_habibie_favor": 1,
+        "econ": -6,
+        "intl": -4,
+        "pop": 3,
+        "golkar_akbar": 2
+      },
+      "alertMsg": "Cheers echo across the hangars at Husein Sastranegara Airport in Bandung when news of the presidential authorization arrives. For the engineers who built the Gatotkaca from scratch, your signature salvages their life's work—even as Finance Ministry auditors and IMF inspectors warn that Indonesia cannot afford prestige aviation amidst a sovereign debt crisis."
+    },
+    {
+      "id": "loyalist_final_stand",
+      "text": "Summon the Irama Suka Nusantara and ICMI inner circle to Patra Kuningan on the eve of the vote",
+      "cost": 0,
+      "repeatable": false,
+      "maxTurn": 22,
+      "minTurn": 20,
+      "description": "Tomorrow the <font color=\"#000080\"><b>MPR</b></font> decides whether your presidency lives or dies. Summon <font color=\"#D49B00\"><b>A.A. Baramuli</b></font>, <font color=\"#D49B00\"><b>Marwah Daud Ibrahim</b></font>, <font color=\"#D49B00\"><b>Fadel Muhammad</b></font>, <font color=\"#006400\"><b>Adi Sasono</b></font>, and the <font color=\"#000080\"><b>IPTN</b></font> pioneers back to <font color=\"#000080\"><b>Patra Kuningan</b></font> one final time—not to haggle over portfolios, but to stand shoulder to shoulder before entering the cauldron at <font color=\"#000080\"><b>Senayan</b></font>. <font color=\"#B22222\"><b>Calls in every personal bond and past commitment you have forged with your loyalist core.</b></font>",
+      "effects": {
+        "golkar_habibie": 20,
+        "pop": 2,
+        "ref": 2
+      },
+      "alertMsg": "After a quiet prayer led by your ICMI scholars in the Patra Kuningan living room, Baramuli and Marwah Daud embrace you at the door. Whatever happens behind the voting curtains at Senayan tomorrow, these forty delegates will fight for every ballot until the final gavel falls."
+    }
+  ]
+}

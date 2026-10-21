@@ -1,0 +1,692 @@
+/* ==========================================================================
+   STANDALONE VERTICAL NEWSPAPERS & 1999 MINI-BROWSER (news.css)
+   ========================================================================== */
+
+/* Strip the default Win95 modal box when rendering a standalone newspaper or browser */
+#custom-alert-box.alert-box-frameless {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    width: auto !important;
+    max-width: 96vw !important;
+}
+
+#custom-alert-message.frameless-message-container {
+    padding: 0 !important;
+    max-height: 92vh !important;
+    overflow-y: auto !important;
+    background: transparent !important;
+}
+
+/* ==========================================================================
+   1. STANDALONE VERTICAL PRINT NEWSPAPER / MAGAZINE SHEET
+   ========================================================================== */
+.standalone-newspaper-sheet {
+    position: relative;
+    width: 420px;
+    max-width: 94vw;
+    min-height: 510px;
+    background-color: #F6F1E3;
+    background-image:
+        linear-gradient(180deg, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,0.06) 50%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.04) 100%);
+    color: #111111;
+    padding: 18px 22px 16px 22px;
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    /* Stacked newsprint sheet edges + deep desktop drop shadow */
+    box-shadow:
+        3px 3px 0px #D8D0BE,
+        4px 4px 0px #222222,
+        6px 6px 0px #C8C0AE,
+        7px 7px 0px #222222,
+        0px 18px 38px rgba(0, 0, 0, 0.72);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Top-Right Corner [X] Button on the Newspaper */
+.newspaper-corner-close {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    width: 20px !important;
+    height: 18px !important;
+    min-width: 20px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: var(--win95-bg) !important;
+    color: #000000 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    box-shadow: var(--bevel-raised) !important;
+    cursor: pointer !important;
+    z-index: 20;
+}
+
+.newspaper-corner-close:hover {
+    background-color: #DCDCDC !important;
+}
+
+.newspaper-corner-close:active {
+    box-shadow: var(--bevel-sunken) !important;
+    padding-top: 1px !important;   /* same 1px nudge as .win95-close-btn */
+    padding-left: 1px !important;
+}
+
+.newspaper-top-trim {
+    border-top: 2px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    height: 2px;
+    margin-bottom: 8px;
+}
+
+.newspaper-dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 9.5px;
+    color: #222222;
+    border-top: 1.5px solid #111111;
+    border-bottom: 2px double #111111;
+    padding: 4px 2px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.newspaper-headline {
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.18;
+    text-align: center;
+    color: #000000;
+    margin: 4px 0 10px 0;
+}
+
+.newspaper-subrule {
+    width: 65%;
+    margin: 0 auto 12px auto;
+    border-bottom: 1px solid #444444;
+}
+
+.newspaper-body {
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #141414;
+    padding: 0 4px;
+    border-left: 1px solid rgba(0, 0, 0, 0.18);
+    border-right: 1px solid rgba(0, 0, 0, 0.18);
+    flex-grow: 1;
+}
+
+.newspaper-lead-city {
+    font-family: "MS Sans Serif", Tahoma, sans-serif !important;
+    font-size: 11.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.newspaper-fold-crease {
+    margin: 14px -22px 10px -22px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.newspaper-sheet-footer {
+    padding-top: 4px;
+    text-align: center;
+}
+
+.newspaper-edition-meta {
+    font-size: 9px;
+    color: #555555;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.newspaper-continue-btn {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    --py: 8px;
+    --px: 12px;
+    margin-bottom: 0 !important;
+    background-color: #C0C0C0 !important;
+    color: #000000 !important;
+    /* no forced box-shadow here: the shared button rule supplies raised + the sunken pressed state */
+}
+
+/* --- Publication-Specific Masthead Styles --- */
+
+/* 1. MAJALAH TEMPO (Red Magazine Cover Border) */
+.paper-tempo {
+    border: 8px solid #D11919 !important;
+    background-color: #FAF8F2 !important;
+}
+.masthead-tempo {
+    text-align: center;
+    margin-bottom: 6px;
+}
+.masthead-tempo-box {
+    display: inline-block;
+    background-color: #D11919;
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    padding: 3px 22px 3px 28px;
+    border: 2px solid #111111;
+    box-shadow: 2px 2px 0px #111111;
+}
+.masthead-tempo-motto {
+    font-size: 9px;
+    font-style: italic;
+    color: #8B0000;
+    margin-top: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* 2. HARIAN KOMPAS */
+.masthead-kompas {
+    text-align: center;
+    margin-bottom: 4px;
+}
+.masthead-kompas-ears {
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    font-weight: bold;
+    color: #333333;
+    border-bottom: 1px solid #888888;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+.masthead-kompas-title {
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #002B5C;
+    line-height: 1.0;
+}
+
+/* 3. RAKYAT MERDEKA */
+.masthead-rakyat-merdeka {
+    background-color: #CC0000;
+    border: 2px solid #000000;
+    padding: 6px 8px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.masthead-rm-title {
+    font-family: Impact, "Arial Black", sans-serif !important;
+    font-size: 28px;
+    font-weight: 900;
+    color: #FFFF00;
+    letter-spacing: 2.5px;
+    text-shadow: 2px 2px 0px #000000;
+    text-transform: uppercase;
+}
+.newspaper-headline.headline-screaming {
+    font-family: Impact, "Arial Black", sans-serif !important;
+    color: #B20000;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+/* 4. POS KOTA */
+.masthead-pos-kota {
+    background-color: #FFDD00;
+    border: 2px solid #CC0000;
+    padding: 5px 8px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.masthead-pk-title {
+    font-family: "Arial Black", Impact, sans-serif !important;
+    font-size: 28px;
+    font-weight: 900;
+    color: #CC0000;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0px #FFFFFF;
+}
+
+/* 5. HARIAN REPUBLIKA */
+.masthead-republika {
+    background-color: #006B3F;
+    border-bottom: 4px solid #D4AF37;
+    padding: 6px 10px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.masthead-republika-title {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+.masthead-republika-motto {
+    font-size: 9px;
+    color: #E8F8F5;
+    letter-spacing: 1px;
+}
+
+/* 6. THE JAKARTA POST */
+.masthead-jakarta-post {
+    text-align: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+.masthead-jp-title {
+    font-family: "Times New Roman", Georgia, serif !important;
+    font-size: 30px;
+    font-weight: bold;
+    color: #002244;
+    letter-spacing: 1px;
+}
+.masthead-jp-motto {
+    font-size: 9.5px;
+    font-style: italic;
+    color: #004488;
+}
+
+/* 7. MEDIA INDONESIA */
+.masthead-media-indonesia {
+    border-top: 4px solid #CC0000;
+    border-bottom: 2px solid #003399;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.masthead-mi-title {
+    font-family: Georgia, serif !important;
+    font-size: 26px;
+    font-weight: bold;
+    color: #003399;
+    letter-spacing: 2px;
+}
+
+/* 8. SUARA PEMBARUAN */
+.masthead-suara-pembaruan {
+    border-bottom: 3px solid #D35400;
+    padding-bottom: 4px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.masthead-sp-title {
+    font-family: Georgia, serif !important;
+    font-size: 25px;
+    font-weight: bold;
+    color: #A04000;
+    letter-spacing: 2px;
+}
+
+/* 9. FORUM KEADILAN / GAMMA */
+.masthead-forum {
+    background-color: #1A1A1A;
+    border-left: 8px solid #FFCC00;
+    border-right: 8px solid #CC0000;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.masthead-forum-title {
+    font-family: Georgia, serif !important;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFCC00;
+    letter-spacing: 2.5px;
+}
+
+/* 10. BISNIS INDONESIA / FINANCIAL (Salmon-Pink Broadsheet) */
+.paper-financial {
+    background-color: #F5DFD0 !important;
+}
+.masthead-financial {
+    text-align: center;
+    border-bottom: 2px double #5C2C16;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+.masthead-fin-title {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4A1C0B;
+    letter-spacing: 2px;
+}
+
+/* 11. SUARA KARYA */
+.masthead-suara-karya {
+    background-color: #D4AC0D;
+    border: 2px solid #1C2833;
+    padding: 4px 8px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.masthead-sk-title {
+    font-family: Georgia, serif !important;
+    font-size: 25px;
+    font-weight: bold;
+    color: #111111;
+    letter-spacing: 2.5px;
+}
+
+/* 12. HARIAN WASPADA & FOREIGN */
+.masthead-waspada {
+    border-top: 3px solid #1E8449;
+    border-bottom: 3px solid #1E8449;
+    padding: 4px 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.masthead-waspada-title {
+    font-family: Georgia, serif !important;
+    font-size: 25px;
+    font-weight: bold;
+    color: #145A32;
+    letter-spacing: 3px;
+}
+
+.masthead-foreign {
+    text-align: center;
+    border-top: 1px solid #111111;
+    border-bottom: 3px double #111111;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+.masthead-foreign-title {
+    font-family: "Times New Roman", Georgia, serif !important;
+    font-size: 26px;
+    font-weight: bold;
+    color: #111111;
+    letter-spacing: 1.5px;
+}
+
+/* ==========================================================================
+   2. STANDALONE 1999 DETIKCOM MINI WEB BROWSER WINDOW
+   ========================================================================== */
+.detik-browser-window {
+    width: 580px;
+    max-width: 95vw;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-window), 0px 18px 38px rgba(0, 0, 0, 0.72);
+    padding: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.detik-browser-titlebar {
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 4px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.detik-browser-menubar {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    padding: 3px 8px;
+    border-bottom: 1px solid #808080;
+    color: #000000;
+}
+
+.detik-browser-toolbar {
+    display: flex;
+    gap: 4px;
+    padding: 4px 6px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #808080;
+    flex-wrap: wrap;
+}
+
+.detik-tool-btn {
+    font-size: 10px;
+    padding: 2px 7px;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    color: #222222;
+    user-select: none;
+}
+
+.detik-browser-addressbar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 6px;
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.detik-addr-label {
+    font-size: 11px;
+    color: #222222;
+}
+
+.detik-addr-input {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+    box-shadow: var(--bevel-sunken);
+    padding: 3px 6px;
+    font-size: 11px;
+    color: #000080;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Sunken 1999 HTML Page Viewport */
+.detik-browser-viewport {
+    background-color: #FFFFFF;
+    box-shadow: var(--bevel-sunken);
+    padding: 0;
+    margin-bottom: 6px;
+    border: 1px solid #000000;
+}
+
+.detik-portal-banner {
+    background-color: #002B5C;
+    border-bottom: 3px solid #FFCC00;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.detik-portal-logo {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 1px 8px;
+    box-shadow: 2px 2px 0px #000000;
+}
+
+.detik-portal-tagline {
+    font-size: 10px;
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+.detik-portal-grid {
+    display: grid;
+    grid-template-columns: 135px 1fr;
+    min-height: 250px;
+}
+
+.detik-portal-sidebar {
+    background-color: #EBF2FA;
+    border-right: 1px dotted #003399;
+    padding: 8px;
+    font-size: 11px;
+}
+
+.detik-nav-header {
+    background-color: #CC0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 2px 5px;
+    margin-bottom: 6px;
+}
+
+.detik-nav-item {
+    color: #003399;
+    padding: 3px 2px;
+    border-bottom: 1px solid #D0DFEE;
+    font-size: 10.5px;
+}
+
+.detik-nav-item.active {
+    font-weight: bold;
+    color: #CC0000;
+}
+
+.detik-kurs-box {
+    margin-top: 12px;
+    background-color: #FFFFCC;
+    border: 1px solid #999900;
+    padding: 5px;
+    font-size: 9.5px;
+    line-height: 1.4;
+}
+
+.detik-portal-main {
+    padding: 12px 14px;
+}
+
+.detik-timestamp {
+    font-size: 10px;
+    color: #CC0000;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.detik-article-headline {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000080;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.detik-article-body {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #111111;
+    text-align: justify;
+}
+
+.detik-browser-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.detik-status-well {
+    flex-grow: 1;
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-status-well);
+    padding: 4px 8px;
+    font-size: 10px;
+    color: #333333;
+}
+
+.detik-continue-btn {
+    width: auto !important;
+    --py: 5px;
+    --px: 12px;
+    margin: 0 !important;
+    font-size: 11px !important;
+    text-align: center !important;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   3. BINA GRAHA TELEX DISPATCH (INSIDE STANDARD WIN95 MODAL)
+   ========================================================================== */
+.telex-dispatch {
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    padding: 12px 14px;
+    color: #111111;
+}
+
+.telex-header {
+    border-bottom: 2px solid var(--win95-accent);
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--win95-accent);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Mobile Adjustments for Vertical Newspaper & Mini-Browser */
+@media (max-width: 640px) {
+    .standalone-newspaper-sheet {
+        width: 94vw;
+        min-height: 420px;
+        padding: 14px 14px 12px 14px;
+    }
+
+    .newspaper-headline {
+        font-size: 18px;
+    }
+
+    .newspaper-body {
+        font-size: 13px;
+    }
+
+    .newspaper-dateline {
+        flex-direction: column;
+        gap: 2px;
+        text-align: center;
+    }
+
+    .detik-portal-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .detik-portal-sidebar {
+        display: none;
+    }
+
+    .detik-browser-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .detik-continue-btn {
+        width: 100% !important;
+    }
+}

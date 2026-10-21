@@ -1,0 +1,2508 @@
+/* ==========================================================================
+   AUTHENTIC WINDOWS 95 / WIN32 EXECUTIVE TERMINAL THEME (styles.css)
+   ========================================================================== */
+:root {
+    /* ---- Palette: color schemes (css/schemes.css) override these ---- */
+    --win95-bg: #C0C0C0;          /* button / window face */
+    --win95-surface: #DFDFDF;     /* inner highlight + light fills */
+    --win95-white: #FFFFFF;       /* top-left bevel highlight */
+    --win95-shadow: #808080;      /* inner bottom-right shadow */
+    --win95-dark: #000000;        /* outer bottom-right edge */
+    --win95-navy: #000080;        /* title bar, selection (backgrounds) */
+    --win95-blue-grad: #1084D0;   /* title bar gradient end */
+
+    /* ---- Content colors (only dark / high-contrast schemes change these) ---- */
+    --win95-window: #FFFFFF;      /* document wells, inputs */
+    --win95-well: #F5F5F5;        /* cards inside windows */
+    --win95-well-alt: #E0DFE3;    /* secondary panels */
+    --win95-text: #000000;
+    --win95-text-dim: #555555;
+    --win95-accent: #000080;      /* accent TEXT / borders (navy is a background color) */
+
+    /* semantic text colors used by the game's generated HTML */
+    --tone-good: #006400;
+    --tone-bad: #8B0000;
+    --tone-warn: #B8860B;
+    --tone-alert: #FF4500;
+    --tone-info: #4682B4;
+    --tone-link: #0000FF;
+    /* tinted button fills */
+    --tint-bad: #FF9999;
+    --tint-soft: #FFD6D6;
+    --tint-good: #D0E8D0;
+    --tint-warn: #FFF3CD;
+
+    /* 4-Layer Classic Win95 Bevels (built from the palette above) */
+    --bevel-raised:
+        inset 1px 1px 0px var(--win95-white),
+        inset -1px -1px 0px var(--win95-dark),
+        inset 2px 2px 0px var(--win95-surface),
+        inset -2px -2px 0px var(--win95-shadow);
+
+    --bevel-sunken:
+        inset 1px 1px 0px var(--win95-shadow),
+        inset -1px -1px 0px var(--win95-white),
+        inset 2px 2px 0px var(--win95-dark),
+        inset -2px -2px 0px var(--win95-surface);
+
+    --bevel-status-well:
+        inset 1px 1px 0px var(--win95-shadow),
+        inset -1px -1px 0px var(--win95-white);
+
+    --bevel-window:
+        inset 1px 1px 0px var(--win95-surface),
+        inset -1px -1px 0px var(--win95-dark),
+        inset 2px 2px 0px var(--win95-white),
+        inset -2px -2px 0px var(--win95-shadow),
+        4px 4px 0px rgba(0, 0, 0, 0.45);
+}
+
+* {
+    font-family: "MS Sans Serif", "Tahoma", "Geneva", sans-serif !important;
+    -webkit-font-smoothing: none;
+    font-smooth: never;
+}
+
+body {
+    background-color: #008080;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--win95-text);
+    margin: 12px;
+    padding-bottom: 36px; /* room for the fixed Win95 taskbar */
+}
+
+/* ========================================== */
+/* --- MAIN APPLICATION WINDOW & TITLEBAR --- */
+/* ========================================== */
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-window);
+    padding: 4px 6px 8px 6px;
+    position: relative;
+}
+
+/* Main Window Title Bar */
+.container::before {
+    content: "Twilight of the Banyan Tree";
+    display: block;
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 28px 4px 8px;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+/* Decorative [X] Button on Main Application Window */
+.container::after {
+    content: "\2715";
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    width: 16px;
+    height: 14px;
+    line-height: 13px;
+    text-align: center;
+    background-color: var(--win95-bg);
+    color: var(--win95-text);
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: var(--bevel-raised);
+    pointer-events: none;
+}
+
+table.layout {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 6px;
+    margin-top: 0;
+}
+
+/* --- Left Control Panel & Right Sunken Document Well --- */
+td.panel {
+    vertical-align: top;
+    border: none;
+    padding: 12px;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+}
+
+#main-panel {
+    background-color: var(--win95-window) !important;
+    box-shadow: var(--bevel-sunken) !important;
+    padding: 14px 16px !important;
+}
+
+/* ========================================== */
+/* --- WIN95 SUB-WINDOW HEADERS & [X]     --- */
+/* ========================================== */
+h2 {
+    position: relative;
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    padding: 5px 30px 5px 10px;
+    margin-top: 0;
+    margin-bottom: 14px;
+    border: none;
+    box-shadow: var(--bevel-raised);
+    letter-spacing: 0.4px;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: left;
+}
+
+
+
+h3 {
+    color: var(--win95-accent);
+    border-bottom: 1px solid var(--win95-shadow);
+    box-shadow: 0 1px 0 var(--win95-white);
+    padding-bottom: 4px;
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--win95-shadow);
+    border-bottom: 1px solid var(--win95-white);
+    background: transparent;
+    height: 0;
+    margin: 12px 0;
+}
+
+/* --- Sub-Panel Title Bars (Music, Misc, Whip Clipboard, Toast) --- */
+.music-header,
+.toast-title {
+    position: relative;
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    padding: 3px 24px 3px 6px;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+/* Decorative [X] Button on Sub-Panel Headers */
+.music-header::after,
+.toast-title::after {
+    content: "\2715";
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 12px;
+    line-height: 11px;
+    text-align: center;
+    background-color: var(--win95-bg);
+    color: var(--win95-text);
+    font-size: 9px;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: var(--bevel-raised);
+    pointer-events: none;
+}
+
+/* --- Functional [X] Close Button (Only in Reactions & Dispatches Modal) --- */
+.win95-close-btn {
+    width: 16px !important;
+    height: 14px !important;
+    min-width: 16px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: var(--win95-bg) !important;
+    color: var(--win95-text) !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    line-height: 12px !important;
+    text-align: center !important;
+    text-shadow: none !important;
+    box-shadow: var(--bevel-raised) !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.win95-close-btn:hover {
+    background-color: var(--win95-surface) !important;
+}
+
+.win95-close-btn:active {
+    box-shadow: var(--bevel-sunken) !important;
+    padding-top: 1px !important;
+    padding-left: 1px !important;
+}
+
+/* ========================================== */
+/* --- LEFT PANEL METRICS & CONTROLS      --- */
+/* ========================================== */
+.stat-row {
+    margin-bottom: 5px;
+    padding: 3px 6px;
+    background-color: var(--win95-surface);
+    border: none;
+    box-shadow: var(--bevel-status-well);
+    overflow: hidden;
+}
+
+.stat-label {
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--win95-text);
+}
+
+.stat-value {
+    font-size: 11px;
+    font-weight: bold;
+    float: right;
+}
+
+.pc-display {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 14px;
+    color: var(--win95-text);
+    text-align: center;
+    background-color: var(--win95-window);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    padding: 6px;
+}
+
+/* --- Authentic 4-Layer Win95 3D Push Buttons --- */
+button {
+    /* Padding is split into variables so the pressed state can nudge the label by --nudge
+       no matter how large the button is (inline styles set --py / --px, never "padding"). */
+    --py: 8px;
+    --px: 12px;
+    --nudge: 1px;
+    background-color: var(--win95-bg);
+    color: var(--win95-text);
+    border: none;
+    box-shadow: var(--bevel-raised);
+    padding: var(--py) var(--px);
+    font-size: 12px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Hover/pressed feedback is a brightness filter, not a fixed color, so it behaves the same on
+   every button: gray, tinted (Back/Return), selected, or pulsing. Hover only where a pointer exists. */
+@media (hover: hover) {
+    button:hover:not(:disabled) {
+        filter: brightness(1.06);
+    }
+}
+
+button:focus:not(:disabled) {
+    outline: 1px dotted #000000;
+    outline-offset: -4px;
+}
+
+button:active:not(:disabled) {
+    filter: brightness(0.95);
+    box-shadow:
+        inset 1px 1px 0px #000000,
+        inset -1px -1px 0px #000000,
+        inset 2px 2px 0px var(--win95-shadow),
+        inset -2px -2px 0px var(--win95-shadow);
+    padding: calc(var(--py) + var(--nudge)) calc(var(--px) - var(--nudge)) calc(var(--py) - var(--nudge)) calc(var(--px) + var(--nudge));
+}
+
+/* One "selected / toggled on" look for every button group (tabs, speed, theme, language, chapters...):
+   sunken bevel, light fill, navy label. Replaces bold + assorted gray fills + inset borders. */
+button.is-selected,
+button.is-selected:hover:not(:disabled),
+button.is-selected:active:not(:disabled) {
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-sunken);
+    color: var(--win95-accent);
+    filter: none;
+    --nudge: 0px;
+}
+
+button:disabled {
+    color: var(--win95-text-dim);
+    text-shadow: 1px 1px 0px var(--win95-white);
+}
+
+/* --- Win95 Sunken Checkboxes --- */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-sunken);
+    vertical-align: middle;
+    margin: 0 6px 2px 0;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+input[type="checkbox"]:disabled {
+    background-color: var(--win95-bg);
+    cursor: not-allowed;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 4px;
+    height: 7px;
+    border: solid var(--win95-text);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* --- Images Inside Main Panel --- */
+#main-panel center > img {
+    border: none !important;
+    box-shadow: var(--bevel-sunken) !important;
+    padding: 2px;
+    background-color: var(--win95-shadow);
+    box-sizing: border-box;
+}
+
+.faction-summary {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--win95-text);
+    background-color: var(--win95-well);
+    padding: 12px;
+    box-shadow: var(--bevel-sunken);
+}
+
+/* --- Left Panel Sub-Windows (Music Player & Miscellaneous) --- */
+.music-player,
+.achievements-container {
+    margin-top: 14px;
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-raised);
+    padding: 5px;
+    text-align: center;
+}
+
+#music-select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    background-color: var(--win95-window);
+    color: var(--win95-text);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    margin-bottom: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+audio {
+    width: 100%;
+    height: 25px;
+}
+
+.player-portrait-container {
+    position: relative;
+    width: 160px;
+    height: 200px;
+    background-color: #A9A9A9;
+    border: 4px inset #FFFFFF;
+    margin: 0 auto 6px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* ========================================== */
+/* --- MPR DASHBOARD (FLAT FACTION VIEW)  --- */
+/* ========================================== */
+.mpr-section {
+    margin: 6px 6px 2px 6px;
+    border: none;
+    background-color: var(--win95-well-alt);
+    box-shadow: var(--bevel-sunken);
+    padding: 10px;
+}
+
+.mpr-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.mpr-header-center {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.mpr-logo-left, .mpr-logo-right {
+    flex-shrink: 0;
+    width: 150px;
+    text-align: center;
+}
+
+.mpr-logo-left img, .mpr-logo-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mpr-quote {
+    color: var(--win95-accent);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.portraits-table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.portrait-cell {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.portrait-container {
+    position: relative;
+    width: 130px;
+    height: 160px;
+    background-color: #A9A9A9;
+    border: 3px inset #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.portrait-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.portrait-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.portrait-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.portrait-seats {
+    font-size: 10px;
+    color: var(--win95-text-dim);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.portrait-mood {
+    font-size: 10px;
+}
+
+/* ========================================== */
+/* --- ALERT MODAL (REACTIONS/DISPATCHES) --- */
+/* ========================================== */
+#custom-alert-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#custom-alert-box {
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-window);
+    width: 550px;
+    max-width: 94%;
+    padding: 4px;
+}
+
+#custom-alert-titlebar {
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 4px 3px 8px;
+    letter-spacing: 0.4px;
+    text-shadow: 1px 1px 0px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#custom-alert-message {
+    padding: 10px;
+    font-size: 14px;
+    color: var(--win95-text);
+    line-height: 1.5;
+    white-space: normal;
+    max-height: 72vh;
+    overflow-y: auto;
+}
+
+#custom-alert-btn {
+    display: block;
+    width: 160px;
+    margin: 4px auto 10px auto;
+    text-align: center;
+}
+
+/* ========================================== */
+/* --- ACHIEVEMENTS & TOAST WINDOW        --- */
+/* ========================================== */
+.achievements-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.achv-icon {
+    width: 32px;
+    height: 32px;
+    background-color: var(--win95-shadow);
+    border: none;
+    box-shadow: var(--bevel-raised);
+    cursor: help;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.achv-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.achv-locked {
+    filter: grayscale(100%);
+    opacity: 0.35;
+}
+
+.achv-unlocked {
+    filter: none;
+    opacity: 1.0;
+    background-color: #FFD700;
+}
+
+#achievement-toast {
+    bottom: 38px !important; /* above the taskbar; mobile breakpoint overrides below */
+    position: fixed;
+    right: 20px;
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-window);
+    padding: 4px;
+    width: 260px;
+    font-size: 11px;
+    display: none;
+    z-index: 10000;
+}
+
+#toast-name {
+    padding: 6px 8px;
+    font-weight: bold;
+    color: var(--win95-text);
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-status-well);
+}
+
+.achievement-row {
+    display: flex;
+    align-items: center;
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-raised);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.achievement-icon {
+    width: 48px;
+    height: 48px;
+    background-color: var(--win95-shadow);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    margin-right: 15px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.achievement-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.achievement-icon.locked {
+    filter: grayscale(100%);
+    opacity: 0.35;
+}
+
+.achievement-icon.unlocked {
+    filter: none;
+    opacity: 1.0;
+    background-color: #FFD700;
+}
+
+.achievement-details {
+    flex-grow: 1;
+}
+
+.achievement-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--win95-accent);
+    margin-bottom: 4px;
+}
+
+.achievement-desc {
+    font-size: 12px;
+    color: var(--win95-text);
+}
+
+/* ========================================== */
+/* --- ANIMATIONS & CRT OVERLAY           --- */
+/* ========================================== */
+@keyframes pulseNewAction {
+    0% { background-color: var(--win95-bg); }
+    50% { background-color: var(--win95-surface); }
+    100% { background-color: var(--win95-bg); }
+}
+.new-action-btn {
+    animation: pulseNewAction 1.5s infinite;
+}
+
+@keyframes flashBlueText {
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
+}
+.flashing-text-blue {
+    animation: flashBlueText 0.5s infinite;
+}
+
+#crt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+    background-size: 100% 4px;
+    z-index: 99999;
+    pointer-events: none;
+    display: none;
+}
+
+/* ========================================== */
+/* --- RETRO SLIDERS & SCROLLBARS         --- */
+/* ========================================== */
+input[type=range] {
+    -webkit-appearance: none;
+    width: 150px;
+    background: transparent;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #000000;
+    border-top: 1px solid var(--win95-shadow);
+    border-left: 1px solid var(--win95-shadow);
+    border-bottom: 1px solid var(--win95-white);
+    border-right: 1px solid var(--win95-white);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 18px;
+    width: 11px;
+    background: var(--win95-bg);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+    box-shadow: var(--bevel-raised);
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #000000;
+    border-top: 1px solid var(--win95-shadow);
+    border-left: 1px solid var(--win95-shadow);
+    border-bottom: 1px solid var(--win95-white);
+    border-right: 1px solid var(--win95-white);
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 18px;
+    width: 11px;
+    background: var(--win95-bg);
+    cursor: pointer;
+    border: none;
+    box-shadow: var(--bevel-raised);
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+/* ========================================== */
+/* --- WINDOWS 95 SCROLLBARS (desktop / mouse) --- */
+/* ========================================== */
+@media (hover: hover) and (pointer: fine) {
+    ::-webkit-scrollbar {
+        width: 16px;
+        height: 16px;
+        background-color: var(--win95-bg);
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--win95-bg);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2' shape-rendering='crispEdges'%3E%3Crect width='2' height='2' fill='%23C0C0C0'/%3E%3Crect x='0' y='0' width='1' height='1' fill='%23FFFFFF'/%3E%3Crect x='1' y='1' width='1' height='1' fill='%23FFFFFF'/%3E%3C/svg%3E");
+        background-size: 2px 2px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--win95-bg);
+        box-shadow: var(--bevel-raised);
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: var(--win95-bg);
+    }
+
+    ::-webkit-scrollbar-button:single-button {
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-color: var(--win95-bg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        box-shadow: var(--bevel-raised);
+    }
+
+    ::-webkit-scrollbar-button:single-button:active {
+        box-shadow: inset 0 0 0 1px var(--win95-shadow);
+        background-position: 1px 1px;
+    }
+
+    ::-webkit-scrollbar-button:single-button:vertical:decrement {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='8' y='6' width='1' height='1' fill='%23000000'/%3E%3Crect x='7' y='7' width='3' height='1' fill='%23000000'/%3E%3Crect x='6' y='8' width='5' height='1' fill='%23000000'/%3E%3Crect x='5' y='9' width='7' height='1' fill='%23000000'/%3E%3C/svg%3E");
+    }
+
+    ::-webkit-scrollbar-button:single-button:vertical:increment {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='5' y='6' width='7' height='1' fill='%23000000'/%3E%3Crect x='6' y='7' width='5' height='1' fill='%23000000'/%3E%3Crect x='7' y='8' width='3' height='1' fill='%23000000'/%3E%3Crect x='8' y='9' width='1' height='1' fill='%23000000'/%3E%3C/svg%3E");
+    }
+
+    ::-webkit-scrollbar-button:single-button:horizontal:decrement {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='6' y='8' width='1' height='1' fill='%23000000'/%3E%3Crect x='7' y='7' width='1' height='3' fill='%23000000'/%3E%3Crect x='8' y='6' width='1' height='5' fill='%23000000'/%3E%3Crect x='9' y='5' width='1' height='7' fill='%23000000'/%3E%3C/svg%3E");
+    }
+
+    ::-webkit-scrollbar-button:single-button:horizontal:increment {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='6' y='5' width='1' height='7' fill='%23000000'/%3E%3Crect x='7' y='6' width='1' height='5' fill='%23000000'/%3E%3Crect x='8' y='7' width='1' height='3' fill='%23000000'/%3E%3Crect x='9' y='8' width='1' height='1' fill='%23000000'/%3E%3C/svg%3E");
+    }
+}
+
+/* Firefox has no custom-arrow support; give it the closest gray scrollbar.
+   Scoped to Firefox because in Chrome/Safari these properties would switch the
+   Win95 styling above off. */
+@supports (-moz-appearance: none) {
+    * {
+        scrollbar-width: auto;
+        scrollbar-color: var(--win95-bg) var(--win95-surface);
+    }
+}
+
+/* ========================================== */
+/* --- MPR HEMICYCLE & WIN95 TALLY SCREEN --- */
+/* ========================================== */
+.tally-box {
+    max-width: 860px;
+    margin: 4px auto;
+    padding: 8px 12px 14px 12px;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+}
+
+#tally-clock,
+.tally-clock-fixed {
+    font-family: "Courier New", "Lucida Console", monospace !important;
+    font-variant-numeric: tabular-nums;
+    font-size: 20px !important;
+    font-weight: bold;
+    background-color: #000000 !important;
+    color: #00FF00 !important;
+    box-shadow: var(--bevel-sunken) !important;
+    padding: 8px 0 !important;
+    width: 240px !important;
+    min-width: 240px !important;
+    max-width: 240px !important;
+    text-align: center !important;
+    margin: 0 auto 12px auto;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+/* Official TAP MPR No. III/MPR/1999 Decree Sheet */
+.tap-mpr-document {
+    background-color: #FCFBF7;
+    color: #111111;
+    box-shadow: var(--bevel-sunken);
+    border: 1px solid var(--win95-shadow);
+    padding: 18px 22px;
+    margin: 16px auto 10px auto;
+    max-width: 720px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.tap-mpr-document * {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.tap-mpr-header {
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.tap-mpr-article-box {
+    background-color: #F2EFE6;
+    box-shadow: var(--bevel-status-well);
+    padding: 10px 14px;
+    margin: 10px 0 14px 0;
+}
+
+.tap-mpr-signatures {
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px dotted var(--win95-shadow);
+    font-size: 12px;
+}
+
+#speed-controls-container {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-status-well);
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.mpr-chamber-box {
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-raised);
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.mpr-tug-container {
+    position: relative;
+    width: 100%;
+    height: 26px;
+    background-color: var(--win95-shadow);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.mpr-tug-for {
+    background: repeating-linear-gradient(
+        90deg,
+        #008000 0px,
+        #008000 8px,
+        #006400 8px,
+        #006400 10px
+    );
+    height: 100%;
+    transition: width 0.12s linear;
+}
+
+.mpr-tug-blank {
+    background-color: #A9A9A9;
+    height: 100%;
+    transition: width 0.12s linear;
+}
+
+.mpr-tug-against {
+    background: repeating-linear-gradient(
+        90deg,
+        #CC0000 0px,
+        #CC0000 8px,
+        #8B0000 8px,
+        #8B0000 10px
+    );
+    height: 100%;
+    margin-left: auto;
+    transition: width 0.12s linear;
+}
+
+.mpr-majority-marker {
+    position: absolute;
+    left: 50.14%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #FFFF00;
+    z-index: 5;
+    box-shadow: 0 0 3px #000000;
+}
+
+.mpr-hemicycle-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    aspect-ratio: 17 / 8;
+    height: auto;
+    min-height: 165px;
+    margin: 0 auto;
+    background-color: var(--win95-well-alt);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    overflow: hidden;
+}
+
+.mpr-seat-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #A9A9A9;
+    border-top: 1px solid var(--win95-white);
+    border-left: 1px solid var(--win95-white);
+    border-right: 1px solid #222222 !important;
+    border-bottom: 1px solid #222222 !important;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.mpr-seat-dot.seat-for {
+    background-color: #00CC00;
+    border-top-color: #88FF88;
+    border-left-color: #88FF88;
+}
+
+.mpr-seat-dot.seat-against {
+    background-color: #FF2222;
+    border-top-color: #FF9999;
+    border-left-color: #FF9999;
+}
+
+.mpr-seat-dot.seat-blank {
+    background-color: #AAAAAA;
+    border-top-color: #DDDDDD;
+    border-left-color: #DDDDDD;
+}
+
+.mpr-rostrum {
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    transform: translateX(-50%);
+    background-color: var(--win95-bg);
+    border: none;
+    box-shadow: var(--bevel-raised);
+    color: var(--win95-accent);
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 14px;
+    letter-spacing: 1px;
+    pointer-events: none;
+}
+
+/* --- Win95 SysListView32 Data Grid Styling for Tally Table --- */
+.tally-box table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--win95-window);
+    border: none !important;
+    box-shadow: var(--bevel-sunken);
+}
+
+/* Raised Win95 Column Header Row */
+.tally-box tr[bgcolor="#000080"] {
+    background: var(--win95-bg) !important;
+}
+
+.tally-box tr[bgcolor="#000080"] td {
+    background-color: var(--win95-bg) !important;
+    box-shadow: var(--bevel-raised);
+    border: none !important;
+    padding: 5px 8px;
+}
+
+.tally-box tr[bgcolor="#000080"] font {
+    color: var(--win95-text) !important;
+}
+
+/* Standard Tally Data Rows */
+.tally-box tr:not([bgcolor="#000080"]):not([bgcolor="#FFFF00"]) td {
+    border: 1px solid var(--win95-surface) !important;
+    padding: 6px 8px;
+    background-color: var(--win95-window);
+}
+
+.tally-box tr:not([bgcolor="#000080"]):not([bgcolor="#FFFF00"]):nth-child(even) td {
+    background-color: var(--win95-well);
+}
+
+/* Current Tally Footer Row (Win95 Status Well) */
+.tally-box tr[bgcolor="#FFFF00"] {
+    background-color: var(--win95-surface) !important;
+}
+
+.tally-box tr[bgcolor="#FFFF00"] td {
+    background-color: var(--win95-surface) !important;
+    box-shadow: var(--bevel-status-well);
+    border: none !important;
+    padding: 8px;
+}
+
+#election-result-container {
+    margin-top: 12px;
+    padding: 12px;
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-sunken);
+}
+
+.faction-mini-bar-wrap {
+    width: 100%;
+    height: 7px;
+    background-color: var(--win95-well-alt);
+    border: none;
+    box-shadow: var(--bevel-status-well);
+    margin-top: 4px;
+    display: flex;
+    overflow: hidden;
+}
+
+.faction-mini-for {
+    background-color: #008000;
+    height: 100%;
+}
+
+.faction-mini-against {
+    background-color: #CC0000;
+    height: 100%;
+}
+
+/* ========================================== */
+/* --- MPR DASHBOARD VIEW TABS & LEGEND   --- */
+/* ========================================== */
+.mpr-view-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.mpr-tab-btn {
+    width: 180px !important;
+    display: inline-block;
+    text-align: center !important;
+    --py: 6px;
+    --px: 12px;
+    margin-bottom: 0 !important;
+    background-color: var(--win95-bg);
+}
+
+.mpr-parliament-readout {
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-sunken);
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--win95-text);
+    min-height: 18px;
+}
+
+.mpr-interactive-seat {
+    cursor: pointer;
+    transition: transform 0.08s ease, opacity 0.1s ease;
+}
+
+.mpr-interactive-seat.seat-faction-hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    border-right-color: #000000 !important;
+    border-bottom-color: #000000 !important;
+    z-index: 10;
+}
+
+.mpr-interactive-seat.seat-faction-dim {
+    opacity: 0.45;
+}
+
+.mpr-parliament-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 6px;
+    background-color: var(--win95-well-alt);
+}
+
+.mpr-legend-item {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    padding: 4px 8px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.mpr-legend-item:hover:not(.mpr-legend-banned) {
+    background-color: var(--win95-surface);
+}
+
+.mpr-legend-item:active:not(.mpr-legend-banned) {
+    box-shadow: var(--bevel-sunken);
+}
+
+.mpr-legend-banned {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.mpr-legend-swatch {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid #000000;
+}
+
+/* ========================================== */
+/* --- POLITICAL ACTION PHASE IMAGE CARDS --- */
+/* ========================================== */
+.action-image-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.action-image-card {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    transition: filter 0.12s ease, opacity 0.12s ease;
+}
+
+.action-image-card:hover:not(.action-image-disabled) {
+    background-color: var(--win95-surface);
+}
+
+.action-image-card:active:not(.action-image-disabled) {
+    box-shadow: var(--bevel-sunken);
+    padding: 11px 9px 9px 11px;
+}
+
+.action-image-disabled {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+
+.action-image-frame {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #A9A9A9;
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    margin: 0 auto 8px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 11px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.action-image-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--win95-accent);
+    margin-bottom: 3px;
+}
+
+.whip-clipboard-box {
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.state-gazette-box {
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-sunken);
+    padding: 8px 10px;
+    margin-bottom: 8px;
+}
+
+/* ========================================== */
+/* --- DISSOLVED / BANNED FACTION PORTRAIT --- */
+/* ========================================== */
+.portrait-banned {
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+
+.portrait-dissolved-stamp {
+    color: #FF3333;
+    border: 2px solid #FF3333;
+    background-color: rgba(0, 0, 0, 0.78);
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transform: rotate(-14deg);
+    text-shadow: 1px 1px 0px #000000;
+}
+
+/* Title screen: update box (left) + buttons (right) */
+.start-menu-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.start-menu-left {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 520px;
+}
+
+.start-menu-right {
+    flex: 0 0 280px;
+}
+
+/* Update / announcement box */
+.update-notice {
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.update-notice-title {
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 8px;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.update-notice-body {
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-sunken);
+    color: var(--win95-text);
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 12px 14px;
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.update-notice-meta {
+    font-size: 12px;
+    color: var(--win95-text-dim);
+    margin-bottom: 6px;
+}
+
+.update-notice-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--win95-accent);
+    margin-bottom: 8px;
+}
+
+.update-notice-body ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.update-notice-body li {
+    margin-bottom: 6px;
+}
+
+/* Older updates (collapsed list) */
+.update-older {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--win95-shadow);
+}
+
+.update-older summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--win95-accent);
+}
+
+.update-older .update-entry {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px dotted var(--win95-shadow);
+}
+
+/* Sticky status bar (mobile only): keeps PC, Gov. Stability and metrics reachable while scrolling */
+#mobile-status-bar {
+    display: none;
+}
+
+@media (max-width: 820px) {
+
+    .start-menu-layout {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .start-menu-right {
+        order: -1;
+        flex: 0 0 auto;
+    }
+
+    .start-menu-left {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .update-notice-body {
+        max-height: 260px;
+    }
+
+    #mobile-status-bar.active {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 9000;
+        margin-bottom: 6px;
+        background-color: var(--win95-bg);
+    }
+
+    #mobile-status-bar #msb-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6px;
+        margin: 0;
+        padding: 6px 8px;
+        font-size: 12px !important;
+        white-space: nowrap;
+    }
+
+    #mobile-status-bar .msb-caret {
+        font-size: 10px;
+    }
+
+    #msb-sheet {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 6px;
+        max-height: 70vh;
+        overflow-y: auto;
+        background-color: var(--win95-bg);
+        box-shadow: var(--bevel-window);
+    }
+
+    #mobile-status-bar.open #msb-sheet {
+        display: block;
+    }
+
+    #msb-sheet .msb-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 4px;
+        padding: 4px 6px;
+        background-color: var(--win95-surface);
+        box-shadow: var(--bevel-status-well);
+        font-size: 12px;
+    }
+
+    #msb-sheet .msb-row > span:first-child {
+        font-weight: bold;
+    }
+
+    #msb-sheet .msb-row > span:last-child {
+        text-align: right;
+    }
+
+    .mobile-panel-toggle-btn {
+        display: block;
+    }
+
+    #left-panel.mobile-collapsed > *:not(.mobile-panel-toggle-btn) {
+        display: none !important;
+    }
+
+    .mobile-tooltip-readout.active {
+        display: block;
+    }
+    
+    body {
+        margin: 4px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 4px;
+        box-sizing: border-box;
+    }
+
+    .container::before {
+        font-size: 11px;
+        padding: 4px 26px 4px 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Stack Left Sidebar & Main Panel Vertically */
+    table.layout,
+    table.layout > tbody,
+    table.layout > tbody > tr {
+        display: block;
+        width: 100%;
+    }
+
+    td.panel,
+    #left-panel,
+    #main-panel {
+        display: block;
+        width: 100% !important;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+    }
+
+    #main-panel {
+        padding: 10px 10px !important;
+    }
+
+    /* Compact Habibie Portrait & 2-Column Stat Grid on Mobile */
+    .player-portrait-container {
+        width: 115px;
+        height: 145px;
+    }
+
+    #left-panel .stat-row {
+        display: inline-block;
+        width: calc(50% - 4px);
+        box-sizing: border-box;
+        vertical-align: top;
+        margin-bottom: 4px !important;
+    }
+
+    #left-panel .stat-row:nth-of-type(odd) {
+        margin-right: 4px;
+    }
+
+    .pc-display {
+        font-size: 18px;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+
+    /* Prevent Fixed-Width Inline Images & Buttons from Overflowing */
+    #main-panel img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    #main-panel button {
+        max-width: 100% !important;
+    }
+
+    h2 {
+        font-size: 16px;
+        padding: 5px 26px 5px 8px;
+    }
+
+    /* Action Phase Image Cards */
+    .action-image-cards-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .action-image-frame {
+        height: 110px;
+    }
+
+    /* MPR Header: Wrap Logos Cleanly on Narrow Screens */
+    .mpr-section {
+        margin: 4px 0 2px 0;
+        padding: 8px 6px;
+    }
+
+    .mpr-header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .mpr-logo-left,
+    .mpr-logo-right {
+        width: 64px;
+        order: 1;
+    }
+
+    .mpr-header-center {
+        width: 100%;
+        order: 2;
+        padding: 0 4px;
+    }
+
+    .mpr-quote {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    /* Faction Portraits Table -> Responsive 2-Column Mobile Grid */
+    .portraits-table,
+    .portraits-table > tbody {
+        display: block;
+        width: 100%;
+    }
+
+    .portraits-table > tbody > tr {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
+        margin-bottom: 6px;
+    }
+
+    .portrait-cell {
+        display: block;
+        width: 100% !important;
+        padding: 6px 4px;
+        box-sizing: border-box;
+    }
+
+    .portrait-container {
+        width: 105px;
+        height: 130px;
+    }
+
+    /* Scale Parliament Seats to Fit Mobile Hemicycle Without Overlapping */
+    .mpr-seat-dot {
+        width: 6.5px;
+        height: 6.5px;
+    }
+
+    .mpr-rostrum {
+        font-size: 8.5px;
+        padding: 2px 8px;
+        bottom: 3px;
+    }
+
+    .mpr-view-tabs {
+        gap: 6px;
+    }
+
+    .mpr-tab-btn {
+        width: 48% !important;
+        --py: 6px;
+        --px: 6px;
+        font-size: 11px !important;
+    }
+
+    /* Election Tally Table Mobile Fit */
+    .tally-box {
+        padding: 6px;
+    }
+
+    .tally-box table td {
+        padding: 4px 3px !important;
+        font-size: 11px;
+    }
+
+    /* Newspaper & Telex Alert Modal Mobile Fit */
+    #custom-alert-box {
+        width: 96%;
+        max-width: 96%;
+    }
+
+    #custom-alert-message {
+        padding: 6px;
+        max-height: 76vh;
+    }
+
+    .newspaper-headline {
+        font-size: 16px;
+    }
+
+    .newspaper-body {
+        font-size: 12.5px;
+    }
+
+    .newspaper-dateline {
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        text-align: center;
+    }
+
+    /* Settings Sliders on Mobile */
+    input[type=range] {
+        width: 120px;
+    }
+
+    #achievement-toast {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: 12px;
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 420px) {
+    #mobile-status-bar #msb-toggle {
+        font-size: 11px !important;
+        padding: 6px 6px;
+        gap: 4px;
+    }
+
+    /* Stack Left-Panel Stats and Action Cards on Very Small Phones */
+    #left-panel .stat-row {
+        display: block;
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .action-image-cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mpr-seat-dot {
+        width: 5.5px;
+        height: 5.5px;
+    }
+}
+
+.mobile-panel-toggle-btn {
+    display: none;
+    width: 100%;
+    text-align: center !important;
+    font-size: 11px !important;
+    --py: 6px;
+    --px: 8px;
+    margin-bottom: 6px !important;
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%) !important;
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.mobile-tooltip-readout {
+    display: none;
+    background-color: #FFFFE1;
+    border: 1px solid #000000;
+    padding: 6px 8px;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #000000;
+    line-height: 1.4;
+}
+
+/* ========================================== */
+/* --- PRE-VOTE FACTION STANCE BREAKDOWN  --- */
+/* ========================================== */
+.pre-vote-whip-box {
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    padding: 5px;
+    margin-bottom: 14px;
+}
+
+/* ========================================== */
+/* --- BINA GRAHA REFERENCE LIBRARY UI    --- */
+/* ========================================== */
+.library-controls-box {
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+.library-search-input {
+    flex-grow: 1;
+    min-width: 180px;
+    padding: 4px 6px;
+    font-size: 12px;
+    background-color: var(--win95-window);
+    color: var(--win95-text);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    outline: none;
+}
+
+.library-list-well {
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-sunken);
+    padding: 8px;
+    max-height: 540px;
+    overflow-y: auto;
+}
+
+.library-entry-card {
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-status-well);
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.library-entry-card:last-child {
+    margin-bottom: 0;
+}
+
+.library-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+    border-bottom: 1px solid var(--win95-accent);
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+}
+
+.library-entry-term {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--win95-accent);
+}
+
+.library-entry-sub {
+    font-size: 11px;
+    font-style: italic;
+    color: var(--win95-text-dim);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.library-entry-desc {
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--win95-text);
+}
+
+.library-entry-with-portrait {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.library-person-portrait {
+    position: relative;
+    width: 120px;
+    height: 150px;
+    flex-shrink: 0;
+    background-color: #A9A9A9;
+    border: 3px inset #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #555555;
+    font-size: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.library-entry-content {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+@media (max-width: 640px) {
+    .library-entry-with-portrait {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ========================================== */
+/* --- TITLE SCREEN ARTWORK PLACEHOLDER   --- */
+/* ========================================== */
+.title-screen-banner {
+    position: relative;
+    width: 100%;
+    max-width: 820px;
+    height: 210px;
+    margin: 4px auto 18px auto;
+    background-color: #A9A9A9;
+    box-shadow: var(--bevel-sunken);
+    border: 2px solid var(--win95-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.title-screen-banner-placeholder-text {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding: 10px;
+    z-index: 1;
+}
+
+.title-screen-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+/* ========================================== */
+/* --- WIN95 LOADING MODAL & PROGRESS BAR --- */
+/* ========================================== */
+#win95-loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 10005;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.win95-loader-window {
+    width: 460px;
+    max-width: 92%;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-window);
+    padding: 4px;
+}
+
+.win95-loader-titlebar {
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 4px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.win95-loader-body {
+    padding: 14px 12px 12px 12px;
+}
+
+.win95-loader-status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--win95-text);
+    margin-bottom: 6px;
+    gap: 8px;
+}
+
+.win95-progress-well {
+    width: 100%;
+    height: 22px;
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-sunken);
+    padding: 3px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.win95-progress-chunks {
+    height: 100%;
+    width: 0%;
+    background: repeating-linear-gradient(
+        90deg,
+        var(--win95-navy) 0px,
+        var(--win95-navy) 10px,
+        transparent 10px,
+        transparent 12px
+    );
+    transition: width 0.08s linear;
+}
+
+.win95-loader-filepath {
+    margin-top: 6px;
+    font-size: 10px;
+    color: var(--win95-text-dim);
+    background-color: var(--win95-surface);
+    box-shadow: var(--bevel-status-well);
+    padding: 3px 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ========================================== */
+/* --- WIN95 BOTTOM TASKBAR & START MENU  --- */
+/* ========================================== */
+#win95-taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 28px;
+    background-color: var(--win95-bg);
+    box-shadow: inset 0 1px 0 var(--win95-surface), inset 0 2px 0 var(--win95-white);
+    display: flex;
+    align-items: center;
+    padding: 2px 4px;
+    gap: 4px;
+    z-index: 9500;
+    box-sizing: border-box;
+}
+
+#win95-start-btn {
+    width: auto !important;
+    height: 22px;
+    margin: 0 !important;
+    --py: 2px;
+    --px: 8px;
+    font-size: 11px !important;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.active-depressed {
+    box-shadow: var(--bevel-sunken) !important;
+    background-color: var(--win95-surface) !important;
+}
+button.active-depressed:hover:not(:disabled),
+button.active-depressed:active:not(:disabled) {
+    filter: none;
+    --nudge: 0px;
+}
+
+.taskbar-divider {
+    width: 2px;
+    height: 20px;
+    background-color: var(--win95-shadow);
+    border-right: 1px solid var(--win95-white);
+    margin: 0 2px;
+    flex-shrink: 0;
+}
+
+.taskbar-app-tab {
+    width: auto !important;
+    max-width: 340px;
+    flex: 1 1 auto;
+    height: 22px;
+    margin: 0 !important;
+    --py: 2px;
+    --px: 10px;
+    font-size: 11px !important;
+    font-weight: bold; /* Win95 chrome: the active taskbar tab is bold */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.taskbar-tray {
+    margin-left: auto;
+    height: 22px;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-status-well);
+    padding: 0 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    flex-shrink: 0;
+}
+
+.taskbar-tray-icon {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#win95-start-menu {
+    position: fixed;
+    bottom: 28px;
+    left: 4px;
+    width: 220px;
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-window);
+    padding: 3px;
+    z-index: 9600;
+}
+
+.win95-start-menu-inner {
+    display: flex;
+}
+
+.win95-start-sidebar {
+    width: 26px;
+    background: linear-gradient(0deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+.win95-start-sidebar span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.win95-start-items {
+    flex: 1;
+    padding: 2px;
+}
+
+.win95-start-items button {
+    margin-bottom: 2px !important;
+    --py: 6px;
+    --px: 8px;
+    --nudge: 0px;           /* flat menu items do not "push in" */
+    font-size: 11px !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+
+.win95-start-items button:hover {
+    background-color: var(--win95-navy) !important;
+    color: #FFFFFF !important;
+}
+
+@media (max-width: 820px) {
+    #win95-taskbar,
+    #win95-start-menu {
+        display: none !important;
+    }
+
+    body {
+        padding-bottom: 0;
+    }
+
+    #achievement-toast {
+        bottom: 12px !important;
+    }
+}
+
+/* ========================================== */
+/* --- UPLIFTED WIN95 SETTINGS CONTROL PANEL  */
+/* ========================================== */
+.settings-panel-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.settings-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.settings-card {
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    padding: 5px;
+    display: flex;           /* lets the sunken body fill the card when a neighbor card is taller */
+    flex-direction: column;
+}
+
+.settings-card-header {
+    background: linear-gradient(90deg, var(--win95-navy) 0%, var(--win95-blue-grad) 100%);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.settings-card-body {
+    flex: 1 1 auto;
+    background-color: var(--win95-well);
+    box-shadow: var(--bevel-sunken);
+    padding: 10px 12px;
+    font-size: 12.5px;
+    font-weight: normal;
+    color: var(--win95-text);
+}
+
+.settings-row {
+    border-bottom: 1px dotted var(--win95-shadow);
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+}
+
+.settings-hint {
+    font-size: 11px;
+    color: var(--win95-text-dim);
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.settings-sunken-well {
+    background-color: var(--win95-well-alt);
+    box-shadow: var(--bevel-status-well);
+    padding: 6px 8px;
+    font-size: 11.5px;
+}
+
+.settings-pill-btn {
+    width: 46px !important;
+    display: inline-block;
+    text-align: center !important;
+    --py: 4px;
+    --px: 0px;
+    margin: 0 3px !important;
+    font-weight: normal;
+}
+
+.settings-inline-btn {
+    width: auto !important;
+    display: inline-block;
+    text-align: center !important;
+    --py: 5px;
+    --px: 10px;
+    margin: 0 4px 4px 0 !important;
+    font-size: 11.5px !important;
+    font-weight: normal;
+}
+
+.settings-swatch-btn {
+    width: auto !important;
+    display: inline-flex;
+    align-items: center;
+    --py: 5px;
+    --px: 9px;
+    margin: 0 !important;
+    font-size: 11.5px !important;
+    font-weight: normal;
+}
+
+.settings-color-dot {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid #000000;
+    box-shadow: inset 1px 1px 0 rgba(255,255,255,0.35);
+}
+
+/* --- Brand Colored Buttons (Ko-fi, Trakteer, X/Twitter, Proton Mail) --- */
+.settings-brand-btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.brand-btn:hover:not(:disabled) {
+    filter: none; /* brand buttons use their own darker hover color below */
+}
+
+.brand-btn {
+    width: auto !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    --py: 7px;
+    --px: 14px;
+    margin: 0 !important;
+    font-weight: normal;
+    font-size: 12px !important;
+    text-align: center !important;
+}
+
+/* Ko-fi Cyan/Blue */
+.brand-btn-kofi {
+    background-color: #29ABE0 !important;
+    color: #FFFFFF !important;
+}
+.brand-btn-kofi:hover {
+    background-color: #1F97C9 !important;
+}
+
+/* Trakteer Crimson Red */
+.brand-btn-trakteer {
+    background-color: #BE1E2D !important;
+    color: #FFFFFF !important;
+}
+.brand-btn-trakteer:hover {
+    background-color: #A31825 !important;
+}
+
+/* X / Twitter Pitch Black */
+.brand-btn-twitter {
+    background-color: #14171A !important;
+    color: #FFFFFF !important;
+}
+.brand-btn-twitter:hover {
+    background-color: #2C3136 !important;
+}
+
+/* Proton Mail Purple */
+.brand-btn-proton {
+    background-color: #6D4AFF !important;
+    color: #FFFFFF !important;
+}
+.brand-btn-proton:hover {
+    background-color: #5B37EB !important;
+}
+
+/* --- Feedback Telex Box --- */
+.settings-feedback-box {
+    background-color: var(--win95-well-alt);
+    box-shadow: var(--bevel-sunken);
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.settings-select {
+    background-color: var(--win95-window);
+    color: var(--win95-text);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    padding: 3px 6px;
+    font-size: 12px;
+    margin-left: 4px;
+    outline: none;
+}
+
+.settings-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--win95-window);
+    color: var(--win95-text);
+    border: none;
+    box-shadow: var(--bevel-sunken);
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.45;
+    resize: vertical;
+    outline: none;
+}
+
+@media (max-width: 820px) {
+    .settings-two-col {
+        grid-template-columns: 1fr;
+    }
+
+    .brand-btn {
+        flex: 1 1 auto;
+    }
+}
+
+/* ========================================== */
+/* --- COLOR-CODED FACTION TAGS & WHIP UI --- */
+/* ========================================== */
+.faction-color-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-status-well);
+    padding: 2px 7px 2px 5px;
+    margin: 2px 4px 2px 0;
+    font-size: 11.5px;
+    line-height: 1.35;
+    color: var(--win95-text);
+    vertical-align: middle;
+}
+
+.faction-color-swatch {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid #000000;
+    flex-shrink: 0;
+}
+
+.whip-group-block {
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-status-well);
+    padding: 7px 9px;
+    margin-bottom: 6px;
+}
+
+.whip-group-title {
+    font-size: 11.5px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+}
+
+/* ========================================== */
+/* --- SENAYAN HORSE-TRADING DESK         --- */
+/* ========================================== */
+.horse-trade-box {
+    background-color: var(--win95-bg);
+    box-shadow: var(--bevel-raised);
+    padding: 6px;
+    margin-bottom: 14px;
+}
+
+.horse-trade-ticker {
+    background-color: #000000;
+    color: #00FF00;
+    box-shadow: var(--bevel-sunken);
+    padding: 6px 10px;
+    font-size: 11.5px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.horse-trade-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--win95-window);
+    box-shadow: var(--bevel-status-well);
+    padding: 6px 8px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.horse-trade-info {
+    flex: 1 1 220px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.horse-trade-actions {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.horse-trade-btn {
+    width: auto !important;
+    display: inline-block;
+    text-align: center !important;
+    --py: 4px;
+    --px: 9px;
+    margin: 0 !important;
+    font-size: 11px !important;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   EVENT & CONTENT IMAGES
+   These pictures are drawn with an inline 400x200 style (game.js, election.js):
+   event.image -> .event-image; tutorial / history pages, difficulty, situation,
+   Habibie and faction covers, election endings -> .content-image.
+   On phones the inline size stays exactly as it was. On wider screens they grow
+   to fill their window: full width, same 2:1 crop, never taller than 440px.
+   (The title-screen banner is a separate element and is already full width.)
+   ========================================================================== */
+@media (min-width: 821px) {
+    img.event-image,
+    img.content-image {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 2 / 1;
+        max-height: 440px !important;
+        box-sizing: border-box;
+    }
+}

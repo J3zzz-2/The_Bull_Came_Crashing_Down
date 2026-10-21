@@ -1,0 +1,199 @@
+{
+  "name": "Fraksi PDI Perjuangan<br>(Megawati)",
+  "short": "Megawati",
+  "seats": 153,
+  "affinity": -10,
+  "image": "photo/megawati.png",
+  "coverImage": "photo/faction/pdip.png",
+  "summary": "<font color=\"#C0392B\"><b>The Indonesian Democratic Party of Struggle (PDI Perjuangan)</b></font>, led by the stoic <font color=\"#C0392B\"><b>Megawati Sukarnoputri</b></font>, commands the single largest bloc in parliament and the undisputed loyalty of the secular-nationalist street. Having captured 33.74% of the national vote—more than 35.6 million ballots—and 153 seats in the June 1999 general election, the <font color=\"#C0392B\"><b>Banteng Moncong Putih</b></font> finished nearly twelve points ahead of <font color=\"#CC9900\"><b>Golkar</b></font> in second place. To her inner circle on Jalan Kebagusan and the millions of <font color=\"#C0392B\"><i><b>wong cilik</b></i></font> (common folk) who manned neighborhood <font color=\"#C0392B\"><i><b>Posko Gotong Royong</b></i></font> command posts across Java and Bali, the election was not merely a legislative tally; it was a plebiscite on who should sit in Istana Merdeka. Their logic is simple, visceral, and almost impossible to argue against in public: the people voted, <font color=\"#C0392B\"><b>PDI Perjuangan</b></font> won, and every week you remain in Bina Graha is a week stolen from a mandate you never earned at the ballot box.<p></p>To Diponegoro's cadres, your administration is an illegitimate remnant of the <font color=\"#704d00\"><b>New Order</b></font>—a caretaker presidency handed down through <font color=\"#704d00\"><b>Suharto's</b></font> unilateral resignation rather than popular sovereignty—and no sheaf of reformist decrees erases that original sin. Worse for the Palace, <font color=\"#C0392B\"><b>Megawati's</b></font> red-shirted <font color=\"#C0392B\"><b>Satgas</b></font> paramilitaries and <font color=\"#C0392B\"><i><b>arus bawah</b></i></font> grassroots give the party street-level muscle no other faction can match, a volatile force already massing at the gates of Senayan and the Semanggi cloverleaf whenever rumours of backroom <font color=\"#B22222\"><i><b>rekayasa politik</b></i></font> (political engineering) surface. Courting this caucus through ordinary Senayan horse-trading is largely futile while the street smells blood. <font color=\"#0000FF\"><b>Only if your popular standing and reformist credibility become undeniable in the public eye will their pragmatic operators dare temper their hostility</b></font>—and even then, they will never forget that they finished first in June and you did not. Short of that, <font color=\"#B22222\"><i><b>best leave the bull alone.</b></i></font>",
+  "biography": "<font color=\"#C0392B\"><b>Diah Permata Megawati Setiawati Sukarnoputri</b></font> is the eldest daughter of Indonesia's founding president, <font color=\"#C0392B\"><b>Sukarno</b></font>, and spent her formative years watching the <font color=\"#704d00\"><b>New Order</b></font> systematically dismantle her father's name, confine him to house arrest at Wisma Yaso until his death in 1970, and consign his family to the political wilderness. Entering the legislature quietly in 1987 to revive the moribund <font color=\"#C0392B\"><b>Indonesian Democratic Party (PDI)</b></font>, she shattered the regime's carefully managed consensus in December 1993 when grassroots delegates at an extraordinary congress (<i>Munaslub</i>) in Surabaya defied military intimidation to elect her party chairwoman. Almost overnight, she became the living vessel for every grievance <font color=\"#704d00\"><b>Suharto's</b></font> thirty-two-year rule could no longer contain.<p></p>Alarmed by the prospect of a <font color=\"#C0392B\"><b>Sukarno</b></font> challenging the presidency in 1998, <font color=\"#704d00\"><b>Cendana</b></font> and <font color=\"#556B2F\"><b>ABRI</b></font>orchestrated a rival party congress in Medan in June 1996 under Commander-in-Chief <font color=\"#556B2F\"><b>Feisal Tanjung</b></font> and Socio-Political Chief <font color=\"#556B2F\"><b>Syarwan Hamid</b></font> to reinstall the pliant <font color=\"#704d00\"><b>Soerjadi</b></font>. When <font color=\"#C0392B\"><b>Megawati's</b></font> loyalists refused to vacate the central headquarters at Jalan Diponegoro No. 58 and held nightly free-speech forums (<i>Mimbar Bebas</i>), trucks of state-backed thugs and security forces under Jakarta military commander <font color=\"#556B2F\"><b>Sutiyoso</b></font> stormed the compound at dawn on July 27, 1996. The <font color=\"#B22222\"><b>Kudatuli</b></font> assault left at least five dead, 149 wounded, and twenty-three activists missing, sparking the worst Jakarta riots in two decades. Yet the crackdown backfired: <font color=\"#C0392B\"><b>Megawati's</b></font> quiet refusal to bend turned a factional dispute into a sacred martyrdom. Rechristening her movement <font color=\"#C0392B\"><b>PDI Perjuangan</b></font> after May 1998 and adopting the defiant circular <font color=\"#C0392B\"><b>white-muzzled bull</b></font> emblem at the October 1998 Bali Congress, she rode a tidal wave of popular devotion to first place in June 1999. Now, from her residence in Kebagusan, she waits with characteristic silence for the <font color=\"#000080\"><b>MPR</b></font> to ratify what her millions of followers consider her birthright.",
+  "moods": [
+    {
+      "min": 80,
+      "text": "Reluctant Partner",
+      "color": "#006400",
+      "overlay": "rgba(0, 255, 0, 0.15)"
+    },
+    {
+      "min": 60,
+      "text": "Open to Dialogue",
+      "color": "#009000",
+      "overlay": "rgba(0, 191, 255, 0.10)"
+    },
+    {
+      "min": 50,
+      "text": "Ambivalent",
+      "color": "#4682B4",
+      "overlay": "rgba(0, 0, 255, 0.10)"
+    },
+    {
+      "min": 40,
+      "text": "Guarded",
+      "color": "#2F4F4F",
+      "overlay": "rgba(255, 140, 0, 0.10)"
+    },
+    {
+      "min": 30,
+      "text": "Skeptical",
+      "color": "#FF4500",
+      "overlay": "rgba(255, 69, 0, 0.15)"
+    },
+    {
+      "min": 20,
+      "text": "Belligerent",
+      "color": "#FF0000",
+      "overlay": "rgba(255, 0, 0, 0.15)"
+    },
+    {
+      "min": 0,
+      "text": "Implacably Hostile",
+      "color": "#8B0000",
+      "overlay": "rgba(139, 0, 0, 0.25)"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "pdip_cabinet",
+      "text": "Quietly guarantee PDI Perjuangan's technocrats key economic and legal portfolios in a unity cabinet",
+      "cost": 30,
+      "minStat": { "key": "cendana", "val": 40 },
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "For thirty-two years, the <font color=\"#704d00\"><b>New Order</b></font> treated <font color=\"#C0392B\"><b>PDI</b></font> as decorative opposition, locking its intellectuals out of executive governance. Yet <font color=\"#C0392B\"><b>Megawati's</b></font> advisory board (<i>Litbang</i>)—figures like <font color=\"#C0392B\"><b>Kwik Kian Gie</b></font> and <font color=\"#C0392B\"><b>Laksamana Sukardi</b></font>—are serious economists and bankers eager to dismantle the old crony monopolies. Send word through <font color=\"#C0392B\"><b>Taufik Kiemas</b></font> that if your administration survives October, first-rank economic and legal ministries in a national unity cabinet will be theirs to name. <font color=\"#0000FF\"><b>Secures a lasting political obligation from Diponegoro's leadership,</b></font> <font color=\"#B22222\"><b>though Golkar's old guard and Cilangkap will view the offer as a betrayal.</b></font>",
+      "effects": {
+        "pdip_favor": 1,
+        "pdip": 18,
+        "golkar_akbar": -12,
+        "mil": -8,
+        "abri": -8,
+        "poros_tengah": -5,
+        "other_parties": -4,
+        "pkb": -4,
+        "ppp": -4,
+        "utusan_daerah": -4,
+        "ref": 15,
+        "cendana": -6,
+        "intl": 4,
+        "stab": 2
+      },
+      "alertMsg": "Kwik Kian Gie and Laksamana Sukardi weigh the proposal with cool detachment, well aware of how dangerous an open pact with Bina Graha looks to the red-shirted street. Still, the promise of real authority over economic restructuring is too substantive to dismiss out of hand. PDI Perjuangan's spokesmen noticeably dial back their daily broadsides, while Akbar Tandjung's camp in Golkar fumes at being sidelined."
+    },
+    {
+      "id": "pdip_regional",
+      "text": "Order Depdagri to halt bureaucratic obstruction of PDI Perjuangan's local DPRD majorities",
+      "cost": 15,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Alongside the parliamentary vote, provincial and regency legislatures (<i>DPRD Tingkat I &amp; II</i>) across Java, Bali, and North Sumatra swept <font color=\"#C0392B\"><b>PDI Perjuangan</b></font> into local majorities. Holdover <font color=\"#CC9900\"><b>Golkar</b></font> bureaucrats inside the Ministry of Home Affairs (<i>Depdagri</i>), habituated to decades of <font color=\"#704d00\"><b>Yogi S. Memet's</b></font> administrative manipulation, have been quietly slow-walking the swearing-in of <font color=\"#C0392B\"><b>Banteng</b></font> regional speakers and regents. Instruct <font color=\"#556B2F\"><b>Syarwan Hamid's</b></font> ministry to certify the local results immediately.",
+      "effects": {
+        "pdip": 8,
+        "golkar_akbar": -6,
+        "utusan_daerah": -2,
+        "ref": 4,
+        "stab": 3,
+        "pop": 3,
+        "intl": 2,
+        "golkar_habibie": 1
+      },
+      "alertMsg": "Once the directive from Bina Graha lands on the Director-General's desk at Depdagri, the stalled regional decrees are signed within forty-eight hours. Secretary-General Alex Litaay and Sutjipto register the gesture without public applause—it is, in their view, merely the Palace returning what was already won at the ballot box—but the friction between regional PDI Perjuangan chapters and Jakarta eases."
+    },
+    {
+      "id": "pdip_kudatuli",
+      "text": "Establish a state inquiry and restitution fund for the July 27, 1996 Kudatuli assault",
+      "cost": 24,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "For <font color=\"#C0392B\"><b>Megawati's</b></font> rank and file, the dawn raid on Jalan Diponegoro No. 58 on July 27, 1996—<font color=\"#B22222\"><b>Peristiwa Kudatuli</b></font>—remains an open, unavenged wound. While <font color=\"#704d00\"><b>New Order</b></font> courts blamed the radical <font color=\"#C0392B\"><b>PRD</b></font> and jailed victims' families, the generals and <font color=\"#704d00\"><b>Soerjadi</b></font> operatives who organized the storming walked free. Issue a formal state apology, return the seized Diponegoro property titles, and authorize a joint fact-finding team (<i>TGPF</i>) into the assault. <font color=\"#0000FF\"><b>Binds PDI Perjuangan's leadership with a deep debt of honor,</b></font> <font color=\"#B22222\"><b>at the cost of infuriating Golkar's old guard and the Cilangkap brass implicated in the 1996 crackdown.</b></font>",
+      "effects": {
+        "pdip": 16,
+        "pdip_favor": 1,
+        "ref": 15,
+        "golkar_akbar": -10,
+        "mil": -8,
+        "abri": -8,
+        "stab": -2,
+        "intl": 4,
+        "pop": 6,
+        "cendana": -6,
+        "golkar_habibie": 2,
+        "utusan_golongan": 4
+      },
+      "alertMsg": "Wreaths are laid outside the scarred walls of Jalan Diponegoro No. 58 as the Palace's formal acknowledgment is read aloud. Megawati's cadres treat the restitution as long-delayed justice rather than presidential charity, yet the emotional weight of the gesture is unmistakable. Across town, retired New Order generals and Golkar holdovers implicated in the Medan Congress and the July 27 raid react with cold fury."
+    },
+    {
+      "id": "pdip_kiemas",
+      "text": "Dispatch an envoy to dine privately with Taufik Kiemas",
+      "cost": 12,
+      "repeatable": true,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "Where <font color=\"#C0392B\"><b>Megawati</b></font> treats politics as a matter of principle, silence, and filial destiny, her husband <font color=\"#C0392B\"><b>Taufik Kiemas</b></font>—a fellow former <font color=\"#C0392B\"><b>GMNI</b></font> activist from South Sumatra who endured <font color=\"#704d00\"><b>New Order</b></font> prison cells—operates as the pragmatic broker of the Kebagusan household. Bypass the ideological hardliners on the party board and route a quiet overture through <font color=\"#C0392B\"><b>Kiemas</b></font> to keep communication lines open between Bina Graha and <font color=\"#C0392B\"><b>Teuku Umar</b></font>.",
+      "effects": {
+        "pdip": 7,
+        "ref": 2,
+        "pop": 1,
+        "stab": 2
+      },
+      "alertMsg": "Over a late dinner of Palembang pempek and clove cigarettes far from the television cameras at Senayan, Taufik Kiemas listens with genial, worldly pragmatism. He makes no promises on his wife's behalf, but agrees to keep hotheads in the parliamentary faction from burning every bridge to the Palace."
+    },
+    {
+      "id": "pdip_pansus_bankbali",
+      "text": "Order Bank Indonesia and IBRA to surrender unredacted Bank Bali files to the DPR Pansus",
+      "mutexGroup": "bank_bali_audit",
+      "locksGroup": true,
+      "cost": 22,
+      "repeatable": false,
+      "maxTurn": 16,
+      "minTurn": 7,
+      "description": "The DPR's Special Committee (<font color=\"#000080\"><i><b>Pansus Hak Angket Bank Bali</b></i></font>) has spent weeks demanding the unredacted fund-transfer trails connecting <font color=\"#704d00\"><b>PT Era Giat Prima's</b></font> Rp 546 billion fee to insiders around <font color=\"#CC9900\"><b>Golkar</b></font> and your own re-election team. <font color=\"#C0392B\"><b>PDI Perjuangan's</b></font> investigators on Commission IX have led the charge. Override the bureaucracy and order every ministry, <font color=\"#004C97\"><b>IBRA</b></font>, and the central bank to hand the full dossier to the committee. <font color=\"#B22222\"><b>Forecloses any backroom attempt to help Golkar bury the audit,</b></font> <font color=\"#0000FF\"><b>while earning a major political obligation from PDI Perjuangan's parliamentary whip.</b></font>",
+      "effects": {
+        "pdip": 16,
+        "pdip_favor": 1,
+        "golkar_akbar": -12,
+        "cendana": -12,
+        "ref": 15,
+        "intl": 10,
+        "econ": 3,
+        "pop": 6,
+        "utusan_golongan": 5
+      },
+      "alertMsg": "Cardboard boxes of unredacted clearing slips from Bank Indonesia and BPPN are wheeled directly into the Pansus hearing room at Senayan. PDI Perjuangan's lawmakers hail the disclosure as a triumph of parliamentary oversight, warming considerably toward your office even as Golkar treasurers implicated in the paper trail scramble for legal cover."
+    },
+    {
+      "id": "pdip_sukarno_memorial",
+      "text": "sponsor a state rehabilitation and monument honoring Bung Karno as Proklamator",
+      "cost": 15,
+      "repeatable": false,
+      "maxTurn": 21,
+      "minTurn": 0,
+      "description": "For three decades under <font color=\"#704d00\"><b>Suharto</b></font>, official historiography Downplayed <font color=\"#C0392B\"><b>Sukarno's</b></font> role in founding the Republic, sanitized his teachings on <font color=\"#C0392B\"><i><b>Marhaenisme</b></i></font>, and cast a shadow of suspicion over his final years under <font color=\"#704d00\"><b>MPRS Decree No. XXXIII/1967</b></font>. To <font color=\"#C0392B\"><b>Megawati</b></font> and her followers, the slight against <font color=\"#C0392B\"><i><b>Bung Karno</b></i></font> is deeply personal. Lend the full weight of the presidency to a state-sponsored commemorative program and monument elevating the Proklamator's legacy in Jakarta and Blitar.",
+      "effects": {
+        "pdip": 10,
+        "pop": 6,
+        "golkar_akbar": -3,
+        "cendana": -3,
+        "ref": 3,
+        "stab": 3,
+        "utusan_golongan": 2
+      },
+      "alertMsg": "The state ceremony honoring Bung Karno draws emotional crowds in Jakarta and at his gravesite in Blitar. Within Kebagusan, where filial devotion to the founding father defines political life, the gesture resonates deeply—even as aging New Order ideologues within Golkar mutter darkly about the return of the Old Order."
+    },
+    {
+      "id": "pdip_final_appeal",
+      "text": "Seek a private eleventh-hour audience with Megawati at Kebagusan ahead of the roll call",
+      "cost": 0,
+      "repeatable": false,
+      "maxTurn": 22,
+      "minTurn": 20,
+      "description": "The time for emissaries, legislative signals, and quiet dinners with <font color=\"#C0392B\"><b>Taufik Kiemas</b></font> has run out. With the <font color=\"#000080\"><b>MPR</b></font> Plenary preparing to cast its ballots on your <font color=\"#000080\"><i><b>Pidato Pertanggungjawaban</b></i></font>, travel personally to <font color=\"#C0392B\"><b>Megawati's</b></font> residence in Kebagusan, sit across from <font color=\"#C0392B\"><b>Sukarno's</b></font> daughter, and ask plainly what it will take for the 153 delegates of <font color=\"#C0392B\"><b>Fraksi PDI Perjuangan</b></font> to refrain from bringing down your government tonight. <font color=\"#B22222\"><b>Redeems every political obligation and goodwill gesture you have banked with Diponegoro.</b></font>",
+      "effects": {
+        "pdip": 15,
+        "stab": 3
+      },
+      "alertMsg": "In the quiet parlor of her Kebagusan home, surrounded by portraits of Bung Karno, Megawati hears you out in her trademark, inscrutable silence before offering a measured nod. Taufik Kiemas escorts you to your car at the gate. Every ounce of goodwill you have painstakingly built with the Banteng camp over the past four months will now be weighed on the Plenary floor."
+    }
+  ]
+}

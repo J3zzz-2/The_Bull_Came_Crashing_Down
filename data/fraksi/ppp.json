@@ -1,0 +1,145 @@
+{
+  "name": "Fraksi PPP<br>(Hamzah Haz)",
+  "short": "H. Haz",
+  "seats": 58,
+  "affinity": 30,
+  "image": "photo/haz.png",
+  "coverImage": "photo/faction/ppp.png",
+  "summary": "Chaired by the measured budget veteran <font color=\"#2E8B57\"><b>Hamzah Haz</b></font>, the <font color=\"#2E8B57\"><b>United Development Party (PPP)</b></font> stands as the oldest surviving Islamic party in the Republic. Born out of <font color=\"#704d00\"><b>Suharto's</b></font> forced 1973 merger of four Muslim parties, the <font color=\"#2E8B57\"><b>Ka'bah</b></font> party defied predictions that new rivals like <font color=\"#006400\"><b>PKB</b></font> and <font color=\"#0055A4\"><b>PAN</b></font> would hollow out its base, capturing 10.71% of the national ballot—11.3 million votes and fifty-eight parliamentary seats—to finish third in June 1999. That resilience rests on a quarter-century of parish-level organizing across Aceh, West Java, South Kalimantan, West Sumatra, and Madura, where loyal ulama and rural boarding schools (<i>pesantren</i>) rallied to the restored <font color=\"#2E8B57\"><b>Ka'bah</b></font> banner.<p></p>Though <font color=\"#2E8B57\"><b>Hamzah Haz</b></font> served a full year inside your cabinet as State Minister of Investment (<font color=\"#000080\"><b>BKPM</b></font>) before stepping down in May 1999 to lead <font color=\"#2E8B57\"><b>PPP's</b></font> campaign, thirty years of surviving <font color=\"#704d00\"><b>New Order</b></font> parliaments have trained him never to lash his party to a sinking hull. <font color=\"#2E8B57\"><b>PPP's</b></font> clerical council rejects secularization and invokes classical <i>fiqh</i> doctrine to oppose a female president, erecting an ideological wall between <font color=\"#2E8B57\"><b>Hamzah Haz</b></font> and <font color=\"#C0392B\"><b>Megawati Sukarnoputri</b></font>. Yet <font color=\"#2E8B57\"><b>Hamzah</b></font> knows every skeleton in your administration's closet and keeps his caucus positioned to pivot toward <font color=\"#0055A4\"><b>Amien Rais's Central Axis</b></font> if your numbers falter. <font color=\"#0000FF\"><b>Preserving public order across the provinces and commanding broad popular approval give the Palace strong leverage over PPP's cautious lawmakers,</b></font> who dread street upheaval and shrink from backing an isolated president.",
+  "biography": "Born in Ketapang, West Kalimantan, on February 15, 1940, <font color=\"#2E8B57\"><b>Hamzah Haz</b></font> taught school, edited a Pontianak newspaper, and chaired rural banking cooperatives before entering the West Kalimantan provincial legislature in 1968 under the banner of <font color=\"#006400\"><b>Nahdlatul Ulama</b></font>. Moving to <font color=\"#000080\"><b>Senayan</b></font> in 1971, he absorbed the shock of January 5, 1973, when the <font color=\"#704d00\"><b>New Order</b></font> forced <font color=\"#006400\"><b>NU</b></font>, <font color=\"#006400\"><b>Parmusi</b></font>, <font color=\"#006400\"><b>PSII</b></font>, and <font color=\"#006400\"><b>PERTI</b></font> to fuse into <font color=\"#2E8B57\"><b>PPP</b></font>. Over the next quarter-century—even after <font color=\"#006400\"><b>NU</b></font> withdrew from formal party politics in 1984 and <font color=\"#704d00\"><b>Suharto's</b></font> <i>Asas Tunggal</i> laws stripped <font color=\"#2E8B57\"><b>PPP</b></font> of its Islamic foundation and <font color=\"#2E8B57\"><b>Ka'bah</b></font> emblem—<font color=\"#2E8B57\"><b>Hamzah</b></font> stayed inside parliament, mastering the state ledger on the <font color=\"#000080\"><b>DPR Budget Commission (Komisi APBN)</b></font>.<p></p>You brought him into the Development Reform Cabinet as Minister of Investment in May 1998. Six months later, at <font color=\"#2E8B57\"><b>PPP's</b></font> Fourth National Congress (<i>Muktamar IV</i>) at Pondok Gede, delegates restored Islam as the party's ideological foundation, brought back the <font color=\"#2E8B57\"><b>Ka'bah</b></font> symbol, and elected <font color=\"#2E8B57\"><b>Hamzah Haz</b></font> party chairman over <font color=\"#2E8B57\"><b>A.M. Saefuddin</b></font>. When <font color=\"#CC9900\"><b>Golkar</b></font> demanded that ministers from rival parties resign ahead of the June 1999 campaign, <font color=\"#2E8B57\"><b>Hamzah</b></font> surrendered his portfolio without rancor and steered <font color=\"#2E8B57\"><b>PPP</b></font> to fifty-eight seats. An understated accountant by training and temperament, he weighs your accountability report like a balance sheet—ready to extend credit if your government stays solvent, or call in his markers with <font color=\"#0055A4\"><b>Amien Rais</b></font> and <font color=\"#006400\"><b>Gus Dur</b></font> if the Palace faces bankruptcy.",
+  "moods": [
+    {
+      "min": 80,
+      "text": "Aligned",
+      "color": "#006400",
+      "overlay": "rgba(0, 255, 0, 0.15)"
+    },
+    {
+      "min": 60,
+      "text": "Favorable",
+      "color": "#009000",
+      "overlay": "rgba(0, 191, 255, 0.10)"
+    },
+    {
+      "min": 50,
+      "text": "Neutral",
+      "color": "#4682B4",
+      "overlay": "rgba(0, 0, 255, 0.10)"
+    },
+    {
+      "min": 40,
+      "text": "Cautious",
+      "color": "#2F4F4F",
+      "overlay": "rgba(255, 140, 0, 0.10)"
+    },
+    {
+      "min": 30,
+      "text": "Distanced",
+      "color": "#FF4500",
+      "overlay": "rgba(255, 69, 0, 0.15)"
+    },
+    {
+      "min": 20,
+      "text": "Opposed",
+      "color": "#FF0000",
+      "overlay": "rgba(255, 0, 0, 0.15)"
+    },
+    {
+      "min": 0,
+      "text": "Irreconcilable",
+      "color": "#8B0000",
+      "overlay": "rgba(139, 0, 0, 0.25)"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ppp_subsidies",
+      "text": "Ring-fence Ministry of Religious Affairs madrasah subsidies against IMF austerity cuts",
+      "cost": 18,
+      "repeatable": false,
+      "maxTurn": 17,
+      "minTurn": 4,
+      "description": "Structural adjustment targets drafted by the <font color=\"#004C97\"><b>IMF</b></font> call for across-the-board reductions in social spending, threatening the <font color=\"#000080\"><b>Ministry of Religious Affairs (Depag)</b></font> grant lines that sustain the <i>Madrasah Diniyah</i> and rural <i>pesantren</i> networks anchoring <font color=\"#2E8B57\"><b>PPP's</b></font> electorate. Give <font color=\"#2E8B57\"><b>Hamzah Haz</b></font> and parliamentary whip <font color=\"#2E8B57\"><b>Zarkasih Nur</b></font> a written guarantee that religious schooling funds remain untouched. <font color=\"#0000FF\"><b>Secures a binding political debt from PPP's leadership that carries forward into the Central Axis.</b></font>",
+      "effects": {
+        "ppp": 15,
+        "ppp_favor": 1,
+        "poros_tengah": 4,
+        "econ": -4,
+        "pop": 3,
+        "ref": 1
+      },
+      "alertMsg": "As a veteran of the DPR Budget Commission, Hamzah Haz inspects the revised Depag budget tables himself before nodding in approval. With their rural madrasah funding protected from the IMF's scalpel, PPP's lawmakers warm toward Bina Graha."
+    },
+    {
+      "id": "ppp_hamzah_role",
+      "text": "Pledge the Coordinating Ministry for Economy and Finance (Menko Ekuin) to Hamzah Haz",
+      "cost": 20,
+      "repeatable": false,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "<font color=\"#2E8B57\"><b>Hamzah Haz</b></font> spent a year running the Investment Coordinating Board (<font color=\"#000080\"><b>BKPM</b></font>) in your cabinet before <font color=\"#CC9900\"><b>Golkar</b></font> forced party chairmen to vacate their ministerial posts in May 1999. Promise him that if your administration wins a full mandate in October, he will return to the cabinet room promoted to Coordinating Minister for Economy, Finance, and Industry (<i>Menko Ekuin</i>). <font color=\"#0000FF\"><b>Binds PPP's leadership with a lasting political obligation that carries forward into the Central Axis.</b></font>",
+      "effects": {
+        "ppp": 16,
+        "ppp_favor": 1,
+        "poros_tengah": 4,
+        "golkar_akbar": -2,
+        "pop": 2,
+        "stab": 2
+      },
+      "alertMsg": "Hamzah Haz receives the offer with his trademark understated composure. Having spent decades mastering state budgets from the opposition benches, the prospect of helming Indonesia's entire economic cabinet softens his caucus's posture toward the Palace."
+    },
+    {
+      "id": "ppp_gender_debate",
+      "text": "Amplify the clerical fiqh debate over female executive leadership",
+      "cost": 15,
+      "repeatable": true,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "Since the November 1998 Congress of the Indonesian Muslim Community (<i>KUII</i>) and fiery statements by <font color=\"#2E8B57\"><b>PPP</b></font> minister <font color=\"#2E8B57\"><b>A.M. Saefuddin</b></font>, conservative ulama inside <font color=\"#2E8B57\"><b>PPP's</b></font> Majelis Syariah have argued that Islamic jurisprudence forbids a woman from serving as head of state—a ruling aimed straight at <font color=\"#C0392B\"><b>Megawati Sukarnoputri</b></font>. Use state-linked Islamic publications and Friday pulpit networks to give those clerical rulings wider circulation.",
+      "effects": {
+        "ppp": 12,
+        "poros_tengah": 4,
+        "pdip": -10,
+        "ref": -4,
+        "stab": -2,
+        "utusan_golongan": -2
+      },
+      "alertMsg": "Tracts and Friday sermons debating female leadership multiply across West Java, Madura, and South Kalimantan, hardening the theological barrier between PPP's fifty-eight delegates and Megawati's camp while provoking outrage from PDI Perjuangan and civil-society feminists."
+    },
+    {
+      "id": "ppp_pesantren_visit",
+      "text": "Pay a state visit to PPP's flagship pesantren strongholds in Madura and Rembang",
+      "cost": 10,
+      "repeatable": true,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "Even after <font color=\"#006400\"><b>Gus Dur</b></font> launched <font color=\"#006400\"><b>PKB</b></font>, revered traditionalist kiai like <font color=\"#2E8B57\"><b>K.H. Alawy Muhammad</b></font> in Sampang, Madura, and <font color=\"#2E8B57\"><b>K.H. Maimun Zubair</b></font> at Pesantren Al-Anwar in Sarang, Rembang, kept their flocks loyal to the <font color=\"#2E8B57\"><b>Ka'bah</b></font>. Travel by presidential helicopter to pay homage at their boarding schools,wearing a peci and joining the santri in afternoon prayer.",
+      "effects": {
+        "ppp": 9,
+        "pkb": 4,
+        "pop": 3,
+        "ref": 1,
+        "stab": 2
+      },
+      "alertMsg": "Photographs of you kneeling beside the senior kiai of Madura and Rembang run across the front pages of the Islamic press. The elders of PPP's Majelis Syariah send warm word to Hamzah Haz in Jakarta."
+    },
+    {
+      "id": "ppp_fusion_history",
+      "text": "Repudiate the New Order's 1973 forced party fusion and Asas Tunggal coercion on the record",
+      "cost": 14,
+      "repeatable": false,
+      "maxTurn": 17,
+      "minTurn": 0,
+      "description": "For veterans of <font color=\"#2E8B57\"><b>PPP</b></font> like <font color=\"#2E8B57\"><b>Hamzah Haz</b></font>, <font color=\"#2E8B57\"><b>Bachtiar Chamsyah</b></font>, and <font color=\"#2E8B57\"><b>Aisyah Aminy</b></font>, the trauma of <font color=\"#704d00\"><b>Suharto's</b></font> 1973 party fusion—followed by intelligence operative <font color=\"#704d00\"><b>Ali Moertopo's</b></font> meddling and the 1984 law that outlawed the <font color=\"#2E8B57\"><b>Ka'bah</b></font> emblem—remains a bitter memory. Deliver a formal speech acknowledging that the <font color=\"#704d00\"><b>New Order's</b></font> subjugation of <font color=\"#2E8B57\"><b>PPP</b></font> was an abuse of state power.",
+      "effects": {
+        "ppp": 12,
+        "poros_tengah": 3,
+        "ref": 6,
+        "golkar_akbar": -3,
+        "pop": 2,
+        "stab": 1
+      },
+      "alertMsg": "Veteran Ka'bah lawmakers who endured decades of state surveillance and forced leadership coups under the New Order greet your statement with visible emotion, while old-guard Golkar operatives bristle at the indictment of Suharto's political architecture."
+    }
+  ]
+}   
