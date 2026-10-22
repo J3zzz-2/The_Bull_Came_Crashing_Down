@@ -128,8 +128,6 @@ window.showSaveGames = function() {
             </div>
         </form>`;
     }
-    if (gameStarted) {
-        html += '<center><button type="button" onclick="returnToTitleScreen()" style="margin-top: 16px; background-color: #ff9999;"><b>Return to title screen</b></button></center>';
     }
 
     html += '<div class="save-game-list">';
