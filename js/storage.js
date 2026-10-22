@@ -156,7 +156,9 @@ window.showSaveGames = function() {
     html += '<center><button type="button" style="width: 250px; text-align: center; margin-top: 16px;" onclick="returnToPreviousView()">Back</button></center>';
     document.getElementById('main-panel').innerHTML = html;
 };
-
+    if (gameStarted) {
+        html += '<center><button type="button" onclick="returnToTitleScreen()" style="width: 250px; text-align: center; margin-top: 16px; background-color: #ff9999;"><b>Return to title screen</b></button></center>';
+}
 window.createCampaignSlot = function(event) {
     event.preventDefault();
     const input = document.getElementById('save-game-name');
