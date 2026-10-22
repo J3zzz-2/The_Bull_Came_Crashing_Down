@@ -1376,6 +1376,7 @@ input[type=range]::-moz-range-thumb {
     flex: 1;
     min-width: 0;
     padding: 6px;
+    font-family: "MS Sans Serif", "Tahoma", "Geneva", sans-serif;
 }
 
 .save-game-list {

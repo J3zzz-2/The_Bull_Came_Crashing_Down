@@ -123,8 +123,8 @@ window.showSaveGames = function() {
         html += `<form class="save-game-form" onsubmit="return createCampaignSlot(event)">
             <label for="save-game-name">Save current campaign as</label>
             <div class="save-game-controls">
-                <input id="save-game-name" name="saveName" type="text" maxlength="40" style="width: 450px; align: left;" required placeholder="Campaign name">
-                <button type="submit" style="width: 250px; text-align: right; margin-top: 16px;">Save Game</button>
+                <input id="save-game-name" name="saveName" type="text" maxlength="40" style="width: 450px; align: left; font: " required placeholder="Campaign name">
+                <button type="submit" style="width: 150px; text-align: center; margin-top: 16px;">Save Game</button>
             </div>
         </form>`;
     }
