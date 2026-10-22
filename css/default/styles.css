@@ -1351,6 +1351,59 @@ input[type=range]::-moz-range-thumb {
     flex: 0 0 280px;
 }
 
+.save-game-form {
+    margin: 16px 0;
+    padding: 12px;
+    background: var(--win95-well);
+    box-shadow: var(--bevel-sunken);
+}
+
+.save-game-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.save-game-controls,
+.save-game-item,
+.save-game-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.save-game-controls input {
+    flex: 1;
+    min-width: 0;
+    padding: 6px;
+}
+
+.save-game-list {
+    display: grid;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.save-game-item {
+    justify-content: space-between;
+    padding: 10px;
+    background: var(--win95-well);
+    box-shadow: var(--bevel-raised);
+}
+
+.save-game-meta,
+.save-game-empty,
+.save-game-error {
+    margin-top: 4px;
+    color: var(--win95-text-dim);
+    font-size: 12px;
+}
+
+.save-game-error {
+    color: var(--tone-bad);
+    font-weight: bold;
+}
+
 /* Update / announcement box */
 .update-notice {
     width: 100%;

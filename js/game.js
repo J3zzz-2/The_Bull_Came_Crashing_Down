@@ -1904,8 +1904,10 @@ window.showStartMenu = function() {
         : (isID ? 'Main' : 'Play');
     const tutLabel = isID ? 'Cara bermain' : 'How to play';
     const histLabel = isID ? 'Bagaimana bisa sampai begini?' : 'How did it come to this?';
+    const savesLabel = isID ? 'Permainan Tersimpan' : 'Saved Games';
 
     html += `<button style="${btnStyle}" onclick="showDifficultyMenu()">${playLabel}</button><br>`;
+    html += `<button style="${btnStyle}" onclick="showSaveGames()">${savesLabel}</button><br>`;
     html += `<button style="${btnStyle}" onclick="showTutorial(0)">${tutLabel}</button><br>`;
     html += `<button style="${btnStyle}" onclick="showHistory(0)">${histLabel}</button><br>`;
 
