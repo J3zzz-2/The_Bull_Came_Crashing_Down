@@ -1,10 +1,10 @@
-# Twilight of the Banyan Tree
+# The Bull Came Crashing Down
 
-Source code for **Twilight of the Banyan Tree**, a historical political simulation about B. J. Habibie's presidency of Indonesia in 1999. It is mainly written in plain HTML, CSS and JavaScript. All of the game's content lives in JSON files, so events, factions, decrees and translations can be edited without touching the engine.
+Source code for **Twilight of the Banyan Tree**, courtesy of Meniir, remodeled into **The Bull Came Crashing Down**, a historical political simulation about Joko Widodo's presidency of Indonesia in 2014-2019. It is mainly written in plain HTML, CSS and JavaScript. All of the game's content lives in JSON files, so events, factions, decrees and translations can be edited without touching the engine.
 
 ## About the game
 
-> **June 1999.** Megawati's PDI-P has swept the first free legislative election since 1955. On October 19, all 700 delegates of the People's Consultative Assembly (MPR) will vote by secret ballot on your Accountability Speech. If 351 reject it, your presidency is over.
+> **October 2014.** PDI-P's man rises, from the bottom rung of society to the presidency, Joko Widodo has swept the election in 2014, defeating the self-exiled Prabowo Subianto. On October 19, all 700 delegates of the People's Consultative Assembly (MPR) will vote by secret ballot on your Accountability Speech. If 351 reject it, your presidency is over.
 
 You play Habibie across 23 historical crises, from the aftermath of the June 7 election to the MPR General Session. Each crisis offers several responses, and none of them is free. You balance seven national stats, spend scarce Political Capital, and lobby ten factions to survive the vote.
 
