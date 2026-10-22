@@ -128,6 +128,9 @@ window.showSaveGames = function() {
             </div>
         </form>`;
     }
+    if (gameStarted) {
+        html += '<center><button type="button" onclick="returnToTitleScreen()" style="margin-top: 16px; background-color: #ff9999;"><b>Return to title screen</b></button></center>';
+    }
 
     html += '<div class="save-game-list">';
     if (autosave) {
@@ -150,7 +153,7 @@ window.showSaveGames = function() {
         html += '<p class="save-game-empty">No saved games yet. Start a campaign and save it here.</p>';
     }
     html += '</div>';
-    html += '<center><button type="button" style="width: 250px; text-align: center; margin-top: 16px; background-color: #ff9999;" onclick="returnToPreviousView()">Back</button></center>';
+    html += '<center><button type="button" style="width: 250px; text-align: center; margin-top: 16px;" onclick="returnToPreviousView()">Back</button></center>';
     document.getElementById('main-panel').innerHTML = html;
 };
 
